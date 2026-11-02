@@ -5291,6 +5291,32 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 ---<!--L3-->
 
 ## The Dark Knight Rises (2012)
+<!-- 503 -->
+
+**Scene: the pit, Bruce gets ready to climb again**
+
+> Prisoner: "He says the leap to freedom is not about strength."
+>
+> Bruce: "My body makes the jump."
+>
+> Blind prisoner: "Survival is the spirit. The soul."
+>
+> Bruce: "My soul is as ready to escape as my body."
+>
+> Blind prisoner: "**Fear is why you fail.**"
+>
+> Bruce: "**No, I'm not afraid. I'm angry.**"
+
+- **Who:** Bruce Wayne (Christian Bale), the blind prisoner (Uri Gavriel), and the prisoner who translates for him (Tom Conti). The blind prisoner speaks his own language first, then English. There's no "not in a position to" line in this scene
+- **IMDb:** [The Dark Knight Rises](https://www.imdb.com/title/tt1345836/) · [quotes](https://www.imdb.com/title/tt1345836/quotes/)
+- **Time:** 1:53:16 to 1:53:44 (28 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>). The subtitles have "l" for "I" and name no one here; [clip.cafe](https://clip.cafe/the-dark-knight-rises-2012/you-do-not-fear-death/) names the blind prisoner and Bruce in the lines just after
+- **Check:** who says "My body makes the jump" and "Survival is the spirit. The soul."; the subtitles don't say, so the names follow the order of the lines
+- **Use it for:** the student back for the resit. Not nervous this time
+
+---<!--L3-->
+
+## The Dark Knight Rises (2012)
 <!-- 481 -->
 
 **Scene: the street, Batman and Blake**
