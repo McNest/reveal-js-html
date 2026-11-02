@@ -1,5 +1,5 @@
 /*********************************************************
- * Drawing button for TAP Reveal: opens and closes tldreveal's drawing
+ * Drawing button for ARJ: opens and closes tldreveal's drawing
  * mode (tldraw on the slides). deck-start.js loads tldreveal; this adds
  * a pen button to the top right buttons (deck-controls.js), after the lock.
  *
@@ -11,6 +11,15 @@
  *
  * While drawing, the other keys are tldraw's: reveal.js only gets the
  * arrows and Page Up/Down, and deck-controls.js doesn't take the numbers.
+ *
+ * While drawing, everything outside the drawing area (the slide) is
+ * shaded, as tldraw only draws on the slide itself, not the margins,
+ * the buttons or the slide number.
+ *
+ * Settings in startDeck:
+ *   drawToolbar: 'top',          // tldraw's tools at the top centre, clear
+ *                                // of the slide number; or 'bottom'
+ *   drawOnDoubleClick: false,    // true: a double click opens drawing
  *
  * Each slide keeps its own drawings, so they come back with the slide.
  * While drawing, deck.js leaves the mouse alone (body.arj-drawing) and
@@ -24,6 +33,8 @@
 	if (!Reveal.hasPlugin || !Reveal.hasPlugin('tldreveal')) return;
 
 	const deck = Reveal.getRevealElement();
+	const config = Reveal.getConfig();
+	document.body.classList.add('arj-draw-toolbar-' + (config.drawToolbar === 'bottom' ? 'bottom' : 'top'));
 	const button = document.createElement('button');
 	button.type = 'button';
 	button.className = 'deck-button deck-draw';
@@ -37,8 +48,22 @@
 		return !!box && !box.classList.contains('tldreveal-inactive') && !box.classList.contains('tldreveal-hidden');
 	}
 
+	// A double click opens drawing in tldreveal. deck-start.js stops that
+	// unless drawOnDoubleClick is true; if it opens anyway, close it again.
+	// The second press of a double click has detail 2, before the dblclick.
+	let doubleAt = 0;
+	let asked = false;
+	window.addEventListener('mousedown', function (event) {
+		if (event.detail >= 2) doubleAt = Date.now();
+	}, true);
+
 	function show() {
 		const on = isDrawing();
+		if (on && !asked && config.drawOnDoubleClick !== true && Date.now() - doubleAt < 800) {
+			close();
+			return;
+		}
+		if (!on) asked = false;
 		document.body.classList.toggle('arj-drawing', on);
 		button.classList.toggle('on', on);
 		button.title = on ? 'Close drawing (Esc)' : 'Draw on the slides (D)';
@@ -49,6 +74,7 @@
 	// tldreveal has no API for this, only its keys: D opens (a reveal.js key
 	// binding), Esc closes (its own listener on the window)
 	function open() {
+		asked = true;
 		document.dispatchEvent(new KeyboardEvent('keydown', { key: 'd', code: 'KeyD', keyCode: 68, which: 68, bubbles: true }));
 	}
 

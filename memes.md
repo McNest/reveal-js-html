@@ -1,16 +1,16 @@
 # Meme Bank
-<!-- .slide: class="title-slide" -->
+<!-- .slide: class="title-slide arj-title" -->
 
 <div class="title-body no-link-icon">
 <div class="title-text">
 <h3>Film and TV Quotes for Intermediate Memes</h3>
-<p class="byline"><a class="person ext" href="https://sdevtutors.github.io/mark-crowe/" data-tip="sdevtutors.github.io/mark-crowe"><img class="logo" src="src/img/mc-logo.png" alt="" />Mark Crowe</a><span class="sep">–</span><a class="mail-picture" data-mail="ei.kooltuo@rotuTveDS" aria-label="Email Mark Crowe" title="Email Mark Crowe"><img src="src/img/email.svg" alt="Email address, as a picture" /></a><span class="sep">–</span><time class="deck-date" datetime="2026-10-31T18:38:43+00:00">October 2026</time> <span class="calendar" aria-hidden="true">📅</span></p>
-<p class="built-with">Built with <a class="ext" href="https://revealjs.com/"><img src="https://revealjs.com/images/logo/reveal-symbol.svg" alt="" />Reveal.js</a> and <a class="ext" href="https://github.com/SDevTutors/apocalypse-reveal-js" title="TAP Reveal, The Apocalypse Plugin (ARJ)"><img src="arj/img/tap-logo.png" alt="" />TAP Reveal</a><span class="sep">–</span><a class="ext" href="https://github.com/marcocrowe/reveal-js-html" title="This deck's source, on GitHub"><img src="src/img/favicons/github.svg" alt="GitHub" />Source</a></p>
+<p class="byline"><a class="person ext" href="https://sdevtutors.github.io/mark-crowe/" data-tip="sdevtutors.github.io/mark-crowe"><img class="logo" src="src/img/mc-logo.png" alt="" />Mark Crowe</a><span class="sep">–</span><time class="deck-date" datetime="2026-11-02T02:21:29+00:00">November 2026</time> <span class="calendar" aria-hidden="true">📅</span></p>
+<p class="built-with">Built with <a class="ext" href="https://revealjs.com/"><img src="arj/img/favicons/revealjs.svg" alt="" />Reveal.js</a> and <a class="ext" href="https://github.com/SDevTutors/apocalypse-reveal-js" title="ARJ, Apocalypse Reveal-js"><img src="arj/img/arj-logo.svg" alt="" />ARJ</a><span class="sep">–</span><a class="ext" href="https://github.com/marcocrowe/reveal-js-html" title="This deck's source, on GitHub"><img src="arj/img/favicons/github.svg" alt="GitHub" />Source</a></p>
 </div>
-<figure class="deck-qr"><a href="https://marcocrowe.github.io/reveal-js-html/memes.html"><img src="src/img/qr/memes-deck-logo.svg" alt="QR code: this deck online" /></a></figure>
+<figure class="deck-qr"><a href="https://tinyurl.com/42m5nncm"><img src="src/img/qr/memes-deck-tinyurl.svg" alt="QR code: this deck online, tinyurl.com/42m5nncm" /></a></figure>
 </div>
-<footer class="slide-footer no-link-icon"><p class="deck-version-line"><a class="version-link ext" href="https://github.com/marcocrowe/reveal-js-html/commit/0ed9b5c1067814ccae8d725ad6fb60ff64e8794b">Version <span class="deck-version">1.8.3</span></a></p>
-<a class="deck-url ext" href="https://marcocrowe.github.io/reveal-js-html/memes.html">marcocrowe.github.io/reveal-js-html/memes.html</a>
+<footer class="slide-footer no-link-icon"><p class="deck-version-line"><a class="version-link ext" href="https://github.com/marcocrowe/reveal-js-html/commits/master">Version <span class="deck-version">1.8.4</span></a></p>
+<a class="deck-url ext" href="https://tinyurl.com/42m5nncm" title="marcocrowe.github.io/reveal-js-html/memes.html"><img src="arj/img/favicons/tinyurl.png" alt="TinyURL" />tinyurl.com/42m5nncm</a>
 <p class="footer-rights"><a class="ext" href="https://sdevtutors.github.io/mark-crowe/#email" title="Contact Mark Crowe">© 2026 Mark Crowe</a><span class="sep">–</span>Quotes, characters and pictures belong to their respective owners.</p></footer>
 
 ---
@@ -24,7 +24,7 @@
 - Stills: grab your own, or search [imgflip](https://imgflip.com/memetemplates) and [Know Your Meme](https://knowyourmeme.com/)
 - Getting around: → for the next topic, ↓ for the entries in it. Next and back step over the contents; the contents button, bottom left, opens them. Type a number and press Enter to jump to that topic
 - Top right: the padlock and the pen. Locked, the mouse changes slides; unlocked, it selects and copies text, and the slides stay put. The pen (or D) draws on the slide; press it again, or Esc, to stop. Each slide keeps its drawings until the page is reloaded
-- Version <span class="deck-version">1.8.3</span> is year.tenth.day: the year (1 is 2026), which tenth of the year it is (0 to 9), and how many days in that tenth have had changes. [TAP Reveal](https://github.com/SDevTutors/apocalypse-reveal-js), the scripts behind the slides, is numbered the same way. [tools/version.py](tools/version.py) works them out
+- Version <span class="deck-version">1.8.4</span> is year.tenth.day: the year (1 is 2026), which tenth of the year it is (0 to 9), and how many days in that tenth have had changes. [ARJ](https://github.com/SDevTutors/apocalypse-reveal-js) (Apocalypse Reveal-js), the scripts behind the slides, is numbered the same way. [tools/version.py](tools/version.py) works them out
 - [memes.html](memes.html) shows this file, [memes.md](memes.md), as slides
 
 ----
@@ -32,10 +32,15 @@
 ## About the author
 <!-- no-number -->
 
-- **Mark Crowe**, Education Officer at <img class="inline-logo" src="src/img/sdevtutors-logo.png" alt="" />Sdev Tutors: [sdevtutors.github.io/mark-crowe](https://sdevtutors.github.io/mark-crowe/)
-- A background in IT. Teaches programming in Python and C#
-- BSc in Computer Systems, MSc in Software Development
-- Email: <a class="mail-picture" data-mail="ei.kooltuo@rotuTveDS" aria-label="Email Mark Crowe"><img src="src/img/email.svg" alt="Email address, as a picture" /></a> (a picture, so that programs collecting addresses can't read it)
+<p class="author-name"><a class="ext" href="https://sdevtutors.github.io/mark-crowe/" title="sdevtutors.github.io/mark-crowe"><img class="inline-logo" src="src/img/mc-logo.png" alt="" />Mark Crowe</a></p>
+
+- Education Officer at <a class="ext" href="https://sdevtutors.github.io/" title="sdevtutors.github.io"><img class="inline-logo" src="arj/img/favicons/sdevtutors.png" alt="" />SDev Tutors</a>
+  - A background in IT
+  - Teaches programming: Python, C#, Java, JavaScript and AI
+- Email: <a class="mail-text" data-mail="ei.kooltuo@rotuTveDS" aria-label="Email Mark Crowe"></a>
+- Education:
+  - BSc in Computer Systems
+  - MSc in Software Development
 
 <!--
 HOW THIS FILE BECOMES SLIDES (memes.html)
@@ -888,11 +893,40 @@ Code, backups and things that break
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=mr-robot-2015&episode=s02e07) [🔗](<../my-fetches/springfield-scripts/mr-robot-2015/s02e07.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Mr._Robot) [🔗](<../my-fetches/wikiquote/Mr._Robot.wiki>)
 - **Use it for:** screen time and digital wellbeing, or a class on social media
 
+----
+
+## Layer Cake (2004)
+<!-- 151 -->
+
+**Scene: Eddie Temple's office**
+
+> XXXX: "How was the performance of *Faust*?"
+>
+> Temple: "Complex."
+>
+> XXXX: "How's the family?"
+>
+> Temple: "What is this? A vicar's tea party?"
+>
+> XXXX: "**You do sometimes take your conversations away with you.**"
+>
+> Temple: "Being a clever bastard, are we?"
+>
+> XXXX: "**How do I know you're not wired up?**"
+>
+> Temple: "Well, I'm not. **Then we'll have to trust each other, won't we?** Sit down."
+
+- **Who:** Daniel Craig's unnamed dealer, credited as XXXX, and Eddie Temple (Michael Gambon). The small talk is because Temple records his meetings
+- **IMDb:** [Layer Cake](https://www.imdb.com/title/tt0375912/) · [quotes](https://www.imdb.com/title/tt0375912/quotes/)
+- **Time:** 1:09:00 to 1:09:28 (28 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Layer Cake [2004] -imdb-tt0375912.srt>)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=layer-cake). It doesn't name speakers, so check who says which line. It's "take your conversations away with you"
+- **Use it for:** recording lectures and meetings, consent, GDPR
+
 ---
 
-# Star Trek II: The Wrath of Khan (1982)
+# Star Trek films
 
-Kirk, Spock and Khan. The Star Trek films start here: the original crew, then The Next Generation, in film order and scene order. Nothing after 2009
+Quotes from the Star Trek films, in film order and scene order. Nothing after 2009
 
 <figure class="topic-photo"><img src="src/img/topics/star-trek-films.jpg" alt="A model of the starship Enterprise" /><figcaption><a class="ref media" href="#/media-used"><sup>6</sup></a> – A model of the starship Enterprise</figcaption></figure>
 
@@ -1066,12 +1100,6 @@ Kirk, Spock and Khan. The Star Trek films start here: the original crew, then Th
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie2.html)
 - **Use it for:** an acknowledgements slide for a mentor or a retiring colleague. Not for a joke
 
----
-
-# Star Trek III: The Search for Spock (1984)
-
-Kirk and his crew steal the Enterprise to bring Spock home
-
 ----
 
 ## Star Trek III: The Search for Spock (1984)
@@ -1090,12 +1118,6 @@ Kirk and his crew steal the Enterprise to bring Spock home
 - **Time:** 0:33:05 to 0:33:15 (11 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek 3, The Search for Spock [1984] -imdb-tt0088170.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie3.html)
 - **Use it for:** when the extension request is refused. *"The word is no. I am therefore submitting anyway"*
-
----
-
-# Star Trek V: The Final Frontier (1989)
-
-Sybok, and the being at the centre of the galaxy
 
 ----
 
@@ -1126,12 +1148,6 @@ Sybok, and the being at the centre of the galaxy
 - **Time:** 1:28:55 to 1:29:05 (10 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek 5, The Final Frontier [1989] -imdb-tt0098382.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie5.html)
 - **Use it for:** questioning requirements. *"What does a to-do app need with a blockchain?"*
-
----
-
-# Star Trek VI: The Undiscovered Country (1991)
-
-The Klingon peace talks, and the last voyage of the original crew
 
 ----
 
@@ -1320,12 +1336,6 @@ The Klingon peace talks, and the last voyage of the original crew
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie6.html)
 - **Use it for:** a new policy from management. Spock's dry reply is the joke
 
----
-
-# Star Trek Generations (1994)
-
-Kirk meets Picard in the Nexus
-
 ----
 
 ## Star Trek Generations (1994)
@@ -1363,6 +1373,39 @@ Kirk meets Picard in the Nexus
 - **Time:** 0:13:52 to 0:14:12 (19 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, Generations [1994] -imdb-tt0111280.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie7.html)
 - **Use it for:** delegation; a project manager who keeps writing the code
+
+----
+
+## Star Trek Generations (1994)
+<!-- 495 -->
+
+**Scene: Ten Forward, Data tries a new drink with his emotion chip**
+
+> Guinan: "Gentlemen, something new from Forcas III?"
+>
+> Data: "I believe this beverage has produced an emotional response."
+>
+> La Forge: "Really? What are you feeling?"
+>
+> Data: "I am uncertain. Because I have had little experience with emotion, I am unable to articulate the sensation."
+>
+> Guinan: "**Well, it looks like he hates it.**"
+>
+> Data: "Yes, that is it. **I hate this.**"
+>
+> La Forge: "Data, I think the chip is working."
+>
+> Data: "**Yes, I hate this. It is revolting.**"
+>
+> Guinan: "**More?**"
+>
+> Data: "**Please.**"
+
+- **Who:** Guinan (Whoopi Goldberg), Data (Brent Spiner) and La Forge (LeVar Burton)
+- **IMDb:** [Generations](https://www.imdb.com/title/tt0111280/) · [quotes](https://www.imdb.com/title/tt0111280/quotes/)
+- **Time:** 0:31:07 to 0:32:05 (58 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, Generations [1994] -imdb-tt0111280.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Star Trek, Generations [1994] -imdb-tt0111280.srt>) and [transcript](http://www.chakoteya.net/movies/movie7.html) [🔗](<../my-fetches/chakoteya-star-trek/movie7.html>). The transcript has "provoked an emotional response"; the subtitles have "produced"
+- **Use it for:** the module everyone complains about and signs up for again. Feedback forms: "I hated it. More, please"
 
 ----
 
@@ -1426,12 +1469,6 @@ Kirk meets Picard in the Nexus
 - **Time:** 1:38:44 to 1:39:26 (42 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, Generations [1994] -imdb-tt0111280.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie7.html) [🔗](<../my-fetches/chakoteya-star-trek/movie7.html>)
 - **Use it for:** agreeing to a learner's ambitious project. "The odds are against us and the situation is grim. Sounds like fun"
-
----
-
-# Star Trek: First Contact (1996)
-
-The Borg, Lily Sloane and the first warp flight
 
 ----
 
@@ -1730,12 +1767,6 @@ The Borg, Lily Sloane and the first warp flight
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie8.html)
 - **Use it for:** temptation and academic integrity. *"Were you tempted to use ChatGPT?" "0.68 seconds"*. Also page load times
 
----
-
-# Star Trek: Insurrection (1998)
-
-The Ba'ku, the Son'a and Admiral Dougherty
-
 ----
 
 ## Star Trek: Insurrection (1998)
@@ -1922,12 +1953,6 @@ The Ba'ku, the Son'a and Admiral Dougherty
 - **IMDb:** [Insurrection](https://www.imdb.com/title/tt0120844/) · [quotes](https://www.imdb.com/title/tt0120844/quotes/)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie9.html). It's "the exhaust", not "the gas"
 - **Use it for:** calling a bluff; "Sorry, time's up" for the submission deadline
-
----
-
-# Star Trek: Nemesis (2002)
-
-Shinzon, Picard's clone, and the Scimitar
 
 ----
 
@@ -2133,6 +2158,34 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **IMDb:** [episode](https://www.imdb.com/title/tt0708753/)
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/147.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/147.htm>)
 - **Use it for:** people being who they are. Predicting how a learner or a group will act, and over-thinking it. See also the scorpion, in Voyager's "Scorpion"
+
+----
+
+## The Next Generation: "The Ensigns of Command" (1989)
+<!-- 496 -->
+
+**Scene: the bridge, the end, after the Sheliak give Picard three weeks**
+
+> Sheliak: "You may have your three weeks, Picard of the Enterprise."
+>
+> Picard: "Thank you."
+>
+> La Forge: "**Captain, we can do it. We can modify the transporters.**"
+>
+> Picard: "Excellent."
+>
+> La Forge: "**It'll take fifteen years, and a research team of a hundred.**"
+>
+> Picard: "**Mister La Forge, I believe we will postpone.**"
+>
+> La Forge: "Yes, sir."
+
+- **Who:** Geordi La Forge (LeVar Burton) arriving on the bridge, and Picard (Patrick Stewart). Earlier, Riker gives him the job: "One thing we don't want to hear is that it is impossible"
+- **Episode:** season 3, episode 2
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708796/)
+- **Checked:** [transcript](http://www.chakoteya.net/NextGen/149.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/149.htm>). It's fifteen years and a hundred people, not twenty-five and three hundred
+- **Check:** the IMDb link, from a search result; IMDb wouldn't open for me
+- **Use it for:** the estimate. "Yes, it can be done in the project. It'll take fifteen years and a team of a hundred"
 
 ----
 
@@ -6504,7 +6557,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Episode:** season 2, episode 3 in production order
 - **IMDb:** [episode](https://www.imdb.com/title/tt0584427/)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=futurama&episode=s02e07). It doesn't say who asks
-- **Use it for:** recording lectures, and consent to record. Pairs with *Layer Cake* (topic 13)
+- **Use it for:** recording lectures, and consent to record. Pairs with *Layer Cake* (topic 5)
 
 ----
 
@@ -7296,7 +7349,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 
 ---
 
-# James Bond, and Daniel Craig before Bond
+# James Bond
 
 Villains, Q and the vivas
 
@@ -7366,35 +7419,6 @@ Villains, Q and the vivas
 - **Time:** 0:39:23 to 0:39:52 (28 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Skyfall [2012] -imdb-tt1074638.srt>)
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Skyfall)
 - **Use it for:** mature and young learners, staff and students. A TNA on digital skills by age; cyber security
-
-----
-
-## Layer Cake (2004)
-<!-- 151 -->
-
-**Scene: Eddie Temple's office**
-
-> XXXX: "How was the performance of *Faust*?"
->
-> Temple: "Complex."
->
-> XXXX: "How's the family?"
->
-> Temple: "What is this? A vicar's tea party?"
->
-> XXXX: "**You do sometimes take your conversations away with you.**"
->
-> Temple: "Being a clever bastard, are we?"
->
-> XXXX: "**How do I know you're not wired up?**"
->
-> Temple: "Well, I'm not. **Then we'll have to trust each other, won't we?** Sit down."
-
-- **Who:** Daniel Craig's unnamed dealer, credited as XXXX, and Eddie Temple (Michael Gambon). The small talk is because Temple records his meetings
-- **IMDb:** [Layer Cake](https://www.imdb.com/title/tt0375912/) · [quotes](https://www.imdb.com/title/tt0375912/quotes/)
-- **Time:** 1:09:00 to 1:09:28 (28 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Layer Cake [2004] -imdb-tt0375912.srt>)
-- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=layer-cake). It doesn't name speakers, so check who says which line. It's "take your conversations away with you"
-- **Use it for:** recording lectures and meetings, consent, GDPR
 
 ---
 
@@ -7808,6 +7832,23 @@ Memes that started as photos, clips and cartoons
 - **Who:** shared online as Cicero. It's from *A Pillar of Iron*, a 1965 novel about Cicero by Taylor Caldwell; a classicist found nothing like it in Cicero's works, and he was dead by the date the meme gives. The fuller meme adds "An enemy at the gates is less formidable, for he is known": I couldn't find a reliable copy of that part. The nearest real Cicero is his speeches against Catiline (63 BC), on enemies inside the city
 - **Checked:** [PolitiFact](https://www.politifact.com/factchecks/2019/may/03/facebook-posts/no-roman-statesman-did-not-give-warning-about-trum/) [🔗](<../my-fetches/quotes/politifact-cicero-caldwell.txt>)
 - **Use it for:** the enemy within. Credit the novel, not Cicero
+
+----
+
+## Jordan B. Peterson (2016): "that wasn't real Marxism"
+<!-- 497 -->
+
+**Scene: an interview with Faith Goldy, The Rebel Media, on free speech and political correctness**
+
+> Peterson: "And then when the Marxists say 'Well that wasn't real Marxism', what it really means... It means: 'If I would've been in Stalin's position I would've ushered in the damn utopia instead of the genocidal massacres, because I understand the doctrine of Marxism and everything about me is good.' It's like well think again sunshine, you don't understand it... **And you're not that good. And if the power was in your hands assuming you had the competence, which you don't, you wouldn't have done any better. And even if you had there would have been someone else waiting right behind you to shoot you the first time you actually tried to do anything good.**"
+>
+> "And that's what happened to all the old guard who ran the damn revolution. Stalin rounded them all up and shot them..."
+
+- **Who:** Jordan B. Peterson, the Canadian psychologist, talking to Faith Goldy
+- **Checked:** [the Singju Post's transcript](https://singjupost.com/wp-content/uploads/2020/03/Dr.-Jordan-B-Peterson-on-Freedom-of-Speech-038-Political-Correctness-Full-Transcript.pdf) [🔗](<../my-fetches/quotes/singjupost-peterson-free-speech.txt>), page 11. A transcript, not the video
+- **Check:** the part you remember about young people who want to reorder the whole of society isn't in this transcript; it may be from another talk. The year comes from the transcript's mention of 2016
+- **Use it for:** the student who'd have done the group project much better on their own. Assuming the competence, which...
+
 
 ---
 

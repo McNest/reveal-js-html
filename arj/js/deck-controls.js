@@ -3,7 +3,7 @@
  *   - Bottom left: slide list (the sidebar), home (the first slide) and
  *     contents (the thumbnail slides)
  *   - Top right, reveal.js's own features: blackout, all slides (overview)
- *     and full screen
+ *     and full screen; then exit, back to the page before the deck
  *   - Sidebar: every slide as a tree, vertical slides under their stack.
  *     It stays open beside the slides until closed, on the left or right.
  *     On a narrow screen (a phone upright) it covers the slides instead
@@ -52,6 +52,10 @@
  *                                  // 'bullet' "(5)" at the left of the heading line,
  *                                  // the title still centred; 'corner' in a circle
  *                                  // in the top left; true for "5 – " before it
+ *     exit: true,                  // the exit button: back to the page the deck was
+ *                                  // opened from, or closes the tab if the deck has
+ *                                  // a tab of its own. false: no button; an address
+ *                                  // ('index.html'): always go there
  *     numberHeadingLevels: ['h1', 'h2'], // which headings show it: a slide's first
  *                                  // heading must be one of these. ['h1'] numbers
  *                                  // only section slides in a Markdown deck;
@@ -72,6 +76,7 @@
 		contentsPageCount: true,
 		contentsAfter: 0,
 		contentsInFlow: true,
+		exit: true,
 		sidebar: true,
 		sidebarSide: 'left',
 		sidebarWidth: 340,
@@ -578,6 +583,26 @@
 	Reveal.on('paused', () => blackoutButton.classList.add('on'));
 	Reveal.on('resumed', () => blackoutButton.classList.remove('on'));
 
+	/* ---------- Exit ----------
+	 * Back to the page before the deck, however many slides were visited
+	 * (with history: true each slide adds to the browser's history, so the
+	 * browser's Back only goes back one slide). A deck opened in a tab of
+	 * its own has nothing to go back to, so the tab closes; if the browser
+	 * won't close it, the page that linked to the deck opens instead. */
+	const historyAtStart = window.history.length;
+
+	function exitDeck() {
+		if (typeof settings.exit === 'string') {
+			window.location.href = settings.exit;
+			return;
+		}
+		if (historyAtStart <= 1) window.close();
+		setTimeout(function () { // still here: closing wasn't allowed, or not tried
+			if (historyAtStart > 1) window.history.go(-(window.history.length - historyAtStart + 1));
+			else if (document.referrer) window.location.href = document.referrer;
+		}, 200);
+	}
+
 	function goHome() {
 		if (Reveal.isOverview()) Reveal.toggleOverview(false);
 		Reveal.slide(0, 0);
@@ -715,6 +740,7 @@
 			blackoutButton,
 			button('overview', 'All slides (Esc or O)', () => Reveal.toggleOverview()),
 			fullScreenButton,
+			settings.exit ? button('exit', typeof settings.exit === 'string' ? 'Exit the slides' : 'Exit the slides: back to the page before', exitDeck) : null,
 		]);
 		document.body.appendChild(typedBox);
 		showFullScreenState();

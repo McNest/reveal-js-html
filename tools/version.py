@@ -1,10 +1,11 @@
-"""Version numbers for the meme bank deck and for TAP (the scripts in src/js).
+"""Version numbers for the meme bank deck and for ARJ (the scripts in arj/).
 
   python tools/version.py           show both versions for today
   python tools/version.py --write   write them into memes.md and arj/js/deck-start.js
   python tools/version.py --link C:/path/to/reveal-js-html
                                     link "Version 1.8.3" on the title slide to the
-                                    commit on GitHub that first published it
+                                    repository on GitHub as it was at the commit
+                                    that first published it
 
 A version is year.tenth.day, for content rather than software:
   year   1 for 2026, 2 for 2027 ...
@@ -13,7 +14,10 @@ A version is year.tenth.day, for content rather than software:
   day    how many days in that tenth have had changes, counting today
 So 1.8.3 is the third day of changes between 20 October and 25 November 2026.
 Changes are the git commits that touch each one's files. Run it before you
-commit; running it twice on the same day gives the same number.
+commit; running it twice on the same day gives the same number. Commit
+messages start with the version ("1.8.4 Star Trek films as one topic"), so
+the commits on GitHub can be matched to the versions; it prints the numbers
+to use.
 
 The title slide shows the month ("October 2026"); the page's metadata gets
 the full date and time.
@@ -21,8 +25,10 @@ the full date and time.
 --link: the deck is published by copying it into the public repository
 (marcocrowe/reveal-js-html). This looks there for the first commit whose
 memes.md has this version, checks that commit has been pushed, and only then
-links the version to it. Until then "Version 1.8.3" stays plain text, so the
-slide never points at a commit that doesn't exist. Run it after you push.
+links the version to the repository as it was then (github.com/.../tree/SHA:
+browse the files at that point, not the changes). Until then the version
+links to the list of commits, so the slide never points at a commit that
+doesn't exist. Run it after you push.
 """
 import datetime, os, re, subprocess, sys
 from urllib.parse import quote
@@ -41,10 +47,11 @@ PARTS = {
                                  (r'<meta name="dcterms.modified" content="[^"]*" />', '<meta name="dcterms.modified" content="{stamp}" />'),
                                  (r'<meta property="article:modified_time" content="[^"]*" />',
                                   '<meta property="article:modified_time" content="{stamp}" />')]),
-    'TAP': (['arj', 'src/js', 'src/css/tna.css', 'src/css/deck-controls.css'],
+    # arj/ and where its files were before (src/js, src/css), for the days with changes
+    'ARJ': (['arj', 'src/js', 'src/css/tna.css', 'src/css/deck-controls.css'],
             'arj/js/deck-start.js', [(r"version: '[^']*', date: '[^']*'", "version: '{v}', date: '{iso}'")]),
-    'TAP page': (['arj', 'src/js', 'src/css/tna.css', 'src/css/deck-controls.css'],
-                 'memes.html', [(r'and TAP [0-9.]+, The Apocalypse Plugin', 'and TAP {v}, The Apocalypse Plugin')]),
+    'ARJ page': (['arj', 'src/js', 'src/css/tna.css', 'src/css/deck-controls.css'],
+                 'memes.html', [(r'and (?:TAP|ARJ) [0-9.]+, (?:The Apocalypse Plugin|Apocalypse Reveal-js)', 'and ARJ {v}, Apocalypse Reveal-js')]),
 }
 
 
@@ -65,9 +72,11 @@ def version(paths, today):
 def main(write):
     now = datetime.datetime.now().astimezone().replace(microsecond=0)
     today = now.date()
+    found = {}
     for name, (paths, target, swaps) in PARTS.items():
         v = version(paths, today)
-        print('%-5s %s' % (name, v))
+        found[name] = v
+        print('%-9s %s' % (name, v))
         if not write:
             continue
         path = os.path.join(DECK, target)
@@ -78,9 +87,11 @@ def main(write):
             if not n:
                 print('  not found in', target, ':', pattern)
         open(path, 'w', encoding='utf-8', newline='').write(text)
+    print('Commit messages start with the version: "%s <what changed>" for the deck,' % found['deck'])
+    print('"%s <what changed>" for ARJ' % found['ARJ'])
 
 
-GITHUB = 'https://github.com/marcocrowe/reveal-js-html/commit/'
+GITHUB = 'https://github.com/marcocrowe/reveal-js-html/'
 
 
 def link(public):
@@ -91,10 +102,11 @@ def link(public):
     git = lambda *args: subprocess.run(['git'] + list(args), cwd=public, capture_output=True, text=True).stdout
     commits = git('log', '--reverse', '--format=%H', '-S', '<span class="deck-version">%s</span>' % v, '--', 'memes.md').split()
     pushed = [c for c in commits if git('branch', '-r', '--contains', c).strip()]
-    if not pushed:
-        print('No pushed commit in %s has version %s yet: the version stays unlinked' % (public, v))
-        return
-    url = GITHUB + quote(pushed[0])
+    if pushed:
+        url = GITHUB + 'tree/' + quote(pushed[0])
+    else:
+        url = GITHUB + 'commits/master'
+        print('No pushed commit in %s has version %s yet: it links to the list of commits' % (public, v))
     text, n = re.subn(r'<a class="version-link[^"]*"[^>]*>', '<a class="version-link ext" href="%s">' % url, text, count=1)
     open(path, 'w', encoding='utf-8', newline='').write(text)
     print('Version', v, '->', url if n else 'no <a class="version-link"> on the title slide')

@@ -1,11 +1,19 @@
-
 # Reveal.js
 
-- <https://revealjs.com/>
+Slide decks by [Mark Crowe](https://sdevtutors.github.io/mark-crowe/), made with [reveal.js](https://revealjs.com/) and [ARJ](https://github.com/SDevTutors/apocalypse-reveal-js) (Apocalypse Reveal-js).
+
+- Online: <https://marcocrowe.github.io/reveal-js-html/>, a page with a link to each deck
 
 ---
 
-- [index.html](index.html)
-- [asg2.html](asg2.html)
-- [memes.html](memes.html)
-- [memes.md](memes.md)
+| Page | What it is |
+|---|---|
+| [index.html](index.html) | The list of decks: start here |
+| [memes.html](memes.html) | Meme Bank: film and TV quotes for intermediate memes. Short link: <https://tinyurl.com/42m5nncm> |
+| [memes.md](memes.md) | The meme bank as text: every slide in `memes.html` comes from this file |
+| [fyp.html](fyp.html) | Final Year Projects: the habits nobody teaches you (was `index.html`) |
+| [asg2.html](asg2.html) | Training Needs Analysis: purpose, benefits, methods and process |
+
+Each deck has an exit button at its top right that goes back to the page before it, or closes the tab if it opened in a tab of its own.
+
+The scripts and styles in `arj/` are a copy of [ARJ](https://github.com/SDevTutors/apocalypse-reveal-js).

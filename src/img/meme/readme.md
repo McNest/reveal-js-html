@@ -1,6 +1,6 @@
 # Memes
 
-Images used in the Final Year Projects slides ([index.html](../../../index.html)). The Assignment 2 TNA deck ([asg2.html](../../../asg2.html)) reuses the Drake, expanding brain, distracted boyfriend and this is fine templates with TNA captions, and cites them in Harvard style as Know Your Meme (n.d.a to n.d.d). Captions are written in the HTML, not burned into the images, so the files here are the blank templates.
+Images used in the Final Year Projects slides ([fyp.html](../../../fyp.html)). The Assignment 2 TNA deck ([asg2.html](../../../asg2.html)) reuses the Drake, expanding brain, distracted boyfriend and this is fine templates with TNA captions, and cites them in Harvard style as Know Your Meme (n.d.a to n.d.d). Captions are written in the HTML, not burned into the images, so the files here are the blank templates.
 
 Downloaded 22 October 2026.
 

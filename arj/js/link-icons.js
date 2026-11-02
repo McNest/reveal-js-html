@@ -2,21 +2,26 @@
  * Link icons: each website's own icon (favicon) beside links to it, so
  * "IMDb" or "Wikiquote" can be seen at a glance. Load after the slides
  * exist and after arj/js/deck-markdown.js (the 'label' style uses its
- * field classes), before arj/js/deck-controls.js. Styles in CSS, keyed on
- * data-links on each horizontal slide (see src/css/memes.css):
+ * field classes), before arj/js/deck-controls.js. Styles in arj/css/arj.css,
+ * keyed on data-links on each horizontal slide:
  *   favicon-before   icon, then the link
  *   favicon-after    the link, then the icon
  *   link-icon        the link, then a plain link icon
  *   favicon-label    the icon in place of a field label ("**IMDb:**")
  * Settings, all optional:
  *   linkIcons: {
- *     folder: 'src/img/favicons/',  // where the icons are
+ *     folder: 'arj/img/favicons/',  // where the icons are: ARJ's own folder,
+ *                                   // beside the one this script is in, unless set
  *     style: 'favicon-before',      // one of the four, or 'compare': a
  *                                   // different style on each section in turn
  *     sites: { 'imdb.com': ['imdb.png', 'IMDb'], ... },  // added to the defaults
  *     labels: { 'imdb': 'imdb.com', ... },  // field label -> site, for favicon-label
  *     skip: 'a.person, .no-link-icon',      // links that never get an icon
+ *     newTab: false,                // true: links to other websites open in a
+ *                                   // new tab, so the deck stays open
  *   }
+ * Links that open a new tab (target="_blank", or all of them with newTab)
+ * get class opens-tab: an arrow out of a box after the link (arj.css).
  * ?links=favicon-after in the address shows one style everywhere.
  * Links to sites with no icon get a plain link icon. Links that are
  * pictures (a QR code), links matching skip, and links inside an element
@@ -42,6 +47,8 @@
 		'irishstatutebook.ie': ['irishstatutebook.png', 'Irish Statute Book'],
 		'incompetech.com': ['incompetech.png', 'Incompetech'],
 		'github.com': ['github.svg', 'GitHub'],
+		'tinyurl.com': ['tinyurl.png', 'TinyURL'],
+		'sdevtutors.github.io': ['sdevtutors.png', 'SDev Tutors'],
 	};
 
 	const DEFAULT_LABELS = { 'imdb': 'imdb.com', 'meme-page': 'knowyourmeme.com', 'wikiquote': 'wikiquote.org' };
@@ -50,11 +57,12 @@
 
 	const config = Reveal.getConfig().linkIcons || {};
 	const settings = {
-		folder: config.folder || 'src/img/favicons/',
+		folder: config.folder || (window.ARJ && window.ARJ.folder ? window.ARJ.folder + 'img/favicons/' : 'arj/img/favicons/'),
 		style: config.style || 'favicon-before',
 		sites: Object.assign({}, DEFAULT_SITES, config.sites || {}),
 		labels: Object.assign({}, DEFAULT_LABELS, config.labels || {}),
 		skip: config.skip || 'a.person, .no-link-icon',
+		newTab: config.newTab === true,
 	};
 	const forced = new URLSearchParams(window.location.search).get('links');
 
@@ -98,6 +106,14 @@
 	document.querySelectorAll('.reveal .slides > section').forEach(function (top, h) {
 		const style = styleFor(h);
 		top.dataset.links = style;
+		top.querySelectorAll('a[href]').forEach(function (link) {
+			const other = /^https?:/.test(link.href) && new URL(link.href).origin !== window.location.origin;
+			if (settings.newTab && other && !link.target) {
+				link.target = '_blank';
+				link.rel = 'noopener';
+			}
+			if (link.target === '_blank' && !link.closest('.no-link-icon') && !link.querySelector('img')) link.classList.add('opens-tab');
+		});
 		top.querySelectorAll('a[href^="http"]:not(:has(img))').forEach(function (link) {
 			if (link.matches(settings.skip) || link.closest('.no-link-icon')) return;
 			const site = siteOf(link.href);

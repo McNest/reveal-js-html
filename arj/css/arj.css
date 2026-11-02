@@ -1,7 +1,7 @@
 /*********************************************************
- * FYP theme for reveal.js
- * Based on the TNA theme: light slide, navy panel, gold accent.
- * Slide size is 1280 x 720 px. Arial for text, Impact for memes.
+ * ARJ theme for reveal.js (Apocalypse Reveal-js)
+ * Light slides, navy text, gold accents. Slide size 1280 x 720 px.
+ * Arial for text, Impact for memes.
  *********************************************************/
 :root {
 	--navy: #10234a;
@@ -15,6 +15,11 @@
 	--bad: #b3261e;
 	--emoji: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif;
 	--meme: Impact, "Arial Black", "Helvetica Neue", sans-serif;
+	/* Icons (Feather, MIT), drawn as masks in the text colour */
+	--icon-external: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'/%3E%3Cpolyline points='15 3 21 3 21 9'/%3E%3Cline x1='10' y1='14' x2='21' y2='3'/%3E%3C/svg%3E");
+	--icon-link: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'/%3E%3Cpath d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'/%3E%3C/svg%3E");
+	--icon-copy: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='9' y='9' width='13' height='13' rx='2'/%3E%3Cpath d='M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1'/%3E%3C/svg%3E");
+	--icon-copied: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E");
 }
 
 .reveal-viewport {
@@ -295,6 +300,37 @@
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 0.85em;
 	text-align: center;
+}
+
+/* Code boxes: a light box the width of the slide, in a monospaced font,
+ * with a copy icon at the top right (arj/js/deck.js). reveal.js's own
+ * style is a small shadowed box at 55% size; this replaces it */
+.reveal pre {
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0.4em 0;
+	padding: 18px 70px 18px 24px;
+	border: 2px solid var(--line);
+	border-radius: 8px;
+	background: #f6f8fa;
+	box-shadow: none;
+	color: var(--ink);
+	font-family: Consolas, "Courier New", monospace;
+	font-size: 28px;
+	line-height: 1.45;
+	text-align: left;
+}
+
+.reveal pre code {
+	display: block;
+	max-height: none;
+	padding: 0;
+	border-radius: 0;
+	background: none;
+	color: inherit;
+	font-size: inherit;
+	white-space: pre;
+	overflow-x: auto;
 }
 
 /* Terminal style code block */
@@ -683,7 +719,8 @@
 	background: var(--gold);
 }
 
-/* Copy button on code boxes, added by arj/js/deck.js */
+/* Copy icon on code boxes (arj/js/deck.js), GitHub style: a copy icon,
+ * a tick once copied */
 .reveal pre.has-copy {
 	position: relative;
 }
@@ -692,18 +729,50 @@
 	position: absolute;
 	top: 10px;
 	right: 10px;
-	padding: 4px 14px;
-	border: 2px solid var(--navy);
-	border-radius: 6px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 44px;
+	height: 44px;
+	padding: 0;
+	border: 2px solid var(--line);
+	border-radius: 8px;
 	background: #fff;
-	color: var(--navy);
-	font: bold 24px/1.2 Arial, Helvetica, sans-serif;
+	color: var(--muted);
+	font-size: 0;
 	cursor: pointer;
+}
+
+.reveal .copy-button::before {
+	content: "";
+	width: 24px;
+	height: 24px;
+	background: currentColor;
+	-webkit-mask: var(--icon-copy) center / contain no-repeat;
+	mask: var(--icon-copy) center / contain no-repeat;
 }
 
 .reveal .copy-button:hover,
 .reveal .copy-button:focus-visible {
-	background: var(--gold);
+	border-color: var(--navy);
+	color: var(--navy);
+}
+
+.reveal .copy-button.copied {
+	border-color: var(--good);
+	color: var(--good);
+}
+
+.reveal .copy-button.copied::before {
+	-webkit-mask-image: var(--icon-copied);
+	mask-image: var(--icon-copied);
+}
+
+/* On a dark terminal box */
+.reveal pre.terminal .copy-button {
+	border-color: #3a4a66;
+	background: #1c2940;
+	color: #d7e2f5;
 }
 
 /* Footnote jump: the line you landed on, and the way back (arj/js/deck.js) */
@@ -740,4 +809,277 @@ html.print-pdf .reveal a.ref[data-cite]::after {
 	content: " (" attr(data-cite) ")";
 	font-family: Arial, Helvetica, sans-serif;
 	color: var(--muted);
+}
+
+/*********************************************************
+ * Links to other websites: the site's own icon (favicon). arj/js/link-icons.js
+ * sets --favicon on each link and data-links on each horizontal slide:
+ *   favicon-before   icon, then the link
+ *   favicon-after    the link, then the icon
+ *   link-icon        the link, then a plain link icon
+ *   favicon-label    the icon in place of a label ("IMDb:"), and a plain
+ *                    external-link icon after each link
+ *********************************************************/
+.reveal a.site-link::before,
+.reveal a.site-link::after {
+	display: inline-block;
+	width: 0.8em;
+	height: 0.8em;
+	vertical-align: -0.08em;
+}
+
+.reveal [data-links="favicon-before"] a.site-link::before,
+.reveal [data-links="favicon-label"] a.site-link:not(.labelled)::before {
+	content: "";
+	margin-right: 0.25em;
+	background: var(--favicon) center / contain no-repeat;
+}
+
+.reveal [data-links="favicon-after"] a.site-link::after {
+	content: "";
+	margin-left: 0.25em;
+	background: var(--favicon) center / contain no-repeat;
+}
+
+.reveal [data-links="link-icon"] a.site-link::after,
+.reveal [data-links="favicon-label"] a.site-link::after {
+	content: "";
+	margin-left: 0.2em;
+	background: var(--navy-soft);
+	-webkit-mask: var(--icon-external) center / contain no-repeat;
+	mask: var(--icon-external) center / contain no-repeat;
+}
+
+.reveal [data-links="link-icon"] a.site-link::after {
+	-webkit-mask-image: var(--icon-link);
+	mask-image: var(--icon-link);
+}
+
+.reveal img.label-favicon {
+	display: inline-block;
+	width: 0.9em;
+	height: 0.9em;
+	margin: 0;
+	vertical-align: -0.1em;
+	box-shadow: none;
+}
+
+/*********************************************************
+ * Title slide, opt in: <section class="title-slide arj-title">, in Markdown
+ * <!-- .slide: class="title-slide arj-title" -->. Title and subtitle on the
+ * left; the QR code to the deck online on the right, its top level with the
+ * top of the subtitle's letters; under the subtitle the author line (name,
+ * date) and "Built with", centred.
+ * The footer: the address, big, then the copyright and the owners line,
+ * small; the version sits on the footer's top line, at the right.
+ * Links draw their own icons here (.no-link-icon stops arj/js/link-icons.js):
+ * a logo or icon before, an external-link mark after (a.ext).
+ * Separators are spaced en dashes (span.sep).
+ *********************************************************/
+/* Read from the left */
+.reveal .slides .arj-title h1,
+.reveal .slides .arj-title h3 {
+	text-align: left;
+}
+
+/* The title, big, with a gold bar the full width under it */
+.reveal .arj-title h1 {
+	font-size: 60px;
+	padding-bottom: 0.25em;
+	background: linear-gradient(var(--gold), var(--gold)) no-repeat bottom left / 100% 8px;
+}
+
+.reveal .arj-title .built-with a {
+	white-space: nowrap;
+}
+
+/* The slide fills the full height, so the footer sits at the bottom */
+.reveal .slides > section.arj-title {
+	height: 100%;
+	box-sizing: border-box;
+}
+
+/* The print version sizes a slide to its content, so give it the slide's height */
+html.print-pdf .reveal .slides .pdf-page > section.arj-title {
+	height: var(--slide-height, 720px) !important;
+}
+
+.reveal .arj-title .title-body {
+	display: flex;
+	align-items: flex-start;
+	gap: 40px;
+}
+
+.reveal .arj-title .title-text {
+	flex: 1 1 auto;
+	min-width: 0;
+}
+
+.reveal .arj-title .title-text h3 {
+	margin-top: 0;
+	font-size: 40px;
+}
+
+.reveal .arj-title .byline,
+.reveal .arj-title .built-with {
+	text-align: center;
+}
+
+.reveal .arj-title .byline {
+	margin-top: 1.8em;
+	font-size: 28px;
+}
+
+.reveal .arj-title .built-with {
+	margin-top: 1.2em;
+	font-size: 26px;
+	color: var(--muted);
+}
+
+.reveal .arj-title .sep {
+	margin: 0 0.45em;
+	color: var(--gold);
+	font-weight: bold;
+}
+
+.reveal .arj-title a {
+	color: var(--navy-soft);
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+}
+
+.reveal .arj-title a[href]:hover,
+.reveal .arj-title a[href]:focus-visible {
+	border-bottom-color: var(--gold);
+}
+
+.reveal .arj-title p img,
+.reveal .arj-title .deck-url img {
+	display: inline-block;
+	height: 1.15em;
+	margin: 0 0.3em 0 0;
+	vertical-align: -0.22em;
+	box-shadow: none;
+}
+
+.reveal .arj-title img.logo {
+	border-radius: 4px;
+}
+
+.reveal .arj-title a.ext::after {
+	content: "";
+	display: inline-block;
+	width: 0.7em;
+	height: 0.7em;
+	margin-left: 0.25em;
+	vertical-align: 0;
+	background: var(--navy-soft);
+	-webkit-mask: var(--icon-external) center / contain no-repeat;
+	mask: var(--icon-external) center / contain no-repeat;
+}
+
+.reveal .arj-title a.mail-picture img {
+	height: 1.25em;
+	margin: 0;
+	vertical-align: -0.3em;
+}
+
+.reveal .arj-title .calendar {
+	font-family: var(--emoji);
+	font-size: 0.85em;
+}
+
+/* The version, on the footer's top line, and the copyright line: small,
+ * the same size, out of the way of the title */
+.reveal .arj-title .deck-version-line,
+.reveal .arj-title .footer-rights {
+	margin: 0;
+	font-size: 20px;
+	font-weight: normal;
+	color: var(--muted);
+}
+
+.reveal .arj-title .deck-version-line {
+	position: absolute;
+	right: 0;
+	bottom: 100%;
+	padding-bottom: 6px;
+	line-height: 1;
+}
+
+.reveal .arj-title .footer-rights {
+	margin-top: 8px;
+	text-align: center; /* clear of the buttons at the bottom corners */
+}
+
+.reveal .arj-title .footer-rights a,
+.reveal .arj-title .deck-version-line a {
+	color: inherit;
+}
+
+.reveal .arj-title .footer-rights a.ext::after,
+.reveal .arj-title .deck-version-line a.ext::after {
+	background: var(--muted);
+}
+
+/* A small logo in a line of text (SDev Tutors on About the author) */
+.reveal img.inline-logo {
+	display: inline-block;
+	height: 1.1em;
+	margin: 0 0.25em 0 0;
+	border-radius: 4px;
+	vertical-align: -0.2em;
+	box-shadow: none;
+}
+
+/* The QR code on its own: no ring, no margin, no hover line. Its top is
+ * level with the top of the subtitle's capital letters (40px Arial: about
+ * 7px below the top of the line) */
+.reveal .arj-title figure.deck-qr {
+	flex: 0 0 auto;
+	width: 200px;
+	margin: 7px 0 0;
+	line-height: 0;
+}
+
+.reveal .arj-title figure.deck-qr a,
+.reveal .arj-title figure.deck-qr a:hover,
+.reveal .arj-title figure.deck-qr a:focus-visible {
+	display: block;
+	border: 0;
+	background: none;
+	outline: none;
+}
+
+.reveal .arj-title figure.deck-qr img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	box-shadow: none;
+}
+
+/* The deck's address, big enough to read off the screen and type in */
+.reveal .slide-footer {
+	position: absolute;
+	left: 8px; /* reveal.js pads a slide 8px at each side */
+	right: 8px;
+	bottom: 0;
+	padding-top: 12px;
+	border-top: 2px solid var(--line);
+	font-size: 34px;
+	font-weight: bold;
+}
+
+/* About the author: the name, bigger, then a list. The name and the links
+ * in the list are marked as leaving the deck (a.ext) */
+.reveal .author-name {
+	margin: 0 0 0.5em;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.reveal .author-name a,
+.reveal li > a.ext {
+	text-decoration: none;
 }

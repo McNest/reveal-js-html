@@ -1,5 +1,5 @@
 /*********************************************************
- * Assignment 2 overrides, loaded after tna.css.
+ * Assignment 2 overrides, loaded after arj/css/arj.css.
  * The brief sets a 20pt minimum. On a 1280 x 720 slide,
  * 27px is about 20pt, so nothing here goes below 27px.
  *********************************************************/
@@ -298,7 +298,7 @@
 	margin: 0 0.1em 0 0;
 }
 
-/* The name and mail icon (a.person, a.mail-link) are styled in arj/css/tna.css */
+/* The name and mail icon (a.person, a.mail-link) are styled in arj/css/arj.css */
 
 .reveal .contact {
 	display: flex;

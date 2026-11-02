@@ -12,7 +12,7 @@
  *   back / forward  side buttons, previous / next slide
  * With a keyboard: Shift+click back, Alt+click next section.
  *
- * Footnote markers (a.ref, icons drawn in arj/css/tna.css):
+ * Footnote markers (a.ref, icons drawn in arj/css/arj.css):
  *   a reference or media marker jumps to its line on the References or
  *   Media used slide. Right click or the back button returns.
  *   Hover either to see the full entry.
@@ -22,7 +22,8 @@
  *
  * On a phone (under 435px wide) reveal.js switches to its scroll
  * view, where the deck is one long page. The mouse handlers stand
- * down there, so the page scrolls and taps work normally. A deck can
+ * down there, and in the print version (?print-pdf), which is one long
+ * page too, so the page scrolls and taps work normally. A deck can
  * keep the slides instead with scrollActivationWidth: null.
  *
  * Touch screens, with tapZones: true in Reveal.initialize: tap the
@@ -46,7 +47,11 @@
 (function () {
 	const deck = document.querySelector('.reveal');
 
+	const printing = /print-pdf/i.test(window.location.search);
+
+	// One long page that scrolls: reveal.js's scroll view, or the print version
 	function scrollView() {
+		if (printing) return true;
 		return typeof Reveal.isScrollView === 'function' && Reveal.isScrollView();
 	}
 
@@ -267,7 +272,7 @@
 	 *   - data-m="2" on a media item, matched by <a class="ref media"><sup>2</sup></a>
 	 *   - data-cite="Noe, 2023" on a reference: the short citation, added
 	 *     after the marker in the print version
-	 *   - ol.links lists, numbered from their --start value (the FYP deck) */
+	 *   - ol.links lists, numbered from their --start value (a deck can set its own) */
 	const entries = {};
 	const tips = {};
 
@@ -401,8 +406,12 @@
 	/* ---------- Email addresses that scrapers can't read ----------
 	 * <a data-mail="ei.koolt...@...">: the address written backwards. The
 	 * mailto link is only made when the link is clicked, so the address is
-	 * never in the page as text. Show it as a picture (tools/email_svg.py). */
+	 * never in the page as text. Show it as a picture (tools/email_svg.py),
+	 * or leave the link empty: the address is then written into it as text,
+	 * in the slide's own font, when the slides load (programs that read the
+	 * file without running it still don't see it). */
 	document.querySelectorAll('.reveal a[data-mail]').forEach(function (link) {
+		if (!link.firstChild) link.textContent = link.dataset.mail.split('').reverse().join('');
 		link.href = '#';
 		link.addEventListener('click', function (event) {
 			event.stopPropagation();

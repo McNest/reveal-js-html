@@ -25,6 +25,7 @@
 	--icon-chevrons-down: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='7 13 12 18 17 13'/%3E%3Cpolyline points='7 6 12 11 17 6'/%3E%3C/svg%3E");
 	--icon-chevrons-up: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='17 11 12 6 7 11'/%3E%3Cpolyline points='17 18 12 13 7 18'/%3E%3C/svg%3E");
 	--icon-close: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='18' y1='6' x2='6' y2='18'/%3E%3Cline x1='6' y1='6' x2='18' y2='18'/%3E%3C/svg%3E");
+	--icon-exit: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4'/%3E%3Cpolyline points='16 17 21 12 16 7'/%3E%3Cline x1='21' y1='12' x2='9' y2='12'/%3E%3C/svg%3E");
 }
 
 /* ---------- Buttons ---------- */
@@ -91,6 +92,7 @@ body:has(.reveal.paused) .deck-dock .deck-button::before {
 .deck-collapse { --icon: var(--icon-chevrons-up); }
 .deck-side { --icon: var(--icon-sidebar); }
 .deck-close { --icon: var(--icon-close); }
+.deck-exit { --icon: var(--icon-exit); }
 
 /* ---------- Lock and drawing (arj/js/deck.js, arj/js/deck-draw.js) ---------- */
 .deck-lock { --icon: var(--icon-unlock); }
@@ -99,6 +101,28 @@ body:has(.reveal.paused) .deck-dock .deck-button::before {
 .deck-draw.on {
 	opacity: 1;
 	background: rgba(232, 178, 50, 0.3);
+}
+
+/* While drawing, shade what can't be drawn on: tldraw only draws on the
+ * slide itself, so the margins, the buttons and the slide number go grey,
+ * and a gold line marks the edge of the drawing area */
+body.arj-drawing .reveal .tldreveal .tl-canvas {
+	outline: 2px dashed var(--dock-hover);
+	box-shadow: 0 0 0 200vmax rgba(16, 35, 74, 0.14);
+}
+
+/* tldraw's tools at the top centre (drawToolbar: 'top', the default), clear
+ * of the slide number at the bottom */
+body.arj-draw-toolbar-top .tldreveal .tlui-layout {
+	grid-template-rows: auto 1fr !important;
+}
+
+body.arj-draw-toolbar-top .tldreveal .tlui-layout__bottom {
+	grid-row: 1;
+}
+
+body.arj-draw-toolbar-top .tldreveal .tlui-layout__top {
+	grid-row: 2;
 }
 
 /* Locked: no selecting by accident while clicking through. Form fields keep it */
@@ -124,9 +148,11 @@ body:has(.reveal.paused) .deck-dock .deck-button::before {
 	cursor: text;
 }
 
-/* ---------- Print version links ----------
- * <a href="?print-pdf">: reveal.js's own print layout. A PDF icon before it */
-.reveal a[href="?print-pdf"]::before {
+/* ---------- Print version and PDF links ----------
+ * <a href="?print-pdf">: reveal.js's own print layout; a link to a .pdf
+ * file: the deck already printed. A PDF icon before either */
+.reveal a[href="?print-pdf"]::before,
+.reveal a[href$=".pdf"]::before {
 	content: "";
 	display: inline-block;
 	width: 1.3em;
@@ -134,6 +160,23 @@ body:has(.reveal.paused) .deck-dock .deck-button::before {
 	margin-right: 0.3em;
 	vertical-align: -0.25em;
 	background: var(--icon-pdf) center / contain no-repeat;
+}
+
+/* ---------- Links that open a new tab, or leave the deck ----------
+ * arj/js/link-icons.js marks links that open a new tab (a.opens-tab); a deck
+ * can mark any link by hand (a.ext). An arrow out of a box after the link,
+ * in the link's colour */
+.reveal a.opens-tab::after,
+.reveal a.ext::after {
+	content: "";
+	display: inline-block;
+	width: 0.7em;
+	height: 0.7em;
+	margin-left: 0.25em;
+	vertical-align: 0;
+	background: currentColor;
+	-webkit-mask: var(--icon-external) center / contain no-repeat;
+	mask: var(--icon-external) center / contain no-repeat;
 }
 
 /* ---------- Slide list sidebar ----------

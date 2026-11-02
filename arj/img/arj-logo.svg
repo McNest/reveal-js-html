@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 56" width="64" height="56">
+	<title>ARJ, Apocalypse Reveal-js</title>
+	<!-- A page behind, and a card in front with "arj" on it, after the old tap logo -->
+	<rect x="22" y="14" width="38" height="38" rx="3" fill="#e9e7ee" stroke="#9a96a6" stroke-width="2" />
+	<path d="M4 4h36l8 8v32H4z" fill="#f6d4e5" stroke="#b0246c" stroke-width="2.5" stroke-linejoin="round" />
+	<path d="M40 4v8h8" fill="none" stroke="#b0246c" stroke-width="2.5" stroke-linejoin="round" />
+	<text x="25" y="35" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" fill="#8e1452" text-anchor="middle">arj</text>
+</svg>

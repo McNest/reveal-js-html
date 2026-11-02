@@ -65,8 +65,10 @@
 	// Long slides: shrink the text until it fits the slide's height
 	if (settings.fit) {
 		const room = Reveal.getConfig().height - 30;
+		// A title slide (.arj-title) fills the height on purpose, so it's left
+		// alone; so is any slide with class no-fit
 		const fit = function (slide) {
-			if (!slide || slide.dataset.fitted) return;
+			if (!slide || slide.dataset.fitted || slide.matches('.arj-title, .no-fit')) return;
 			let size = 1;
 			while (slide.scrollHeight > room && size > settings.fitMin) {
 				size -= settings.fitStep;
