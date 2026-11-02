@@ -1,21 +1,8 @@
 # Website icons (favicons)
 
-Each website's own icon, shown beside links to it by `arj/js/link-icons.js`. Downloaded from each site on 30 October 2026 (TinyURL on 2 November 2026). The .ico files were saved as PNG. The icons belong to their websites and are used only to mark links to them.
+ARJ's own two, shown beside links to them by `arj/js/link-icons.js`. Every deck made with ARJ links to reveal.js and to its source on GitHub, so these two belong here. Any other website's icon belongs to the deck that links to it: the deck keeps the icon in its own folder and names the site in `linkIcons: { folder, sites }` (the demo does this for Wikipedia, in `demo/img/favicons/`). The icons belong to their websites and are used only to mark links to them.
 
-| File                                           | Website                                                     |
-|------------------------------------------------|-------------------------------------------------------------|
-| [imdb.png](imdb.png)                           | [IMDb](https://www.imdb.com/)                               |
-| [chakoteya.png](chakoteya.png)                 | [chakoteya.net](http://www.chakoteya.net/)                  |
-| [springfield.png](springfield.png)             | [Springfield! Springfield!](https://www.springfieldspringfield.co.uk/) |
-| [knowyourmeme.png](knowyourmeme.png)           | [Know Your Meme](https://knowyourmeme.com/)                 |
-| [wikiquote.png](wikiquote.png)                 | [Wikiquote](https://en.wikiquote.org/)                      |
-| [commons.png](commons.png)                     | [Wikimedia Commons](https://commons.wikimedia.org/)         |
-| [wikipedia.png](wikipedia.png)                 | [Wikipedia](https://en.wikipedia.org/)                      |
-| [youtube.png](youtube.png)                     | [YouTube](https://www.youtube.com/)                         |
-| [imgflip.png](imgflip.png)                     | [imgflip](https://imgflip.com/)                             |
-| [revealjs.svg](revealjs.svg)                   | [reveal.js](https://revealjs.com/)                          |
-| [irishstatutebook.png](irishstatutebook.png)   | [Irish Statute Book](https://www.irishstatutebook.ie/)      |
-| [incompetech.png](incompetech.png)             | [Incompetech](https://incompetech.com/)                     |
-| [github.svg](github.svg)                       | [GitHub](https://github.com/). The GitHub mark, drawn from the Simple Icons path (CC0), 31 October 2026 |
-| [tinyurl.png](tinyurl.png)                     | [TinyURL](https://tinyurl.com/), its 64 px icon             |
-| [sdevtutors.png](sdevtutors.png)               | [SDevTutors](https://sdevtutors.github.io/), the SDev Tutors logo |
+| File                         | Website                                                                                                 |
+|------------------------------|---------------------------------------------------------------------------------------------------------|
+| [revealjs.svg](revealjs.svg) | [reveal.js](https://revealjs.com/), downloaded 30 October 2026                                          |
+| [github.svg](github.svg)     | [GitHub](https://github.com/). The GitHub mark, drawn from the Simple Icons path (CC0), 31 October 2026 |

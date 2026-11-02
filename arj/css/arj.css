@@ -650,7 +650,7 @@
 #ref-tip {
 	position: fixed;
 	z-index: 100;
-	max-width: min(70vw, 900px);
+	max-width: min(90vw, 1100px);
 	padding: 0.4em 0.7em;
 	background: var(--navy);
 	color: #fff;
@@ -670,8 +670,15 @@
 	visibility: visible;
 }
 
+/* The tip of a link with data-tip: clickable, it follows the link */
+#ref-tip.clickable {
+	pointer-events: auto;
+	cursor: pointer;
+}
+
 /* Position in a vertical stack, drawn by arj/js/deck.js under the heading.
- * One piece per slide in the stack; the gold one is the slide you are on.
+ * One piece per entry in the stack (a group of scenes is one entry); the
+ * gold one is where you are. In a group, a thinner row of its scenes.
  * It replaces the single gold bar on those headings. The pieces share the
  * full width of the slide, so it is always one complete line from the
  * left edge, whether a stack has 2 slides or 50. */
@@ -717,6 +724,17 @@
 .reveal .stack-bar span.on,
 .reveal .stack-bar button.on {
 	background: var(--gold);
+}
+
+/* Inside a group (the scenes of one film): a second, thinner row, one
+ * piece per scene, under the row of entries */
+.reveal .stack-bar.has-inner {
+	margin-bottom: 4px;
+}
+
+.reveal .stack-bar.inner span,
+.reveal .stack-bar.inner button {
+	height: 5px;
 }
 
 /* Copy icon on code boxes (arj/js/deck.js), GitHub style: a copy icon,
@@ -866,18 +884,24 @@ html.print-pdf .reveal a.ref[data-cite]::after {
 
 /*********************************************************
  * Title slide, opt in: <section class="title-slide arj-title">, in Markdown
- * <!-- .slide: class="title-slide arj-title" -->. Title and subtitle on the
- * left; the QR code to the deck online on the right, its top level with the
- * top of the subtitle's letters; under the subtitle the author line (name,
- * date) and "Built with", centred.
- * The footer: the address, big, then the copyright and the owners line,
- * small; the version sits on the footer's top line, at the right.
+ * <!-- .slide: class="title-slide arj-title" -->. The title centred; the
+ * subtitle on the left; the QR code to the deck online on the right, big,
+ * its top level with the top of the subtitle's letters; under the subtitle
+ * the author line (name, date) and "Built with", centred.
+ * The footer, small, all the size of the copyright: the version on the
+ * footer's top line, at the right; under the line the deck's own address on
+ * the left and the short address to type in on the right (.deck-short, a
+ * link, data-tip: hover shows it big, and the big one is clickable too);
+ * then the copyright and the owners line, centred.
  * Links draw their own icons here (.no-link-icon stops arj/js/link-icons.js):
  * a logo or icon before, an external-link mark after (a.ext).
  * Separators are spaced en dashes (span.sep).
  *********************************************************/
-/* Read from the left */
-.reveal .slides .arj-title h1,
+/* The title centred, the subtitle read from the left */
+.reveal .slides .arj-title h1 {
+	text-align: center;
+}
+
 .reveal .slides .arj-title h3 {
 	text-align: left;
 }
@@ -953,12 +977,14 @@ html.print-pdf .reveal .slides .pdf-page > section.arj-title {
 	border-bottom-color: var(--gold);
 }
 
-.reveal .arj-title p img,
-.reveal .arj-title .deck-url img {
+/* Icons and logos the size of the letters, sitting on the line, as the
+ * website icons beside links do (img.label-favicon). Ahead of the older
+ * .title-slide .built-with img */
+.reveal .arj-title .title-text p img {
 	display: inline-block;
-	height: 1.15em;
+	height: 0.8em;
 	margin: 0 0.3em 0 0;
-	vertical-align: -0.22em;
+	vertical-align: -0.08em;
 	box-shadow: none;
 }
 
@@ -989,14 +1015,25 @@ html.print-pdf .reveal .slides .pdf-page > section.arj-title {
 	font-size: 0.85em;
 }
 
-/* The version, on the footer's top line, and the copyright line: small,
- * the same size, out of the way of the title */
-.reveal .arj-title .deck-version-line,
-.reveal .arj-title .footer-rights {
-	margin: 0;
+/* The footer: small, out of the way of the title. The version on the line,
+ * at the right. Under the line, left: the deck's address; right: the short
+ * address. Then the copyright, centred, clear of the buttons at the bottom
+ * corners */
+.reveal .arj-title .slide-footer {
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: space-between;
+	align-items: end;
+	gap: 2px 24px;
 	font-size: 20px;
 	font-weight: normal;
 	color: var(--muted);
+}
+
+.reveal .arj-title .slide-footer p {
+	margin: 0;
+	font-size: inherit; /* the footer's size, whatever a deck sets for paragraphs */
+	line-height: 1.4;
 }
 
 .reveal .arj-title .deck-version-line {
@@ -1007,37 +1044,50 @@ html.print-pdf .reveal .slides .pdf-page > section.arj-title {
 	line-height: 1;
 }
 
-.reveal .arj-title .footer-rights {
-	margin-top: 8px;
-	text-align: center; /* clear of the buttons at the bottom corners */
+.reveal .arj-title .deck-url {
+	grid-column: 1;
 }
 
-.reveal .arj-title .footer-rights a,
-.reveal .arj-title .deck-version-line a {
+.reveal .arj-title .deck-short {
+	grid-column: 2;
+	text-align: right;
+}
+
+.reveal .arj-title .deck-short b {
+	color: var(--navy);
+}
+
+.reveal .arj-title .footer-rights {
+	grid-column: 1 / -1;
+	margin-top: 4px !important;
+	text-align: center;
+}
+
+.reveal .arj-title .slide-footer a {
 	color: inherit;
 }
 
-.reveal .arj-title .footer-rights a.ext::after,
-.reveal .arj-title .deck-version-line a.ext::after {
+.reveal .arj-title .slide-footer a.ext::after {
 	background: var(--muted);
 }
 
-/* A small logo in a line of text (SDev Tutors on About the author) */
+/* A small logo in a line of text (SDev Tutors on About the author), the
+ * size of the letters */
 .reveal img.inline-logo {
 	display: inline-block;
-	height: 1.1em;
+	height: 0.85em;
 	margin: 0 0.25em 0 0;
-	border-radius: 4px;
-	vertical-align: -0.2em;
+	border-radius: 3px;
+	vertical-align: -0.1em;
 	box-shadow: none;
 }
 
-/* The QR code on its own: no ring, no margin, no hover line. Its top is
- * level with the top of the subtitle's capital letters (40px Arial: about
+/* The QR code on its own, big: no ring, no margin, no hover line. Its top
+ * is level with the top of the subtitle's capital letters (40px Arial: about
  * 7px below the top of the line) */
 .reveal .arj-title figure.deck-qr {
 	flex: 0 0 auto;
-	width: 200px;
+	width: 300px;
 	margin: 7px 0 0;
 	line-height: 0;
 }
@@ -1059,16 +1109,14 @@ html.print-pdf .reveal .slides .pdf-page > section.arj-title {
 	box-shadow: none;
 }
 
-/* The deck's address, big enough to read off the screen and type in */
+/* A footer at the bottom of the slide, under a line */
 .reveal .slide-footer {
 	position: absolute;
 	left: 8px; /* reveal.js pads a slide 8px at each side */
 	right: 8px;
 	bottom: 0;
-	padding-top: 12px;
+	padding-top: 10px;
 	border-top: 2px solid var(--line);
-	font-size: 34px;
-	font-weight: bold;
 }
 
 /* About the author: the name, bigger, then a list. The name and the links

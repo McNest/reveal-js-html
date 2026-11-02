@@ -9,139 +9,7 @@
 	<meta name="description" content="Slide decks by Mark Crowe, made with reveal.js and ARJ: the meme bank, final year projects and training needs analysis." />
 	<link rel="icon" href="favicon.ico" />
 	<link rel="author" href="https://sdevtutors.github.io/mark-crowe/" />
-	<style>
-		/* The decks' colours (arj/css/arj.css): navy text, gold accents, light page */
-		:root {
-			--navy: #10234a;
-			--navy-soft: #1b3a73;
-			--gold: #e8b232;
-			--paper: #f4f6fb;
-			--ink: #14213d;
-			--muted: #44546f;
-			--line: #c9d2e3;
-			--icon-external: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'/%3E%3Cpolyline points='15 3 21 3 21 9'/%3E%3Cline x1='10' y1='14' x2='21' y2='3'/%3E%3C/svg%3E");
-		}
-
-		body {
-			margin: 0;
-			background: var(--paper);
-			color: var(--ink);
-			font: 18px/1.5 Arial, Helvetica, sans-serif;
-		}
-
-		main {
-			max-width: 860px;
-			margin: 0 auto;
-			padding: 40px 16px 24px;
-		}
-
-		h1 {
-			margin: 0 0 6px;
-			padding-bottom: 10px;
-			background: linear-gradient(var(--gold), var(--gold)) no-repeat bottom left / 90px 6px;
-			color: var(--navy);
-			font-size: 40px;
-			line-height: 1.15;
-		}
-
-		.lead {
-			margin: 12px 0 28px;
-			color: var(--muted);
-		}
-
-		a {
-			color: var(--navy-soft);
-		}
-
-		img.icon {
-			width: 1.1em;
-			height: 1.1em;
-			margin-right: 0.3em;
-			vertical-align: -0.2em;
-			border-radius: 3px;
-		}
-
-		/* A link that leaves this site: an arrow out of a box after it */
-		a.ext::after {
-			content: "";
-			display: inline-block;
-			width: 0.7em;
-			height: 0.7em;
-			margin-left: 0.25em;
-			background: currentColor;
-			-webkit-mask: var(--icon-external) center / contain no-repeat;
-			mask: var(--icon-external) center / contain no-repeat;
-		}
-
-		/* One card per deck, the whole card a link to it */
-		.decks {
-			display: grid;
-			gap: 16px;
-			margin: 0;
-			padding: 0;
-			list-style: none;
-		}
-
-		.deck {
-			position: relative;
-			padding: 18px 22px;
-			border: 2px solid var(--line);
-			border-left: 8px solid var(--gold);
-			border-radius: 8px;
-			background: #fff;
-		}
-
-		.deck:hover,
-		.deck:focus-within {
-			border-color: var(--navy-soft);
-			border-left-color: var(--gold);
-		}
-
-		.deck h2 {
-			margin: 0 0 4px;
-			font-size: 26px;
-			line-height: 1.2;
-		}
-
-		.deck h2 a {
-			color: var(--navy);
-			text-decoration: none;
-		}
-
-		/* The title's link covers the card */
-		.deck h2 a::before {
-			content: "";
-			position: absolute;
-			inset: 0;
-		}
-
-		.deck p {
-			margin: 0;
-			color: var(--muted);
-		}
-
-		/* Links inside a card sit above the card's own link */
-		.deck .more {
-			position: relative;
-			margin-top: 8px;
-			font-size: 16px;
-		}
-
-		.sep {
-			margin: 0 0.45em;
-			color: var(--gold);
-			font-weight: bold;
-		}
-
-		footer {
-			max-width: 860px;
-			margin: 0 auto;
-			padding: 16px 16px 32px;
-			border-top: 2px solid var(--line);
-			color: var(--muted);
-			font-size: 16px;
-		}
-	</style>
+	<link rel="stylesheet" href="src/css/index.css" />
 </head>
 
 <body>
@@ -153,7 +21,7 @@
 			<li class="deck">
 				<h2><a href="memes.html">Meme Bank</a></h2>
 				<p>Film and TV quotes for intermediate memes, for presentations and training.</p>
-				<p class="more"><a class="ext" href="https://tinyurl.com/42m5nncm"><img class="icon" src="arj/img/favicons/tinyurl.png" alt="" />tinyurl.com/42m5nncm</a><span class="sep">–</span><a href="memes.md">memes.md</a>, the slides as text</p>
+				<p class="more"><img class="icon" src="src/img/favicons/tinyurl.png" alt="" />To type in: tinyurl.com/<b>42m5nncm</b><span class="sep">–</span><a href="memes.md">memes.md</a>, the slides as text</p>
 			</li>
 			<li class="deck">
 				<h2><a href="fyp.html">Final Year Projects</a></h2>

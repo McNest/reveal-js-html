@@ -11,10 +11,12 @@
 	<meta name="keywords" content="memes, film quotes, TV quotes, Star Trek, presentations, training, reveal.js" />
 	<meta name="version" content="1.8.4" />
 	<meta name="generator" content="reveal.js 5.1.0 and ARJ 1.8.6, Apocalypse Reveal-js" />
-	<meta name="dcterms.creator" content="Mark Crowe" />
-	<meta name="dcterms.created" content="2026-10-29" />
-	<meta name="dcterms.modified" content="2026-11-02T02:21:29+00:00" />
-	<meta name="dcterms.rights" content="© 2026 Mark Crowe. Quotes, characters and pictures belong to their owners." />
+	<link rel="schema.dc-terms" href="http://purl.org/dc/terms/" />
+	<meta name="dc-terms.creator" content="Mark Crowe" />
+	<meta name="dc-terms.created" content="2026-10-29" />
+	<meta name="dc-terms.modified" content="2026-11-02T10:45:19+00:00" />
+	<meta name="dc-terms.rights" content="© 2026 Mark Crowe. Quotes, characters and pictures belong to their owners." />
+	<link rel="icon" href="favicon.ico" />
 	<link rel="canonical" href="https://marcocrowe.github.io/reveal-js-html/memes.html" />
 	<link rel="author" href="https://sdevtutors.github.io/mark-crowe/" />
 	<meta property="og:type" content="website" />
@@ -24,7 +26,7 @@
 	<meta property="og:site_name" content="SDev Tutors" />
 	<meta property="article:author" content="https://sdevtutors.github.io/mark-crowe/" />
 	<meta property="article:published_time" content="2026-10-29" />
-	<meta property="article:modified_time" content="2026-11-02T02:21:29+00:00" />
+	<meta property="article:modified_time" content="2026-11-02T10:45:19+00:00" />
 	<meta name="twitter:card" content="summary" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css" />
@@ -35,7 +37,8 @@
 
 <!--
 	Meme bank. Every slide comes from memes.md, so edit that file, not this one.
-	  ---   between topics (across)      ----   between entries (down)
+	  ---   between topics (across, L1); "---" followed by an L2 or L3 comment
+	  between entries (down; L3 is the next scene under the same heading)
 	Field lines like "**Who:** ..." get a class from their label (field-who,
 	field-imdb, field-check ...), styled in src/css/memes.css.
 
@@ -49,7 +52,7 @@
 		<div class="slides">
 			<section data-markdown="memes.md"
 				data-separator="^\r?\n---\r?\n$"
-				data-separator-vertical="^\r?\n----\r?\n$">
+				data-separator-vertical="^\r?\n---<!--L[23]-->\r?\n$">
 			</section>
 		</div>
 	</div>
@@ -74,7 +77,26 @@
 			plugins: [RevealMarkdown, RevealNotes],
 
 			deckMarkdown: { fitMin: 0.55 }, // arj/js/deck-markdown.js
-			linkIcons: { style: 'compare' }, // arj/js/link-icons.js: a different style on each topic
+			linkIcons: { // arj/js/link-icons.js: each website's own icon beside links to it
+				style: 'compare', // a different style on each topic
+				folder: 'src/img/favicons/', // this deck's icons; ARJ brings reveal.js and GitHub
+				sites: {
+					'imdb.com': ['imdb.png', 'IMDb'],
+					'chakoteya.net': ['chakoteya.png', 'chakoteya.net'],
+					'springfieldspringfield.co.uk': ['springfield.png', 'Springfield! Springfield!'],
+					'knowyourmeme.com': ['knowyourmeme.png', 'Know Your Meme'],
+					'wikiquote.org': ['wikiquote.png', 'Wikiquote'],
+					'wikimedia.org': ['commons.png', 'Wikimedia Commons'],
+					'wikipedia.org': ['wikipedia.png', 'Wikipedia'],
+					'youtube.com': ['youtube.png', 'YouTube'],
+					'youtu.be': ['youtube.png', 'YouTube'],
+					'imgflip.com': ['imgflip.png', 'imgflip'],
+					'irishstatutebook.ie': ['irishstatutebook.png', 'Irish Statute Book'],
+					'incompetech.com': ['incompetech.png', 'Incompetech'],
+					'tinyurl.com': ['tinyurl.png', 'TinyURL'],
+				},
+				labels: { 'imdb': 'imdb.com', 'meme-page': 'knowyourmeme.com', 'wikiquote': 'wikiquote.org' }, // the icon in place of "IMDb:"
+			},
 			stackBarLinks: true, // arj/js/deck.js: click a grey bar to go to that slide
 			tapZones: true, // arj/js/deck.js: on a touch screen, tap left to go back, right to go on
 			lock: true, // arj/js/deck.js: the padlock; locked, the mouse changes slides; unlocked, it selects text
@@ -86,6 +108,7 @@
 				contentsPageCount: false,
 				contentsInFlow: false, // next and back step over the contents; the button still opens them
 				numberFormat: 'multilevel', // 5, 5.1, 5.2 ... or 'flat': 1, 2, 3 ...
+				numberGroups: true, // the same heading one after another, one level down: 6.1 a film, 6.1.1 its scenes
 				numberHeadings: 'bullet', // "(5)" on the slide, left of the centred title
 				numberHeadingLevels: ['h1'], // which headings show it: add 'h2', 'h3' for (5.1)
 				sidebarSide: 'left',

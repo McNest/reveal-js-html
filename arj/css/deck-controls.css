@@ -324,6 +324,11 @@ body.arj-draw-toolbar-top .tldreveal .tlui-layout__top {
 	padding-left: 12px;
 }
 
+/* A group in a stack (numberGroups: 6.1, then 6.1.1, 6.1.2): its own triangle */
+.deck-sidebar-tree li li summary > .deck-sidebar-link {
+	padding-left: 26px;
+}
+
 /* ---------- Phones and small tablets ----------
  * Sideways (landscape): a narrower list, still beside the slides.
  * Upright, or anything under 700px wide: the list covers the slides

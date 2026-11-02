@@ -298,12 +298,20 @@
 	tip.setAttribute('role', 'tooltip');
 	document.body.appendChild(tip);
 
-	function showTip(link) {
+	// The tip of a link with data-tip (not a 🔗) can be clicked too: it
+	// stays a moment after the mouse leaves the link, so it can be reached
+	let tipLink = null, hideTimer = 0;
+
+	function showTip(link, clickable) {
 		const text = link.dataset.tip || tips[keyOf(link)];
 		if (!text) return;
+		clearTimeout(hideTimer);
+		tipLink = clickable ? link : null;
+		tip.classList.toggle('clickable', !!tipLink);
 
+		// data-tip-size="72": a bigger tip, in slide pixels (27 unless set)
 		tip.textContent = text;
-		tip.style.fontSize = Math.max(16, 27 * Reveal.getScale()) + 'px';
+		tip.style.fontSize = Math.max(16, (Number(link.dataset.tipSize) || 27) * Reveal.getScale()) + 'px';
 		tip.classList.add('visible');
 
 		const margin = 8;
@@ -317,8 +325,18 @@
 	}
 
 	function hideTip() {
-		tip.classList.remove('visible');
+		clearTimeout(hideTimer);
+		if (!tipLink) { tip.classList.remove('visible'); return; }
+		hideTimer = setTimeout(function () { tip.classList.remove('visible'); }, 400);
 	}
+
+	tip.addEventListener('mouseenter', function () { clearTimeout(hideTimer); });
+	tip.addEventListener('mouseleave', hideTip);
+	tip.addEventListener('click', function () {
+		if (tipLink) tipLink.click();
+		tipLink = null;
+		hideTip();
+	});
 
 	document.querySelectorAll('a.ref').forEach(function (link) {
 		const entry = entries[keyOf(link)];
@@ -337,10 +355,12 @@
 	});
 
 	/* Any other element with data-tip="..." shows that text on hover,
-	 * e.g. a name or an email icon. These are not references, so no jump. */
+	 * e.g. a name, an email icon or a short address to type in. These are
+	 * not references, so no jump. On a link, clicking the tip follows it. */
 	document.querySelectorAll('[data-tip]:not(a.ref)').forEach(function (el) {
-		el.addEventListener('mouseenter', function () { showTip(el); });
-		el.addEventListener('focus', function () { showTip(el); });
+		const clickable = el.tagName === 'A' && !!el.href;
+		el.addEventListener('mouseenter', function () { showTip(el, clickable); });
+		el.addEventListener('focus', function () { showTip(el, clickable); });
 		el.addEventListener('mouseleave', hideTip);
 		el.addEventListener('blur', hideTip);
 	});
@@ -420,11 +440,14 @@
 	});
 
 	/* ---------- Position bar inside a vertical stack ----------
-	 * Under the first heading of each slide in a stack, one bar per slide,
-	 * the gold one marking where you are. With stackBarLinks: true in
-	 * Reveal.initialize, each grey bar is a button to that slide, with its
-	 * heading as a tooltip. Slides that are not in a stack keep the single
-	 * gold bar. */
+	 * Under the first heading of each slide in a stack, one piece per entry,
+	 * the gold one marking where you are. A group (slides with the same
+	 * data-group, set by arj/js/deck-controls.js with numberGroups) is one
+	 * piece; on its slides a second, thinner row has one piece per slide in
+	 * the group. With stackBarLinks: true in Reveal.initialize, each grey
+	 * piece is a button to that entry (a group's first slide) or slide, with
+	 * its heading, or its scene line, as a tooltip. Slides that are not in a
+	 * stack keep the single gold bar. */
 	const barLinks = !!Reveal.getConfig().stackBarLinks;
 
 	function slideHeading(slide) {
@@ -432,39 +455,69 @@
 		return heading ? heading.textContent.trim() : '';
 	}
 
+	function sceneOf(slide) {
+		const scene = slide.querySelector('p.scene');
+		return scene ? scene.textContent.trim() : slideHeading(slide);
+	}
+
+	// One row of pieces: each piece is a list of slides; the one holding
+	// `slide` is gold, the others go to their first slide
+	function barRow(stack, slides, pieces, slide, tipOf, label) {
+		const bar = document.createElement('div');
+		bar.className = 'stack-bar';
+		bar.setAttribute('aria-label', label);
+		pieces.forEach(function (piece) {
+			const here = piece.includes(slide);
+			const el = document.createElement(here || !barLinks ? 'span' : 'button');
+			if (here) {
+				el.className = 'on';
+			} else if (barLinks) {
+				const target = piece[0];
+				el.type = 'button';
+				el.dataset.tip = tipOf(target);
+				el.setAttribute('aria-label', 'Go to ' + tipOf(target));
+				el.addEventListener('mouseenter', function () { showTip(el); });
+				el.addEventListener('focus', function () { showTip(el); });
+				el.addEventListener('mouseleave', hideTip);
+				el.addEventListener('blur', hideTip);
+				el.addEventListener('click', function (event) {
+					event.stopPropagation();
+					// Found when clicked: slides added later move the stack along
+					const h = Array.from(document.querySelectorAll('.reveal .slides > section')).indexOf(stack);
+					Reveal.slide(h, slides.indexOf(target));
+				});
+			}
+			bar.appendChild(el);
+		});
+		return bar;
+	}
+
 	function addStackBars(stack) {
 		const slides = Array.from(stack.children).filter(function (el) { return el.tagName === 'SECTION'; });
 		if (slides.length < 2) return;
 
-		slides.forEach(function (slide, index) {
+		// Entries: a group's slides together, any other slide on its own
+		const entries = [];
+		slides.forEach(function (slide, i) {
+			const group = slide.dataset.group;
+			if (group && i > 0 && slides[i - 1].dataset.group === group) entries[entries.length - 1].push(slide);
+			else entries.push([slide]);
+		});
+
+		slides.forEach(function (slide) {
 			const heading = slide.querySelector('h1, h2');
 			if (!heading) return;
-			const bar = document.createElement('div');
-			bar.className = 'stack-bar';
-			bar.setAttribute('aria-label', 'Slide ' + (index + 1) + ' of ' + slides.length + ' in this section');
-			slides.forEach(function (target, i) {
-				const piece = document.createElement(i === index || !barLinks ? 'span' : 'button');
-				if (i === index) {
-					piece.className = 'on';
-				} else if (barLinks) {
-					piece.type = 'button';
-					piece.dataset.tip = slideHeading(target);
-					piece.setAttribute('aria-label', 'Go to ' + slideHeading(target));
-					piece.addEventListener('mouseenter', function () { showTip(piece); });
-					piece.addEventListener('focus', function () { showTip(piece); });
-					piece.addEventListener('mouseleave', hideTip);
-					piece.addEventListener('blur', hideTip);
-					piece.addEventListener('click', function (event) {
-						event.stopPropagation();
-						// Found when clicked: slides added later move the stack along
-						const h = Array.from(document.querySelectorAll('.reveal .slides > section')).indexOf(stack);
-						Reveal.slide(h, i);
-					});
-				}
-				bar.appendChild(piece);
-			});
+			const entry = entries.find(function (piece) { return piece.includes(slide); });
+			const rows = [barRow(stack, slides, entries, slide, slideHeading,
+				'Entry ' + (entries.indexOf(entry) + 1) + ' of ' + entries.length + ' in this section')];
+			if (entry.length > 1) {
+				rows.push(barRow(stack, slides, entry.map(function (s) { return [s]; }), slide, sceneOf,
+					'Scene ' + (entry.indexOf(slide) + 1) + ' of ' + entry.length + ' under this heading'));
+				rows[0].classList.add('has-inner');
+				rows[1].classList.add('inner');
+			}
 			heading.classList.add('has-stack-bar');
-			heading.insertAdjacentElement('afterend', bar);
+			heading.after(...rows);
 		});
 	}
 

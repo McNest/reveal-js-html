@@ -3,8 +3,8 @@
  * The scripts in this folder sit on top of reveal.js ("all will be
  * revealed"). Version: year.tenth.day, where the year counts from
  * 2026 = 1, the tenth is which tenth of the year (0 to 9), and the day
- * counts the days with changes in that tenth. Set by tools/version.py;
- * shown wherever a slide has <span data-arj-version>.
+ * counts the days with changes in that tenth. Set by tools/version.py,
+ * which writes it into the demo's HTML too.
  *
  * Starts a reveal.js deck, then loads the deck's own scripts in order.
  *
@@ -104,13 +104,6 @@
 			'<p>Or read <a href="' + file + '">' + file + '</a> directly.</p></section>';
 	}
 
-	function showVersion() {
-		document.querySelectorAll('[data-arj-version], [data-tap-version]').forEach(function (el) {
-			el.textContent = window.ARJ.version;
-			el.title = window.ARJ.name + ' ' + window.ARJ.version + ', ' + window.ARJ.date;
-		});
-	}
-
 	/* ---------- Drawing (tldreveal) ---------- */
 	function drawingWanted(config) {
 		if (config.draw === false) return false;
@@ -147,8 +140,6 @@
 
 	window.startDeck = function (config) {
 		explainFileProtocol();
-		showVersion();
-		document.addEventListener('deck:ready', showVersion); // and in slides added since
 		window.deckStartHash = window.location.hash;
 		const scripts = config.deckScripts || [];
 		return addDrawing(config)

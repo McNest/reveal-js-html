@@ -10,7 +10,8 @@
  *   - Contents slides, made automatically: a vertical stack of thumbnail
  *     grids, like PowerPoint's Summary Zoom. Fewer, bigger thumbnails
  *     when the screen is upright (portrait)
- *   - Numbering: sections 1, 2, 3 and the slides under them 2.1, 2.2
+ *   - Numbering: sections 1, 2, 3 and the slides under them 2.1, 2.2,
+ *     and if set a third level, 2.1.1, for slides with the same heading
  *     (or one count, 1, 2, 3 ... through the whole deck), shown in the
  *     sidebar, the contents, the slide number and, if set, on the slide
  *     beside its heading. Type a number and press Enter to go there
@@ -48,6 +49,10 @@
  *     autoNumber: true,            // number every slide not marked <!-- no-number -->
  *     numberFormat: 'multilevel',  // 5, 5.1, 5.2 (a section and the slides under
  *                                  // it), or 'flat': 1, 2, 3 ... through the deck
+ *     numberGroups: false,         // true: slides in a stack with the same heading,
+ *                                  // one after another, are one more level down:
+ *                                  // 6.1 is the film, 6.1.1, 6.1.2 its scenes. A
+ *                                  // heading on one slide only stays 6.2
  *     numberHeadings: false,       // also show the number on the slide itself:
  *                                  // 'bullet' "(5)" at the left of the heading line,
  *                                  // the title still centred; 'corner' in a circle
@@ -83,6 +88,7 @@
 		numbering: true,
 		autoNumber: true,
 		numberFormat: 'multilevel',
+		numberGroups: false,
 		numberHeadings: false,
 		numberHeadingLevels: ['h1', 'h2'],
 	}, Reveal.getConfig().deckControls || {});
@@ -115,6 +121,7 @@
 
 	/* ---------- Numbering ---------- */
 	const numbers = new Map(); // slide -> "2" or "2.1", or "" when not numbered
+	const groups = new Map(); // first slide of a group -> "2.1" (numberGroups)
 
 	// The marks in a slide: <!-- no-number -->, <!-- no-list -->, <!-- number -->
 	function marksOf(slide) {
@@ -140,6 +147,7 @@
 
 	function numberSlides() {
 		numbers.clear();
+		groups.clear();
 		if (!settings.numbering) return;
 		const flat = settings.numberFormat === 'flat';
 		let section = 0, count = 0;
@@ -157,11 +165,38 @@
 			}
 			const label = isCounted ? String(++section) : '';
 			numbers.set(first, label);
-			let sub = 0;
-			slides.slice(1).forEach(function (slide) {
-				numbers.set(slide, label && counted(slide, false) ? label + '.' + (++sub) : '');
+			let sub = 0, inner = 0;
+			const rest = slides.slice(1);
+			rest.forEach(function (slide, i) {
+				if (!label || !counted(slide, false)) { numbers.set(slide, ''); return; }
+				// numberGroups: the same heading as the slide before, one level down
+				const title = settings.numberGroups ? titleOf(slide) : '';
+				const before = rest[i - 1], after = rest[i + 1];
+				const sameAsBefore = title && before && numbers.get(before) && titleOf(before) === title;
+				const sameAsAfter = title && after && counted(after, false) && titleOf(after) === title;
+				if (sameAsBefore) {
+					numbers.set(slide, label + '.' + sub + '.' + (++inner));
+				} else if (sameAsAfter) {
+					inner = 1;
+					numbers.set(slide, label + '.' + (++sub) + '.1');
+					groups.set(slide, label + '.' + sub);
+				} else {
+					numbers.set(slide, label + '.' + (++sub));
+				}
 			});
 		});
+		// data-group="6.1" on each slide of a group, for the position bar (arj/js/deck.js)
+		allSlides().forEach(function (slide) {
+			const group = groupOf(slide);
+			if (group) slide.dataset.group = group;
+			else delete slide.dataset.group;
+		});
+	}
+
+	// The group a slide is in (numberGroups): "6.1" for 6.1.2, or ''
+	function groupOf(slide) {
+		const parts = numberOf(slide).split('.');
+		return parts.length > 2 ? parts.slice(0, -1).join('.') : '';
 	}
 
 	// Every slide, in deck order: each stack's slides, or the slide itself
@@ -405,15 +440,20 @@
 	 * than over them; on a narrow screen it covers them. */
 	let sidebar = null, sidebarList = null;
 
-	function sidebarItem(slide, h, v) {
+	// as: 'group', the group's own line ("6.1 – the heading", no scene, no
+	// slide of its own: it goes to the first); 'in-group', a slide in a group
+	// (its scene only, as the group line above has the heading)
+	function sidebarItem(slide, h, v, as) {
 		const link = document.createElement('a');
 		link.href = '#';
 		link.className = 'deck-sidebar-link';
-		link.dataset.h = h;
-		link.dataset.v = v;
-		const number = numberOf(slide);
+		if (as !== 'group') {
+			link.dataset.h = h;
+			link.dataset.v = v;
+		}
+		const number = as === 'group' ? groups.get(slide) : numberOf(slide);
 		const title = titleOf(slide) || 'Slide ' + (h + 1) + (v ? '.' + (v + 1) : '');
-		const scene = sceneOf(slide);
+		const scene = as === 'group' ? '' : sceneOf(slide);
 		link.title = (number ? number + ' – ' : '') + title + (scene ? ' – ' + scene : '');
 
 		if (number) {
@@ -424,7 +464,7 @@
 		}
 		const text = document.createElement('span');
 		text.className = 'deck-sidebar-title';
-		text.textContent = title + (scene ? ' · ' + scene : '');
+		text.textContent = as === 'in-group' && scene ? scene : title + (scene ? ' · ' + scene : '');
 		link.append(text);
 
 		link.addEventListener('click', function (event) {
@@ -451,11 +491,24 @@
 				summary.appendChild(sidebarItem(children[0], h, 0));
 				group.appendChild(summary);
 				const sub = document.createElement('ol');
+				let inside = '', groupList = null; // numberGroups: the group being listed, and its list
 				children.forEach(function (child, v) {
 					if (v === 0 || !listed(child)) return;
+					if (groups.has(child)) {
+						inside = groups.get(child);
+						const groupBox = document.createElement('details');
+						const groupLine = document.createElement('summary');
+						groupLine.appendChild(sidebarItem(child, h, v, 'group'));
+						groupList = document.createElement('ol');
+						groupBox.append(groupLine, groupList);
+						const groupItem = document.createElement('li');
+						groupItem.appendChild(groupBox);
+						sub.appendChild(groupItem);
+					}
+					const inGroup = inside && groupOf(child) === inside;
 					const subItem = document.createElement('li');
-					subItem.appendChild(sidebarItem(child, h, v));
-					sub.appendChild(subItem);
+					subItem.appendChild(sidebarItem(child, h, v, inGroup ? 'in-group' : undefined));
+					(inGroup ? groupList : sub).appendChild(subItem);
 				});
 				group.appendChild(sub);
 				item.appendChild(group);
@@ -472,8 +525,7 @@
 		const link = sidebar.querySelector('.deck-sidebar-link[data-h="' + at.h + '"][data-v="' + (at.v || 0) + '"]');
 		if (!link) return;
 		link.classList.add('current');
-		const group = link.closest('details');
-		if (group) group.open = true;
+		for (let group = link.closest('details'); group; group = group.parentNode.closest('details')) group.open = true;
 		if (sidebarOpen()) link.scrollIntoView({ block: 'nearest' });
 	}
 
@@ -677,10 +729,21 @@
 
 		if (numbered.length) {
 			if (section === 0) { Reveal.slide(0, 0); return; }
-			const sections = numbered.filter(s => s.number.indexOf('.') < 0);
-			const target = sections[Math.min(section, sections.length) - 1];
-			const under = numbered.filter(s => s.number.indexOf(target.number + '.') === 0);
-			const to = sub && under.length ? under[Math.min(sub, under.length) - 1] : target;
+			// A level at a time: the nth section, the nth under it (6.1, a slide
+			// or a group), the nth under that (6.1.2); too big a number, the last
+			let prefix = '';
+			parts.map(p => parseInt(p, 10)).forEach(function (n) {
+				if (!n) return;
+				const next = [];
+				numbered.forEach(function (s) {
+					if (prefix && s.number.indexOf(prefix + '.') !== 0) return;
+					const rest = prefix ? s.number.slice(prefix.length + 1) : s.number;
+					const label = (prefix ? prefix + '.' : '') + rest.split('.')[0];
+					if (next.indexOf(label) < 0) next.push(label);
+				});
+				if (next.length) prefix = next[Math.min(n, next.length) - 1];
+			});
+			const to = numbered.find(s => s.number === prefix || s.number.indexOf(prefix + '.') === 0);
 			Reveal.slide(to.h, to.v);
 			return;
 		}
@@ -700,7 +763,7 @@
 		const key = event.key;
 		if (/^[0-9]$/.test(key)) {
 			typed += key;
-		} else if (key === '.' && typed && typed.indexOf('.') < 0) {
+		} else if (key === '.' && /\d$/.test(typed) && typed.split('.').length < 3) { // 6.1.2 at most
 			typed += '.';
 		} else if (key === 'Backspace' && typed) {
 			typed = typed.slice(0, -1);

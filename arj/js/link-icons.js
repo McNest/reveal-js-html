@@ -8,13 +8,16 @@
  *   favicon-after    the link, then the icon
  *   link-icon        the link, then a plain link icon
  *   favicon-label    the icon in place of a field label ("**IMDb:**")
+ * ARJ has icons for reveal.js and GitHub only, in arj/img/favicons/. Any
+ * other site's icon belongs to the deck that links to it: the deck keeps
+ * the icon in its own folder and names the site in sites.
  * Settings, all optional:
  *   linkIcons: {
- *     folder: 'arj/img/favicons/',  // where the icons are: ARJ's own folder,
- *                                   // beside the one this script is in, unless set
+ *     folder: 'src/img/favicons/',  // where the deck's own icons are (sites)
  *     style: 'favicon-before',      // one of the four, or 'compare': a
  *                                   // different style on each section in turn
- *     sites: { 'imdb.com': ['imdb.png', 'IMDb'], ... },  // added to the defaults
+ *     sites: { 'imdb.com': ['imdb.png', 'IMDb'], ... },  // the deck's sites,
+ *                                   // icons in folder; added to ARJ's two
  *     labels: { 'imdb': 'imdb.com', ... },  // field label -> site, for favicon-label
  *     skip: 'a.person, .no-link-icon',      // links that never get an icon
  *     newTab: false,                // true: links to other websites open in a
@@ -32,35 +35,30 @@
 
 	const STYLES = ['favicon-before', 'favicon-after', 'link-icon', 'favicon-label'];
 
-	const DEFAULT_SITES = {
-		'imdb.com': ['imdb.png', 'IMDb'],
-		'chakoteya.net': ['chakoteya.png', 'chakoteya.net'],
-		'springfieldspringfield.co.uk': ['springfield.png', 'Springfield! Springfield!'],
-		'knowyourmeme.com': ['knowyourmeme.png', 'Know Your Meme'],
-		'wikiquote.org': ['wikiquote.png', 'Wikiquote'],
-		'wikimedia.org': ['commons.png', 'Wikimedia Commons'],
-		'wikipedia.org': ['wikipedia.png', 'Wikipedia'],
-		'youtube.com': ['youtube.png', 'YouTube'],
-		'youtu.be': ['youtube.png', 'YouTube'],
-		'imgflip.com': ['imgflip.png', 'imgflip'],
+	// ARJ's own: every deck made with it links to these two
+	const ARJ_SITES = {
 		'revealjs.com': ['revealjs.svg', 'reveal.js'],
-		'irishstatutebook.ie': ['irishstatutebook.png', 'Irish Statute Book'],
-		'incompetech.com': ['incompetech.png', 'Incompetech'],
 		'github.com': ['github.svg', 'GitHub'],
-		'tinyurl.com': ['tinyurl.png', 'TinyURL'],
-		'sdevtutors.github.io': ['sdevtutors.png', 'SDev Tutors'],
 	};
-
-	const DEFAULT_LABELS = { 'imdb': 'imdb.com', 'meme-page': 'knowyourmeme.com', 'wikiquote': 'wikiquote.org' };
 
 	const PLAIN_LINK = "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%233b5a8c' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'/%3E%3Cpath d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'/%3E%3C/svg%3E\")";
 
 	const config = Reveal.getConfig().linkIcons || {};
+	const arjFolder = (window.ARJ && window.ARJ.folder ? window.ARJ.folder : 'arj/') + 'img/favicons/';
+
+	// Each site: [the icon's full address, the site's name]
+	function inFolder(sites, folder) {
+		const out = {};
+		Object.keys(sites).forEach(function (domain) {
+			out[domain] = [new URL(folder + sites[domain][0], document.baseURI).href, sites[domain][1]];
+		});
+		return out;
+	}
+
 	const settings = {
-		folder: config.folder || (window.ARJ && window.ARJ.folder ? window.ARJ.folder + 'img/favicons/' : 'arj/img/favicons/'),
 		style: config.style || 'favicon-before',
-		sites: Object.assign({}, DEFAULT_SITES, config.sites || {}),
-		labels: Object.assign({}, DEFAULT_LABELS, config.labels || {}),
+		sites: Object.assign(inFolder(ARJ_SITES, arjFolder), inFolder(config.sites || {}, config.folder || '')),
+		labels: config.labels || {},
 		skip: config.skip || 'a.person, .no-link-icon',
 		newTab: config.newTab === true,
 	};
@@ -71,11 +69,6 @@
 		try { host = new URL(href).hostname.replace(/^www\./, ''); } catch (e) { return null; }
 		const key = Object.keys(settings.sites).find(k => host === k || host.endsWith('.' + k));
 		return key ? settings.sites[key] : null;
-	}
-
-	// An absolute address: a relative one in a CSS variable is read from the CSS file
-	function iconUrl(file) {
-		return new URL(settings.folder + file, document.baseURI).href;
 	}
 
 	// 'compare' starts with the first style on the slide after the title
@@ -95,7 +88,7 @@
 			const site = settings.sites[domain];
 			const icon = document.createElement('img');
 			icon.className = 'label-favicon';
-			icon.src = iconUrl(site[0]);
+			icon.src = site[0];
 			icon.alt = site[1];
 			icon.title = site[1];
 			label.replaceChildren(icon, ':');
@@ -118,7 +111,8 @@
 			if (link.matches(settings.skip) || link.closest('.no-link-icon')) return;
 			const site = siteOf(link.href);
 			link.classList.add('site-link');
-			link.style.setProperty('--favicon', site ? 'url("' + iconUrl(site[0]) + '")' : PLAIN_LINK);
+			// An absolute address: a relative one in a CSS variable is read from the CSS file
+			link.style.setProperty('--favicon', site ? 'url("' + site[0] + '")' : PLAIN_LINK);
 		});
 		if (style === 'favicon-label') replaceLabels(top);
 	});

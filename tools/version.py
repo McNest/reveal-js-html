@@ -1,7 +1,9 @@
 """Version numbers for the meme bank deck and for ARJ (the scripts in arj/).
 
   python tools/version.py           show both versions for today
-  python tools/version.py --write   write them into memes.md and arj/js/deck-start.js
+  python tools/version.py --write   write them into memes.md, arj/js/deck-start.js
+                                    and the ARJ demo (demo/index.html in the ARJ
+                                    repository, beside this one, when it is there)
   python tools/version.py --link C:/path/to/reveal-js-html
                                     link "Version 1.8.3" on the title slide to the
                                     repository on GitHub as it was at the commit
@@ -30,28 +32,69 @@ browse the files at that point, not the changes). Until then the version
 links to the list of commits, so the slide never points at a commit that
 doesn't exist. Run it after you push.
 """
+
 import datetime, os, re, subprocess, sys
 from urllib.parse import quote
 
-DECK = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
+DECK = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+# The ARJ repository: C:/Users/user/GitHub/SDevTutors/apocalypse-reveal-js
+ARJ_REPO = os.path.normpath(
+    os.path.join(DECK, "..", "..", "..", "..", "SDevTutors", "apocalypse-reveal-js")
+)
 FIRST_YEAR = 2026
 
 PARTS = {
     # name: (files whose commits count, file to write, pattern to replace)
-    'deck': (['memes.md', 'memes.html', 'src/css/memes.css', 'src/img/topics'],
-             'memes.md', [(r'(<span class="deck-version">)[^<]*(</span>)', r'\g<1>{v}\g<2>'),
-                          (r'<time class="deck-date" datetime="[^"]*">[^<]*</time>',
-                           '<time class="deck-date" datetime="{stamp}">{month}</time>')]),
-    'deck page': (['memes.md', 'memes.html', 'src/css/memes.css', 'src/img/topics'],
-                  'memes.html', [(r'<meta name="version" content="[^"]*" />', '<meta name="version" content="{v}" />'),
-                                 (r'<meta name="dcterms.modified" content="[^"]*" />', '<meta name="dcterms.modified" content="{stamp}" />'),
-                                 (r'<meta property="article:modified_time" content="[^"]*" />',
-                                  '<meta property="article:modified_time" content="{stamp}" />')]),
+    "deck": (
+        ["memes.md", "memes.html", "src/css/memes.css", "src/img/topics"],
+        "memes.md",
+        [
+            (r'(<span class="deck-version">)[^<]*(</span>)', r"\g<1>{v}\g<2>"),
+            (
+                r'<time class="deck-date" datetime="[^"]*">[^<]*</time>',
+                '<time class="deck-date" datetime="{stamp}">{month}</time>',
+            ),
+        ],
+    ),
+    "deck page": (
+        ["memes.md", "memes.html", "src/css/memes.css", "src/img/topics"],
+        "memes.html",
+        [
+            (
+                r'<meta name="version" content="[^"]*" />',
+                '<meta name="version" content="{v}" />',
+            ),
+            (
+                r'<meta name="dcterms.modified" content="[^"]*" />',
+                '<meta name="dcterms.modified" content="{stamp}" />',
+            ),
+            (
+                r'<meta property="article:modified_time" content="[^"]*" />',
+                '<meta property="article:modified_time" content="{stamp}" />',
+            ),
+        ],
+    ),
     # arj/ and where its files were before (src/js, src/css), for the days with changes
-    'ARJ': (['arj', 'src/js', 'src/css/tna.css', 'src/css/deck-controls.css'],
-            'arj/js/deck-start.js', [(r"version: '[^']*', date: '[^']*'", "version: '{v}', date: '{iso}'")]),
-    'ARJ page': (['arj', 'src/js', 'src/css/tna.css', 'src/css/deck-controls.css'],
-                 'memes.html', [(r'and (?:TAP|ARJ) [0-9.]+, (?:The Apocalypse Plugin|Apocalypse Reveal-js)', 'and ARJ {v}, Apocalypse Reveal-js')]),
+    "ARJ": (
+        ["arj", "src/js", "src/css/tna.css", "src/css/deck-controls.css"],
+        "arj/js/deck-start.js",
+        [(r"version: '[^']*', date: '[^']*'", "version: '{v}', date: '{iso}'")],
+    ),
+    "ARJ page": (
+        ["arj", "src/js", "src/css/tna.css", "src/css/deck-controls.css"],
+        "memes.html",
+        [
+            (
+                r"and (?:TAP|ARJ) [0-9.]+, (?:The Apocalypse Plugin|Apocalypse Reveal-js)",
+                "and ARJ {v}, Apocalypse Reveal-js",
+            )
+        ],
+    ),
+    "ARJ demo": (
+        ["arj", "src/js", "src/css/tna.css", "src/css/deck-controls.css"],
+        os.path.join(ARJ_REPO, "demo", "index.html"),
+        [(r'(<span class="arj-version">)[^<]*(</span>)', r"\g<1>{v}\g<2>")],
+    ),
 }
 
 
@@ -61,12 +104,20 @@ def tenth(day):
 
 
 def version(paths, today):
-    log = subprocess.run(['git', 'log', '--format=%ad', '--date=short', '--'] + paths,
-                         cwd=DECK, capture_output=True, text=True).stdout.split()
+    log = subprocess.run(
+        ["git", "log", "--format=%ad", "--date=short", "--"] + paths,
+        cwd=DECK,
+        capture_output=True,
+        text=True,
+    ).stdout.split()
     days = {datetime.date.fromisoformat(d) for d in log}
-    days = {d for d in days if d.year == today.year and tenth(d) == tenth(today) and d <= today}
+    days = {
+        d
+        for d in days
+        if d.year == today.year and tenth(d) == tenth(today) and d <= today
+    }
     days.add(today)
-    return '%d.%d.%d' % (today.year - FIRST_YEAR + 1, tenth(today), len(days))
+    return "%d.%d.%d" % (today.year - FIRST_YEAR + 1, tenth(today), len(days))
 
 
 def main(write):
@@ -76,44 +127,78 @@ def main(write):
     for name, (paths, target, swaps) in PARTS.items():
         v = version(paths, today)
         found[name] = v
-        print('%-9s %s' % (name, v))
+        print("%-9s %s" % (name, v))
         if not write:
             continue
         path = os.path.join(DECK, target)
-        text = open(path, encoding='utf-8', newline='').read()
+        if not os.path.exists(path):
+            print("  not here:", path)
+            continue
+        text = open(path, encoding="utf-8", newline="").read()
         for pattern, template in swaps:
-            new = template.format(v=v, iso=today.isoformat(), stamp=now.isoformat(), month=today.strftime('%B %Y'))
+            new = template.format(
+                v=v,
+                iso=today.isoformat(),
+                stamp=now.isoformat(),
+                month=today.strftime("%B %Y"),
+            )
             text, n = re.subn(pattern, new, text)
             if not n:
-                print('  not found in', target, ':', pattern)
-        open(path, 'w', encoding='utf-8', newline='').write(text)
-    print('Commit messages start with the version: "%s <what changed>" for the deck,' % found['deck'])
-    print('"%s <what changed>" for ARJ' % found['ARJ'])
+                print("  not found in", target, ":", pattern)
+        open(path, "w", encoding="utf-8", newline="").write(text)
+    print(
+        'Commit messages start with the version: "%s <what changed>" for the deck,'
+        % found["deck"]
+    )
+    print('"%s <what changed>" for ARJ' % found["ARJ"])
 
 
-GITHUB = 'https://github.com/marcocrowe/reveal-js-html/'
+GITHUB = "https://github.com/marcocrowe/reveal-js-html/"
 
 
 def link(public):
     """Link the title slide's version to the pushed commit that first has it."""
-    path = os.path.join(DECK, 'memes.md')
-    text = open(path, encoding='utf-8', newline='').read()
+    path = os.path.join(DECK, "memes.md")
+    text = open(path, encoding="utf-8", newline="").read()
     v = re.search(r'<span class="deck-version">([^<]*)</span>', text).group(1)
-    git = lambda *args: subprocess.run(['git'] + list(args), cwd=public, capture_output=True, text=True).stdout
-    commits = git('log', '--reverse', '--format=%H', '-S', '<span class="deck-version">%s</span>' % v, '--', 'memes.md').split()
-    pushed = [c for c in commits if git('branch', '-r', '--contains', c).strip()]
+    git = lambda *args: subprocess.run(
+        ["git"] + list(args), cwd=public, capture_output=True, text=True
+    ).stdout
+    commits = git(
+        "log",
+        "--reverse",
+        "--format=%H",
+        "-S",
+        '<span class="deck-version">%s</span>' % v,
+        "--",
+        "memes.md",
+    ).split()
+    pushed = [c for c in commits if git("branch", "-r", "--contains", c).strip()]
     if pushed:
-        url = GITHUB + 'tree/' + quote(pushed[0])
+        url = GITHUB + "tree/" + quote(pushed[0])
     else:
-        url = GITHUB + 'commits/master'
-        print('No pushed commit in %s has version %s yet: it links to the list of commits' % (public, v))
-    text, n = re.subn(r'<a class="version-link[^"]*"[^>]*>', '<a class="version-link ext" href="%s">' % url, text, count=1)
-    open(path, 'w', encoding='utf-8', newline='').write(text)
-    print('Version', v, '->', url if n else 'no <a class="version-link"> on the title slide')
+        url = GITHUB + "commits/master"
+        print(
+            "No pushed commit in %s has version %s yet: it links to the list of commits"
+            % (public, v)
+        )
+    text, n = re.subn(
+        r'<a class="version-link[^"]*"[^>]*>',
+        '<a class="version-link ext" href="%s">' % url,
+        text,
+        count=1,
+    )
+    open(path, "w", encoding="utf-8", newline="").write(text)
+    print(
+        "Version",
+        v,
+        "->",
+        url if n else 'no <a class="version-link"> on the title slide',
+    )
 
 
-if __name__ == '__main__':
-    if '--link' in sys.argv:
-        link(sys.argv[sys.argv.index('--link') + 1])
+if __name__ == "__main__":
+    if "--link" in sys.argv:
+        link(sys.argv[sys.argv.index("--link") + 1])
     else:
-        main('--write' in sys.argv)
+        main("--write" in sys.argv)

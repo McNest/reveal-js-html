@@ -2,16 +2,25 @@
 <!-- .slide: class="title-slide arj-title" -->
 
 <div class="title-body no-link-icon">
-<div class="title-text">
-<h3>Film and TV Quotes for Intermediate Memes</h3>
-<p class="byline"><a class="person ext" href="https://sdevtutors.github.io/mark-crowe/" data-tip="sdevtutors.github.io/mark-crowe"><img class="logo" src="src/img/mc-logo.png" alt="" />Mark Crowe</a><span class="sep">–</span><time class="deck-date" datetime="2026-11-02T02:21:29+00:00">November 2026</time> <span class="calendar" aria-hidden="true">📅</span></p>
-<p class="built-with">Built with <a class="ext" href="https://revealjs.com/"><img src="arj/img/favicons/revealjs.svg" alt="" />Reveal.js</a> and <a class="ext" href="https://github.com/SDevTutors/apocalypse-reveal-js" title="ARJ, Apocalypse Reveal-js"><img src="arj/img/arj-logo.svg" alt="" />ARJ</a><span class="sep">–</span><a class="ext" href="https://github.com/marcocrowe/reveal-js-html" title="This deck's source, on GitHub"><img src="arj/img/favicons/github.svg" alt="GitHub" />Source</a></p>
+  <div class="title-text">
+    <h3>Film and TV Quotes for Intermediate Memes</h3>
+    <p class="byline"><a class="person ext" href="https://sdevtutors.github.io/mark-crowe/" data-tip="sdevtutors.github.io/mark-crowe">
+      <img class="logo" src="src/img/mc-logo.png" alt="" />
+      Mark Crowe</a><span class="sep">–</span><time class="deck-date" datetime="2026-11-02T10:45:19+00:00">November 2026</time> <span class="calendar" aria-hidden="true">📅</span></p>
+      <p class="built-with">Built with <a class="ext" href="https://revealjs.com/">
+      <img src="arj/img/favicons/revealjs.svg" alt="" />Reveal.js</a> and <a class="ext" href="https://github.com/SDevTutors/apocalypse-reveal-js" title="ARJ, Apocalypse Reveal-js">
+      <img src="arj/img/arj-logo.svg" alt="" />ARJ</a><span class="sep">–</span>
+      <a class="ext" href="https://github.com/marcocrowe/reveal-js-html" title="This deck's source, on GitHub"><img src="arj/img/favicons/github.svg" alt="GitHub" />Source</a>
+    </p>
+  </div>
+  <figure class="deck-qr"><a href="https://tinyurl.com/42m5nncm"><img src="src/img/qr/memes-deck-tinyurl.svg" alt="QR code: this deck online, tinyurl.com/42m5nncm" /></a></figure>
 </div>
-<figure class="deck-qr"><a href="https://tinyurl.com/42m5nncm"><img src="src/img/qr/memes-deck-tinyurl.svg" alt="QR code: this deck online, tinyurl.com/42m5nncm" /></a></figure>
-</div>
-<footer class="slide-footer no-link-icon"><p class="deck-version-line"><a class="version-link ext" href="https://github.com/marcocrowe/reveal-js-html/commits/master">Version <span class="deck-version">1.8.4</span></a></p>
-<a class="deck-url ext" href="https://tinyurl.com/42m5nncm" title="marcocrowe.github.io/reveal-js-html/memes.html"><img src="arj/img/favicons/tinyurl.png" alt="TinyURL" />tinyurl.com/42m5nncm</a>
-<p class="footer-rights"><a class="ext" href="https://sdevtutors.github.io/mark-crowe/#email" title="Contact Mark Crowe">© 2026 Mark Crowe</a><span class="sep">–</span>Quotes, characters and pictures belong to their respective owners.</p></footer>
+<footer class="slide-footer no-link-icon">
+  <p class="deck-version-line"><a class="version-link ext" href="https://github.com/marcocrowe/reveal-js-html/commits/master">Version <span class="deck-version">1.8.4</span></a></p>
+  <p class="deck-url"><a class="ext" href="https://marcocrowe.github.io/reveal-js-html/memes.html">marcocrowe.github.io/reveal-js-html/memes.html</a></p>
+  <p class="deck-short"><a class="ext" href="https://tinyurl.com/42m5nncm" data-tip="tinyurl.com/42m5nncm" data-tip-size="72">tinyurl.com/<b>42m5nncm</b></a></p>
+  <p class="footer-rights"><a class="ext" href="https://sdevtutors.github.io/mark-crowe/#email" title="Contact Mark Crowe">© 2026 Mark Crowe</a><span class="sep">–</span>Quotes, characters and pictures belong to their respective owners.</p>
+</footer>
 
 ---
 
@@ -27,14 +36,14 @@
 - Version <span class="deck-version">1.8.4</span> is year.tenth.day: the year (1 is 2026), which tenth of the year it is (0 to 9), and how many days in that tenth have had changes. [ARJ](https://github.com/SDevTutors/apocalypse-reveal-js) (Apocalypse Reveal-js), the scripts behind the slides, is numbered the same way. [tools/version.py](tools/version.py) works them out
 - [memes.html](memes.html) shows this file, [memes.md](memes.md), as slides
 
-----
+---<!--L2-->
 
 ## About the author
 <!-- no-number -->
 
 <p class="author-name"><a class="ext" href="https://sdevtutors.github.io/mark-crowe/" title="sdevtutors.github.io/mark-crowe"><img class="inline-logo" src="src/img/mc-logo.png" alt="" />Mark Crowe</a></p>
 
-- Education Officer at <a class="ext" href="https://sdevtutors.github.io/" title="sdevtutors.github.io"><img class="inline-logo" src="arj/img/favicons/sdevtutors.png" alt="" />SDev Tutors</a>
+- Education Officer at <a class="ext" href="https://github.com/SDevTutors" title="SDev Tutors on GitHub"><img class="inline-logo" src="src/img/sdevtutors-logo.png" alt="" />SDev Tutors</a>
   - A background in IT
   - Teaches programming: Python, C#, Java, JavaScript and AI
 - Email: <a class="mail-text" data-mail="ei.kooltuo@rotuTveDS" aria-label="Email Mark Crowe"></a>
@@ -44,8 +53,9 @@
 
 <!--
 HOW THIS FILE BECOMES SLIDES (memes.html)
-  ---    on its own line, with blank lines around it: a new topic (goes across)
-  ----   on its own line, with blank lines around it: a new entry in that topic (goes down)
+  ---            on its own line, with blank lines around it: a new topic (L1, goes across)
+  --- then L2   "---" with an L2 comment straight after it: a new entry in that topic (goes down)
+  --- then L3   "---" with an L3 comment straight after it: the next scene under the same heading (goes down)
   Each entry: "## Title (year)", a "**Scene: ...**" line, a "> quote" (bold the part to use),
   then "**Label:** value" lines.
   Labels with their own style: Who, Episode, Time, IMDb, Meme page, Checked, Use it for, Check.
@@ -60,7 +70,7 @@ Quotes for the TNA, skills audits and learner feedback
 
 <figure class="topic-photo"><img src="src/img/topics/training-hurley.jpg" alt="A hurley and a sliotar on a wooden floor" /><figcaption><a class="ref media" href="#/media-used"><sup>1</sup></a> – A hurley and sliotar</figcaption></figure>
 
-----
+---<!--L2-->
 
 ## Taken (2008)
 <!-- 1 -->
@@ -72,7 +82,7 @@ Quotes for the TNA, skills audits and learner feedback
 - **Time:** 0:28:27 to 0:28:44 (18 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Taken [2008] -imdb-tt0936501.srt>)
 - **Use it for:** skills audits, and why self-ratings can be wrong. Caption: *"Every learner on the self-rating form"*
 
-----
+---<!--L2-->
 
 ## A Few Good Men (1992)
 <!-- 2 -->
@@ -86,7 +96,7 @@ Quotes for the TNA, skills audits and learner feedback
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/you-cant-handle-the-truth)
 - **Use it for:** presenting TNA or survey findings to management. Caption: *"Me, presenting the survey results"*
 
-----
+---<!--L2-->
 
 ## The Simpsons: "The Boy Who Knew Too Much" (1994)
 <!-- 3 -->
@@ -102,7 +112,7 @@ Quotes for the TNA, skills audits and learner feedback
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s05e20)
 - **Use it for:** trainers who ignore learner feedback, and why a TNA starts with the learners. Caption: *"Lecturer reading the module feedback"*
 
-----
+---<!--L2-->
 
 ## Star Trek VI: The Undiscovered Country (1991)
 <!-- 4 -->
@@ -114,7 +124,7 @@ Quotes for the TNA, skills audits and learner feedback
 - **Time:** 1:40:02 to 1:40:08 (6 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek 6, The Undiscovered Country [1991] -imdb-tt0102975.srt>)
 - **Use it for:** resistance to change, a limitation of any TNA. Fits Assignment 2
 
-----
+---<!--L2-->
 
 ## Star Trek: First Contact (1996)
 <!-- 5 -->
@@ -126,7 +136,7 @@ Quotes for the TNA, skills audits and learner feedback
 - **Time:** 1:02:32 to 1:02:40 (9 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, First Contact [1996] -imdb-tt0117731.srt>)
 - **Use it for:** self-assessment. The learner who rates every skill 5 out of 5
 
-----
+---<!--L2-->
 
 ## Top Gun: Maverick (2022)
 <!-- 6 -->
@@ -138,7 +148,7 @@ Quotes for the TNA, skills audits and learner feedback
 - **Use it for:** tools against skills. New software does not close a skills gap
 - **Check:** which scene, and the exact wording
 
-----
+---<!--L2-->
 
 ## The Princess Bride (1987)
 <!-- 7 -->
@@ -152,7 +162,7 @@ Quotes for the TNA, skills audits and learner feedback
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/you-keep-using-that-word-i-do-not-think-it-means-what-you-think-it-means)
 - **Use it for:** jargon. Agile, AI, "training need", "blended learning"
 
-----
+---<!--L2-->
 
 ## Harry Potter and the Philosopher's Stone (2001)
 <!-- 8 -->
@@ -164,7 +174,7 @@ Quotes for the TNA, skills audits and learner feedback
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/youre-a-wizard-harry)
 - **Use it for:** recognising prior learning, or a learner finding a skill. Caption: *"Me, after my first working commit"*
 
-----
+---<!--L2-->
 
 ## The Devil Wears Prada (2006)
 <!-- 9 -->
@@ -184,7 +194,7 @@ Plans, scope creep and the submission date
 
 <figure class="topic-photo"><img src="src/img/topics/projects.png" alt="A Gantt chart" /><figcaption><a class="ref media" href="#/media-used"><sup>2</sup></a> – A Gantt chart</figcaption></figure>
 
-----
+---<!--L2-->
 
 ## Jurassic Park (1993)
 <!-- 10 -->
@@ -196,7 +206,7 @@ Plans, scope creep and the submission date
 - **Time:** 0:36:04 to 0:36:13 (9 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Jurassic Park [1993] -imdb-tt0107290.srt>)
 - **Use it for:** AI features, scope creep, ethics
 
-----
+---<!--L2-->
 
 ## Jaws (1975)
 <!-- 11 -->
@@ -207,7 +217,7 @@ Plans, scope creep and the submission date
 - **IMDb:** [Jaws](https://www.imdb.com/title/tt0073195/) · [quotes](https://www.imdb.com/title/tt0073195/quotes/)
 - **Use it for:** underestimating scope. Caption: *"Me, after reading the FYP brief"*. The theme music is in topic 17
 
-----
+---<!--L2-->
 
 ## Despicable Me (2010)
 <!-- 12 -->
@@ -219,7 +229,7 @@ Plans, scope creep and the submission date
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/grus-plan)
 - **Use it for:** project plans. Panels: *"Start FYP / Pick a big idea / Leave the report to the end / Leave the report to the end"*
 
-----
+---<!--L2-->
 
 ## Star Wars: Episode II, Attack of the Clones (2002)
 <!-- 13 -->
@@ -231,7 +241,7 @@ Plans, scope creep and the submission date
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/for-the-better-right)
 - **Use it for:** promises. *"We'll write the report as we go." "As we go, right?"*
 
-----
+---<!--L2-->
 
 ## Avengers: Infinity War (2018)
 <!-- 14 -->
@@ -242,7 +252,7 @@ Plans, scope creep and the submission date
 - **IMDb:** [Avengers: Infinity War](https://www.imdb.com/title/tt4154756/) · [quotes](https://www.imdb.com/title/tt4154756/quotes/)
 - **Use it for:** the last week before submission
 
-----
+---<!--L2-->
 
 ## Avengers: Endgame (2019)
 <!-- 15 -->
@@ -255,7 +265,7 @@ Plans, scope creep and the submission date
 - **Time:** 0:18:47 to 0:18:53 (6 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Avengers; Endgame [2019] -imdb-tt4154796.srt>)
 - **Use it for:** deadlines. Caption: *"The submission date"*
 
-----
+---<!--L2-->
 
 ## Star Wars: Episode VI, Return of the Jedi (1983)
 <!-- 16 -->
@@ -268,7 +278,7 @@ Plans, scope creep and the submission date
 - **Time:** 1:35:06 to 1:35:11 (4 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Wars; Episode 6 - Return of the Jedi [1983] -imdb-tt0086190 (Remake-Hayden).srt>)
 - **Use it for:** "Just one more feature"
 
-----
+---<!--L2-->
 
 ## Apollo 13 (1995)
 <!-- 17 -->
@@ -280,7 +290,7 @@ Plans, scope creep and the submission date
 - **Time:** 0:50:55 to 0:51:00 (4 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Apollo 13 [1995] -imdb-tt0112384.srt>)
 - **Use it for:** lost work, a crashed demo, incident response. The real 1970 wording was "Houston, we've had a problem"
 
-----
+---<!--L2-->
 
 ## Severance (2022)
 <!-- 18 -->
@@ -293,7 +303,7 @@ Plans, scope creep and the submission date
 - **Use it for:** vague briefs and learning outcomes nobody can measure
 - **Check:** the episode (season 1)
 
-----
+---<!--L2-->
 
 ## Field of Dreams (1989)
 <!-- 19 -->
@@ -313,7 +323,7 @@ Nerves, live demos and quiet rooms
 
 <figure class="topic-photo"><img src="src/img/topics/presentations.jpg" alt="A speaker giving a keynote" /><figcaption><a class="ref media" href="#/media-used"><sup>3</sup></a> – A keynote talk</figcaption></figure>
 
-----
+---<!--L2-->
 
 ## Dune (2021)
 <!-- 20 -->
@@ -324,7 +334,7 @@ Nerves, live demos and quiet rooms
 - **IMDb:** [Dune](https://www.imdb.com/title/tt1160419/) · [quotes](https://www.imdb.com/title/tt1160419/quotes/)
 - **Use it for:** presentation nerves (lesson 031)
 
-----
+---<!--L2-->
 
 ## Jurassic Park (1993)
 <!-- 21 -->
@@ -336,7 +346,7 @@ Nerves, live demos and quiet rooms
 - **Time:** 1:33:09 to 1:33:14 (5 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Jurassic Park [1993] -imdb-tt0107290.srt>)
 - **Use it for:** starting a live demo
 
-----
+---<!--L2-->
 
 ## Gladiator (2000)
 <!-- 22 -->
@@ -348,7 +358,7 @@ Nerves, live demos and quiet rooms
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/are-you-not-entertained)
 - **Use it for:** the end of a demo, or a silent audience
 
-----
+---<!--L2-->
 
 ## Ferris Bueller's Day Off (1986)
 <!-- 23 -->
@@ -359,7 +369,7 @@ Nerves, live demos and quiet rooms
 - **IMDb:** [Ferris Bueller's Day Off](https://www.imdb.com/title/tt0091042/) · [quotes](https://www.imdb.com/title/tt0091042/quotes/)
 - **Use it for:** online classes with cameras off, and questions to a silent room
 
-----
+---<!--L2-->
 
 ## Star Wars: Episode III, Revenge of the Sith (2005)
 <!-- 24 -->
@@ -372,7 +382,7 @@ Nerves, live demos and quiet rooms
 - **Time:** 0:57:30 to 0:57:36 (5 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Wars; Episode 3 - Revenge of the Sith [2005] -imdb-tt0121766.srt>)
 - **Use it for:** an opening slide, or joining a call
 
-----
+---<!--L2-->
 
 ## Futurama: "A Clockwork Origin" (2010)
 <!-- 319 -->
@@ -389,7 +399,7 @@ Nerves, live demos and quiet rooms
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=futurama&episode=s06e09) [🔗](<../my-fetches/springfield-scripts/futurama/s06e09.txt>)
 - **Use it for:** your research quoted to prove the opposite. Or reading the comments under any article
 
-----
+---<!--L2-->
 
 ## Futurama (2010)
 <!-- 25 -->
@@ -402,7 +412,7 @@ Nerves, live demos and quiet rooms
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/shut-up-and-take-my-money)
 - **Use it for:** when a pitch lands, or the audience buys in
 
-----
+---<!--L2-->
 
 ## The Shawshank Redemption (1994)
 <!-- 26 -->
@@ -414,7 +424,7 @@ Nerves, live demos and quiet rooms
 - **Use it for:** course rules on day one. The Bible-quoting scene works as *"So, you know your memes"*
 - **Check:** the wording of the Bible-quoting exchange
 
-----
+---<!--L2-->
 
 ## The Outer Limits: "The Galaxy Being" (1963)
 <!-- 311 -->
@@ -437,7 +447,7 @@ Group work, thanks and banter
 
 <figure class="topic-photo"><img src="src/img/topics/teamwork.jpg" alt="A team meeting round a table" /><figcaption><a class="ref media" href="#/media-used"><sup>4</sup></a> – A team meeting</figcaption></figure>
 
-----
+---<!--L2-->
 
 ## Slow Horses: "Fiasco" (2022)
 <!-- 27 -->
@@ -452,7 +462,7 @@ Group work, thanks and banter
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=slow-horses-2022&episode=s01e05) [🔗](<../my-fetches/springfield-scripts/slow-horses-2022/s01e05.txt>)
 - **Use it for:** a credits or thank-you slide, with affection
 
-----
+---<!--L2-->
 
 ## Avengers: Age of Ultron (2015)
 <!-- 28 -->
@@ -463,7 +473,7 @@ Group work, thanks and banter
 - **IMDb:** [Avengers: Age of Ultron](https://www.imdb.com/title/tt2395427/) · [quotes](https://www.imdb.com/title/tt2395427/quotes/)
 - **Use it for:** group projects
 
-----
+---<!--L2-->
 
 ## Succession (2023)
 <!-- 29 -->
@@ -476,7 +486,7 @@ Group work, thanks and banter
 - **Use it for:** feedback on a plan with no evidence behind it
 - **Check:** the episode
 
-----
+---<!--L2-->
 
 ## The Bear (2022)
 <!-- 30 -->
@@ -487,7 +497,7 @@ Group work, thanks and banter
 - **IMDb:** [The Bear](https://www.imdb.com/title/tt14452776/)
 - **Use it for:** acknowledging instructions, clear communication in a team
 
-----
+---<!--L2-->
 
 ## Ted Lasso (2020)
 <!-- 31 -->
@@ -499,7 +509,7 @@ Group work, thanks and banter
 - **Use it for:** feedback, and moving on after a failed demo
 - **Check:** the episode (season 1)
 
-----
+---<!--L2-->
 
 ## Parks and Recreation
 <!-- 32 -->
@@ -511,7 +521,7 @@ Group work, thanks and banter
 - **Use it for:** scope and focus, one feature done well
 - **Check:** the episode
 
-----
+---<!--L2-->
 
 ## The Simpsons: "Brother, Can You Spare Two Dimes?" (1992)
 <!-- 34 -->
@@ -526,7 +536,7 @@ Group work, thanks and banter
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s03e24)
 - **Use it for:** banter, when someone laughs at your bug. Pairs with Shakespeare's lawyers line (topic 15)
 
-----
+---<!--L2-->
 
 ## The Simpsons: "A Star Is Burns" (1995)
 <!-- 33 -->
@@ -541,7 +551,7 @@ Group work, thanks and banter
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s06e18)
 - **Use it for:** banter about two attempts at the same task. *"We both built the login page, but mine worked"*
 
-----
+---<!--L2-->
 
 ## Batman vs. Robin 2015
 <!-- 35 -->
@@ -553,7 +563,7 @@ Group work, thanks and banter
 - **Use it for:** common mistakes. "You're not the first to lose your work"
 - **Check:** which film or game, and the full line
 
-----
+---<!--L2-->
 
 ## Street Fighter (1994)
 <!-- 254 -->
@@ -571,7 +581,7 @@ Group work, thanks and banter
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=street-fighter) [🔗](<../my-fetches/springfield-scripts/street-fighter.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Street_Fighter_(1994_film)) [🔗](<../my-fetches/wikiquote/Street_Fighter_(1994_film).wiki>)
 - **Use it for:** the learner's viva or first presentation, against the examiner's tenth of the day. Remember which side you're on
 
-----
+---<!--L2-->
 
 ## Hackers (1995)
 <!-- 336 -->
@@ -593,7 +603,7 @@ Group work, thanks and banter
 - **Check:** the subtitles don't name speakers
 - **Use it for:** the student who wants to do the group project alone
 
-----
+---<!--L3-->
 
 ## Hackers (1995)
 <!-- 337 -->
@@ -613,7 +623,7 @@ Group work, thanks and banter
 - **Check:** the subtitles don't name speakers
 - **Use it for:** the same student, on being asked a second time
 
-----
+---<!--L2-->
 
 ## Jumper (2008)
 <!-- 338 -->
@@ -639,7 +649,7 @@ Group work, thanks and banter
 - **Check:** the subtitles don't name speakers
 - **Use it for:** forming project groups. The one who says no to every partner
 
-----
+---<!--L2-->
 
 ## Avengers Assemble (2012)
 <!-- 339 -->
@@ -662,7 +672,7 @@ Group work, thanks and banter
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Avengers Assemble [2012] -imdb-tt0848228.srt>)
 - **Use it for:** self-assessment and peer feedback. What the peer review says, and what everyone already knew
 
-----
+---<!--L2-->
 
 ## Aquaman (2018)
 <!-- 340 -->
@@ -687,7 +697,7 @@ Code, backups and things that break
 
 <figure class="topic-photo"><img src="src/img/topics/it.jpg" alt="Rows of servers in a data centre" /><figcaption><a class="ref media" href="#/media-used"><sup>5</sup></a> – A data centre</figcaption></figure>
 
-----
+---<!--L2-->
 
 ## The Lord of the Rings: The Fellowship of the Ring (2001)
 <!-- 36 -->
@@ -700,7 +710,7 @@ Code, backups and things that break
 - **Time:** 2:08:25 to 2:08:32 (7 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Lord of the Rings; The Fellowship of the Ring [2001] -imdb-tt0120737.srt>)
 - **Use it for:** code review, CI checks, firewalls, plagiarism checks
 
-----
+---<!--L3-->
 
 ## The Lord of the Rings: The Fellowship of the Ring (2001)
 <!-- 37 -->
@@ -713,7 +723,7 @@ Code, backups and things that break
 - **Time:** 1:30:00 to 1:30:06 (7 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Lord of the Rings; The Fellowship of the Ring [2001] -imdb-tt0120737.srt>)
 - **Use it for:** "One does not simply deploy on a Friday"
 
-----
+---<!--L2-->
 
 ## Star Wars: Episode III, Revenge of the Sith (2005)
 <!-- 38 -->
@@ -726,7 +736,7 @@ Code, backups and things that break
 - **Time:** 1:59:22 to 1:59:29 (7 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Wars; Episode 3 - Revenge of the Sith [2005] -imdb-tt0121766.srt>)
 - **Use it for:** having a backup when the laptop dies
 
-----
+---<!--L2-->
 
 ## Spider-Man (1967)
 <!-- 39 -->
@@ -739,7 +749,7 @@ Code, backups and things that break
 - **Use it for:** duplicate code, two copies of the same file, two people blaming each other
 - **Check:** the episode, "Double Identity"
 
-----
+---<!--L2-->
 
 ## Oppenheimer (2023)
 <!-- 40 -->
@@ -751,7 +761,7 @@ Code, backups and things that break
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/now-i-am-become-death-the-destroyer-of-worlds)
 - **Use it for:** deleting the production database, a force push
 
-----
+---<!--L2-->
 
 ## Monty Python and the Holy Grail (1975)
 <!-- 41 -->
@@ -764,7 +774,7 @@ Code, backups and things that break
 - **IMDb:** [Monty Python and the Holy Grail](https://www.imdb.com/title/tt0071853/) · [quotes](https://www.imdb.com/title/tt0071853/quotes/)
 - **Use it for:** ignoring compiler warnings
 
-----
+---<!--L2-->
 
 ## Mean Girls (2004)
 <!-- 42 -->
@@ -777,7 +787,7 @@ Code, backups and things that break
 - **Time:** 0:40:01 to 0:40:08 (7 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Mean Girls [2004] -imdb-tt0377092.srt>)
 - **Use it for:** pushing a tool nobody uses
 
-----
+---<!--L2-->
 
 ## The Matrix (1999)
 <!-- 43 -->
@@ -790,7 +800,7 @@ Code, backups and things that break
 - **Time:** 0:29:03 to 0:29:20 (17 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Matrix [1999] -imdb-tt0133093.srt>)
 - **Use it for:** revealing the real requirements, or the survey results
 
-----
+---<!--L2-->
 
 ## Toy Story (1995)
 <!-- 44 -->
@@ -802,7 +812,7 @@ Code, backups and things that break
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/x-x-everywhere)
 - **Use it for:** "Bugs, bugs everywhere"
 
-----
+---<!--L2-->
 
 ## Office Space (1999)
 <!-- 255 -->
@@ -817,7 +827,7 @@ Code, backups and things that break
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=office-space) [🔗](<../my-fetches/springfield-scripts/office-space.txt>)
 - **Use it for:** weekend work, and how not to ask for it
 
-----
+---<!--L3-->
 
 ## Office Space (1999)
 <!-- 256 -->
@@ -836,7 +846,7 @@ Code, backups and things that break
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=office-space) [🔗](<../my-fetches/springfield-scripts/office-space.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Office_Space) [🔗](<../my-fetches/wikiquote/Office_Space.wiki>)
 - **Use it for:** a timesheet, or a learning log. Honest, at least
 
-----
+---<!--L3-->
 
 ## Office Space (1999)
 <!-- 257 -->
@@ -863,7 +873,7 @@ Code, backups and things that break
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=office-space) [🔗](<../my-fetches/springfield-scripts/office-space.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Office_Space) [🔗](<../my-fetches/wikiquote/Office_Space.wiki>)
 - **Use it for:** motivation theory: Herzberg, extrinsic and intrinsic. And a group project with eight people giving feedback
 
-----
+---<!--L2-->
 
 ## Silicon Valley: "Sand Hill Shuffle" (2015)
 <!-- 312 -->
@@ -878,7 +888,7 @@ Code, backups and things that break
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=silicon-valley-2014&episode=s02e01) [🔗](<../my-fetches/springfield-scripts/silicon-valley-2014/s02e01.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Silicon_Valley_(TV_series)) [🔗](<../my-fetches/wikiquote/Silicon_Valley_(TV_series).wiki>)
 - **Use it for:** mission statements, and tech companies' talk of changing the world
 
-----
+---<!--L2-->
 
 ## Mr. Robot: "eps2.5_h4ndshake.sme" (2016)
 <!-- 313 -->
@@ -893,7 +903,7 @@ Code, backups and things that break
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=mr-robot-2015&episode=s02e07) [🔗](<../my-fetches/springfield-scripts/mr-robot-2015/s02e07.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Mr._Robot) [🔗](<../my-fetches/wikiquote/Mr._Robot.wiki>)
 - **Use it for:** screen time and digital wellbeing, or a class on social media
 
-----
+---<!--L2-->
 
 ## Layer Cake (2004)
 <!-- 151 -->
@@ -930,7 +940,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 
 <figure class="topic-photo"><img src="src/img/topics/star-trek-films.jpg" alt="A model of the starship Enterprise" /><figcaption><a class="ref media" href="#/media-used"><sup>6</sup></a> – A model of the starship Enterprise</figcaption></figure>
 
-----
+---<!--L2-->
 
 ## Star Trek II: The Wrath of Khan (1982)
 <!-- 167 -->
@@ -950,7 +960,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie2.html)
 - **Use it for:** a learner who says the exam was unfair. Assessment design
 
-----
+---<!--L3-->
 
 ## Star Trek II: The Wrath of Khan (1982)
 <!-- 168 -->
@@ -967,7 +977,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie2.html)
 - **Use it for:** prioritising training needs, group decisions
 
-----
+---<!--L3-->
 
 ## Star Trek II: The Wrath of Khan (1982)
 <!-- 49 -->
@@ -984,7 +994,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie2.html)
 - **Use it for:** the one bug you cannot let go of
 
-----
+---<!--L3-->
 
 ## Star Trek II: The Wrath of Khan (1982)
 <!-- 46 -->
@@ -1003,7 +1013,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie2.html)
 - **Use it for:** the printer, the projector, the Wi-Fi. A two-second clip of the scream
 
-----
+---<!--L3-->
 
 ## Star Trek II: The Wrath of Khan (1982)
 <!-- 48 -->
@@ -1030,7 +1040,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie2.html). It's "a no-win scenario", not "the"
 - **Use it for:** academic integrity, and assessment design. *"I changed the conditions of the test"* is every student who found the answers online. "If you're not cheating, you're not trying" is a sports saying; this is the film's reply to it
 
-----
+---<!--L3-->
 
 ## Star Trek II: The Wrath of Khan (1982)
 <!-- 45 -->
@@ -1045,7 +1055,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie2.html)
 - **Use it for:** a clever plan undone by something obvious. *"The AI that wrote my code"*
 
-----
+---<!--L3-->
 
 ## Star Trek II: The Wrath of Khan (1982)
 <!-- 345 -->
@@ -1066,7 +1076,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie2.html) [🔗](<../my-fetches/chakoteya-star-trek/movie2.html>) · subtitles [🔗](<../my-fetches/subtitles/Star Trek 2, The Wrath of Khan [1982] -imdb-tt0084726.srt>)
 - **Use it for:** problem solving and exam technique. The learner who only ever looks at the obvious axis. Bright, but not yet experienced
 
-----
+---<!--L3-->
 
 ## Star Trek II: The Wrath of Khan (1982)
 <!-- 47 -->
@@ -1085,7 +1095,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie2.html)
 - **Use it for:** the real test is never the exam. Handle with care: it's a death scene
 
-----
+---<!--L3-->
 
 ## Star Trek II: The Wrath of Khan (1982)
 <!-- 169 -->
@@ -1100,7 +1110,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie2.html)
 - **Use it for:** an acknowledgements slide for a mentor or a retiring colleague. Not for a joke
 
-----
+---<!--L2-->
 
 ## Star Trek III: The Search for Spock (1984)
 <!-- 50 -->
@@ -1119,7 +1129,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie3.html)
 - **Use it for:** when the extension request is refused. *"The word is no. I am therefore submitting anyway"*
 
-----
+---<!--L2-->
 
 ## Star Trek V: The Final Frontier (1989)
 <!-- 52 -->
@@ -1134,7 +1144,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie5.html)
 - **Use it for:** learning from failure, feedback that stings
 
-----
+---<!--L3-->
 
 ## Star Trek V: The Final Frontier (1989)
 <!-- 51 -->
@@ -1149,7 +1159,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie5.html)
 - **Use it for:** questioning requirements. *"What does a to-do app need with a blockchain?"*
 
-----
+---<!--L2-->
 
 ## Star Trek VI: The Undiscovered Country (1991)
 <!-- 63 -->
@@ -1166,7 +1176,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie6.html)
 - **Use it for:** succession planning, mentoring, a handover to the next tutor. "Logic is the beginning of wisdom" for a first class
 
-----
+---<!--L3-->
 
 ## Star Trek VI: The Undiscovered Country (1991)
 <!-- 54 -->
@@ -1183,7 +1193,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie6.html)
 - **Use it for:** only the biggest sceptic can sell the change. *"Only the strictest lecturer could allow AI"*
 
-----
+---<!--L3-->
 
 ## Star Trek VI: The Undiscovered Country (1991)
 <!-- 55 -->
@@ -1203,7 +1213,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie6.html)
 - **Use it for:** a final slide; going to the original source when you reference
 
-----
+---<!--L3-->
 
 ## Star Trek VI: The Undiscovered Country (1991)
 <!-- 170 -->
@@ -1218,7 +1228,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie6.html)
 - **Use it for:** older staff and new technology. A TNA on digital skills
 
-----
+---<!--L3-->
 
 ## Star Trek VI: The Undiscovered Country (1991)
 <!-- 53 -->
@@ -1235,7 +1245,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie6.html)
 - **Use it for:** debugging
 
-----
+---<!--L3-->
 
 ## Star Trek VI: The Undiscovered Country (1991)
 <!-- 61 -->
@@ -1266,7 +1276,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie6.html). The dots are Spock's pause
 - **Use it for:** older trainers and new technology; group projects and individual responsibility; mistakes ("Everybody's human")
 
-----
+---<!--L3-->
 
 ## Star Trek VI: The Undiscovered Country (1991)
 <!-- 57 -->
@@ -1283,7 +1293,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie6.html)
 - **Use it for:** the last night before a deadline
 
-----
+---<!--L3-->
 
 ## Star Trek VI: The Undiscovered Country (1991)
 <!-- 58 -->
@@ -1304,7 +1314,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie6.html)
 - **Use it for:** the colleague who quotes the module descriptor at you; a 9am Monday lab
 
-----
+---<!--L3-->
 
 ## Star Trek VI: The Undiscovered Country (1991)
 <!-- 171 -->
@@ -1319,7 +1329,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie6.html)
 - **Use it for:** resistance to change, a limitation of any TNA. Fits Assignment 2
 
-----
+---<!--L3-->
 
 ## Star Trek VI: The Undiscovered Country (1991)
 <!-- 60 -->
@@ -1336,7 +1346,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie6.html)
 - **Use it for:** a new policy from management. Spock's dry reply is the joke
 
-----
+---<!--L2-->
 
 ## Star Trek Generations (1994)
 <!-- 64 -->
@@ -1357,7 +1367,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie7.html)
 - **Use it for:** the feature that isn't ready on demo day; the lab PCs that arrive after the course
 
-----
+---<!--L3-->
 
 ## Star Trek Generations (1994)
 <!-- 172 -->
@@ -1374,7 +1384,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie7.html)
 - **Use it for:** delegation; a project manager who keeps writing the code
 
-----
+---<!--L3-->
 
 ## Star Trek Generations (1994)
 <!-- 495 -->
@@ -1407,7 +1417,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Star Trek, Generations [1994] -imdb-tt0111280.srt>) and [transcript](http://www.chakoteya.net/movies/movie7.html) [🔗](<../my-fetches/chakoteya-star-trek/movie7.html>). The transcript has "provoked an emotional response"; the subtitles have "produced"
 - **Use it for:** the module everyone complains about and signs up for again. Feedback forms: "I hated it. More, please"
 
-----
+---<!--L3-->
 
 ## Star Trek Generations (1994)
 <!-- 173 -->
@@ -1426,7 +1436,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie7.html)
 - **Use it for:** the experienced learner who resents being trained. Prior learning
 
-----
+---<!--L3-->
 
 ## Star Trek Generations (1994)
 <!-- 174 -->
@@ -1445,7 +1455,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie7.html) [🔗](<../my-fetches/chakoteya-star-trek/movie7.html>)
 - **Use it for:** why teachers stay in the classroom instead of going into management
 
-----
+---<!--L3-->
 
 ## Star Trek Generations (1994)
 <!-- 346 -->
@@ -1470,7 +1480,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie7.html) [🔗](<../my-fetches/chakoteya-star-trek/movie7.html>)
 - **Use it for:** agreeing to a learner's ambitious project. "The odds are against us and the situation is grim. Sounds like fun"
 
-----
+---<!--L2-->
 
 ## Star Trek: First Contact (1996)
 <!-- 69 -->
@@ -1485,7 +1495,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie8.html)
 - **Use it for:** AI tools, Microsoft Teams, a merger of two courses. *"We will add your technological distinctiveness to our training data"*
 
-----
+---<!--L3-->
 
 ## Star Trek: First Contact (1996)
 <!-- 347 -->
@@ -1507,7 +1517,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie8.html) [🔗](<../my-fetches/chakoteya-star-trek/movie8.html>)
 - **Use it for:** the old laptop that still runs, or a small project that punched above its weight. Worf's reply for anyone who undersells someone else's work
 
-----
+---<!--L3-->
 
 ## Star Trek: First Contact (1996)
 <!-- 67 -->
@@ -1527,7 +1537,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Use it for:** AI assistants. *"Please state the nature of the coding emergency"*, ChatGPT", or Teams, or Twitter *"I swore I'd never use*
 - **Check:** "I swore I'd never use one of these" is not in the transcript. Watch the scene before you caption it
 
-----
+---<!--L3-->
 
 ## Star Trek: First Contact (1996)
 <!-- 70 -->
@@ -1545,7 +1555,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie8.html)
 - **Use it for:** folder structure, a style guide, a Gantt chart. Data's reply for anyone who gives a vague answer
 
-----
+---<!--L3-->
 
 ## Star Trek: First Contact (1996)
 <!-- 325 -->
@@ -1567,7 +1577,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie8.html) [🔗](<../my-fetches/chakoteya-star-trek/movie8.html>)
 - **Use it for:** the learner before their first presentation or live demo, who is clearly frightened
 
-----
+---<!--L3-->
 
 ## Star Trek: First Contact (1996)
 <!-- 68 -->
@@ -1584,7 +1594,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie8.html)
 - **Use it for:** motivation and Herzberg (lesson 015). You've gone off this one; kept for the record
 
-----
+---<!--L3-->
 
 ## Star Trek: First Contact (1996)
 <!-- 175 -->
@@ -1603,7 +1613,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie8.html)
 - **Use it for:** self-assessment, the learner who rates every skill 5 out of 5. The Queen's reply for a heated code review
 
-----
+---<!--L3-->
 
 ## Star Trek: First Contact (1996)
 <!-- 66 -->
@@ -1623,7 +1633,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie8.html)
 - **Use it for:** edited: *"If you were any other student, I would mark you down where you stand"*. Feedback that went too far
 
-----
+---<!--L3-->
 
 ## Star Trek: First Contact (1996)
 <!-- 348 -->
@@ -1643,7 +1653,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie8.html) [🔗](<../my-fetches/chakoteya-star-trek/movie8.html>)
 - **Use it for:** feedback that hits home. Or the moment a learner works out why a project has gone off the rails
 
-----
+---<!--L3-->
 
 ## Star Trek: First Contact (1996)
 <!-- 65 -->
@@ -1666,7 +1676,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie8.html). It's "Not again"
 - **Use it for:** a firm deadline or policy. *"No more extensions"*
 
-----
+---<!--L3-->
 
 ## Star Trek: First Contact (1996)
 <!-- 176 -->
@@ -1686,7 +1696,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie8.html)
 - **Use it for:** apologising after harsh feedback. "Some?" is the punchline
 
-----
+---<!--L3-->
 
 ## Star Trek: First Contact (1996)
 <!-- 177 -->
@@ -1705,7 +1715,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie8.html)
 - **Use it for:** peer support; a student who goes back to help a classmate
 
-----
+---<!--L3-->
 
 ## Star Trek: First Contact (1996)
 <!-- 71 -->
@@ -1730,7 +1740,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie8.html)
 - **Use it for:** volunteers. *"Who will present first?" "Are you offering yourself to us?"* "You flatter yourself" for anyone who thinks the marker singled them out
 
-----
+---<!--L3-->
 
 ## Star Trek: First Contact (1996)
 <!-- 178 -->
@@ -1748,7 +1758,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie8.html)
 - **Use it for:** the deadline, AI in education, the new timetable. Your one "Resistance is futile"
 
-----
+---<!--L3-->
 
 ## Star Trek: First Contact (1996)
 <!-- 72 -->
@@ -1767,7 +1777,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie8.html)
 - **Use it for:** temptation and academic integrity. *"Were you tempted to use ChatGPT?" "0.68 seconds"*. Also page load times
 
-----
+---<!--L2-->
 
 ## Star Trek: Insurrection (1998)
 <!-- 349 -->
@@ -1795,7 +1805,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie9.html) [🔗](<../my-fetches/chakoteya-star-trek/movie9.html>)
 - **Use it for:** not judging skills by what people choose to show. The quiet mature student who turns out to be a retired engineer. Sojef's line for AI and automation
 
-----
+---<!--L3-->
 
 ## Star Trek: Insurrection (1998)
 <!-- 74 -->
@@ -1815,7 +1825,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie9.html)
 - **Use it for:** ethics in software and AI; values that hold when everything else fails
 
-----
+---<!--L3-->
 
 ## Star Trek: Insurrection (1998)
 <!-- 75 -->
@@ -1838,7 +1848,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie9.html). Picard finishes her sentence, hence the dots
 - **Use it for:** the centuries line for any course on learning; the trust line for mature learners and rapport
 
-----
+---<!--L3-->
 
 ## Star Trek: Insurrection (1998)
 <!-- 350 -->
@@ -1856,7 +1866,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie9.html) [🔗](<../my-fetches/chakoteya-star-trek/movie9.html>)
 - **Use it for:** choosing partners and suppliers. A cheap third-party library from a dodgy source
 
-----
+---<!--L3-->
 
 ## Star Trek: Insurrection (1998)
 <!-- 351 -->
@@ -1874,7 +1884,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie9.html) [🔗](<../my-fetches/chakoteya-star-trek/movie9.html>)
 - **Use it for:** assumptions about users. "Nobody would want that." Somebody already does
 
-----
+---<!--L3-->
 
 ## Star Trek: Insurrection (1998)
 <!-- 73 -->
@@ -1890,7 +1900,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie9.html)
 - **Use it for:** ethics, scale, "everyone else did it"
 
-----
+---<!--L3-->
 
 ## Star Trek: Insurrection (1998)
 <!-- 352 -->
@@ -1910,7 +1920,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie9.html) [🔗](<../my-fetches/chakoteya-star-trek/movie9.html>)
 - **Use it for:** an academic misconduct hearing that turns around. Or a threat that backfires
 
-----
+---<!--L3-->
 
 ## Star Trek: Insurrection (1998)
 <!-- 353 -->
@@ -1932,7 +1942,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie9.html) [🔗](<../my-fetches/chakoteya-star-trek/movie9.html>)
 - **Use it for:** the reveal at the end of a case study. Two teams arguing who turn out to want the same thing
 
-----
+---<!--L3-->
 
 ## Star Trek: Insurrection (1998)
 <!-- 76 -->
@@ -1954,7 +1964,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie9.html). It's "the exhaust", not "the gas"
 - **Use it for:** calling a bluff; "Sorry, time's up" for the submission deadline
 
-----
+---<!--L2-->
 
 ## Star Trek: Nemesis (2002)
 <!-- 179 -->
@@ -1971,7 +1981,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie10.html)
 - **Use it for:** the end-of-term party; a sunny forecast in a project plan
 
-----
+---<!--L3-->
 
 ## Star Trek: Nemesis (2002)
 <!-- 180 -->
@@ -1988,7 +1998,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie10.html)
 - **Use it for:** reflective practice; the trainer and the trainee learn from each other
 
-----
+---<!--L3-->
 
 ## Star Trek: Nemesis (2002)
 <!-- 181 -->
@@ -2009,7 +2019,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie10.html)
 - **Use it for:** a growth mindset; the difference between two learners with the same ability
 
-----
+---<!--L3-->
 
 ## Star Trek: Nemesis (2002)
 <!-- 354 -->
@@ -2032,7 +2042,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie10.html) [🔗](<../my-fetches/chakoteya-star-trek/movie10.html>) · subtitles [🔗](<../my-fetches/subtitles/Star Trek, Nemesis [2002] -imdb-tt0253754.srt>)
 - **Use it for:** one-to-one meetings. "Quaint vessel" for anyone who looks down on the old system
 
-----
+---<!--L3-->
 
 ## Star Trek: Nemesis (2002)
 <!-- 77 -->
@@ -2053,7 +2063,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie10.html)
 - **Use it for:** potential, feedback, the first-year student who doesn't believe they can do it
 
-----
+---<!--L3-->
 
 ## Star Trek: Nemesis (2002)
 <!-- 355 -->
@@ -2080,7 +2090,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie10.html) [🔗](<../my-fetches/chakoteya-star-trek/movie10.html>)
 - **Use it for:** the learner who says it's too late to pass. Your line: *"You made the wrong choice, now make the right one"*
 
-----
+---<!--L3-->
 
 ## Star Trek: Nemesis (2002)
 <!-- 356 -->
@@ -2101,7 +2111,7 @@ Quotes from the Star Trek films, in film order and scene order. Nothing after 20
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie10.html) [🔗](<../my-fetches/chakoteya-star-trek/movie10.html>)
 - **Use it for:** the exam question the examiner thinks you'll answer the usual way
 
-----
+---<!--L3-->
 
 ## Star Trek: Nemesis (2002)
 <!-- 182 -->
@@ -2128,7 +2138,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 
 <figure class="topic-photo"><img src="src/img/topics/star-trek-series.jpg" alt="The Deep Space Nine filming model" /><figcaption><a class="ref media" href="#/media-used"><sup>7</sup></a> – The Deep Space Nine filming model</figcaption></figure>
 
-----
+---<!--L2-->
 
 ## The Next Generation: "Peak Performance" (1989)
 <!-- 357 -->
@@ -2159,7 +2169,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/147.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/147.htm>)
 - **Use it for:** people being who they are. Predicting how a learner or a group will act, and over-thinking it. See also the scorpion, in Voyager's "Scorpion"
 
-----
+---<!--L2-->
 
 ## The Next Generation: "The Ensigns of Command" (1989)
 <!-- 496 -->
@@ -2187,7 +2197,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Check:** the IMDb link, from a search result; IMDb wouldn't open for me
 - **Use it for:** the estimate. "Yes, it can be done in the project. It'll take fifteen years and a team of a hundred"
 
-----
+---<!--L2-->
 
 ## The Next Generation: "The Defector" (1990)
 <!-- 216 -->
@@ -2204,7 +2214,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/158.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/158.htm>)
 - **Use it for:** the student who changes project, or framework, in week 8. You've crossed over. Make yourself comfortable with that
 
-----
+---<!--L3-->
 
 ## The Next Generation: "The Defector" (1990)
 <!-- 217 -->
@@ -2223,7 +2233,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/158.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/158.htm>)
 - **Use it for:** code from ChatGPT or Stack Overflow. Any edge helps; don't depend on it until it's tested
 
-----
+---<!--L3-->
 
 ## The Next Generation: "The Defector" (1990)
 <!-- 218 -->
@@ -2258,7 +2268,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/158.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/158.htm>). The stage direction is the transcript's
 - **Use it for:** a group project standoff before the deadline. Nobody wins if the project fails
 
-----
+---<!--L2-->
 
 ## The Next Generation: "Déjà Q" (1990)
 <!-- 83 -->
@@ -2279,7 +2289,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Use it for:** "It works on my machine", "final-FINAL-v2.docx". The friend line for the student who only emails you when something breaks
 - **Check:** which line Picard's facepalm follows. The transcript doesn't mark it
 
-----
+---<!--L2-->
 
 ## The Next Generation: "The Best of Both Worlds, Part I" (1990)
 <!-- 246 -->
@@ -2302,7 +2312,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/174.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/174.htm>)
 - **Use it for:** a hard year, a cut in funding, a class that's struggling. A handful who keep the spirit alive is enough
 
-----
+---<!--L3-->
 
 ## The Next Generation: "The Best of Both Worlds, Part I" (1990)
 <!-- 219 -->
@@ -2327,7 +2337,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/174.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/174.htm>)
 - **Use it for:** the last week before submission. Stop hiding, power up, engage
 
-----
+---<!--L2-->
 
 ## The Next Generation: "Reunion" (1990)
 <!-- 220 -->
@@ -2346,7 +2356,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/181.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/181.htm>)
 - **Use it for:** being volunteered as group leader, or for the staff committee
 
-----
+---<!--L3-->
 
 ## The Next Generation: "Reunion" (1990)
 <!-- 221 -->
@@ -2365,7 +2375,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/181.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/181.htm>)
 - **Use it for:** the full assessment process, rubric and all. The class asks how long it takes
 
-----
+---<!--L2-->
 
 ## The Next Generation: "Data's Day" (1991)
 <!-- 222 -->
@@ -2388,7 +2398,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/185.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/185.htm>)
 - **Use it for:** predicting what the boss, or the external examiner, will actually do, as against the safe option
 
-----
+---<!--L3-->
 
 ## The Next Generation: "Data's Day" (1991)
 <!-- 223 -->
@@ -2409,7 +2419,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/185.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/185.htm>)
 - **Use it for:** the demo that went wrong. Some days you get the bear
 
-----
+---<!--L2-->
 
 ## The Next Generation: "Redemption" (1991)
 <!-- 224 -->
@@ -2428,7 +2438,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/200.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/200.htm>)
 - **Use it for:** an unfair result, a wrong mark, a myth about a learner. Lies must be challenged: use the appeals process
 
-----
+---<!--L3-->
 
 ## The Next Generation: "Redemption" (1991)
 <!-- 225 -->
@@ -2445,7 +2455,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/200.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/200.htm>)
 - **Use it for:** a reference, or the last day of a course. What a learner took from it and made their own
 
-----
+---<!--L2-->
 
 ## The Next Generation: "Redemption II" (1991)
 <!-- 226 -->
@@ -2462,7 +2472,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/201.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/201.htm>)
 - **Use it for:** the extension request, the change of group, the "can I skip the presentation"
 
-----
+---<!--L3-->
 
 ## The Next Generation: "Redemption II" (1991)
 <!-- 227 -->
@@ -2481,7 +2491,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/201.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/201.htm>)
 - **Use it for:** critical thinking. Don't follow the brief, the tutorial or the AI blindly; analyse the situation
 
-----
+---<!--L2-->
 
 ## The Next Generation: "Unification II" (1991)
 <!-- 228 -->
@@ -2508,7 +2518,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/207.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/207.htm>)
 - **Use it for:** the mature student who was doing this before you were born, and the tutor who won't leave it
 
-----
+---<!--L3-->
 
 ## The Next Generation: "Unification II" (1991)
 <!-- 229 -->
@@ -2529,7 +2539,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/207.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/207.htm>)
 - **Use it for:** changing a course, or a department, one small change at a time
 
-----
+---<!--L3-->
 
 ## The Next Generation: "Unification II" (1991)
 <!-- 230 -->
@@ -2554,7 +2564,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/207.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/207.htm>). Later in the same scene: "As you examine your life, do you find you have missed your humanity?" "I have no regrets." "No regrets. That is a human expression." "Yes. Fascinating."
 - **Use it for:** two learners who each want what the other has: the coder who wants to present, the presenter who wants to code
 
-----
+---<!--L3-->
 
 ## The Next Generation: "Unification II" (1991)
 <!-- 231 -->
@@ -2573,7 +2583,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/207.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/207.htm>)
 - **Use it for:** a deepfake, in an IT security class. And the learner who has had enough of logic gates
 
-----
+---<!--L3-->
 
 ## The Next Generation: "Unification II" (1991)
 <!-- 232 -->
@@ -2590,7 +2600,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/207.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/207.htm>)
 - **Use it for:** phishing and fake messages. Same sender, same opening, opposite message: check the source
 
-----
+---<!--L2-->
 
 ## The Next Generation: "The Quality of Life" (1992)
 <!-- 88 -->
@@ -2609,7 +2619,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/235.htm)
 - **Use it for:** AI and machine learning; experiential learning. "The more situations they encounter" is Kolb in one line
 
-----
+---<!--L3-->
 
 ## The Next Generation: "The Quality of Life" (1992)
 <!-- 183 -->
@@ -2630,7 +2640,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/235.htm)
 - **Use it for:** tests that measure the wrong thing; a learner who spots a flaw in your exam
 
-----
+---<!--L2-->
 
 ## The Next Generation: "Chain of Command, Part II" (1992)
 <!-- 80 -->
@@ -2647,7 +2657,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/237.htm)
 - **Use it for:** when the AI insists your code has a bug it doesn't. Holding to the evidence
 
-----
+---<!--L2-->
 
 ## The Next Generation: "Descent, Part II" (1993)
 <!-- 375 -->
@@ -2678,7 +2688,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/253.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/253.htm>)
 - **Use it for:** academic integrity: a learner who has gone wrong but can still put it right. Ends justifying means
 
-----
+---<!--L3-->
 
 ## The Next Generation: "Descent, Part II" (1993)
 <!-- 84 -->
@@ -2697,7 +2707,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/253.htm)
 - **Use it for:** AI guardrails; academic integrity. *"Write my essay for me." "No. That would be wrong."*
 
-----
+---<!--L2-->
 
 ## The Next Generation: "All Good Things..." (1994)
 <!-- 184 -->
@@ -2718,7 +2728,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/277.htm)
 - **Use it for:** a bug whose cause you've spotted and the student hasn't. Hints in a lab
 
-----
+---<!--L3-->
 
 ## The Next Generation: "All Good Things..." (1994)
 <!-- 81 -->
@@ -2737,7 +2747,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/277.htm)
 - **Use it for:** affectionate banter, edited for the room. "I thought you had potential" for a resit, with a wink
 
-----
+---<!--L3-->
 
 ## The Next Generation: "All Good Things..." (1994)
 <!-- 82 -->
@@ -2756,7 +2766,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/277.htm). It's "unknowable", not "unknown"
 - **Use it for:** the last class of a course. "The trial never ends" for continuous assessment and lifelong learning
 
-----
+---<!--L2-->
 
 ## Deep Space Nine: "The Homecoming" (1993)
 <!-- 247 -->
@@ -2777,7 +2787,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/421.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/421.htm>)
 - **Use it for:** role models, and impostor syndrome. A learner who doesn't feel like the person others see
 
-----
+---<!--L2-->
 
 ## Deep Space Nine: "The Circle" (1993)
 <!-- 248 -->
@@ -2800,7 +2810,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/422.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/422.htm>)
 - **Use it for:** values and professional ethics. Rules change; a personal code shouldn't
 
-----
+---<!--L3-->
 
 ## Deep Space Nine: "The Circle" (1993)
 <!-- 249 -->
@@ -2819,7 +2829,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/422.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/422.htm>)
 - **Use it for:** changing a policy you disagree with: use the committee, the vote, the class rep. Not the group chat
 
-----
+---<!--L2-->
 
 ## Deep Space Nine: "The Siege" (1993)
 <!-- 250 -->
@@ -2836,7 +2846,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/423.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/423.htm>)
 - **Use it for:** a team in trouble. Stay and solve it together, rather than switch group
 
-----
+---<!--L3-->
 
 ## Deep Space Nine: "The Siege" (1993)
 <!-- 251 -->
@@ -2853,7 +2863,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/423.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/423.htm>)
 - **Use it for:** commitment over a whole course, not one heroic all-nighter
 
-----
+---<!--L3-->
 
 ## Deep Space Nine: "The Siege" (1993)
 <!-- 252 -->
@@ -2872,7 +2882,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/423.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/423.htm>)
 - **Use it for:** a reference for a colleague, a eulogy, or how you talk about a former learner. Choose what's remembered
 
-----
+---<!--L2-->
 
 ## Deep Space Nine: "The Maquis, Part II" (1994)
 <!-- 87 -->
@@ -2887,7 +2897,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/441.htm)
 - **Use it for:** theory and practice. Policy written in the office against teaching in a real classroom
 
-----
+---<!--L3-->
 
 ## Deep Space Nine: "The Maquis, Part II" (1994)
 <!-- 233 -->
@@ -2910,7 +2920,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/441.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/441.htm>)
 - **Use it for:** fixing problems early: a group falling out, a bug, a learner falling behind. It only gets more expensive
 
-----
+---<!--L2-->
 
 ## Deep Space Nine: "Visionary" (1995)
 <!-- 92 -->
@@ -2927,7 +2937,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/463.htm)
 - **Use it for:** time zones, date formats, daylight saving bugs, Git rebase
 
-----
+---<!--L2-->
 
 ## Deep Space Nine: "Improbable Cause" (1995)
 <!-- 358 -->
@@ -2948,7 +2958,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/465.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/465.htm>)
 - **Use it for:** excuses for late work. The same story, told twice
 
-----
+---<!--L2-->
 
 ## Deep Space Nine: "The Die Is Cast" (1995)
 <!-- 359 -->
@@ -2967,7 +2977,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/467.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/467.htm>)
 - **Use it for:** an exam invigilator, or a viva. "I am going to be observing you very closely"
 
-----
+---<!--L3-->
 
 ## Deep Space Nine: "The Die Is Cast" (1995)
 <!-- 360 -->
@@ -2988,7 +2998,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/467.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/467.htm>)
 - **Use it for:** a project review. The plan didn't fail because of bad luck
 
-----
+---<!--L3-->
 
 ## Deep Space Nine: "The Die Is Cast" (1995)
 <!-- 361 -->
@@ -3011,7 +3021,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/467.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/467.htm>)
 - **Use it for:** the lessons-learned slide. "They're very good. Next time we should be more careful"
 
-----
+---<!--L3-->
 
 ## Deep Space Nine: "The Die Is Cast" (1995)
 <!-- 362 -->
@@ -3028,7 +3038,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/467.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/467.htm>)
 - **Use it for:** feedback that was a little too direct
 
-----
+---<!--L3-->
 
 ## Deep Space Nine: "The Die Is Cast" (1995)
 <!-- 363 -->
@@ -3055,7 +3065,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/467.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/467.htm>)
 - **Use it for:** the moment help arrives. The lab technician who fixes the network five minutes before the demo
 
-----
+---<!--L3-->
 
 ## Deep Space Nine: "The Die Is Cast" (1995)
 <!-- 364 -->
@@ -3080,7 +3090,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/467.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/467.htm>)
 - **Use it for:** a tough exam or interview, taken at close range
 
-----
+---<!--L2-->
 
 ## Deep Space Nine: "The Way of the Warrior" (1995)
 <!-- 365 -->
@@ -3105,7 +3115,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/473.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/473.htm>)
 - **Use it for:** losing an argument but winning the exchange. A rough peer review
 
-----
+---<!--L3-->
 
 ## Deep Space Nine: "The Way of the Warrior" (1995)
 <!-- 234 -->
@@ -3124,7 +3134,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/473.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/473.htm>)
 - **Use it for:** a hackathon, a debate, a competitive assignment. The rules still apply
 
-----
+---<!--L3-->
 
 ## Deep Space Nine: "The Way of the Warrior" (1995)
 <!-- 235 -->
@@ -3147,7 +3157,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/473.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/473.htm>)
 - **Use it for:** the learner complaining about the helper, not the deadline behind them
 
-----
+---<!--L3-->
 
 ## Deep Space Nine: "The Way of the Warrior" (1995)
 <!-- 236 -->
@@ -3182,7 +3192,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/473.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/473.htm>)
 - **Use it for:** a new system everyone has to use: Teams, Moodle, a new IDE. Vile at first; use it enough and you begin to like it
 
-----
+---<!--L3-->
 
 ## Deep Space Nine: "The Way of the Warrior" (1995)
 <!-- 237 -->
@@ -3199,7 +3209,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/473.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/473.htm>)
 - **Use it for:** a project status update under pressure. Backups holding, bugs contained, help on the way
 
-----
+---<!--L2-->
 
 ## Deep Space Nine: "To the Death" (1996)
 <!-- 90 -->
@@ -3220,7 +3230,68 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/496.htm)
 - **Use it for:** the start of exam season. O'Brien for the student who won't panic
 
-----
+---<!--L2-->
+
+## Deep Space Nine: "In Purgatory's Shadow" (1997)
+<!-- 498 -->
+
+**Scene: the runabout, Garak asks Worf for a reference, part 1**
+
+> Worf: "You want me to sponsor your application to Starfleet Academy?"
+>
+> Garak: "What do you think?"
+>
+> Worf: "I think it is a bad idea."
+>
+> Garak: "I'd write the actual letter myself. I just need you to sign it."
+>
+> Worf: "Find someone else."
+>
+> Garak: "Why? Because I'm a Cardassian? You're a Klingon, Nog is a Ferengi. **Starfleet Academy is a very accepting place.**"
+>
+> Worf: "You are not just a Cardassian. You are a spy, an assassin and a saboteur."
+>
+> Garak: "I know I've done some unfortunate things in the past, and I regret them. That's why I want to join Starfleet. Why I need to join Starfleet. **I'm looking for a fresh start, a way to make up for all the damage I've done.** I need to prove to myself that I can be better than I am, but I need your help, your support, to start me on my way to redemption."
+>
+> Worf: "**If that is how you feel, I will consider your request.**"
+>
+> Garak: "That's all I ask. **Frankly, I think I can be quite an asset to Starfleet. With my extensive experience I could skip the lower ranks entirely and begin my career as a Commander. Maybe you should suggest that in your letter? Tell them you'd be honoured to serve under me.**"
+>
+
+- **Who:** Worf (Michael Dorn) and Garak (Andrew Robinson), taking a runabout into the Gamma Quadrant to trace a Cardassian signal. It's "a fresh start", "quite an asset" and "honoured to serve under me"
+- **Episode:** season 5, episode 14
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708554/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/512.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/512.htm>)
+- **Clip:** [YouTube, "DS9 Garak lies to Worf"](https://www.youtube.com/watch?v=w0ba-A01WWA) (1 minute 52 seconds, the whole scene)
+- **Use it for:** reference letters. The student who asks for one, offers to write it, then suggests what it should say. Or the new team member who wants to start as team lead
+
+---<!--L3-->
+
+## Deep Space Nine: "In Purgatory's Shadow" (1997)
+<!-- 501 -->
+
+**Scene: the runabout, Garak asks Worf for a reference, part 2**
+
+> Worf: "**Do not play games with me.** You have no desire to join Starfleet, do you?"
+>
+> Garak: "No, I'm afraid I don't."
+>
+> Worf: "Then why all of this deception?"
+>
+> Garak: "**Because lying is a skill like any other, and if you want to maintain a level of excellence, you have to practise constantly.**"
+>
+> Worf: "Practise on someone else."
+>
+> Garak: "**Mister Worf, you're no fun at all.**"
+
+- **Who:** Worf and Garak, straight after part 1. It's "lying is a skill", not "deception is a game"
+- **Episode:** season 5, episode 14
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708554/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/512.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/512.htm>)
+- **Clip:** [YouTube, "DS9 Garak lies to Worf"](https://www.youtube.com/watch?v=w0ba-A01WWA), the same clip as part 1
+- **Use it for:** practice. Any skill, even a bad one, needs it every day. Or the tutor who won't play along: "you're no fun at all"
+
+---<!--L2-->
 
 ## Deep Space Nine: "By Inferno's Light" (1997)
 <!-- 238 -->
@@ -3247,7 +3318,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/513.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/513.htm>)
 - **Use it for:** the team member who leaves the group for another one. Or the colleague who takes the job with the competition
 
-----
+---<!--L3-->
 
 ## Deep Space Nine: "By Inferno's Light" (1997)
 <!-- 185 -->
@@ -3264,7 +3335,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/513.htm)
 - **Use it for:** training design. "Observe, analyse, remember" is a learning cycle
 
-----
+---<!--L3-->
 
 ## Deep Space Nine: "By Inferno's Light" (1997)
 <!-- 91 -->
@@ -3287,7 +3358,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/513.htm). Worf also says it in TNG's "Sins of the Father" and DS9's "The Way of the Warrior"
 - **Use it for:** exam day, demo day, the viva. Students against the submission system
 
-----
+---<!--L2-->
 
 ## Deep Space Nine: "Business as Usual" (1997)
 <!-- 86 -->
@@ -3304,7 +3375,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/516.htm)
 - **Use it for:** grading, and a first warning about plagiarism or late work
 
-----
+---<!--L2-->
 
 ## Deep Space Nine: "Call to Arms" (1997)
 <!-- 239 -->
@@ -3319,7 +3390,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/524.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/524.htm>)
 - **Use it for:** the last class of the year, or leaving a job
 
-----
+---<!--L3-->
 
 ## Deep Space Nine: "Call to Arms" (1997)
 <!-- 240 -->
@@ -3346,7 +3417,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/524.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/524.htm>)
 - **Use it for:** handing over a class, or a lab you will want back. Leave one thing on the desk
 
-----
+---<!--L2-->
 
 ## Deep Space Nine: "In the Pale Moonlight" (1998)
 <!-- 366 -->
@@ -3367,7 +3438,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/543.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/543.htm>)
 - **Use it for:** carefully. Ethics, and how a small compromise leads to bigger ones
 
-----
+---<!--L3-->
 
 ## Deep Space Nine: "In the Pale Moonlight" (1998)
 <!-- 367 -->
@@ -3398,7 +3469,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/543.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/543.htm>)
 - **Use it for:** a progress report: *"Have you made any progress?" "That depends on how you look at it"*
 
-----
+---<!--L3-->
 
 ## Deep Space Nine: "In the Pale Moonlight" (1998)
 <!-- 368 -->
@@ -3421,7 +3492,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/543.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/543.htm>)
 - **Use it for:** research ethics. What not to do when the data doesn't support your hypothesis
 
-----
+---<!--L3-->
 
 ## Deep Space Nine: "In the Pale Moonlight" (1998)
 <!-- 369 -->
@@ -3450,7 +3521,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/543.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/543.htm>)
 - **Use it for:** a risk register. "It's best not to dwell on such minutiae" for the detail that will sink the project
 
-----
+---<!--L3-->
 
 ## Deep Space Nine: "In the Pale Moonlight" (1998)
 <!-- 370 -->
@@ -3469,7 +3540,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/543.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/543.htm>)
 - **Use it for:** negotiating a deadline or a word count
 
-----
+---<!--L3-->
 
 ## Deep Space Nine: "In the Pale Moonlight" (1998)
 <!-- 85 -->
@@ -3484,7 +3555,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/543.htm)
 - **Use it for:** a spotted AI-generated reference or a made-up citation
 
-----
+---<!--L3-->
 
 ## Deep Space Nine: "In the Pale Moonlight" (1998)
 <!-- 186 -->
@@ -3501,7 +3572,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/543.htm)
 - **Use it for:** an academic integrity discussion. "Computer, erase that entire personal log" for the browser history
 
-----
+---<!--L2-->
 
 ## Deep Space Nine: "Strange Bedfellows" (1999)
 <!-- 241 -->
@@ -3526,7 +3597,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/569.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/569.htm>)
 - **Use it for:** backups. Weyoun has copies; there's only one Damar. Which is your project?
 
-----
+---<!--L2-->
 
 ## Deep Space Nine: "The Changing Face of Evil" (1999)
 <!-- 253 -->
@@ -3551,7 +3622,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/570.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/570.htm>)
 - **Use it for:** a rallying call: the first day of a campaign, or the last push before the exams
 
-----
+---<!--L2-->
 
 ## Deep Space Nine: "Tacking Into the Wind" (1999)
 <!-- 242 -->
@@ -3568,7 +3639,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/572.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/572.htm>)
 - **Use it for:** unasked-for feedback, on a group chat or a pull request
 
-----
+---<!--L2-->
 
 ## Deep Space Nine: "The Dogs of War" (1999)
 <!-- 243 -->
@@ -3591,7 +3662,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/574.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/574.htm>)
 - **Use it for:** cutting the scope of a final year project. Less to defend, so you can defend it
 
-----
+---<!--L2-->
 
 ## Deep Space Nine: "What You Leave Behind" (1999)
 <!-- 244 -->
@@ -3610,7 +3681,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/575.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/575.htm>)
 - **Use it for:** the final exam, or the final demo
 
-----
+---<!--L3-->
 
 ## Deep Space Nine: "What You Leave Behind" (1999)
 <!-- 245 -->
@@ -3633,7 +3704,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/575.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/575.htm>)
 - **Use it for:** promising the same thing to two people: two groups, one lab, one Friday
 
-----
+---<!--L3-->
 
 ## Deep Space Nine: "What You Leave Behind" (1999)
 <!-- 465 -->
@@ -3654,8 +3725,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/575.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/575.htm>)
 - **Use it for:** deterrence. Not that you'd lose; that it wouldn't be worth it. A grade appeal against a well-documented marker
 
-
-----
+---<!--L2-->
 
 ## Deep Space Nine: O'Brien memes
 <!-- 93 -->
@@ -3667,7 +3737,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Use it for:** IT support, maintenance, any Irish audience
 - **Check:** the caption's wording, and the site that collects them (possibly "Chief O'Brien at Work"). I couldn't reach it
 
-----
+---<!--L2-->
 
 ## Voyager: "The Cloud" (1995)
 <!-- 298 -->
@@ -3688,7 +3758,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/Voyager/105.htm) [🔗](<../my-fetches/chakoteya-star-trek/Voyager/105.htm>)
 - **Use it for:** the staff room on a Monday
 
-----
+---<!--L2-->
 
 ## Voyager: "Alliances" (1996)
 <!-- 94 -->
@@ -3703,7 +3773,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/Voyager/211.htm). Your template's wording matches it
 - **Use it for:** a style guide, a referencing guide, class rules for an online course
 
-----
+---<!--L2-->
 
 ## Voyager: "Scorpion, Part I" (1997)
 <!-- 371 -->
@@ -3720,7 +3790,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/Voyager/321.htm) [🔗](<../my-fetches/chakoteya-star-trek/Voyager/321.htm>)
 - **Use it for:** people acting as they are. See also "Peak Performance": "the man that he is"
 
-----
+---<!--L2-->
 
 ## Voyager: "Hunters" (1998)
 <!-- 299 -->
@@ -3737,7 +3807,7 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/Voyager/413.htm) [🔗](<../my-fetches/chakoteya-star-trek/Voyager/413.htm>)
 - **Use it for:** exam week, marking week, the night before submission
 
-----
+---<!--L2-->
 
 ## Voyager: "Ashes to Ashes" (2000)
 <!-- 95 -->
@@ -3764,7 +3834,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 
 <figure class="topic-photo"><img src="src/img/topics/batman.jpg" alt="The Tumbler Batmobile from Nolan&#x27;s films" /><figcaption><a class="ref media" href="#/media-used"><sup>8</sup></a> – The Tumbler, from Nolan's Batman films</figcaption></figure>
 
-----
+---<!--L2-->
 
 ## Batman: The Animated Series: "Christmas with the Joker" (1992)
 <!-- 284 -->
@@ -3785,7 +3855,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=batman&episode=s01e38) [🔗](<../my-fetches/springfield-scripts/batman/s01e38.txt>)
 - **Use it for:** the last class before Christmas, with the grumpy colleague
 
-----
+---<!--L3-->
 
 ## Batman: The Animated Series: "Christmas with the Joker" (1992)
 <!-- 285 -->
@@ -3806,7 +3876,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=batman&episode=s01e38) [🔗](<../my-fetches/springfield-scripts/batman/s01e38.txt>)
 - **Use it for:** the difference one tutor makes. Sound familiar?
 
-----
+---<!--L2-->
 
 ## The Batman Superman Movie: World's Finest (1997)
 <!-- 466 -->
@@ -3824,8 +3894,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-batman-superman-movie-worlds-finest) [🔗](<../my-fetches/springfield-scripts/the-batman-superman-movie-worlds-finest.txt>). It doesn't name speakers
 - **Use it for:** underestimating the experienced colleague with no fancy title
 
-----
-
+---<!--L2-->
 
 ## Batman Beyond: "Rebirth, Part 2" (1999)
 <!-- 258 -->
@@ -3844,7 +3913,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=batman-beyond-1999&episode=s01e02) [🔗](<../my-fetches/springfield-scripts/batman-beyond-1999/s01e02.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Batman_Beyond) [🔗](<../my-fetches/wikiquote/Batman_Beyond.wiki>)
 - **Use it for:** the first class. Expectations, set kindly but clearly
 
-----
+---<!--L2-->
 
 ## Batman Beyond: "Ascension" (1999)
 <!-- 259 -->
@@ -3873,7 +3942,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=batman-beyond-1999&episode=s01e13) [🔗](<../my-fetches/springfield-scripts/batman-beyond-1999/s01e13.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Batman_Beyond) [🔗](<../my-fetches/wikiquote/Batman_Beyond.wiki>)
 - **Use it for:** a complaint about "the lecturer who failed me". Can you narrow it down?
 
-----
+---<!--L2-->
 
 ## Batman Beyond: "Lost Soul" (1999)
 <!-- 260 -->
@@ -3892,7 +3961,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=batman-beyond-1999&episode=s02e04) [🔗](<../my-fetches/springfield-scripts/batman-beyond-1999/s02e04.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Batman_Beyond) [🔗](<../my-fetches/wikiquote/Batman_Beyond.wiki>)
 - **Use it for:** the Wi-Fi is down, so it's pen and paper. Last year's class never complained
 
-----
+---<!--L2-->
 
 ## Batman Beyond: "Where's Terry?" (2000)
 <!-- 261 -->
@@ -3909,7 +3978,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=batman-beyond-1999&episode=s02e25) [🔗](<../my-fetches/springfield-scripts/batman-beyond-1999/s02e25.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Batman_Beyond) [🔗](<../my-fetches/wikiquote/Batman_Beyond.wiki>)
 - **Use it for:** a presentation that runs over. Or my own
 
-----
+---<!--L2-->
 
 ## Batman Beyond: "Out of the Past" (2000)
 <!-- 427 -->
@@ -3927,7 +3996,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=batman-beyond-1999&episode=s03e05) [🔗](<../my-fetches/springfield-scripts/batman-beyond-1999/s03e05.txt>). It doesn't name speakers; Terry's line is from the scene
 - **Use it for:** AI writing the assignment. It works, and it leaves you weaker
 
-----
+---<!--L3-->
 
 ## Batman Beyond: "Out of the Past" (2000)
 <!-- 428 -->
@@ -3947,7 +4016,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=batman-beyond-1999&episode=s03e05) [🔗](<../my-fetches/springfield-scripts/batman-beyond-1999/s03e05.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Batman_Beyond) [🔗](<../my-fetches/wikiquote/Batman_Beyond.wiki>)
 - **Use it for:** the comeback that lands even when you're losing. Mind the dated last line
 
-----
+---<!--L3-->
 
 ## Batman Beyond: "Out of the Past" (2000)
 <!-- 429 -->
@@ -3963,7 +4032,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=batman-beyond-1999&episode=s03e05) [🔗](<../my-fetches/springfield-scripts/batman-beyond-1999/s03e05.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Batman_Beyond) [🔗](<../my-fetches/wikiquote/Batman_Beyond.wiki>)
 - **Use it for:** owning a mistake. The shortcut was tempting, and I took it
 
-----
+---<!--L2-->
 
 ## Batman Beyond: Return of the Joker (2000)
 <!-- 262 -->
@@ -3992,7 +4061,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman Beyond; Return of the Joker [2000] -imdb-tt0233298.srt>) and [Wikiquote](https://en.wikiquote.org/wiki/Batman_Beyond:_Return_of_the_Joker) [🔗](<../my-fetches/wikiquote/Batman_Beyond__Return_of_the_Joker.wiki>)
 - **Use it for:** heckling, and why it works. Find what someone needs and take it away
 
-----
+---<!--L2-->
 
 ## Justice League: "A Better World, Part 2" (2003)
 <!-- 286 -->
@@ -4021,7 +4090,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=justice-league-2001&episode=s02e12) [🔗](<../my-fetches/springfield-scripts/justice-league-2001/s02e12.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Justice_League_(TV_series)) [🔗](<../my-fetches/wikiquote/Justice_League_(TV_series).wiki>)
 - **Use it for:** civics, data protection and surveillance. Safety against freedom; who decides?
 
-----
+---<!--L2-->
 
 ## Justice League Unlimited: "Ultimatum" (2004)
 <!-- 430 -->
@@ -4043,7 +4112,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=justice-league&episode=s01e09) [🔗](<../my-fetches/springfield-scripts/justice-league/s01e09.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Justice_League_Unlimited) [🔗](<../my-fetches/wikiquote/Justice_League_Unlimited.wiki>)
 - **Use it for:** a standoff with the other department. Know who's backing you
 
-----
+---<!--L2-->
 
 ## Justice League Unlimited: "The Once and Future Thing, Part 2: Time, Warped" (2005)
 <!-- 431 -->
@@ -4059,7 +4128,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=justice-league&episode=s01e13) [🔗](<../my-fetches/springfield-scripts/justice-league/s01e13.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Justice_League_Unlimited) [🔗](<../my-fetches/wikiquote/Justice_League_Unlimited.wiki>)
 - **Use it for:** the experienced colleague watching the new one. Or you, reading your first lesson plan
 
-----
+---<!--L3-->
 
 ## Justice League Unlimited: "The Once and Future Thing, Part 2: Time, Warped" (2005)
 <!-- 432 -->
@@ -4075,7 +4144,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=justice-league&episode=s01e13) [🔗](<../my-fetches/springfield-scripts/justice-league/s01e13.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Justice_League_Unlimited) [🔗](<../my-fetches/wikiquote/Justice_League_Unlimited.wiki>)
 - **Use it for:** priorities in the last week. The working demo; nothing else matters
 
-----
+---<!--L2-->
 
 ## Justice League Unlimited: "Destroyer" (2006)
 <!-- 287 -->
@@ -4092,7 +4161,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Check:** the IMDb link; Wikidata's entry for the series doesn't look right
 - **Use it for:** the strong student held back in a mixed class. Give them the harder problem
 
-----
+---<!--L3-->
 
 ## Justice League Unlimited: "Destroyer" (2006)
 <!-- 288 -->
@@ -4109,7 +4178,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Check:** the IMDb link, as above
 - **Use it for:** entry requirements, and the learner who's sure they don't need the intro module
 
-----
+---<!--L2-->
 
 ## Young Justice: "Usual Suspects" (2011)
 <!-- 488 -->
@@ -4125,8 +4194,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Check:** your recollection only. It isn't in the subtitle scripts for episodes 24 to 26 [🔗](<../my-fetches/springfield-scripts/young-justice/s01e25.txt>), and I found no other source. Wording, speakers and episode
 - **Use it for:** why we teach good habits early. So they don't turn out like us
 
-----
-
+---<!--L2-->
 
 ## Batman (1989)
 <!-- 467 -->
@@ -4141,7 +4209,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman [1989] -imdb-tt0096895.srt>)
 - **Use it for:** the colleague with the new laptop, the new tablet, the new software licence
 
-----
+---<!--L2-->
 
 ## Batman Forever (1995)
 <!-- 468 -->
@@ -4162,8 +4230,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman Forever [1995] -imdb-tt0112462.srt>). Check the spoken words against the film
 - **Use it for:** why students pick a module. It's the robot kit, right?
 
-----
-
+---<!--L2-->
 
 ## Batman Begins (2005)
 <!-- 96 -->
@@ -4180,7 +4247,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=batman-begins). It doesn't name speakers, so check who says "And why do we fall?"
 - **Use it for:** failure, feedback, the resit
 
-----
+---<!--L3-->
 
 ## Batman Begins (2005)
 <!-- 433 -->
@@ -4201,7 +4268,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
 - **Use it for:** a new team, or the first student to back a new idea
 
-----
+---<!--L3-->
 
 ## Batman Begins (2005)
 <!-- 434 -->
@@ -4218,7 +4285,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
 - **Use it for:** a demo that impressed, and the one question asked: dark mode
 
-----
+---<!--L3-->
 
 ## Batman Begins (2005)
 <!-- 99 -->
@@ -4235,7 +4302,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=batman-begins). "Who are you? Where are you?" isn't in it
 - **Use it for:** getting a straight answer out of a group about who did the work
 
-----
+---<!--L3-->
 
 ## Batman Begins (2005)
 <!-- 435 -->
@@ -4258,7 +4325,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
 - **Use it for:** a locked lab, an expired licence, a blocked site. Resourcefulness
 
-----
+---<!--L3-->
 
 ## Batman Begins (2005)
 <!-- 97 -->
@@ -4273,7 +4340,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=batman-begins)
 - **Use it for:** carefully, and only where it's clearly a joke. Payback for a harsh code review
 
-----
+---<!--L3-->
 
 ## Batman Begins (2005)
 <!-- 187 -->
@@ -4296,7 +4363,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=batman-begins) · [Wikiquote](https://en.wikiquote.org/wiki/Batman_Begins)
 - **Use it for:** the push-ups line for theory with no practice: *"What's the point of all those tutorials if you can't deploy a bloody website?"* "Never" for a learner who expects you to give up on them
 
-----
+---<!--L3-->
 
 ## Batman Begins (2005)
 <!-- 436 -->
@@ -4315,7 +4382,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
 - **Use it for:** portfolios and assessment. What you do defines you, not what you say you can do
 
-----
+---<!--L3-->
 
 ## Batman Begins (2005)
 <!-- 324 -->
@@ -4334,7 +4401,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
 - **Use it for:** the learner who heard "make your presentation engaging" and arrived in costume, with sound effects and 40 animations. Or say it about yourself, on this deck
 
-----
+---<!--L3-->
 
 ## Batman Begins (2005)
 <!-- 98 -->
@@ -4351,7 +4418,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=batman-begins) · [Wikiquote](https://en.wikiquote.org/wiki/Batman_Begins)
 - **Use it for:** a goal that isn't the obvious one. The aim was never to stop the problem, but to redirect it
 
-----
+---<!--L3-->
 
 ## Batman Begins (2005)
 <!-- 437 -->
@@ -4374,7 +4441,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
 - **Use it for:** an arms race. Plagiarism checkers and the tools that beat them; AI detectors and AI
 
-----
+---<!--L3-->
 
 ## Batman Begins (2005)
 <!-- 438 -->
@@ -4393,7 +4460,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
 - **Use it for:** the colleague who covered your class. Or the end of the course
 
-----
+---<!--L2-->
 
 ## The Dark Knight (2008)
 <!-- 103 -->
@@ -4408,7 +4475,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/The_Dark_Knight_(film))
 - **Use it for:** the friendly tutor who became the strict marker
 
-----
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 439 -->
@@ -4425,7 +4492,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>). The laugh is spelled the subtitles' way
 - **Use it for:** a colleague's joke, after yours fell flat
 
-----
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 440 -->
@@ -4442,7 +4509,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
 - **Use it for:** the 9 a.m. stand-up, held where the manager can't see
 
-----
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 441 -->
@@ -4467,7 +4534,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>). The subtitles don't name speakers; check who asks "How much"
 - **Use it for:** freelancing, and knowing your worth
 
-----
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 102 -->
@@ -4482,7 +4549,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/The_Dark_Knight_(film))
 - **Use it for:** war stories from past projects. *"Wanna know how I got these grey hairs? Supervising FYPs"*
 
-----
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 469 -->
@@ -4501,8 +4568,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>). Bruce's cut-off line is the subtitles'
 - **Use it for:** phones in the exam hall. Or the student who hands one phone in and keeps the other
 
-----
-
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 442 -->
@@ -4521,7 +4587,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
 - **Use it for:** the student who explains it back to you, just like a... tutor
 
-----
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 443 -->
@@ -4540,7 +4606,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
 - **Use it for:** the keen learner who pushes back. The marker is coming
 
-----
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 444 -->
@@ -4561,7 +4627,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
 - **Use it for:** requirements taken literally. Say what you mean in the brief
 
-----
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 445 -->
@@ -4580,7 +4646,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
 - **Use it for:** a plan that needs reading back out loud. *"Let me get this straight..."*
 
-----
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 100 -->
@@ -4603,7 +4669,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/The_Dark_Knight_(film))
 - **Use it for:** that one group member. Or the module nobody wants to take
 
-----
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 489 -->
@@ -4618,7 +4684,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
 - **Use it for:** group work in week 12. When the deadline's close, these civilised people...
 
-----
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 446 -->
@@ -4635,7 +4701,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>). It's "a guy of simple taste", not "a man of simple tastes"
 - **Use it for:** open-source tools. Simple, and cheap
 
-----
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 447 -->
@@ -4654,7 +4720,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>). The quotation marks round "Freak" are the subtitles'
 - **Use it for:** a new idea, and the old guard's verdict on it
 
-----
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 448 -->
@@ -4669,7 +4735,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
 - **Use it for:** a penalty that's about the message, not the marks. Late submissions
 
-----
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 449 -->
@@ -4684,7 +4750,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>). "Cars", "one" and "caught"
 - **Use it for:** the student who chased a project idea, got it approved, and now has no idea what to do
 
-----
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 450 -->
@@ -4699,7 +4765,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>). It's "mayor", not "mare"
 - **Use it for:** change management. Exams on the timetable, fine; move one class, outrage
 
-----
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 451 -->
@@ -4714,7 +4780,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
 - **Use it for:** the cover teacher. Or a random group allocation: chaos, but fair
 
-----
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 452 -->
@@ -4741,7 +4807,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>). Some lines in between left out
 - **Use it for:** data protection, ethics and surveillance; admin rights to the learner records
 
-----
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 453 -->
@@ -4758,7 +4824,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
 - **Use it for:** temporary access, revoked when the job's done. A kill switch
 
-----
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 454 -->
@@ -4783,7 +4849,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>). Check who says each line; the subtitles don't name speakers
 - **Use it for:** a "simple" fix. With legacy code, it never is
 
-----
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 455 -->
@@ -4804,7 +4870,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>). Check who says "Get ready"
 - **Use it for:** asking for more time before the deadline. You get two minutes
 
-----
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 456 -->
@@ -4825,7 +4891,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>). It's "trying to prove", not "expecting"
 - **Use it for:** a prediction of disaster that didn't happen. The class trusted each other
 
-----
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 101 -->
@@ -4840,7 +4906,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/The_Dark_Knight_(film))
 - **Use it for:** group projects. Pairs with Thanos's "Fine. I'll do it myself"
 
-----
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 457 -->
@@ -4859,7 +4925,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
 - **Use it for:** the student who resubmits every year. Destined to do this forever
 
-----
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 458 -->
@@ -4880,7 +4946,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
 - **Use it for:** a backup plan. Or one bad week before the deadline: all it takes is a little push
 
-----
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 470 -->
@@ -4899,8 +4965,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
 - **Use it for:** thanking the colleague who says it was nothing
 
-----
-
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 459 -->
@@ -4915,7 +4980,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
 - **Use it for:** the same line twice, an hour apart: the friendly tutor who became the strict marker, now said by the marker
 
-----
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 471 -->
@@ -4934,8 +4999,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
 - **Use it for:** taking the blame for the team. Whatever the class needs me to be
 
-
-----
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 460 -->
@@ -4952,7 +5016,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
 - **Use it for:** the reference letter. Kind, and a little more than true
 
-----
+---<!--L3-->
 
 ## The Dark Knight (2008)
 <!-- 104 -->
@@ -4973,7 +5037,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/The_Dark_Knight_(film))
 - **Use it for:** whoever takes the blame. The QA tester, the module coordinator
 
-----
+---<!--L2-->
 
 ## The Dark Knight Rises (2012)
 <!-- 472 -->
@@ -4990,7 +5054,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>). The subtitles have "l" for "I"
 - **Use it for:** a sanction that makes no sense. Why fail them before they've submitted?
 
-----
+---<!--L3-->
 
 ## The Dark Knight Rises (2012)
 <!-- 473 -->
@@ -5013,7 +5077,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
 - **Use it for:** the deadline extension. It would be extremely painful. For you
 
-----
+---<!--L3-->
 
 ## The Dark Knight Rises (2012)
 <!-- 474 -->
@@ -5034,7 +5098,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
 - **Use it for:** asking a student about their project plan
 
-----
+---<!--L3-->
 
 ## The Dark Knight Rises (2012)
 <!-- 475 -->
@@ -5053,7 +5117,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>). The subtitles don't say who asks about the fire
 - **Use it for:** the volunteer who stays behind to finish the group report
 
-----
+---<!--L3-->
 
 ## The Dark Knight Rises (2012)
 <!-- 476 -->
@@ -5070,7 +5134,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
 - **Use it for:** "There's nothing to learn in this module." Then why are you here?
 
-----
+---<!--L3-->
 
 ## The Dark Knight Rises (2012)
 <!-- 477 -->
@@ -5089,8 +5153,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
 - **Use it for:** the install is still running and the class is over. Laptops on the move
 
-----
-
+---<!--L3-->
 
 ## The Dark Knight Rises (2012)
 <!-- 105 -->
@@ -5115,7 +5178,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-dark-knight-rises)
 - **Use it for:** *"This isn't a test. It's a formative assessment."* "Where's the fun in that?" for any rule
 
-----
+---<!--L3-->
 
 ## The Dark Knight Rises (2012)
 <!-- 478 -->
@@ -5138,7 +5201,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>). The subtitles don't name Stryver
 - **Use it for:** complaining about the external examiner, who walks in
 
-----
+---<!--L3-->
 
 ## The Dark Knight Rises (2012)
 <!-- 479 -->
@@ -5161,8 +5224,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
 - **Use it for:** the client who thinks the fee buys them everything. Or the fees-paying student
 
-----
-
+---<!--L3-->
 
 ## The Dark Knight Rises (2012)
 <!-- 461 -->
@@ -5181,7 +5243,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>). The subtitles have "l" for "I"
 - **Use it for:** telling a student off, just before their supervisor walks in
 
-----
+---<!--L3-->
 
 ## The Dark Knight Rises (2012)
 <!-- 480 -->
@@ -5196,8 +5258,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
 - **Use it for:** the keen first-year who does everything at once, and burns out by week 4
 
-----
-
+---<!--L3-->
 
 ## The Dark Knight Rises (2012)
 <!-- 107 -->
@@ -5212,7 +5273,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/The_Dark_Knight_Rises)
 - **Use it for:** *"You merely adopted Git. I was born in it"*
 
-----
+---<!--L3-->
 
 ## The Dark Knight Rises (2012)
 <!-- 462 -->
@@ -5227,7 +5288,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
 - **Use it for:** the student who borrows your code, your slides, your marker. Gratefully accepted
 
-----
+---<!--L3-->
 
 ## The Dark Knight Rises (2012)
 <!-- 481 -->
@@ -5250,8 +5311,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
 - **Use it for:** privacy online. The username isn't for you; it's for the people you care about
 
-----
-
+---<!--L3-->
 
 ## The Dark Knight Rises (2012)
 <!-- 106 -->
@@ -5268,7 +5328,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/The_Dark_Knight_Rises)
 - **Use it for:** the final push before submission
 
-----
+---<!--L3-->
 
 ## The Dark Knight Rises (2012)
 <!-- 188 -->
@@ -5285,7 +5345,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-dark-knight-rises)
 - **Use it for:** a rule a colleague doesn't share. *"About the whole no-AI thing..."*
 
-----
+---<!--L2-->
 
 ## Batman: The Dark Knight Returns, Part 1 (2012)
 <!-- 482 -->
@@ -5302,7 +5362,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman; The Dark Knight Returns, Part 1 [2012] -imdb-tt2313197.srt>)
 - **Use it for:** choosing the ground. Fight on your terms, not theirs
 
-----
+---<!--L3-->
 
 ## Batman: The Dark Knight Returns, Part 1 (2012)
 <!-- 483 -->
@@ -5319,7 +5379,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman; The Dark Knight Returns, Part 1 [2012] -imdb-tt2313197.srt>)
 - **Use it for:** a small, precise fix that takes out a whole class of bugs
 
-----
+---<!--L3-->
 
 ## Batman: The Dark Knight Returns, Part 1 (2012)
 <!-- 484 -->
@@ -5334,7 +5394,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman; The Dark Knight Returns, Part 1 [2012] -imdb-tt2313197.srt>)
 - **Use it for:** feedback that doesn't sting now, and shows up at the exam
 
-----
+---<!--L3-->
 
 ## Batman: The Dark Knight Returns, Part 1 (2012)
 <!-- 490 -->
@@ -5351,7 +5411,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman; The Dark Knight Returns, Part 1 [2012] -imdb-tt2313197.srt>) and [Wikiquote](https://en.wikiquote.org/wiki/Batman:_The_Dark_Knight_Returns) [🔗](<../my-fetches/wikiquote/Batman__The_Dark_Knight_Returns.wiki>)
 - **Use it for:** a code review. This isn't a meeting; it's an operating table
 
-----
+---<!--L2-->
 
 ## Batman: The Dark Knight Returns (1986, comic)
 <!-- 491 -->
@@ -5364,8 +5424,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Check:** your recollection only. It isn't on Wikiquote [🔗](<../my-fetches/wikiquote/Batman__The_Dark_Knight_Returns.wiki>) or in the film's subtitles, and I found no other source. Wording, and which issue (probably #2)
 - **Use it for:** the extra feature you add after the project is finished. Something told you to stop
 
-----
-
+---<!--L2-->
 
 ## Batman: The Dark Knight Returns, Part 2 (2013)
 <!-- 109 -->
@@ -5379,7 +5438,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Use it for:** hypocrisy. The adviser who has never shipped code
 - **Check:** not on Wikiquote. Wording, and which part it's in
 
-----
+---<!--L3-->
 
 ## Batman: The Dark Knight Returns, Part 2 (2013)
 <!-- 108 -->
@@ -5397,7 +5456,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Batman:_The_Dark_Knight_Returns_(film))
 - **Use it for:** enforcement and authority. *"If I don't grade it, the external examiner will"*
 
-----
+---<!--L3-->
 
 ## Batman: The Dark Knight Returns, Part 2 (2013)
 <!-- 189 -->
@@ -5411,7 +5470,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Batman:_The_Dark_Knight_Returns_(film))
 - **Use it for:** the student who finally beats the lecturer at something; a resit passed
 
-----
+---<!--L2-->
 
 ## Batman: Hush (2019)
 <!-- 463 -->
@@ -5427,7 +5486,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=batman-hush) [🔗](<../my-fetches/springfield-scripts/batman-hush.txt>). It doesn't name speakers
 - **Use it for:** the strongest student in the class plays fair. You don't have to
 
-----
+---<!--L2-->
 
 ## Batman: Hush (2002–2003, comic)
 <!-- 464 -->
@@ -5441,7 +5500,6 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Check:** a quote site only; the issue (*Batman* #612) and the exact wording against the comic
 - **Use it for:** the original, and better. A colleague who could fail you, but won't
 
-
 ---
 
 # X-Men
@@ -5450,7 +5508,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 
 <figure class="topic-photo"><img src="src/img/topics/x-men.jpg" alt="A Lego Wolverine costume" /><figcaption><a class="ref media" href="#/media-used"><sup>9</sup></a> – Lego Wolverine, for X-Men</figcaption></figure>
 
-----
+---<!--L2-->
 
 ## X-Men (2000)
 <!-- 110 -->
@@ -5473,7 +5531,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men)
 - **Use it for:** a learner who hasn't submitted. Barriers against motivation, a TNA question in itself
 
-----
+---<!--L3-->
 
 ## X-Men (2000)
 <!-- 190 -->
@@ -5488,7 +5546,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men) · [Wikiquote](https://en.wikiquote.org/wiki/X-Men_(film))
 - **Use it for:** the trade-offs in any training plan. What you give up to fit the timetable
 
-----
+---<!--L3-->
 
 ## X-Men (2000)
 <!-- 191 -->
@@ -5505,7 +5563,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men)
 - **Use it for:** managers who mandate training they won't do themselves. Bleep it for some rooms
 
-----
+---<!--L2-->
 
 ## X-Men Origins: Wolverine (2009)
 <!-- 485 -->
@@ -5520,8 +5578,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/X-Men Origins; Wolverine [2009] -imdb-tt0458525.srt>)
 - **Use it for:** the rival who backs you in front of outsiders. Only I get to criticise my team
 
-----
-
+---<!--L2-->
 
 ## X-Men: First Class (2011)
 <!-- 111 -->
@@ -5536,7 +5593,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/X-Men; First Class [2011] -imdb-tt1270798.srt>) · [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men-first-class). It's "has got friends" and "could do with some"
 - **Use it for:** peer support, study groups, pair programming
 
-----
+---<!--L3-->
 
 ## X-Men: First Class (2011)
 <!-- 215 -->
@@ -5555,7 +5612,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/X-Men; First Class [2011] -imdb-tt1270798.srt>). They don't name speakers
 - **Use it for:** a project that only solves the symptom; arguing a decision already made. "Peace was never an option" for the group that won't compromise
 
-----
+---<!--L2-->
 
 ## X-Men: The Last Stand (2006)
 <!-- 122 -->
@@ -5572,7 +5629,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men-the-last-stand). The script doesn't name the first two speakers
 - **Use it for:** ignoring the warning signs of a failing FYP: no commits, no log, no supervisor meetings
 
-----
+---<!--L3-->
 
 ## X-Men: The Last Stand (2006)
 <!-- 416 -->
@@ -5597,7 +5654,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/X-Men; The Last Stand [2006] -imdb-tt0376994.srt>) and [Plugged In review](https://www.pluggedin.com/movie-reviews/xmenthelaststand/) [🔗](<../my-fetches/quotes/pluggedin-x-men-the-last-stand.txt>)
 - **Use it for:** deciding for someone "for their own good". And a leader who won't explain a hard call
 
-----
+---<!--L3-->
 
 ## X-Men: The Last Stand (2006)
 <!-- 417 -->
@@ -5622,7 +5679,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/X-Men; The Last Stand [2006] -imdb-tt0376994.srt>)
 - **Use it for:** help nobody asked for. Or a learner who's had enough of being managed
 
-----
+---<!--L3-->
 
 ## X-Men: The Last Stand (2006)
 <!-- 123 -->
@@ -5639,7 +5696,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men-the-last-stand). It's "you'll ever know"
 - **Use it for:** an acknowledgements page. Swap in your supervisor's name
 
-----
+---<!--L3-->
 
 ## X-Men: The Last Stand (2006)
 <!-- 376 -->
@@ -5654,7 +5711,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/X-Men; The Last Stand [2006] -imdb-tt0376994.srt>) and [Wikiquote](https://en.wikiquote.org/wiki/X-Men:_The_Last_Stand) [🔗](<../my-fetches/wikiquote/X-Men__The_Last_Stand.wiki>)
 - **Use it for:** a team member who sides with the other team. Say it with a smile
 
-----
+---<!--L2-->
 
 ## X-Men: Days of Future Past (2014)
 <!-- 112 -->
@@ -5675,7 +5732,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/X-Men:_Days_of_Future_Past)
 - **Use it for:** a group project after a falling-out; an excuse that doesn't excuse
 
-----
+---<!--L3-->
 
 ## X-Men: Days of Future Past (2014)
 <!-- 113 -->
@@ -5695,7 +5752,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/X-Men:_Days_of_Future_Past)
 - **Use it for:** a student whose marks went at the appeal: *"Maybe you should have fought harder for them"*
 
-----
+---<!--L3-->
 
 ## X-Men: Days of Future Past (2014)
 <!-- 192 -->
@@ -5714,7 +5771,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/X-Men:_Days_of_Future_Past)
 - **Use it for:** the group member who missed every meeting: "Where were you?"
 
-----
+---<!--L3-->
 
 ## X-Men: Days of Future Past (2014)
 <!-- 114 -->
@@ -5729,7 +5786,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/X-Men:_Days_of_Future_Past)
 - **Use it for:** the resit, a learner who is falling behind, supports
 
-----
+---<!--L3-->
 
 ## X-Men: Days of Future Past (2014)
 <!-- 115 -->
@@ -5744,7 +5801,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/X-Men:_Days_of_Future_Past)
 - **Use it for:** empathy in teaching; why a TNA listens to learners' problems instead of avoiding them
 
-----
+---<!--L3-->
 
 ## X-Men: Days of Future Past (2014)
 <!-- 193 -->
@@ -5761,7 +5818,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men-days-of-future-past). It doesn't name the first speaker
 - **Use it for:** reading old learner feedback before changing a course
 
-----
+---<!--L3-->
 
 ## X-Men: Days of Future Past (2014)
 <!-- 116 -->
@@ -5780,7 +5837,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/X-Men; Days of Future Past [2014] -imdb-tt1877832.srt>)
 - **Use it for:** the FYP plan in week 3. *"With this Gantt chart, do I make the deadline?" "No. But we can change that."*
 
-----
+---<!--L3-->
 
 ## X-Men: Days of Future Past (2014)
 <!-- 117 -->
@@ -5795,7 +5852,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/X-Men:_Days_of_Future_Past)
 - **Use it for:** lecturers and students, or two departments, who should be on the same side
 
-----
+---<!--L3-->
 
 ## X-Men: Days of Future Past (2014)
 <!-- 118 -->
@@ -5812,7 +5869,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men-days-of-future-past). It's "there's going to be a time", not "come a time"
 - **Use it for:** the end of a course, or graduation
 
-----
+---<!--L2-->
 
 ## X-Men: Apocalypse (2016)
 <!-- 194 -->
@@ -5827,7 +5884,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men-apocalypse)
 - **Use it for:** a returning student after a break; a lecturer back from leave
 
-----
+---<!--L3-->
 
 ## X-Men: Apocalypse (2016)
 <!-- 119 -->
@@ -5842,7 +5899,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men-apocalypse). It's "They ruined", not "They've ruined"
 - **Use it for:** someone reorganising your folders, or breaking the build. "No more" is the punchline
 
-----
+---<!--L3-->
 
 ## X-Men: Apocalypse (2016)
 <!-- 195 -->
@@ -5863,7 +5920,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men-apocalypse) · subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>)
 - **Use it for:** a course redesign: clearing the old modules for new growth. "You can't escape it" for the module a learner keeps putting off. Mind the setting
 
-----
+---<!--L3-->
 
 ## X-Men: Apocalypse (2016)
 <!-- 196 -->
@@ -5880,7 +5937,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men-apocalypse)
 - **Use it for:** "You don't know your own strength, but I do" for a nervous learner. A serious setting: use with care
 
-----
+---<!--L3-->
 
 ## X-Men: Apocalypse (2016)
 <!-- 197 -->
@@ -5895,7 +5952,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men-apocalypse)
 - **Use it for:** potential. A learner finding what they can do
 
-----
+---<!--L3-->
 
 ## X-Men: Apocalypse (2016)
 <!-- 120 -->
@@ -5916,7 +5973,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men-apocalypse). It doesn't name speakers, so check who asks "What do you see?"
 - **Use it for:** looking at the survey data and seeing the problem; access granted to a shared drive; your first real dataset
 
-----
+---<!--L3-->
 
 ## X-Men: Apocalypse (2016)
 <!-- 341 -->
@@ -5934,7 +5991,22 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Check:** who shouts "Hey, asshole!"; the subtitles don't name speakers
 - **Use it for:** the first slide of any reveal.js deck, and the name of the scripts behind this one: TAP, The Apocalypse Plugin
 
-----
+---<!--L3-->
+
+## X-Men: Apocalypse (2016)
+<!-- 502 -->
+
+**Scene: Cairo, Charles in Erik's mind, Apocalypse answers**
+
+> Apocalypse: "**I've shown him a better way.** A better world."
+
+- **Who:** Apocalypse (Oscar Isaac), answering Charles (James McAvoy) about Erik (Michael Fassbender) as Erik tears up the Earth's metal. Charles's reply ("you've just tapped into his rage and pain") is left out
+- **IMDb:** [X-Men: Apocalypse](https://www.imdb.com/title/tt3385516/) · [quotes](https://www.imdb.com/title/tt3385516/quotes/)
+- **Time:** 1:24:51 to 1:24:56 (6 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>), speaker from [kinoafisha quotes](https://www.kinoafisha.info/en/movies/8165177/quotes/) [🔗](<../my-fetches/kinoafisha/x-men-apocalypse-quotes.html>)
+- **Use it for:** a better way of programming: the refactor, the loop that becomes a list comprehension, the library that replaces fifty lines
+
+---<!--L3-->
 
 ## X-Men: Apocalypse (2016)
 <!-- 418 -->
@@ -5952,7 +6024,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Check:** the subtitles have no speaker names; it's Charles from the scene, but confirm on screen
 - **Use it for:** when the room is too full of other voices. Short, and loud
 
-----
+---<!--L3-->
 
 ## X-Men: Apocalypse (2016)
 <!-- 121 -->
@@ -5973,7 +6045,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men-apocalypse). It doesn't name speakers
 - **Use it for:** a talk's opening and closing: say "Thank you for letting me in" early, then turn it round at the end. "You're in my house now" for your own classroom
 
-----
+---<!--L3-->
 
 ## X-Men: Apocalypse (2016)
 <!-- 419 -->
@@ -6000,7 +6072,7 @@ Omni-Man and Mark, from the animated series (2021), in episode order
 
 <figure class="topic-photo"><img src="src/img/topics/invincible.png" alt="Comic book covers" /><figcaption><a class="ref media" href="#/media-used"><sup>10</sup></a> – Comic book covers</figcaption></figure>
 
-----
+---<!--L2-->
 
 ## Invincible: "It's About Time" (2021)
 <!-- 124 -->
@@ -6020,7 +6092,7 @@ Omni-Man and Mark, from the animated series (2021), in episode order
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=invincible-2021&episode=s01e01)
 - **Use it for:** self-assessment. *"I've backed up my project." "Are you sure?"* The TNA question behind every self-rating
 
-----
+---<!--L2-->
 
 ## Invincible: "Here Goes Nothing" (2021)
 <!-- 125 -->
@@ -6038,7 +6110,7 @@ Omni-Man and Mark, from the animated series (2021), in episode order
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=invincible-2021&episode=s01e02)
 - **Use it for:** *"How do I write the report in one weekend?" "That's the neat thing: you don't."*
 
-----
+---<!--L2-->
 
 ## Invincible: "Where I Really Come From" (2021)
 <!-- 126 -->
@@ -6054,7 +6126,7 @@ Omni-Man and Mark, from the animated series (2021), in episode order
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=invincible-2021&episode=s01e08)
 - **Use it for:** frameworks and AI tools. *"Look what they need to mimic a fraction of a senior developer"*
 
-----
+---<!--L3-->
 
 ## Invincible: "Where I Really Come From" (2021)
 <!-- 127 -->
@@ -6082,7 +6154,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 
 <figure class="topic-photo"><img src="src/img/topics/cartoons.jpg" alt="The Simpsons sign at Universal Studios" /><figcaption><a class="ref media" href="#/media-used"><sup>11</sup></a> – The Simpsons sign, Universal Studios</figcaption></figure>
 
-----
+---<!--L2-->
 
 ## The Simpsons: "Bart Gets Hit by a Car" (1991)
 <!-- 372 -->
@@ -6108,7 +6180,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Check:** who says each line in the flashback; the subtitles don't name speakers
 - **Use it for:** a student's account of why the project is late. "Why are you looking at me like that?"
 
-----
+---<!--L2-->
 
 ## The Simpsons: "One Fish, Two Fish, Blowfish, Blue Fish" (1991)
 <!-- 315 -->
@@ -6135,7 +6207,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s02e11) [🔗](<../my-fetches/springfield-scripts/simpsons/s02e11.txt>)
 - **Use it for:** training needs: the expert who won't train the apprentice, and an apprentice left alone with a dangerous job. Supervision, and on-the-job training done badly
 
-----
+---<!--L3-->
 
 ## The Simpsons: "One Fish, Two Fish, Blowfish, Blue Fish" (1991)
 <!-- 129 -->
@@ -6150,7 +6222,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s02e11). It's "three sentences", not "three little sentences"
 - **Use it for:** workplace skills. The three rules every intern learns first
 
-----
+---<!--L2-->
 
 ## The Simpsons: "Bart the Murderer" (1991)
 <!-- 326 -->
@@ -6178,7 +6250,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Check:** the subtitles don't name speakers. Who says "The kiss of death"
 - **Use it for:** the one person who knew how to do the job, off sick on demo day. Louie's line for the group member whose only skill isn't the one needed
 
-----
+---<!--L3-->
 
 ## The Simpsons: "Bart the Murderer" (1991)
 <!-- 335 -->
@@ -6201,7 +6273,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s03e04) [🔗](<../my-fetches/springfield-scripts/simpsons/s03e04.txt>)
 - **Use it for:** the team member who turns up late and blames someone else. Or, as the tutor, offering to "meet and greet" whoever is holding up a group
 
-----
+---<!--L3-->
 
 ## The Simpsons: "Bart the Murderer" (1991)
 <!-- 327 -->
@@ -6229,7 +6301,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Check:** who asks the questions (Hutz defends Bart, so it may be the prosecutor), and which of the men speaks
 - **Use it for:** a group project where everyone points at the same person. "Who wrote this?" "That's the guy."
 
-----
+---<!--L2-->
 
 ## The Simpsons: "Homer Loves Flanders" (1994)
 <!-- 373 -->
@@ -6248,7 +6320,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s05e16) [🔗](<../my-fetches/springfield-scripts/simpsons/s05e16.txt>) · [Wikiquote](https://en.wikiquote.org/wiki/The_Simpsons/Season_5) [🔗](<../my-fetches/wikiquote/The_Simpsons_Season_5.wiki>)
 - **Use it for:** how not to motivate a team. The worst possible pep talk
 
-----
+---<!--L2-->
 
 ## The Simpsons: "Burns' Heir" (1994)
 <!-- 128 -->
@@ -6265,7 +6337,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s05e18)
 - **Use it for:** the opposite of a growth mindset. A good opening for a slide on feedback
 
-----
+---<!--L2-->
 
 ## The Simpsons: "$pringfield" (1993)
 <!-- 198 -->
@@ -6284,7 +6356,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s05e10)
 - **Use it for:** an Irish room, carefully. A manager who enjoys health and safety stories far too much
 
-----
+---<!--L2-->
 
 ## The Simpsons: "Homie the Clown" (1995)
 <!-- 328 -->
@@ -6308,7 +6380,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Check:** the subtitles don't name speakers: who says "No, no, Don Vittorio", and whether Homer or Krusty asks if they're even
 - **Use it for:** the end of an extension. "We won't fail you. But you still owe us the report"
 
-----
+---<!--L2-->
 
 ## The Simpsons: "The PTA Disbands" (1995)
 <!-- 130 -->
@@ -6325,7 +6397,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s06e21)
 - **Use it for:** low expectations, and why they matter. Or a class in the last week before submission
 
-----
+---<!--L2-->
 
 ## The Simpsons: "You Only Move Twice" (1996)
 <!-- 199 -->
@@ -6340,7 +6412,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s08e02)
 - **Use it for:** praise and reward; a good manager. Scorpio says productivity is up 2% because of Homer's "motivational techniques like doughnuts". Bond fans: Scorpio's agent asks "So, do you expect me to talk?" (see Goldfinger, topic 13)
 
-----
+---<!--L2-->
 
 ## The Simpsons: "The Twisted World of Marge Simpson" (1997)
 <!-- 329 -->
@@ -6360,7 +6432,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Check:** whether Legs or Louie says the church bulletin line
 - **Use it for:** advertising your office hours. Someone did read the notice on Moodle
 
-----
+---<!--L3-->
 
 ## The Simpsons: "The Twisted World of Marge Simpson" (1997)
 <!-- 330 -->
@@ -6387,7 +6459,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s08e11) [🔗](<../my-fetches/springfield-scripts/simpsons/s08e11.txt>) · [Wikiquote](https://en.wikiquote.org/wiki/The_Simpsons/Season_8) [🔗](<../my-fetches/wikiquote/The_Simpsons_Season_8.wiki>)
 - **Use it for:** the free tutorial that turns out to need your email address. Or "I helped you with your code, now review mine"
 
-----
+---<!--L3-->
 
 ## The Simpsons: "The Twisted World of Marge Simpson" (1997)
 <!-- 331 -->
@@ -6409,7 +6481,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Check:** the subtitles don't name speakers. It may be Legs or Louie, not Fat Tony
 - **Use it for:** a deadline brought forward. "To show you we're serious, the report is due Friday"
 
-----
+---<!--L3-->
 
 ## The Simpsons: "The Twisted World of Marge Simpson" (1997)
 <!-- 332 -->
@@ -6430,7 +6502,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s08e11) [🔗](<../my-fetches/springfield-scripts/simpsons/s08e11.txt>)
 - **Use it for:** chasing late work, rewritten: *"The external examiner has been most vocal on the subject of the reports: 'Where's the report? When is the report coming? Where's the source code?' And so on. So, please, da report."*
 
-----
+---<!--L2-->
 
 ## The Simpsons: "The Joy of Sect" (1998)
 <!-- 316 -->
@@ -6449,7 +6521,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s09e13) [🔗](<../my-fetches/springfield-scripts/simpsons/s09e13.txt>)
 - **Use it for:** student discounts, coupons and free software licences. "You already pay almost nothing." "We're getting screwed"
 
-----
+---<!--L2-->
 
 ## The Simpsons: "Monty Can't Buy Me Love" (1999)
 <!-- 200 -->
@@ -6466,7 +6538,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s10e21). It doesn't name speakers; "glavin" is Frink's
 - **Use it for:** science and data: check your units and your instrument before announcing results. Survey data that looks too good
 
-----
+---<!--L2-->
 
 ## The Simpsons: "The Mansion Family" (2000)
 <!-- 333 -->
@@ -6491,7 +6563,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s11e12) [🔗](<../my-fetches/springfield-scripts/the-simpsons/s11e12.txt>) · [Wikiquote](https://en.wikiquote.org/wiki/The_Simpsons/Season_11) [🔗](<../my-fetches/wikiquote/The_Simpsons_Season_11.wiki>)
 - **Use it for:** code that works only because all its bugs cancel each other out. Fix one and the slightest breeze brings it down
 
-----
+---<!--L2-->
 
 ## Futurama: "Space Pilot 3000" (1999)
 <!-- 201 -->
@@ -6510,7 +6582,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=futurama&episode=s01e01)
 - **Use it for:** a sales pitch that doesn't match the product. Edit for the room
 
-----
+---<!--L2-->
 
 ## Futurama: "The Series Has Landed" (1999)
 <!-- 320 -->
@@ -6525,7 +6597,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=futurama&episode=s01e02) [🔗](<../my-fetches/springfield-scripts/futurama/s01e02.txt>)
 - **Use it for:** the group member who leaves to start their own project. Or open source forks
 
-----
+---<!--L2-->
 
 ## Futurama: "A Big Piece of Garbage" (1999)
 <!-- 202 -->
@@ -6540,7 +6612,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=futurama&episode=s01e08)
 - **Use it for:** announcing the assessment schedule. *"Good news, everyone! Your FYP proposal is due Friday"*
 
-----
+---<!--L2-->
 
 ## Futurama: "A Head in the Polls" (1999)
 <!-- 131 -->
@@ -6559,7 +6631,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=futurama&episode=s02e07). It doesn't say who asks
 - **Use it for:** recording lectures, and consent to record. Pairs with *Layer Cake* (topic 5)
 
-----
+---<!--L3-->
 
 ## Futurama: "A Head in the Polls" (1999)
 <!-- 132 -->
@@ -6576,7 +6648,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=futurama&episode=s02e07). It doesn't say who asks
 - **Use it for:** age and attitudes. Older learners in the TNA, or the staff meeting. Same scene: "**One vote can make a difference, and even though it won't, you're going to register**"
 
-----
+---<!--L2-->
 
 ## Futurama: "Put Your Head on My Shoulders" (2000)
 <!-- 133 -->
@@ -6593,7 +6665,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=futurama&episode=s02e10)
 - **Use it for:** a confident student who hasn't read the feedback. Or you, after the code finally compiles
 
-----
+---<!--L2-->
 
 ## Futurama: "A Bicyclops Built for Two" (2000)
 <!-- 203 -->
@@ -6607,7 +6679,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=futurama&episode=s02e13)
 - **Use it for:** the college Wi-Fi; Moodle on results day
 
-----
+---<!--L2-->
 
 ## Futurama: Fry, "Not sure if..."
 <!-- 204 -->
@@ -6619,7 +6691,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/futurama-fry-not-sure-if)
 - **Use it for:** *"Not sure if the code works, or the tests don't run"*
 
-----
+---<!--L2-->
 
 ## SpongeBob SquarePants: "Little Yellow Book" (2012)
 <!-- 134 -->
@@ -6631,7 +6703,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/mocking-spongebob)
 - **Use it for:** how students hear rules repeated. *"rEaD tHe BrIeF"*
 
-----
+---<!--L2-->
 
 ## SpongeBob SquarePants: "The Smoking Peanut" (2001)
 <!-- 135 -->
@@ -6643,7 +6715,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/ight-imma-head-out)
 - **Use it for:** *"Lecturer: Any questions? Class:"*. Or the end of a session
 
-----
+---<!--L2-->
 
 ## SpongeBob SquarePants: "The Idiot Box" (2002)
 <!-- 136 -->
@@ -6655,7 +6727,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/imagination-spongebob)
 - **Use it for:** *"The brief says the project must be innovative"*, or a prototype on paper
 
-----
+---<!--L2-->
 
 ## Archer: "Mole Hunt" (2009)
 <!-- 321 -->
@@ -6684,7 +6756,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=archer&episode=s01e01) [🔗](<../my-fetches/springfield-scripts/archer/s01e01.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Archer_(season_1)) [🔗](<../my-fetches/wikiquote/Archer_(season_1).wiki>)
 - **Use it for:** "Any questions?" at the end of a lecture, and the answers you get
 
-----
+---<!--L2-->
 
 ## Archer: "Skytanic" (2010)
 <!-- 300 -->
@@ -6716,7 +6788,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Check:** who is at the bomb and who is on the radio
 - **Use it for:** instructions in a lab sheet, and why every step is numbered
 
-----
+---<!--L2-->
 
 ## Archer: "Placebo Effect" (2011)
 <!-- 334 -->
@@ -6743,7 +6815,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Archer_(season_2)) [🔗](<../my-fetches/wikiquote/Archer_(season_2).wiki>) · [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=archer&episode=s02e09) [🔗](<../my-fetches/springfield-scripts/archer/s02e09.txt>)
 - **Use it for:** carefully. Lana's "Were you?" for anyone who says they were worried about something they clearly weren't: "I was worried about missing the deadline." "Were you?"
 
-----
+---<!--L2-->
 
 ## Archer: "Legs" (2013)
 <!-- 301 -->
@@ -6762,7 +6834,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=archer&episode=s04e03) [🔗](<../my-fetches/springfield-scripts/archer/s04e03.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Archer_(season_4)) [🔗](<../my-fetches/wikiquote/Archer_(season_4).wiki>), which has "And yet, somehow"
 - **Use it for:** the learner who volunteers for the hardest bug, the demo, the presentation
 
-----
+---<!--L2-->
 
 ## Archer: "Archer Vice: Arrival/Departure" (2014)
 <!-- 302 -->
@@ -6781,7 +6853,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=archer&episode=s05e13) [🔗](<../my-fetches/springfield-scripts/archer/s05e13.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Archer_(season_5)) [🔗](<../my-fetches/wikiquote/Archer_(season_5).wiki>)
 - **Use it for:** the colleague who covered your class once, eight months ago
 
-----
+---<!--L2-->
 
 ## Rick and Morty: "Rixty Minutes" (2014)
 <!-- 322 -->
@@ -6796,7 +6868,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=rick-and-morty-2013&episode=s01e08) [🔗](<../my-fetches/springfield-scripts/rick-and-morty-2013/s01e08.txt>)
 - **Use it for:** the last week of term, when nothing more can be done
 
-----
+---<!--L2-->
 
 ## One Punch Man: "The Strongest Man" (2015)
 <!-- 323 -->
@@ -6823,7 +6895,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 
 <figure class="topic-photo"><img src="src/img/topics/british-comedy.jpg" alt="Rowan Atkinson driving a Mini" /><figcaption><a class="ref media" href="#/media-used"><sup>12</sup></a> – Rowan Atkinson in a Mini</figcaption></figure>
 
-----
+---<!--L2-->
 
 ## Peep Show: "Dance Class" (2004)
 <!-- 138 -->
@@ -6844,7 +6916,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=peep-show-2003&episode=s02e01). It doesn't name speakers
 - **Use it for:** inclusive classrooms, with a wink. The sceptic in the group work session
 
-----
+---<!--L2-->
 
 ## Peep Show: "Sectioning" (2005)
 <!-- 140 -->
@@ -6859,7 +6931,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Peep_Show)
 - **Use it for:** survey bias, and why majority opinion isn't evidence. Fits your survey in the project
 
-----
+---<!--L2-->
 
 ## Peep Show: "Jurying" (2005)
 <!-- 137 -->
@@ -6874,7 +6946,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Peep_Show). It's "dying at 43 with rotten teeth"
 - **Use it for:** open source and paid software, or why students should learn the business side. Mind the language
 
-----
+---<!--L2-->
 
 ## Peep Show: "A Beautiful Mind" (2010)
 <!-- 139 -->
@@ -6895,7 +6967,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=peep-show-2003&episode=s07e03)
 - **Use it for:** phones in class, a deadline extension, the answer key. "With wood?" is the punchline
 
-----
+---<!--L2-->
 
 ## Peep Show: "Business Secrets of the Pharaohs" (2012)
 <!-- 205 -->
@@ -6914,7 +6986,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=peep-show-2003&episode=s08e02)
 - **Use it for:** the staffroom kettle; sharing in group work; a student quietly copying
 
-----
+---<!--L2-->
 
 ## That Mitchell and Webb Look (2006)
 <!-- 141 -->
@@ -6930,7 +7002,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 - **Use it for:** a team realising its project collects too much personal data. GDPR, ethics, dark patterns
 - **Check:** the caps line is from memory; "Are we the baddies?" is confirmed
 
-----
+---<!--L2-->
 
 ## Blackadder
 <!-- 142 -->
@@ -6944,7 +7016,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 - **Use it for:** project plans. Pairs with Gru's plan in topic 2
 - **Check:** the weasel line and its episode. No script found
 
-----
+---<!--L2-->
 
 ## Blackadder Goes Forth: "Goodbyeee" (1989)
 <!-- 143 -->
@@ -6957,7 +7029,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 - **Use it for:** the night before a deadline. Your "are we going over the line?" is "over the top"
 - **Check:** wording. No script found
 
-----
+---<!--L2-->
 
 ## Bean (1997)
 <!-- 144 -->
@@ -6972,7 +7044,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Bean_(film))
 - **Use it for:** presentations with nothing to say, and font size. Fits the 27px rule in Assignment 2
 
-----
+---<!--L3-->
 
 ## Bean (1997)
 <!-- 145 -->
@@ -6987,7 +7059,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Bean_(film))
 - **Use it for:** the conclusion slide. *"I'm getting quite near the end of this analysis"* for a presenter over time
 
-----
+---<!--L3-->
 
 ## Bean (1997)
 <!-- 146 -->
@@ -7000,7 +7072,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 - **Use it for:** the risk of a student left unsupervised, or "don't touch production"
 - **Check:** not on Wikiquote, and no script found. Wording, and who he goes to see
 
-----
+---<!--L2-->
 
 ## Yes Minister: "Big Brother" (1980)
 <!-- 271 -->
@@ -7019,7 +7091,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=yes-minister-1980&episode=s01e04) [🔗](<../my-fetches/springfield-scripts/yes-minister-1980/s01e04.txt>)
 - **Use it for:** a meeting that wants to set up a working group instead of deciding
 
-----
+---<!--L2-->
 
 ## Yes Minister: "The Writing on the Wall" (1980)
 <!-- 272 -->
@@ -7040,7 +7112,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=yes-minister-1980&episode=s01e05) [🔗](<../my-fetches/springfield-scripts/yes-minister-1980/s01e05.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Yes,_Minister) [🔗](<../my-fetches/wikiquote/Yes,_Minister.wiki>)
 - **Use it for:** a group member who joins the team to slow it down. Or office politics
 
-----
+---<!--L2-->
 
 ## Yes Minister: "Doing the Honours" (1981)
 <!-- 273 -->
@@ -7061,7 +7133,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=yes-minister-1980&episode=s02e02) [🔗](<../my-fetches/springfield-scripts/yes-minister-1980/s02e02.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Yes,_Minister) [🔗](<../my-fetches/wikiquote/Yes,_Minister.wiki>)
 - **Use it for:** reading between the lines of an email from management. You mean "no"?
 
-----
+---<!--L2-->
 
 ## Yes Minister: "The Challenge" (1982)
 <!-- 274 -->
@@ -7082,7 +7154,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=yes-minister-1980&episode=s03e02) [🔗](<../my-fetches/springfield-scripts/yes-minister-1980/s03e02.txt>)
 - **Use it for:** success criteria and project evaluation. Write down what failure looks like before you start
 
-----
+---<!--L2-->
 
 ## Yes, Prime Minister: "The Grand Design" (1986)
 <!-- 275 -->
@@ -7108,7 +7180,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 - **Check:** which lines are Humphrey's and which the General's
 - **Use it for:** open access to a course, and the staff who worry about standards
 
-----
+---<!--L2-->
 
 ## Yes, Prime Minister: "The Ministerial Broadcast" (1986)
 <!-- 276 -->
@@ -7137,7 +7209,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=yes-prime-minister-1986&episode=s01e02) [🔗](<../my-fetches/springfield-scripts/yes-prime-minister-1986/s01e02.txt>)
 - **Use it for:** writing a TNA survey or a feedback form. Leading questions, and how they fix the answer
 
-----
+---<!--L2-->
 
 ## Yes, Prime Minister: "A Victory for Democracy" (1986)
 <!-- 277 -->
@@ -7162,7 +7234,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=yes-prime-minister-1986&episode=s01e06) [🔗](<../my-fetches/springfield-scripts/yes-prime-minister-1986/s01e06.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Yes,_Minister) [🔗](<../my-fetches/wikiquote/Yes,_Minister.wiki>)
 - **Use it for:** a learner falling behind, and how not to respond. Stage one to stage four in a term
 
-----
+---<!--L2-->
 
 ## Yes, Prime Minister: "A Conflict of Interest" (1987)
 <!-- 377 -->
@@ -7202,7 +7274,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 - **Check:** it isn't on Wikiquote's Yes, Minister page, so only the subtitles have it
 - **Use it for:** office politics, and how to spot it. Praise as a weapon
 
-----
+---<!--L2-->
 
 ## Father Ted: "The Passion of St Tibulus" (1995)
 <!-- 278 -->
@@ -7219,7 +7291,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=father-ted&episode=s01e03) [🔗](<../my-fetches/springfield-scripts/father-ted/s01e03.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Father_Ted) [🔗](<../my-fetches/wikiquote/Father_Ted.wiki>)
 - **Use it for:** being handed a module outside your subject
 
-----
+---<!--L2-->
 
 ## Father Ted: "Hell" (1996)
 <!-- 279 -->
@@ -7238,7 +7310,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=father-ted&episode=s02e01) [🔗](<../my-fetches/springfield-scripts/father-ted/s02e01.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Father_Ted) [🔗](<../my-fetches/wikiquote/Father_Ted.wiki>)
 - **Use it for:** explaining a concept for the fifth time: scope in Python, pointers, references. Try a new example, not the same one louder
 
-----
+---<!--L2-->
 
 ## Father Ted: "Tentacles of Doom" (1996)
 <!-- 280 -->
@@ -7259,7 +7331,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=father-ted&episode=s02e03) [🔗](<../my-fetches/springfield-scripts/father-ted/s02e03.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Father_Ted) [🔗](<../my-fetches/wikiquote/Father_Ted.wiki>), which gives the question to Bishop Fachs
 - **Use it for:** stakeholder engagement, and employers on a programme board
 
-----
+---<!--L3-->
 
 ## Father Ted: "Tentacles of Doom" (1996)
 <!-- 281 -->
@@ -7282,7 +7354,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=father-ted&episode=s02e03) [🔗](<../my-fetches/springfield-scripts/father-ted/s02e03.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Father_Ted) [🔗](<../my-fetches/wikiquote/Father_Ted.wiki>)
 - **Use it for:** a viva answer that sounds good and says nothing. Examiners: probe it
 
-----
+---<!--L2-->
 
 ## Father Ted: "A Song for Europe" (1996)
 <!-- 282 -->
@@ -7305,7 +7377,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=father-ted&episode=s02e05) [🔗](<../my-fetches/springfield-scripts/father-ted/s02e05.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Father_Ted) [🔗](<../my-fetches/wikiquote/Father_Ted.wiki>)
 - **Use it for:** pair programming at 2am. "It's just a bit of fun"
 
-----
+---<!--L2-->
 
 ## Father Ted: "Are You Right There, Father Ted?" (1998)
 <!-- 283 -->
@@ -7332,7 +7404,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=father-ted&episode=s03e01) [🔗](<../my-fetches/springfield-scripts/father-ted/s03e01.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Father_Ted) [🔗](<../my-fetches/wikiquote/Father_Ted.wiki>)
 - **Use it for:** how a rumour spreads in a staff room or a class group chat, and why denying it louder doesn't help
 
-----
+---<!--L2-->
 
 ## Outnumbered: "The School Run" (2007)
 <!-- 314 -->
@@ -7355,7 +7427,7 @@ Villains, Q and the vivas
 
 <figure class="topic-photo"><img src="src/img/topics/bond.jpg" alt="The Aston Martin DB5 from Skyfall" /><figcaption><a class="ref media" href="#/media-used"><sup>13</sup></a> – The Aston Martin DB5 from Skyfall</figcaption></figure>
 
-----
+---<!--L2-->
 
 ## Goldfinger (1964)
 <!-- 147 -->
@@ -7372,7 +7444,7 @@ Villains, Q and the vivas
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Goldfinger_(film))
 - **Use it for:** the viva, the demo. *"Do you expect me to present?" "No, I expect you to answer questions"*
 
-----
+---<!--L2-->
 
 ## Casino Royale (2006)
 <!-- 150 -->
@@ -7391,7 +7463,7 @@ Villains, Q and the vivas
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=casino-royale)
 - **Use it for:** *"Tabs or spaces?"*, *"React or Vue?"*: debates that don't matter yet
 
-----
+---<!--L2-->
 
 ## Skyfall (2012)
 <!-- 148 -->
@@ -7428,7 +7500,7 @@ Quotes you have already used in templates and reports
 
 <figure class="topic-photo"><img src="src/img/topics/documents.jpg" alt="An old typewriter advertisement" /><figcaption><a class="ref media" href="#/media-used"><sup>14</sup></a> – A 1909 typewriter advert</figcaption></figure>
 
-----
+---<!--L2-->
 
 ## Benjamin Franklin (attributed, 1776)
 <!-- 152 -->
@@ -7439,7 +7511,7 @@ Quotes you have already used in templates and reports
 - **Source:** `marcocrowe/agriculture-data-analytics/report/report.docx`
 - **Use it for:** group projects and team charters
 
-----
+---<!--L2-->
 
 ## Jordan B. Peterson (2018)
 <!-- 153 -->
@@ -7450,7 +7522,7 @@ Quotes you have already used in templates and reports
 - **Source:** [transcript](https://www.jordanbpeterson.com/transcripts/aubrey-marcus/) · `data-analytics-project-template/docs/gantt-chart.md`
 - **Use it for:** SAM, iteration, project plans. A good fit for your SAM model. Peterson divides opinion, so pick the room
 
-----
+---<!--L3-->
 
 ## Jordan B. Peterson (2018)
 <!-- 154 -->
@@ -7462,7 +7534,7 @@ Quotes you have already used in templates and reports
 - **Use it for:** self-assessment and a skills audit. Learners measure progress against their own baseline
 - **Check:** rule 6's exact wording
 
-----
+---<!--L2-->
 
 ## Jordan B. Peterson (2017)
 <!-- 155 -->
@@ -7473,7 +7545,7 @@ Quotes you have already used in templates and reports
 - **Source:** [video](https://youtu.be/nsZ8XqHPjI4?t=8348) · `data-analytics-project-template/docs/readme.md`
 - **Use it for:** why the FYP report matters as much as the code
 
-----
+---<!--L2-->
 
 ## Robert C. Martin (2017)
 <!-- 156 -->
@@ -7484,7 +7556,7 @@ Quotes you have already used in templates and reports
 - **Source:** [tweet](https://twitter.com/unclebobmartin/status/870311898545258497) · `data-analytics-project-template/docs/code-style-guide.md`
 - **Use it for:** code style and commenting
 
-----
+---<!--L2-->
 
 ## Mark Crowe (2010)
 <!-- 378 -->
@@ -7494,7 +7566,7 @@ Quotes you have already used in templates and reports
 - **Who:** your own line, a possible title for a report. Not a quotation from anyone else
 - **Use it for:** a report title; confidence backed by evidence
 
-----
+---<!--L2-->
 
 ## Mark Crowe (2026)
 <!-- 379 -->
@@ -7505,7 +7577,7 @@ Quotes you have already used in templates and reports
 - **Check:** your final wording
 - **Use it for:** team charters, and dealing with problems inside the group before blaming outsiders
 
-----
+---<!--L2-->
 
 ## Mark Crowe (2026), after Picard
 <!-- 380 -->
@@ -7523,7 +7595,7 @@ Out of copyright, so quote freely. Act and scene numbers follow the Folger editi
 
 <figure class="topic-photo"><img src="src/img/topics/shakespeare.jpg" alt="The Chandos portrait of Shakespeare" /><figcaption><a class="ref media" href="#/media-used"><sup>15</sup></a> – The Chandos portrait of Shakespeare</figcaption></figure>
 
-----
+---<!--L2-->
 
 ## Hamlet
 <!-- 206 -->
@@ -7533,7 +7605,7 @@ Out of copyright, so quote freely. Act and scene numbers follow the Folger editi
 - **Who:** Polonius, act 2, scene 2, who then talks for a long time
 - **Use it for:** presentations and word counts. The joke is that the speaker ignores his own advice
 
-----
+---<!--L3-->
 
 ## Hamlet
 <!-- 207 -->
@@ -7543,7 +7615,7 @@ Out of copyright, so quote freely. Act and scene numbers follow the Folger editi
 - **Who:** Polonius, aside, act 2, scene 2, after talking to Hamlet
 - **Use it for:** SAM and agile. The process that looks chaotic but isn't
 
-----
+---<!--L3-->
 
 ## Hamlet
 <!-- 208 -->
@@ -7553,7 +7625,7 @@ Out of copyright, so quote freely. Act and scene numbers follow the Folger editi
 - **Who:** Ophelia, act 4, scene 5
 - **Use it for:** a TNA. Learners know their current skills, not their potential
 
-----
+---<!--L3-->
 
 ## Hamlet
 <!-- 209 -->
@@ -7563,7 +7635,7 @@ Out of copyright, so quote freely. Act and scene numbers follow the Folger editi
 - **Who:** Polonius to his son Laertes, act 1, scene 3
 - **Use it for:** plagiarism and sharing code in individual assignments
 
-----
+---<!--L2-->
 
 ## Julius Caesar
 <!-- 210 -->
@@ -7574,7 +7646,7 @@ Out of copyright, so quote freely. Act and scene numbers follow the Folger editi
 - **Also:** Garak's version in *Deep Space Nine*, "The Die Is Cast": "the fault, dear Tain, is not in our stars but in ourselves"
 - **Use it for:** taking responsibility for results. Not the timetable, not the laptop
 
-----
+---<!--L3-->
 
 ## Julius Caesar
 <!-- 211 -->
@@ -7584,7 +7656,7 @@ Out of copyright, so quote freely. Act and scene numbers follow the Folger editi
 - **Who:** Mark Antony, act 3, scene 1. General Chang quotes it in *The Undiscovered Country* (topic 6), and also Caesar's "I am constant as the northern star" from the same scene
 - **Use it for:** the start of exam season
 
-----
+---<!--L2-->
 
 ## Henry V
 <!-- 212 -->
@@ -7594,7 +7666,7 @@ Out of copyright, so quote freely. Act and scene numbers follow the Folger editi
 - **Who:** Henry, at the siege of Harfleur, act 3, scene 1
 - **Use it for:** the resubmission; the last push before a deadline
 
-----
+---<!--L2-->
 
 ## Measure for Measure
 <!-- 213 -->
@@ -7604,7 +7676,7 @@ Out of copyright, so quote freely. Act and scene numbers follow the Folger editi
 - **Who:** Lucio to Isabella, act 1, scene 4
 - **Use it for:** presentation nerves (lesson 031); learners who won't try a new skill
 
-----
+---<!--L2-->
 
 ## The Tempest
 <!-- 214 -->
@@ -7614,7 +7686,7 @@ Out of copyright, so quote freely. Act and scene numbers follow the Folger editi
 - **Who:** Antonio to Sebastian, act 2, scene 1
 - **Use it for:** recognition of prior learning; a course that builds on last year's
 
-----
+---<!--L2-->
 
 ## Henry VI, Part 2
 <!-- 157 -->
@@ -7633,7 +7705,7 @@ Memes that started as photos, clips and cartoons
 
 <figure class="topic-photo"><img src="src/img/topics/internet.jpg" alt="Social media apps on a phone" /><figcaption><a class="ref media" href="#/media-used"><sup>16</sup></a> – Social media apps on a phone</figcaption></figure>
 
-----
+---<!--L2-->
 
 ## Hide the Pain Harold
 <!-- 158 -->
@@ -7644,7 +7716,7 @@ Memes that started as photos, clips and cartoons
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/hide-the-pain-harold)
 - **Use it for:** smiling through a bad demo or hard feedback
 
-----
+---<!--L2-->
 
 ## Woman yelling at a cat
 <!-- 159 -->
@@ -7655,7 +7727,7 @@ Memes that started as photos, clips and cartoons
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/woman-yelling-at-a-cat)
 - **Use it for:** a lecturer and a student's excuse, or a client and a developer
 
-----
+---<!--L2-->
 
 ## Surprised Pikachu
 <!-- 160 -->
@@ -7666,7 +7738,7 @@ Memes that started as photos, clips and cartoons
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/surprised-pikachu)
 - **Use it for:** *"No backup. Laptop dies. Work is gone."* Then the face
 
-----
+---<!--L2-->
 
 ## Is this a pigeon?
 <!-- 161 -->
@@ -7677,7 +7749,7 @@ Memes that started as photos, clips and cartoons
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/is-this-a-pigeon)
 - **Use it for:** calling everything "AI", or everything "agile"
 
-----
+---<!--L2-->
 
 ## The Oprah Winfrey Show (2004)
 <!-- 162 -->
@@ -7689,7 +7761,7 @@ Memes that started as photos, clips and cartoons
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/oprahs-you-get-a-car)
 - **Use it for:** *"You get a backup! Everybody gets a backup!"*
 
-----
+---<!--L2-->
 
 ## Bernie Sanders (2019)
 <!-- 163 -->
@@ -7700,7 +7772,7 @@ Memes that started as photos, clips and cartoons
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/i-am-once-again-asking-for-your-financial-support)
 - **Use it for:** *"I am once again asking you to commit your work"*
 
-----
+---<!--L2-->
 
 ## Donald Trump (2016)
 <!-- 374 -->
@@ -7712,7 +7784,7 @@ Memes that started as photos, clips and cartoons
 - **Also:** "Sorry to keep you waiting. Complicated business" is three entries on, from NPR's transcript of the victory speech
 - **Use it for:** results day, or a run of good marks. Often used sarcastically, when there hasn't been much winning
 
-----
+---<!--L2-->
 
 ## Donald Trump (2016): the "Fifth Avenue" remark
 <!-- 381 -->
@@ -7723,7 +7795,7 @@ Memes that started as photos, clips and cartoons
 - **Checked:** [NPR](https://www.npr.org/sections/thetwo-way/2016/01/23/464129029/donald-trump-i-could-shoot-somebody-and-i-wouldnt-lose-any-voters) [🔗](<../my-fetches/trump/fifth-avenue.txt>)
 - **Use it for:** loyalty that survives anything. Is that a good thing?
 
-----
+---<!--L2-->
 
 ## Donald Trump and Hillary Clinton (2016): the second debate
 <!-- 382 -->
@@ -7736,7 +7808,7 @@ Memes that started as photos, clips and cartoons
 - **Checked:** [Commission on Presidential Debates transcript](https://www.debates.org/voter-education/debate-transcripts/october-9-2016-debate-transcript/) [🔗](<../my-fetches/trump/debate-2016-10-09.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Donald_Trump) [🔗](<../my-fetches/wikiquote/Donald_Trump.wiki>)
 - **Use it for:** the comeback. Debating skills: a five-word reply that wins the room and answers nothing
 
-----
+---<!--L2-->
 
 ## Donald Trump (2016): the victory speech
 <!-- 383 -->
@@ -7747,7 +7819,7 @@ Memes that started as photos, clips and cartoons
 - **Checked:** [NPR transcript](https://www.npr.org/2016/11/09/500715254/transcript-donald-trump-speaks-at-victory-rally) [🔗](<../my-fetches/trump/victory-2016.txt>)
 - **Use it for:** starting late. Or the end of a long marking session
 
-----
+---<!--L2-->
 
 ## Donald Trump (2017): "You are fake news"
 <!-- 384 -->
@@ -7764,7 +7836,7 @@ Memes that started as photos, clips and cartoons
 - **Checked:** [Columbia Journalism Review](https://www.cjr.org/politics/trump_press_conference_acosta_fake_news.php) [🔗](<../my-fetches/trump/acosta-2017.txt>)
 - **Use it for:** media literacy. Dismissing the source instead of the question
 
-----
+---<!--L2-->
 
 ## Donald Trump (2018): "You never do"
 <!-- 385 -->
@@ -7783,7 +7855,7 @@ Memes that started as photos, clips and cartoons
 - **Checked:** [White House transcript](https://trumpwhitehouse.archives.gov/briefings-statements/remarks-president-trump-united-states-mexico-canada-agreement/) [🔗](<../my-fetches/trump/usmca-2018-10-01.txt>) and [NBC News](https://www.nbcnews.com/politics/white-house/white-house-corrects-transcript-include-trump-insult-female-reporter-n915821) [🔗](<../my-fetches/trump/vega-2018.txt>)
 - **Use it for:** how not to treat a question. Feedback that's a put-down
 
-----
+---<!--L2-->
 
 ## Donald Trump (2015): equal pay
 <!-- 386 -->
@@ -7796,7 +7868,7 @@ Memes that started as photos, clips and cartoons
 - **Checked:** [FactCheck.org](https://www.factcheck.org/2016/06/clintons-equal-pay-claim/) [🔗](<../my-fetches/trump/equal-pay-factcheck.txt>) and [NBC News](https://www.nbcnews.com/politics/2016-election/trump-accuses-tough-questioner-being-bush-plant-n443476) [🔗](<../my-fetches/trump/equal-pay-2015.txt>)
 - **Use it for:** a fair-sounding answer with an assumption hidden in it. Equality and diversity training
 
-----
+---<!--L2-->
 
 ## Donald Trump (2021): the January 6 video
 <!-- 387 -->
@@ -7811,7 +7883,7 @@ Memes that started as photos, clips and cartoons
 - **Checked:** [Roll Call Factbase transcript and video](https://rollcall.com/factbase/trump/transcript/donald-trump-vlog-capitol-insurrection-january-6-2021/) [🔗](<../my-fetches/trump/jan6-video.txt>)
 - **Use it for:** mixed messages. Telling people to stop while telling them they're right
 
-----
+---<!--L2-->
 
 ## H. L. Mencken (1920): democracy and the White House
 <!-- 388 -->
@@ -7822,7 +7894,7 @@ Memes that started as photos, clips and cartoons
 - **Checked:** [Wikiquote: Mencken](https://en.wikiquote.org/wiki/H._L._Mencken) [🔗](<../my-fetches/wikiquote/H._L._Mencken.wiki>) [🔗](<../my-fetches/quotes/mencken-1920.txt>) · [Wikiquote: Churchill, misattributed](https://en.wikiquote.org/wiki/Winston_Churchill) [🔗](<../my-fetches/wikiquote/Winston_Churchill.wiki>)
 - **Use it for:** politics and citizenship. Pick the room
 
-----
+---<!--L2-->
 
 ## Taylor Caldwell (1965): "treason from within", not Cicero
 <!-- 389 -->
@@ -7833,7 +7905,7 @@ Memes that started as photos, clips and cartoons
 - **Checked:** [PolitiFact](https://www.politifact.com/factchecks/2019/may/03/facebook-posts/no-roman-statesman-did-not-give-warning-about-trum/) [🔗](<../my-fetches/quotes/politifact-cicero-caldwell.txt>)
 - **Use it for:** the enemy within. Credit the novel, not Cicero
 
-----
+---<!--L2-->
 
 ## Jordan B. Peterson (2016): "that wasn't real Marxism"
 <!-- 497 -->
@@ -7849,7 +7921,6 @@ Memes that started as photos, clips and cartoons
 - **Check:** the part you remember about young people who want to reorder the whole of society isn't in this transcript; it may be from another talk. The year comes from the transcript's mention of 2016
 - **Use it for:** the student who'd have done the group project much better on their own. Assuming the competence, which...
 
-
 ---
 
 # Music, sound and clips
@@ -7858,7 +7929,7 @@ A few seconds of sound, and the law on clips in class
 
 <figure class="topic-photo"><img src="src/img/topics/music.jpg" alt="A film clapperboard" /><figcaption><a class="ref media" href="#/media-used"><sup>17</sup></a> – A film clapperboard</figcaption></figure>
 
-----
+---<!--L2-->
 
 ## Jaws (1975): the theme
 <!-- 164 -->
@@ -7870,7 +7941,7 @@ A few seconds of sound, and the law on clips in class
 - **Use it for:** a looming deadline, three seconds at most. Fade it, don't cut it off mid-note
 - **Check:** your college's policy on music in recorded or published sessions
 
-----
+---<!--L2-->
 
 ## Clips and music in class: the law
 <!-- 165 -->
@@ -7882,7 +7953,7 @@ A few seconds of sound, and the law on clips in class
 - **Source:** [Copyright and Other Intellectual Property Law Provisions Act 2019, s.15](https://www.irishstatutebook.ie/eli/2019/act/19/section/15/enacted/en/html)
 - **Use it for:** short clips and stills in class, credited on a Media used slide. A recording posted publicly is a different matter
 
-----
+---<!--L2-->
 
 ## Free music instead
 <!-- 166 -->
@@ -7900,7 +7971,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 
 <figure class="topic-photo"><img src="src/img/topics/transformers.jpg" alt="Megatron and Optimus Prime cosplayers at WonderCon" /><figcaption><a class="ref media" href="#/media-used"><sup>18</sup></a> – Megatron and Optimus Prime, at WonderCon</figcaption></figure>
 
-----
+---<!--L2-->
 
 ## The Transformers: "More than Meets the Eye, Part 3" (1984)
 <!-- 424 -->
@@ -7918,7 +7989,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 - **Check:** no transcript or subtitles; TFWiki gives only the second line of Starscream's
 - **Use it for:** the self-appointed leader. And a put-down that a franchise kept for 25 years
 
-----
+---<!--L2-->
 
 ## The Transformers: "Starscream's Brigade" (1986)
 <!-- 420 -->
@@ -7938,7 +8009,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 - **Check:** only one source, a fan wiki; no transcript or subtitles
 - **Use it for:** dismissing a rival, and handing them their next move
 
-----
+---<!--L3-->
 
 ## The Transformers: "Starscream's Brigade" (1986)
 <!-- 425 -->
@@ -7954,7 +8025,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 - **Check:** fan sources only; no transcript or subtitles. Often remembered as "Starscream couldn't lead a parade, let alone an army against us". The Starscream jab goes back to season 1 ("ant-droids to a picnic", above) and comes back in *Transformers: Animated* ("You couldn't lead a parade", below)
 - **Use it for:** underestimating the rival, just before he turns up with an army
 
-----
+---<!--L2-->
 
 ## The Transformers: "The Revenge of Bruticus" (1986)
 <!-- 421 -->
@@ -7976,7 +8047,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 - **Check:** only one source, a fan wiki
 - **Use it for:** blackmail dressed up as negotiation
 
-----
+---<!--L3-->
 
 ## The Transformers: "The Revenge of Bruticus" (1986)
 <!-- 426 -->
@@ -7994,7 +8065,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 - **Check:** one word-for-word source, a fan recap; no transcript or subtitles. RQ87 has Sideswipe ask how to stop Bruticus first, and doesn't give Starscream's "What's in it for me?"
 - **Use it for:** leverage. Helping is the only way out, and the reward is only "might"
 
-----
+---<!--L2-->
 
 ## The Transformers: The Movie (1986)
 <!-- 263 -->
@@ -8017,7 +8088,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-transformers-the-movie) [🔗](<../my-fetches/springfield-scripts/the-transformers-the-movie.txt>), which doesn't name most speakers, and [Wikiquote](https://en.wikiquote.org/wiki/The_Transformers:_The_Movie) [🔗](<../my-fetches/wikiquote/The_Transformers__The_Movie.wiki>)
 - **Use it for:** exam day, or two groups pitching for the same project
 
-----
+---<!--L3-->
 
 ## The Transformers: The Movie (1986)
 <!-- 264 -->
@@ -8039,7 +8110,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 - **Check:** who gives the order to the Dinobots; the subtitles don't say
 - **Use it for:** the hardest bug, given to the learner who loves a challenge
 
-----
+---<!--L3-->
 
 ## The Transformers: The Movie (1986)
 <!-- 390 -->
@@ -8070,7 +8141,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Transformers; The Movie [1986] -imdb-tt0092106.srt>) and [Wikiquote](https://en.wikiquote.org/wiki/The_Transformers:_The_Movie) [🔗](<../my-fetches/wikiquote/The_Transformers__The_Movie.wiki>)
 - **Use it for:** a group vote that happens to suit the people voting. Democracy, Decepticon style
 
-----
+---<!--L3-->
 
 ## The Transformers: The Movie (1986)
 <!-- 265 -->
@@ -8101,7 +8172,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-transformers-the-movie) [🔗](<../my-fetches/springfield-scripts/the-transformers-the-movie.txt>)
 - **Use it for:** terms and conditions, a software licence, an unpaid internship. Your bargaining posture is highly dubious
 
-----
+---<!--L3-->
 
 ## The Transformers: The Movie (1986)
 <!-- 391 -->
@@ -8124,7 +8195,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Transformers; The Movie [1986] -imdb-tt0092106.srt>) and [Wikiquote](https://en.wikiquote.org/wiki/The_Transformers:_The_Movie) [🔗](<../my-fetches/wikiquote/The_Transformers__The_Movie.wiki>)
 - **Use it for:** whoever claims credit for the project while the real lead is off sick. Or a coup that doesn't last
 
-----
+---<!--L3-->
 
 ## The Transformers: The Movie (1986)
 <!-- 266 -->
@@ -8144,7 +8215,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 - **Check:** that it's Kup; the subtitles don't name the speaker
 - **Use it for:** a disciplinary hearing, or the appeals board, from the learner's side
 
-----
+---<!--L3-->
 
 ## The Transformers: The Movie (1986)
 <!-- 267 -->
@@ -8165,7 +8236,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-transformers-the-movie) [🔗](<../my-fetches/springfield-scripts/the-transformers-the-movie.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/The_Transformers:_The_Movie) [🔗](<../my-fetches/wikiquote/The_Transformers__The_Movie.wiki>)
 - **Use it for:** the assignment you were going to go easy on, before the class threatened you with a petition
 
-----
+---<!--L3-->
 
 ## The Transformers: The Movie (1986)
 <!-- 268 -->
@@ -8182,7 +8253,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-transformers-the-movie) [🔗](<../my-fetches/springfield-scripts/the-transformers-the-movie.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/The_Transformers:_The_Movie) [🔗](<../my-fetches/wikiquote/The_Transformers__The_Movie.wiki>)
 - **Use it for:** the deadline. We all must die sometime. Not today
 
-----
+---<!--L2-->
 
 ## The Transformers: "Five Faces of Darkness, Part 4" (1986)
 <!-- 392 -->
@@ -8195,14 +8266,14 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 >
 > Galvatron: "**EVERYONE!**"
 
-- **Who:** Galvatron (Leonard Nimoy's role, voiced in the series by Frank Welker) and Cyclonus. The Decepticons had gone over to the Quintessons for energon; Galvatron shoots Cyclonus between lines. 
+- **Who:** Galvatron (Leonard Nimoy's role, voiced in the series by Frank Welker) and Cyclonus. The Decepticons had gone over to the Quintessons for energon; Galvatron shoots Cyclonus between lines.
 - **Episode:** season 3, episode 4
 - **IMDb:** [The Transformers](https://www.imdb.com/title/tt0086817/)
 - **Checked:** [TFWiki](https://tfwiki.net/wiki/Five_Faces_of_Darkness,_Part_4) [🔗](<../my-fetches/tfwiki/Five_Faces_of_Darkness,_Part_4.wiki>)
 - **Check:** only one source, a fan wiki; no transcript or subtitles
 - **Use it for:** blanket feedback to the whole class for one person's mistake. Don't
 
-----
+---<!--L2-->
 
 ## The Transformers: "Ghost in the Machine" (1986)
 <!-- 393 -->
@@ -8222,7 +8293,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 - **Check:** only one source, a fan wiki. Your "Sorry" from Megatron isn't there; Galvatron's "I'm already sorry" is
 - **Use it for:** a bug you thought you'd fixed, back again. Or a former colleague who keeps coming back
 
-----
+---<!--L2-->
 
 ## Transformers (2007)
 <!-- 269 -->
@@ -8239,7 +8310,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=transformers) [🔗](<../my-fetches/springfield-scripts/transformers.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Transformers_(film)) [🔗](<../my-fetches/wikiquote/Transformers_(film).wiki>)
 - **Use it for:** first years, from the second years' point of view. They have much to learn, but were we so different?
 
-----
+---<!--L2-->
 
 ## Transformers: Animated: "Mission Accomplished" (2009)
 <!-- 394 -->
@@ -8254,7 +8325,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 - **Check:** only one source, a fan wiki
 - **Use it for:** the person who wants to lead the group but can't organise a meeting
 
-----
+---<!--L2-->
 
 ## Transformers: Revenge of the Fallen (2009)
 <!-- 395 -->
@@ -8271,7 +8342,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Transformers; Revenge of the Fallen [2009] -imdb-tt1055369.srt>) and [Wikiquote](https://en.wikiquote.org/wiki/Transformers:_Revenge_of_the_Fallen) [🔗](<../my-fetches/wikiquote/Transformers__Revenge_of_the_Fallen.wiki>)
 - **Use it for:** every traitor's story: I was the one betrayed
 
-----
+---<!--L3-->
 
 ## Transformers: Revenge of the Fallen (2009)
 <!-- 396 -->
@@ -8290,7 +8361,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Transformers; Revenge of the Fallen [2009] -imdb-tt1055369.srt>) and [Wikiquote](https://en.wikiquote.org/wiki/Transformers:_Revenge_of_the_Fallen) [🔗](<../my-fetches/wikiquote/Transformers__Revenge_of_the_Fallen.wiki>)
 - **Use it for:** standing up for one learner when the rule would sacrifice them. Give one up, and it never stops at one
 
-----
+---<!--L3-->
 
 ## Transformers: Revenge of the Fallen (2009)
 <!-- 397 -->
@@ -8308,7 +8379,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 - **Check:** who says which. Neither source names them; the sense is the Fallen threatening, Optimus answering
 - **Use it for:** a reminder, in a falling-out, that the people being attacked were once on the same side
 
-----
+---<!--L2-->
 
 ## Transformers: Dark of the Moon (2011)
 <!-- 398 -->
@@ -8326,7 +8397,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 - **Check:** who says "What have you done?"
 - **Use it for:** "we were never going to win anyway": the excuse every quiet deal with the other side uses
 
-----
+---<!--L3-->
 
 ## Transformers: Dark of the Moon (2011)
 <!-- 270 -->
@@ -8347,7 +8418,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=transformers-dark-of-the-moon) [🔗](<../my-fetches/springfield-scripts/transformers-dark-of-the-moon.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Transformers:_Dark_of_the_Moon) [🔗](<../my-fetches/wikiquote/Transformers__Dark_of_the_Moon.wiki>)
 - **Use it for:** plagiarism. You didn't cheat me, you cheated yourself
 
-----
+---<!--L2-->
 
 ## Transformers: Age of Extinction (2014)
 <!-- 399 -->
@@ -8364,7 +8435,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Transformers; Age of Extinction [2014] -imdb-tt2109248.srt>) and [Wikiquote](https://en.wikiquote.org/wiki/Transformers:_Age_of_Extinction) [🔗](<../my-fetches/wikiquote/Transformers__Age_of_Extinction.wiki>)
 - **Use it for:** a cynic's view of loyalty, to argue with
 
-----
+---<!--L2-->
 
 ## Transformers: The Last Knight (2017)
 <!-- 422 -->
@@ -8380,7 +8451,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 - **Checked:** IMDb quotes [🔗](<../my-fetches/imdb-quotes/tt3371366-transformers-the-last-knight.txt>) and [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=transformers-the-last-knight) [🔗](<../my-fetches/springfield-scripts/transformers-the-last-knight.txt>)
 - **Use it for:** the shortest answer to "but we go way back"
 
-----
+---<!--L2-->
 
 ## Transformers One (2024)
 <!-- 423 -->
@@ -8400,7 +8471,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Transformers_One) [🔗](<../my-fetches/wikiquote/Transformers_One.wiki>) and [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=transformers-one) [🔗](<../my-fetches/springfield-scripts/transformers-one.txt>)
 - **Use it for:** betrayal from the inside, by the one everyone trusted with the plans
 
-----
+---<!--L3-->
 
 ## Transformers One (2024)
 <!-- 400 -->
@@ -8420,7 +8491,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Transformers_One) [🔗](<../my-fetches/wikiquote/Transformers_One.wiki>) and [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=transformers-one) [🔗](<../my-fetches/springfield-scripts/transformers-one.txt>), which is rough ("A top-the-leader board")
 - **Use it for:** the accuser who is the guilty one. Also: whoever controls the record controls the truth
 
-----
+---<!--L3-->
 
 ## Transformers One (2024)
 <!-- 401 -->
@@ -8438,7 +8509,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Transformers_One) [🔗](<../my-fetches/wikiquote/Transformers_One.wiki>) and [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=transformers-one) [🔗](<../my-fetches/springfield-scripts/transformers-one.txt>) ("Then I plucked the cons from your newborn chest")
 - **Use it for:** a leader who keeps people from developing so they stay useful. Or the hidden cost behind cheap labour
 
-----
+---<!--L3-->
 
 ## Transformers One (2024)
 <!-- 402 -->
@@ -8466,7 +8537,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 
 <figure class="topic-photo"><img src="src/img/topics/tv-drama.jpg" alt="An old television set on a suburban road" /><figcaption><a class="ref media" href="#/media-used"><sup>19</sup></a> – An old television set</figcaption></figure>
 
-----
+---<!--L2-->
 
 ## Stargate SG-1: "The Serpent's Lair" (1998)
 <!-- 403 -->
@@ -8492,7 +8563,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Check:** the speakers: the subtitles don't name them. You remembered Bra'tac as the one tortured; the lines read as Teal'c's
 - **Use it for:** refusing to bow to a bad authority. Courage, and the price of it
 
-----
+---<!--L3-->
 
 ## Stargate SG-1: "The Serpent's Lair" (1998)
 <!-- 404 -->
@@ -8518,7 +8589,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Check:** the speakers: the subtitles don't name them
 - **Use it for:** the end of a hard project that went wrong for the right reasons. Then the rescue nobody expected
 
-----
+---<!--L2-->
 
 ## Stargate SG-1: "Lost City" (2004)
 <!-- 486 -->
@@ -8536,8 +8607,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=stargate-sg-1&episode=s07e21) [🔗](<../my-fetches/springfield-scripts/stargate-sg-1/s07e21.txt>). It doesn't name speakers; Hammond's lines are as you remember them. A few lines in between are left out
 - **Use it for:** going down fighting. If I fail this project, the whole team comes with me
 
-
-----
+---<!--L2-->
 
 ## Buffy the Vampire Slayer: "Pangs" (1999)
 <!-- 342 -->
@@ -8559,7 +8629,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Check:** who says "What are you saying?" and the vet line; the subtitles don't name speakers
 - **Use it for:** the confident student after one bad grade, suddenly quiet in class
 
-----
+---<!--L3-->
 
 ## Buffy the Vampire Slayer: "Pangs" (1999)
 <!-- 343 -->
@@ -8578,7 +8648,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Buffy_the_Vampire_Slayer/Season_4) [🔗](<../my-fetches/wikiquote/Buffy_the_Vampire_Slayer_Season_4.wiki>) · [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=buffy-the-vampire-slayer&episode=s04e08) [🔗](<../my-fetches/springfield-scripts/buffy-the-vampire-slayer/s04e08.txt>). The subtitles shorten it ("Caesar did, and he didn't say")
 - **Use it for:** carefully. A discussion of whose point of view a case study takes, or who wrote the history. Not one for a joke slide, here of all places
 
-----
+---<!--L3-->
 
 ## Buffy the Vampire Slayer: "Pangs" (1999)
 <!-- 344 -->
@@ -8607,7 +8677,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Buffy_the_Vampire_Slayer/Season_4) [🔗](<../my-fetches/wikiquote/Buffy_the_Vampire_Slayer_Season_4.wiki>) · [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=buffy-the-vampire-slayer&episode=s04e08) [🔗](<../my-fetches/springfield-scripts/buffy-the-vampire-slayer/s04e08.txt>). The subtitles shorten it ("Caesar did, and he didn't say")
 - **Use it for:** Xander's line, for agreeing with someone you'd rather not agree with. Spike's speech only with care, as above
 
-----
+---<!--L2-->
 
 ## Andromeda: "Forced Perspective" (2001)
 <!-- 289 -->
@@ -8623,7 +8693,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Check:** the "best diplomat is a fully armed Lancer brigade" opener; it isn't on Wikiquote, so I haven't found its episode
 - **Use it for:** "I meant well" on a missed deadline
 
-----
+---<!--L2-->
 
 ## The Sopranos: "Fortunate Son" (2001)
 <!-- 405 -->
@@ -8644,7 +8714,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/The_Sopranos:_Season_3) [🔗](<../my-fetches/wikiquote/The_Sopranos__Season_3.wiki>) and [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-sopranos&episode=s03e03) [🔗](<../my-fetches/springfield-scripts/the-sopranos/s03e03.txt>)
 - **Use it for:** how a smear works: a cover story that can't be checked. Media literacy
 
-----
+---<!--L2-->
 
 ## Buffy the Vampire Slayer: "Intervention" (2001)
 <!-- 406 -->
@@ -8665,7 +8735,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Buffy_the_Vampire_Slayer/Season_5) [🔗](<../my-fetches/wikiquote/Buffy_the_Vampire_Slayer_Season_5.wiki>) and [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=buffy-the-vampire-slayer&episode=s05e18) [🔗](<../my-fetches/springfield-scripts/buffy-the-vampire-slayer/s05e18.txt>)
 - **Use it for:** thanking someone who kept a confidence under pressure
 
-----
+---<!--L2-->
 
 ## Buffy the Vampire Slayer: "The Gift" (2001)
 <!-- 303 -->
@@ -8685,7 +8755,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Check:** that it's Giles who answers "You'll fail"; the subtitles don't name speakers
 - **Use it for:** a learner you won't give up on
 
-----
+---<!--L3-->
 
 ## Buffy the Vampire Slayer: "The Gift" (2001)
 <!-- 304 -->
@@ -8704,7 +8774,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=buffy-the-vampire-slayer&episode=s05e22) [🔗](<../my-fetches/springfield-scripts/buffy-the-vampire-slayer/s05e22.txt>)
 - **Use it for:** the manager who makes the hard call so the team doesn't have to
 
-----
+---<!--L2-->
 
 ## Andromeda: "Belly of the Beast" (2002)
 <!-- 290 -->
@@ -8723,7 +8793,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=andromeda&episode=s02e19) [🔗](<../my-fetches/springfield-scripts/andromeda/s02e19.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Andromeda_(TV_series)) [🔗](<../my-fetches/wikiquote/Andromeda_(TV_series).wiki>)
 - **Use it for:** the colleague who'll be marking scripts when the building falls down. Or the tutor saving every last learner
 
-----
+---<!--L2-->
 
 ## Andromeda: "Point of the Spear" (2003)
 <!-- 487 -->
@@ -8742,8 +8812,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Check:** the episode title; the script page gives only the number
 - **Use it for:** scorched earth. Sometimes winning is just stopping the other side
 
-
-----
+---<!--L2-->
 
 ## Andromeda: "Twilight of the Idols" (2003)
 <!-- 492 -->
@@ -8767,7 +8836,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=andromeda&episode=s03e20) [🔗](<../my-fetches/springfield-scripts/andromeda/s03e20.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Andromeda_(TV_series)) [🔗](<../my-fetches/wikiquote/Andromeda_(TV_series).wiki>). The script doesn't name speakers and it's all lower case
 - **Use it for:** the old teacher who assumed you'd never call their bluff
 
-----
+---<!--L2-->
 
 ## House: "Pilot" (2004)
 <!-- 493 -->
@@ -8781,7 +8850,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/House_(Season_1)) [🔗](<../my-fetches/wikiquote/House_(Season_1).wiki>)
 - **Use it for:** "I did read the brief." Requirements gathering: users don't mean to lie, but they do
 
-----
+---<!--L2-->
 
 ## House: "Fidelity" (2004)
 <!-- 494 -->
@@ -8795,8 +8864,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/House_(Season_1)) [🔗](<../my-fetches/wikiquote/House_(Season_1).wiki>)
 - **Use it for:** "My dog ate my USB stick." Debugging: assume the logs are telling the truth and the user isn't
 
-
-----
+---<!--L2-->
 
 ## Buffy the Vampire Slayer: "Touched" (2003)
 <!-- 407 -->
@@ -8832,7 +8900,66 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Check:** who says the unnamed lines (Dawn, Willow, Kennedy?)
 - **Use it for:** a team that blames its leader the moment things get hard. Who stood by her, and who turned
 
-----
+---<!--L2-->
+
+## Battlestar Galactica: "Miniseries" (2003)
+<!-- 499 -->
+
+**Scene: the port flight pod is on fire, Tigh orders the vent**
+
+> Tigh: "No time. **Seal off everything forward of frame 30 and start an emergency vent of all compartments.**"
+>
+> Tyrol: "Wait. I've got over a hundred people trapped up behind frame 34. I just need a minute to get 'em out."
+>
+> Tigh: "If we don't seal it off now, we're gonna lose a lot more than a hundred men. Seal it off. Now."
+>
+> Kelly: "Yes sir"
+>
+> Tyrol: "They just need a minute!"
+>
+> Tigh: "**We don't have a minute! If the fire reaches the hangar pods, it'll ignite the fuel lines and we'll lose this ship. Do it!**"
+>
+> *[Tigh turns the key. The compartments vent and the fire goes out]*
+>
+> Kelly: "Venting complete. Fires are out."
+>
+> Tigh: "If they remembered their training, then they had their suits on and they were braced for possible vent action."
+>
+> Tyrol: "There's a lot of rooks in there."
+>
+> Tigh: "**No one's a rookie anymore.**"
+
+- **Who:** Colonel Saul Tigh (Michael Hogan), Chief Galen Tyrol (Aaron Douglas) and Captain Kelly (Alonso Oyarzun), with Adama down in CIC. Later Tigh gives Adama the count: "Twenty-six walked out. Eighty-five didn't."
+- **Episode:** the miniseries, night 1
+- **IMDb:** [miniseries](https://www.imdb.com/title/tt0314979/)
+- **Checked:** [fan transcript](http://aarondouglasfans.com/2003/12/08/transcript-battlestar-galactica-miniseries/) [🔗](<../my-fetches/aarondouglasfans/transcript-battlestar-galactica-miniseries.txt>)
+- **Check:** "rooks" or "rookies" in Tyrol's line: the fan transcript is the only source, with no subtitles to hand
+- **Use it for:** the hard call in a project: cut the feature to save the deadline. "No one's a rookie anymore" for the start of final year
+
+---<!--L2-->
+
+## Battlestar Galactica: "Scattered" (2005)
+<!-- 500 -->
+
+**Scene: CIC, the Cylon virus is one firewall from the mainframe**
+
+> Gaeta: "Come on, come on. We have a solution for the fleet's position."
+>
+> Tigh: "Break the network."
+>
+> Gaeta: "Network is broken! Computers restored to local control."
+>
+> Tigh: "Tell the vipers to get back aboard. **We're getting awful lucky today.** Prepare to jump."
+>
+> Dualla: "Vipers aboard, sir. Stand by. In five, four, three, two… Jump."
+
+- **Who:** Tigh (Michael Hogan) in command while Adama is in surgery, Lieutenant Felix Gaeta (Alessandro Juliani) and Dualla (Kandyse McClure). It's "awful lucky", not "awfully"
+- **Episode:** season 2, episode 1
+- **IMDb:** [episode](https://www.imdb.com/title/tt0519785/)
+- **Checked:** [fan transcript](https://sadgeezer.com/battlestar-galactica-transcripts-season-2-01-scattered/) [🔗](<../my-fetches/sadgeezer/bsg-s02e01-scattered.txt>) and [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=battlestar-galactica&episode=s02e01) [🔗](<../my-fetches/springfield-scripts/battlestar-galactica/s02e01.txt>)
+- **Use it for:** the demo that works with seconds to spare, or the build that passes on the last try before the deadline
+
+---<!--L2-->
 
 ## The Sopranos: "Live Free or Die" (2006)
 <!-- 408 -->
@@ -8857,7 +8984,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/The_Sopranos:_Season_6) [🔗](<../my-fetches/wikiquote/The_Sopranos__Season_6.wiki>) and [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-sopranos&episode=s06e06) [🔗](<../my-fetches/springfield-scripts/the-sopranos/s06e06.txt>). The subtitles leave out some of the lines between
 - **Use it for:** overreacting. Someone left the group chat
 
-----
+---<!--L2-->
 
 ## 24: "Day 7: 8:00 a.m. – 9:00 a.m." (2009)
 <!-- 291 -->
@@ -8878,7 +9005,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=24&episode=s07e01) [🔗](<../my-fetches/springfield-scripts/24/s07e01.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/24_(TV_series)) [🔗](<../my-fetches/wikiquote/24_(TV_series).wiki>)
 - **Use it for:** ethics in IT and security: ends and means
 
-----
+---<!--L2-->
 
 ## 24: "Day 7: 9:00 p.m. – 10:00 p.m." (2009)
 <!-- 292 -->
@@ -8893,7 +9020,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=24&episode=s07e14) [🔗](<../my-fetches/springfield-scripts/24/s07e14.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/24_(TV_series)) [🔗](<../my-fetches/wikiquote/24_(TV_series).wiki>)
 - **Use it for:** a cyber security class: why the job exists at all
 
-----
+---<!--L2-->
 
 ## Breaking Bad: "Better Call Saul" (2009)
 <!-- 409 -->
@@ -8912,7 +9039,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=breaking-bad&episode=s02e08) [🔗](<../my-fetches/springfield-scripts/breaking-bad/s02e08.txt>)
 - **Use it for:** choosing a library, or a supervisor: the one who gets results, not the one with the right job title
 
-----
+---<!--L2-->
 
 ## Breaking Bad: "Más" (2010)
 <!-- 410 -->
@@ -8937,7 +9064,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=breaking-bad&episode=s03e05) [🔗](<../my-fetches/springfield-scripts/breaking-bad/s03e05.txt>)
 - **Use it for:** moral justification: how a good reason makes a bad decision feel right. Pair it with "Felina", below
 
-----
+---<!--L2-->
 
 ## Hannibal: "Fromage" (2013)
 <!-- 305 -->
@@ -8958,7 +9085,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=hannibal&episode=s01e08) [🔗](<../my-fetches/springfield-scripts/hannibal/s01e08.txt>)
 - **Use it for:** standards. Some things you won't compromise, even in a crisis: the marking scheme, the code review
 
-----
+---<!--L2-->
 
 ## Breaking Bad: "Felina" (2013)
 <!-- 411 -->
@@ -8977,7 +9104,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=breaking-bad&episode=s05e16) [🔗](<../my-fetches/springfield-scripts/breaking-bad/s05e16.txt>)
 - **Use it for:** reflection: the real reason, not the noble one
 
-----
+---<!--L2-->
 
 ## House of Cards: "Chapter 15" (2014)
 <!-- 293 -->
@@ -8994,7 +9121,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=house-of-cards-2013&episode=s02e02) [🔗](<../my-fetches/springfield-scripts/house-of-cards-2013/s02e02.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/House_of_Cards_(season_2)) [🔗](<../my-fetches/wikiquote/House_of_Cards_(season_2).wiki>)
 - **Use it for:** the group leader nobody voted for
 
-----
+---<!--L2-->
 
 ## The Expanse: "Immolation" (2018)
 <!-- 294 -->
@@ -9017,7 +9144,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-expanse-2015&episode=s03e06) [🔗](<../my-fetches/springfield-scripts/the-expanse-2015/s03e06.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/The_Expanse_(TV_series)) [🔗](<../my-fetches/wikiquote/The_Expanse_(TV_series).wiki>)
 - **Use it for:** the team member who does the unpopular job so others don't have to: the late submissions, the fail grade
 
-----
+---<!--L2-->
 
 ## Cobra Kai: "Strike First" (2018)
 <!-- 295 -->
@@ -9040,7 +9167,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=cobra-kai-2018&episode=s01e02) [🔗](<../my-fetches/springfield-scripts/cobra-kai-2018/s01e02.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Cobra_Kai) [🔗](<../my-fetches/wikiquote/Cobra_Kai.wiki>)
 - **Use it for:** starting an assignment the day it's set, not the day before it's due. Strike first
 
-----
+---<!--L2-->
 
 ## Chernobyl: "1:23:45" (2019)
 <!-- 296 -->
@@ -9055,7 +9182,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=chernobyl-2019&episode=s01e01) [🔗](<../my-fetches/springfield-scripts/chernobyl-2019/s01e01.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Chernobyl_(miniseries)) [🔗](<../my-fetches/wikiquote/Chernobyl_(miniseries).wiki>)
 - **Use it for:** misinformation, sources and referencing. Why we cite
 
-----
+---<!--L2-->
 
 ## Chernobyl: "The Happiness of All Mankind" (2019)
 <!-- 297 -->
@@ -9072,7 +9199,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=chernobyl-2019&episode=s01e04) [🔗](<../my-fetches/springfield-scripts/chernobyl-2019/s01e04.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Chernobyl_(miniseries)) [🔗](<../my-fetches/wikiquote/Chernobyl_(miniseries).wiki>)
 - **Use it for:** a project built on the official numbers instead of the real ones. Garbage in, garbage out
 
-----
+---<!--L2-->
 
 ## The Mandalorian: "Chapter 3: The Sin" (2019)
 <!-- 306 -->
@@ -9097,7 +9224,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-mandalorian-2019&episode=s01e03) [🔗](<../my-fetches/springfield-scripts/the-mandalorian-2019/s01e03.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/The_Mandalorian) [🔗](<../my-fetches/wikiquote/The_Mandalorian.wiki>)
 - **Use it for:** a house style or a coding standard. Why we do it this way: this is the Way
 
-----
+---<!--L2-->
 
 ## The Mandalorian: "Chapter 8: Redemption" (2019)
 <!-- 307 -->
@@ -9122,7 +9249,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-mandalorian-2019&episode=s01e08) [🔗](<../my-fetches/springfield-scripts/the-mandalorian-2019/s01e08.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/The_Mandalorian) [🔗](<../my-fetches/wikiquote/The_Mandalorian.wiki>)
 - **Use it for:** AI and sentiment analysis, in a lighter moment
 
-----
+---<!--L2-->
 
 ## The Boys: "Payback" (2022)
 <!-- 308 -->
@@ -9143,7 +9270,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-boys-2019&episode=s03e01) [🔗](<../my-fetches/springfield-scripts/the-boys-2019/s03e01.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/The_Boys_(TV_series)/Season_3) [🔗](<../my-fetches/wikiquote/The_Boys_(TV_series)_Season_3.wiki>)
 - **Use it for:** two rival groups in a hackathon. Or two departments
 
-----
+---<!--L2-->
 
 ## The Boys: "The Only Man in the Sky" (2022)
 <!-- 309 -->
@@ -9164,7 +9291,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-boys-2019&episode=s03e02) [🔗](<../my-fetches/springfield-scripts/the-boys-2019/s03e02.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/The_Boys_(TV_series)/Season_3) [🔗](<../my-fetches/wikiquote/The_Boys_(TV_series)_Season_3.wiki>)
 - **Use it for:** media literacy and populist speeches: find the techniques
 
-----
+---<!--L2-->
 
 ## Wednesday: "This Means Woe" (2025)
 <!-- 310 -->
@@ -9192,7 +9319,7 @@ The original and prequel films, in story order
 
 <figure class="topic-photo"><img src="src/img/topics/star-wars.jpg" alt="An Admiral Ackbar cosplayer at Dragon Con" /><figcaption><a class="ref media" href="#/media-used"><sup>20</sup></a> – Admiral Ackbar, at Dragon Con</figcaption></figure>
 
-----
+---<!--L2-->
 
 ## Star Wars: Episode II – Attack of the Clones (2002)
 <!-- 317 -->
@@ -9211,7 +9338,7 @@ The original and prequel films, in story order
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Star Wars; Episode 2 - Attack of the Clones [2002] -imdb-tt0121765.srt>)
 - **Use it for:** a marker after the third bad batch of scripts. Or how not to give feedback
 
-----
+---<!--L3-->
 
 ## Star Wars: Episode II – Attack of the Clones (2002)
 <!-- 412 -->
@@ -9226,7 +9353,7 @@ The original and prequel films, in story order
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Star Wars; Episode 2 - Attack of the Clones [2002] -imdb-tt0121765.srt>) and [Wikiquote](https://en.wikiquote.org/wiki/Star_Wars_Episode_II:_Attack_of_the_Clones) [🔗](<../my-fetches/wikiquote/Star_Wars__Episode_II_–_Attack_of_the_Clones.wiki>)
 - **Use it for:** a temporary measure. They never are
 
-----
+---<!--L2-->
 
 ## Star Wars: Episode III – Revenge of the Sith (2005)
 <!-- 413 -->
@@ -9243,7 +9370,7 @@ The original and prequel films, in story order
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Star Wars; Episode 3 - Revenge of the Sith [2005] -imdb-tt0121766.srt>) ("Fora safe") and [Wikiquote](https://en.wikiquote.org/wiki/Star_Wars_Episode_III:_Revenge_of_the_Sith) [🔗](<../my-fetches/wikiquote/Star_Wars__Episode_III_–_Revenge_of_the_Sith.wiki>)
 - **Use it for:** a bad decision everyone votes for. Groupthink
 
-----
+---<!--L2-->
 
 ## Star Wars: Episode VI – Return of the Jedi (1983)
 <!-- 318 -->
@@ -9264,7 +9391,7 @@ The original and prequel films, in story order
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Star Wars; Episode 6 - Return of the Jedi [1983] -imdb-tt0086190 (Remake-Hayden).srt>)
 - **Use it for:** the free trial that needs a credit card, the phishing email, the "easy" exam question
 
-----
+---<!--L2-->
 
 ## Star Wars: Episode VII – The Force Awakens (2015)
 <!-- 414 -->
@@ -9283,7 +9410,7 @@ The original and prequel films, in story order
 - **Check:** who says "You have one!"; the subtitles don't name speakers
 - **Use it for:** a learner who changes group. Light-hearted
 
-----
+---<!--L3-->
 
 ## Star Wars: Episode VII – The Force Awakens (2015)
 <!-- 415 -->
@@ -9317,7 +9444,7 @@ The original and prequel films, in story order
 - Topic pictures: credits on Media used, below, and in [src/img/topics/readme.md](src/img/topics/readme.md)
 - Link icons: each website's own icon (favicon), saved in [src/img/favicons/](src/img/favicons/). Four styles to compare, a different one on each topic in turn: icon before the link, icon after it, a plain link icon after it, and the icon in place of the label ("IMDb:"). Add `?links=favicon-before`, `favicon-after`, `link-icon` or `favicon-label` to the address to see one style everywhere
 
-----
+---<!--L2-->
 
 ## Media used
 <!-- .slide: id="media-used" -->
