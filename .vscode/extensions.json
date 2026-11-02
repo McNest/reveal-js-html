@@ -1,0 +1,19 @@
+{
+	"recommendations": [
+		"alanwalk.markdown-navigation",
+		"cweijan.vscode-office",
+		"darkriszty.markdown-table-prettify",
+		"dbaeumer.vscode-eslint",
+		"eamodio.gitlens",
+		"evilz.vscode-reveal",
+		"fanaticpythoner.better-todo-tree",
+		"george-alisson.html-preview-vscode",
+		"phoihos.csv-to-md-table",
+		"shd101wyy.markdown-preview-enhanced",
+		"streetsidesoftware.code-spell-checker",
+		"vscode-icons-team.vscode-icons",
+		"wraith13.open-in-github-desktop",
+		"yzhang.markdown-all-in-one",
+        "ms-edgedevtools.vscode-edge-devtools",
+	]
+}

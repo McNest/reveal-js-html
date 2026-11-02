@@ -1,0 +1,14 @@
+{
+	// F5 serves the decks at http://localhost:8008/ (tools/serve.py). Runs in
+	// a terminal, not the Python debugger, so there is no debugger warning.
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "decks",
+			"type": "node-terminal",
+			"request": "launch",
+			"command": "python tools/serve.py",
+			"cwd": "${workspaceFolder}"
+		}
+	]
+}
