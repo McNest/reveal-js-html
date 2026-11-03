@@ -14,7 +14,7 @@
 	<link rel="schema.dc-terms" href="http://purl.org/dc/terms/" />
 	<meta name="dc-terms.creator" content="Mark Crowe" />
 	<meta name="dc-terms.created" content="2026-10-29" />
-	<meta name="dc-terms.modified" content="2026-11-03T12:28:02+00:00" />
+	<meta name="dc-terms.modified" content="2026-11-03T13:07:27+00:00" />
 	<meta name="dc-terms.rights" content="© 2026 Mark Crowe. Quotes, characters and pictures belong to their owners." />
 	<link rel="icon" href="favicon.ico" />
 	<link rel="canonical" href="https://mcnest.github.io/reveal-js-html/docs/memes/" />
@@ -26,12 +26,13 @@
 	<meta property="og:site_name" content="SDev Tutors" />
 	<meta property="article:author" content="https://sdevtutors.github.io/mark-crowe/" />
 	<meta property="article:published_time" content="2026-10-29" />
-	<meta property="article:modified_time" content="2026-11-03T12:28:02+00:00" />
+	<meta property="article:modified_time" content="2026-11-03T13:07:27+00:00" />
 	<meta name="twitter:card" content="summary" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css" />
 	<link rel="stylesheet" href="https://sdevtutors.github.io/apocalypse-reveal-js/arj/css/arj.css" />
 	<link rel="stylesheet" href="src/css/memes.css" />
+	<link rel="stylesheet" href="src/css/icons.css" />
 	<link rel="stylesheet" href="https://sdevtutors.github.io/apocalypse-reveal-js/arj/css/deck-controls.css" />
 </head>
 
@@ -77,26 +78,7 @@
 			plugins: [RevealMarkdown, RevealNotes],
 
 			deckMarkdown: { fitMin: 0.55 }, // arj/js/deck-markdown.js
-			linkIcons: { // arj/js/link-icons.js: each website's own icon beside links to it
-				style: 'compare', // a different style on each topic
-				folder: 'src/img/favicons/', // this deck's icons; ARJ brings reveal.js and GitHub
-				sites: {
-					'imdb.com': ['imdb.png', 'IMDb'],
-					'chakoteya.net': ['chakoteya.png', 'chakoteya.net'],
-					'springfieldspringfield.co.uk': ['springfield.png', 'Springfield! Springfield!'],
-					'knowyourmeme.com': ['knowyourmeme.png', 'Know Your Meme'],
-					'wikiquote.org': ['wikiquote.png', 'Wikiquote'],
-					'wikimedia.org': ['commons.png', 'Wikimedia Commons'],
-					'wikipedia.org': ['wikipedia.png', 'Wikipedia'],
-					'youtube.com': ['youtube.png', 'YouTube'],
-					'youtu.be': ['youtube.png', 'YouTube'],
-					'imgflip.com': ['imgflip.png', 'imgflip'],
-					'irishstatutebook.ie': ['irishstatutebook.png', 'Irish Statute Book'],
-					'incompetech.com': ['incompetech.png', 'Incompetech'],
-					'tinyurl.com': ['tinyurl.png', 'TinyURL'],
-				},
-				labels: { 'imdb': 'imdb.com', 'meme-page': 'knowyourmeme.com', 'wikiquote': 'wikiquote.org' }, // the icon in place of "IMDb:"
-			},
+			linkIcons: { style: 'favicon-before' }, // arj/js/link-icons.js: the site's icon before each link; which icon is src/css/icons.css
 			stackBarLinks: true, // arj/js/deck.js: click a grey bar to go to that slide
 			tapZones: true, // arj/js/deck.js: on a touch screen, tap left to go back, right to go on
 			lock: true, // arj/js/deck.js: the padlock; locked, the mouse changes slides; unlocked, it selects text

@@ -8,12 +8,13 @@
       <a class="person ext" href="https://sdevtutors.github.io/mark-crowe/" data-tip="sdevtutors.github.io/mark-crowe"><img class="logo" src="src/img/mc-logo.png" alt="" />Mark Crowe</a>
     </p>
     <p class="byline">
-      <span class="calendar" aria-hidden="true">📅</span><time class="deck-date" datetime="2026-11-03T12:28:02+00:00">November 2026</time>
+      <span class="calendar" aria-hidden="true">📅</span><time class="deck-date" datetime="2026-11-03T13:07:27+00:00">November 2026</time>
     </p>
+    <p class="title-quote">"Wait, it's all film quotes?" "Always has been." <cite>– the astronauts</cite></p>
     <p class="built-with">Built with <a class="ext" href="https://revealjs.com/">
-      <img src="https://sdevtutors.github.io/apocalypse-reveal-js/arj/img/favicons/revealjs.svg" alt="" />Reveal.js</a> and <a class="ext" href="https://github.com/SDevTutors/apocalypse-reveal-js" title="ARJ, Apocalypse Reveal-js">
-      <img src="https://sdevtutors.github.io/apocalypse-reveal-js/arj/img/arj-logo.svg" alt="" />ARJ</a><span class="sep">–</span>
-      <a class="ext" href="https://github.com/mcnest/reveal-js-html" title="This deck's source, on GitHub"><img src="https://sdevtutors.github.io/apocalypse-reveal-js/arj/img/favicons/github.svg" alt="GitHub" />Source</a>
+      <span class="arj-icon arj-icon-revealjs"></span>Reveal.js</a> and <a class="ext" href="https://github.com/SDevTutors/apocalypse-reveal-js" title="ARJ, Apocalypse Reveal-js">
+      <span class="arj-icon arj-icon-arj"></span>ARJ</a><span class="sep">–</span>
+      <a class="ext" href="https://github.com/mcnest/reveal-js-html" title="This deck's source, on GitHub"><span class="arj-icon arj-icon-github"></span>Source</a>
     </p>
   </div>
   <figure class="deck-qr"><a href="https://tinyurl.com/4u26rwnh"><img src="src/img/qr/memes-deck-tinyurl.svg" alt="QR code: this deck online, tinyurl.com/4u26rwnh" /></a></figure>
@@ -22,7 +23,7 @@
   <p class="deck-pdf"><a href="memes.pdf" download="meme-bank.pdf" title="Download the slides as a PDF" aria-label="Download the slides as a PDF">Download as PDF</a></p>
   <p class="footer-rights"><a class="ext" href="https://sdevtutors.github.io/mark-crowe/" title="sdevtutors.github.io/mark-crowe">© 2026 Mark Crowe</a></p>
   <p class="deck-version-line"><a class="version-link ext" href="https://github.com/mcnest/reveal-js-html/commits/master">Version <span class="deck-version">1.8.5</span></a></p>
-  <p class="deck-short"><a class="ext" href="https://tinyurl.com/42m5nncm" data-tip="tinyurl.com/4u26rwnh" data-tip-size="72">tinyurl.com/<b>4u26rwnh</b></a></p>
+  <p class="deck-short"><a class="ext" href="https://tinyurl.com/4u26rwnh" data-tip="tinyurl.com/4u26rwnh" data-tip-size="72">tinyurl.com/<b>4u26rwnh</b></a></p>
   <p class="deck-url"><a class="ext" href="https://mcnest.github.io/reveal-js-html/docs/memes/">mcnest.github.io/reveal-js-html/docs/memes/</a></p>
 </footer>
 
@@ -6476,6 +6477,50 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 
 ---<!--L2-->
 
+## The Simpsons: "Bart Gets an 'F'" (1990)
+<!-- 517 -->
+
+**Scene: the history exam, marked at once**
+
+> Mrs Krabappel: "Please turn in your exam, Bart. Class is over."
+>
+> Bart: "Could you grade it now?"
+>
+> Mrs Krabappel: "Well, all right. **Let me get Old Red.**"
+>
+> Mrs Krabappel: "It's a 59. That's another F."
+>
+> Bart: "Oh, no, I can't believe it."
+>
+> Mrs Krabappel: "**I know. Another year together. It's gonna be hell.**"
+>
+> Mrs Krabappel: "What's the matter? I thought you'd be used to failing."
+>
+> Bart: "No, you don't understand. **I tried this time. I really tried.**"
+
+- **Who:** Mrs Krabappel (voiced by Marcia Wallace) and Bart. Old Red is her red pen; failing means Bart repeats fourth grade with her
+- **Episode:** season 2, episode 1
+- **IMDb:** [episode](https://www.imdb.com/title/tt0763024/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s02e01) [🔗](<../my-fetches/springfield-scripts/simpsons/s02e01.html>) · [Wikiquote](https://en.wikiquote.org/wiki/The_Simpsons/Season_2) [🔗](<../my-fetches/wikiquote/The_Simpsons_Season_2.wiki>)
+- **Use it for:** marking. Getting out Old Red; a repeat year from the lecturer's side; the student who really did try
+
+---<!--L2-->
+
+## The Simpsons: "Dead Putting Society" (1990)
+<!-- 518 -->
+
+**Scene: the mini-golf final, Bart and Todd level**
+
+> Homer: "It's okay, son. You can recover. **Remember what Vince Lombardi said! "Lose, and you're out of the family."**"
+
+- **Who:** Homer, to Bart, at the putt-putt final against Todd Flanders, with his bet with Ned riding on it. Lombardi, the American football coach, never said it: it's the joke
+- **Episode:** season 2, episode 6
+- **IMDb:** [episode](https://www.imdb.com/title/tt0767442/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s02e06) [🔗](<../my-fetches/springfield-scripts/simpsons/s02e06.html>) · [Wikiquote](https://en.wikiquote.org/wiki/The_Simpsons/Season_2) [🔗](<../my-fetches/wikiquote/The_Simpsons_Season_2.wiki>). Wikiquote has "If you lose, and you're out of the family"; the subtitles have "Lose, and you're out"
+- **Use it for:** pressure before a competition or a demo. A made-up quote from a famous name
+
+---<!--L2-->
+
 ## The Simpsons: "Bart Gets Hit by a Car" (1991)
 <!-- 372 -->
 
@@ -6496,7 +6541,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Who:** Mr Burns (voiced by Harry Shearer) in court, and Smithers in his flashback, where everyone's parts are swapped. It's "You believed his story!"; there's no "cock and bull" in the subtitles
 - **Episode:** season 2, episode 10
 - **IMDb:** [episode](https://www.imdb.com/title/tt0757017/)
-- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s02e10) [🔗](<../my-fetches/springfield-scripts/simpsons/s02e10.txt>)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s02e10) [🔗](<../my-fetches/springfield-scripts/simpsons/s02e10.html>)
 - **Check:** who says each line in the flashback; the subtitles don't name speakers
 - **Use it for:** a student's account of why the project is late. "Why are you looking at me like that?"
 
@@ -6524,7 +6569,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Who:** the restaurant staff and the master sushi chef, out in his car with Mrs Krabappel, so someone else has to cut Homer's blowfish. The subtitles don't name the speakers
 - **Episode:** season 2, episode 11
 - **IMDb:** [episode](https://www.imdb.com/title/tt0701195/)
-- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s02e11) [🔗](<../my-fetches/springfield-scripts/simpsons/s02e11.txt>)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s02e11) [🔗](<../my-fetches/springfield-scripts/simpsons/s02e11.html>)
 - **Use it for:** training needs: the expert who won't train the apprentice, and an apprentice left alone with a dangerous job. Supervision, and on-the-job training done badly
 
 ---<!--L3-->
@@ -6566,7 +6611,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Who:** Fat Tony (voiced by Joe Mantegna), a rival boss and Louie. Bart has been the bartender, and he's late
 - **Episode:** season 3, episode 4
 - **IMDb:** [episode](https://www.imdb.com/title/tt0701060/)
-- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s03e04) [🔗](<../my-fetches/springfield-scripts/simpsons/s03e04.txt>)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s03e04) [🔗](<../my-fetches/springfield-scripts/simpsons/s03e04.html>)
 - **Check:** the subtitles don't name speakers. Who says "The kiss of death"
 - **Use it for:** the one person who knew how to do the job, off sick on demo day. Louie's line for the group member whose only skill isn't the one needed
 
@@ -6590,7 +6635,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Who:** Fat Tony and Bart (voiced by Nancy Cartwright), straight after the kiss of death. Skinner goes missing, and Bart is tried for his murder
 - **Episode:** season 3, episode 4
 - **IMDb:** [episode](https://www.imdb.com/title/tt0701060/)
-- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s03e04) [🔗](<../my-fetches/springfield-scripts/simpsons/s03e04.txt>)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s03e04) [🔗](<../my-fetches/springfield-scripts/simpsons/s03e04.html>)
 - **Use it for:** the team member who turns up late and blames someone else. Or, as the tutor, offering to "meet and greet" whoever is holding up a group
 
 ---<!--L3-->
@@ -6617,9 +6662,55 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Who:** Fat Tony, his men, Lionel Hutz (voiced by Phil Hartman) and Homer (voiced by Dan Castellaneta), at Bart's trial. It's "wet his beak in everything", not "controlled everything"
 - **Episode:** season 3, episode 4
 - **IMDb:** [episode](https://www.imdb.com/title/tt0701060/)
-- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s03e04) [🔗](<../my-fetches/springfield-scripts/simpsons/s03e04.txt>)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s03e04) [🔗](<../my-fetches/springfield-scripts/simpsons/s03e04.html>)
 - **Check:** who asks the questions (Hutz defends Bart, so it may be the prosecutor), and which of the men speaks
 - **Use it for:** a group project where everyone points at the same person. "Who wrote this?" "That's the guy."
+
+---<!--L2-->
+
+## The Simpsons: "Black Widower" (1992)
+<!-- 519 -->
+
+**Scene: Selma's wedding to Sideshow Bob, her sister congratulates her**
+
+> Patty: "**I don't know what to say.**"
+>
+> Selma: "**Just tell me what you know I want to hear.**"
+>
+> Patty: "**I'm dying of jealousy.**"
+>
+> Selma: "Thank you."
+
+- **Who:** Patty and Selma (both voiced by Julie Kavner), at Selma's wedding
+- **Episode:** season 3, episode 21
+- **IMDb:** [episode](https://www.imdb.com/title/tt0701070/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s03e21) [🔗](<../my-fetches/springfield-scripts/simpsons/s03e21.html>)
+- **Check:** the subtitles don't name speakers: which sister says which line
+- **Use it for:** congratulating a rival team on their mark, or someone else's job offer
+
+---<!--L2-->
+
+## The Simpsons: "The Otto Show" (1992)
+<!-- 520 -->
+
+**Scene: the DMV, Otto comes back for his licence**
+
+> Patty or Selma: "**Well, if it isn't Wee Willy Washout.**"
+>
+> Otto: "I want to take the test again."
+>
+> Patty or Selma: "Why?"
+>
+> Otto: "So I can staple my license to Homer Simpson's big bald head!"
+>
+> Patty or Selma: "Really? Well, here's your written test. **I'll get you started. 'B,' 'C,' 'D,' 'A,' 'B.'**"
+
+- **Who:** one of Marge's sisters at the DMV, and Otto (voiced by Harry Shearer), who hates Homer as much as she does. It's "B, C, D, A, B"
+- **Episode:** season 3, episode 22
+- **IMDb:** [episode](https://www.imdb.com/title/tt0701254/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s03e22) [🔗](<../my-fetches/springfield-scripts/simpsons/s03e22.html>)
+- **Check:** the subtitles don't name speakers: Patty or Selma
+- **Use it for:** a multiple-choice quiz, with the first answers given away. A shared enemy helps you pass
 
 ---<!--L2-->
 
@@ -6637,7 +6728,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Who:** Mr Burns, to the Springfield Atoms, and Milhouse (voiced by Pamela Hayden)
 - **Episode:** season 5, episode 16
 - **IMDb:** [episode](https://www.imdb.com/title/tt0773646/)
-- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s05e16) [🔗](<../my-fetches/springfield-scripts/simpsons/s05e16.txt>) · [Wikiquote](https://en.wikiquote.org/wiki/The_Simpsons/Season_5) [🔗](<../my-fetches/wikiquote/The_Simpsons_Season_5.wiki>)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s05e16) [🔗](<../my-fetches/springfield-scripts/simpsons/s05e16.html>) · [Wikiquote](https://en.wikiquote.org/wiki/The_Simpsons/Season_5) [🔗](<../my-fetches/wikiquote/The_Simpsons_Season_5.wiki>)
 - **Use it for:** how not to motivate a team. The worst possible pep talk
 
 ---<!--L2-->
@@ -6678,6 +6769,28 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 
 ---<!--L2-->
 
+## The Simpsons: "Lisa on Ice" (1994)
+<!-- 521 -->
+
+**Scene: the hockey final ends in a tie**
+
+> *[Bart's penalty shot, Lisa in goal. They drop their sticks and hug: a tie]*
+>
+> Marge: "Oh, I've never been so proud of them."
+>
+> Homer: "**They're both losers.**"
+>
+> Crowd: "**Losers!**"
+
+- **Who:** Marge and Homer, in the crowd at Bart's and Lisa's pee-wee hockey game
+- **Episode:** season 6, episode 8
+- **IMDb:** [episode](https://www.imdb.com/title/tt0778450/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s06e08) [🔗](<../my-fetches/springfield-scripts/simpsons/s06e08.html>)
+- **Check:** the subtitles don't name speakers: who says "They're both losers"
+- **Use it for:** a draw in a team competition, or two groups who share the prize. Collaboration, as some see it
+
+---<!--L2-->
+
 ## The Simpsons: "Homie the Clown" (1995)
 <!-- 328 -->
 
@@ -6696,9 +6809,35 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Who:** Don Vittorio DiMaggio, the old mob boss (voiced by Joe Mantegna), and Fat Tony, after Homer and the real Krusty ride the unicycle through the loop together. It's "great joy", not "much joy"
 - **Episode:** season 6, episode 15
 - **IMDb:** [episode](https://www.imdb.com/title/tt0701128/)
-- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s06e15) [🔗](<../my-fetches/springfield-scripts/simpsons/s06e15.txt>)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s06e15) [🔗](<../my-fetches/springfield-scripts/simpsons/s06e15.html>)
 - **Check:** the subtitles don't name speakers: who says "No, no, Don Vittorio", and whether Homer or Krusty asks if they're even
 - **Use it for:** the end of an extension. "We won't fail you. But you still owe us the report"
+
+---<!--L2-->
+
+## The Simpsons: "Homer vs. Patty and Selma" (1995)
+<!-- 522 -->
+
+**Scene: Homer's chauffeur's licence test**
+
+> Patty and Selma: "Did not adjust side mirror. Minus one point. Failed to check blind spot. Minus two points."
+>
+> Homer: "You'll be happy when my family thinks I'm a loser."
+>
+> Patty and Selma: "**You are a loser, Homer! And we're winners. You gotta learn that.**"
+>
+> Patty and Selma: "Seat belt twisted. Minus one point."
+>
+> Patty and Selma: "Nagging the driver." "Minus 10 points for you!" "Grazed a cone. Minus five." "**Being a jerk. Minus a million!**"
+>
+> Patty and Selma: "**One more wrong answer, and Homer flunks another of life's little tests.**"
+
+- **Who:** Patty and Selma, marking Homer at the DMV; he needs the licence for a second job. It's "flunks", not "fails"
+- **Episode:** season 6, episode 17
+- **IMDb:** [episode](https://www.imdb.com/title/tt0701119/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s06e17) [🔗](<../my-fetches/springfield-scripts/simpsons/s06e17.html>)
+- **Check:** the subtitles don't name speakers: which sister marks which point, and whether Homer nags
+- **Use it for:** marking schemes and deductions. Feedback that is all minus points
 
 ---<!--L2-->
 
@@ -6748,7 +6887,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Who:** Homer and Fat Tony, after Marge's pretzel business is ruined by the Investorettes. The scene is staged like a prayer
 - **Episode:** season 8, episode 11
 - **IMDb:** [episode](https://www.imdb.com/title/tt0701266/)
-- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s08e11) [🔗](<../my-fetches/springfield-scripts/simpsons/s08e11.txt>)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s08e11) [🔗](<../my-fetches/springfield-scripts/simpsons/s08e11.html>)
 - **Check:** whether Legs or Louie says the church bulletin line
 - **Use it for:** advertising your office hours. Someone did read the notice on Moodle
 
@@ -6776,7 +6915,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Who:** Fat Tony and Homer (voiced by Dan Castellaneta). It's "Oh, Fat Tony!", not "for shame". Wikiquote has "I will bid good day to you, sir"; the subtitles have "say"
 - **Episode:** season 8, episode 11
 - **IMDb:** [episode](https://www.imdb.com/title/tt0701266/)
-- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s08e11) [🔗](<../my-fetches/springfield-scripts/simpsons/s08e11.txt>) · [Wikiquote](https://en.wikiquote.org/wiki/The_Simpsons/Season_8) [🔗](<../my-fetches/wikiquote/The_Simpsons_Season_8.wiki>)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s08e11) [🔗](<../my-fetches/springfield-scripts/simpsons/s08e11.html>) · [Wikiquote](https://en.wikiquote.org/wiki/The_Simpsons/Season_8) [🔗](<../my-fetches/wikiquote/The_Simpsons_Season_8.wiki>)
 - **Use it for:** the free tutorial that turns out to need your email address. Or "I helped you with your code, now review mine"
 
 ---<!--L3-->
@@ -6797,7 +6936,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Who:** Fat Tony and Marge (voiced by Julie Kavner), lured to a fake address
 - **Episode:** season 8, episode 11
 - **IMDb:** [episode](https://www.imdb.com/title/tt0701266/)
-- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s08e11) [🔗](<../my-fetches/springfield-scripts/simpsons/s08e11.txt>)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s08e11) [🔗](<../my-fetches/springfield-scripts/simpsons/s08e11.html>)
 - **Check:** the subtitles don't name speakers. It may be Legs or Louie, not Fat Tony
 - **Use it for:** a deadline brought forward. "To show you we're serious, the report is due Friday"
 
@@ -6819,7 +6958,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Who:** Fat Tony, Marge and Homer. It's "most vocal", not "most insistent"
 - **Episode:** season 8, episode 11
 - **IMDb:** [episode](https://www.imdb.com/title/tt0701266/)
-- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s08e11) [🔗](<../my-fetches/springfield-scripts/simpsons/s08e11.txt>)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s08e11) [🔗](<../my-fetches/springfield-scripts/simpsons/s08e11.html>)
 - **Use it for:** chasing late work, rewritten: *"The external examiner has been most vocal on the subject of the reports: 'Where's the report? When is the report coming? Where's the source code?' And so on. So, please, da report."*
 
 ---<!--L2-->
@@ -6838,7 +6977,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Who:** Mr Burns and Smithers, both voiced by Harry Shearer. Three dollars a year, not four
 - **Episode:** season 9, episode 13
 - **IMDb:** [episode](https://www.imdb.com/title/tt0779676/)
-- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s09e13) [🔗](<../my-fetches/springfield-scripts/simpsons/s09e13.txt>)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s09e13) [🔗](<../my-fetches/springfield-scripts/simpsons/s09e13.html>)
 - **Use it for:** student discounts, coupons and free software licences. "You already pay almost nothing." "We're getting screwed"
 
 ---<!--L2-->
@@ -8068,6 +8207,19 @@ Memes that started as photos, clips and cartoons
 - **Who:** an android pointing at a butterfly, from the anime *The Brave Fighter of Sun Fighbird* (1990)
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/is-this-a-pigeon)
 - **Use it for:** calling everything "AI", or everything "agile"
+
+---<!--L2-->
+
+## Always has been
+<!-- 523 -->
+
+> Astronaut: "**Wait, it's all Ohio?**"
+>
+> Second astronaut, a gun behind him: "**Always has been.**"
+
+- **Who:** two astronauts looking back at the Earth. First an MS Paint drawing on Reddit (11 December 2016, a flat Earth); the "Wait, it's all ..." wording on 4chan (7 August 2018); Ohio on iFunny (17 October 2019); the realistic version on Reddit (7 June 2020)
+- **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/wait-its-all-ohio-always-has-been) [🔗](<../my-fetches/knowyourmeme/wait-its-all-ohio-always-has-been.txt>)
+- **Use it for:** a discovery that was true all along. "Wait, it's all Stack Overflow?" "Always has been." On the title slide: "Wait, it's all film quotes?"
 
 ---<!--L2-->
 
@@ -9750,6 +9902,23 @@ The original and prequel films, in story order
 
 ---
 
+# Interesting opinions
+
+Views worth a discussion, from real people and fictional ones
+
+---<!--L2-->
+
+## Dr Ita Richardson, University of Limerick
+<!-- 524 -->
+
+> "**Redundant data is sometimes necessary.**"
+
+- **Who:** Dr Ita Richardson, of the University of Limerick 2003
+- **Check:** no written source yet: when and where it was said, the exact words, and her title now (she may be Professor)
+- **Use it for:** an 'interesting opinion'?
+
+---
+
 # Thanks for coming to my TED Talk
 <!-- no-number -->
 <!-- .slide: class="finish-slide" -->
@@ -9779,8 +9948,8 @@ The original and prequel films, in story order
 <!-- no-number -->
 
 - Copyright: this deck © 2026 Mark Crowe. Film and TV quotes, characters, stills, logos and all other trademarks belong to their respective owners, and are quoted here for teaching and comment. reveal.js © Hakim El Hattab, MIT licence
-- Link icons: each website's own icon (favicon), saved in [src/img/favicons/](src/img/favicons/). Four styles to compare, a different one on each topic in turn: icon before the link, icon after it, a plain link icon after it, and the icon in place of the label ("IMDb:"). Add `?links=favicon-before`, `favicon-after`, `link-icon` or `favicon-label` to the address to see one style everywhere
-- To print: [download the PDF](memes.pdf), every slide ready for paper; the PDF button on the first slide is the same file. To make your own from this version: open the [print version](?print-pdf), print it, and choose Save as PDF
+- Link icons: each website's own icon (favicon) before the link, and an arrow out of a box after links that open a new tab. The icons are in <a class="folder" href="https://github.com/McNest/reveal-js-html/tree/master/docs/memes/src/img/favicons">src/img/favicons/</a>, with where each came from, and which icon goes with which website is in `src/css/icons.css`
+- To print: [download the PDF](memes.pdf), every slide ready for paper; "Download as PDF" on the first slide is the same file. To make your own from this version: open the [print version](?print-pdf), print it, and choose Save as PDF
 
 ---<!--L2-->
 

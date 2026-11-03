@@ -1,0 +1,21 @@
+/*********************************************************
+ * Meme bank: each website's icon (favicon), before links to it. The icons
+ * are in ../img/favicons/ (where each came from: its readme.md); the
+ * addresses here are relative to this file. ARJ draws them (arj/css/arj.css,
+ * "Icons"): icon, then the link, then the new-tab mark. ARJ has reveal.js,
+ * GitHub, a folder (a.folder), and a plain link icon for any other site.
+ * A new site: one line here, and its icon in ../img/favicons/.
+ *********************************************************/
+.reveal a[href*="imdb.com"]::before                     { background-image: url("../img/favicons/imdb.png"); }              /* IMDb */
+.reveal a[href*="chakoteya.net"]::before                { background-image: url("../img/favicons/chakoteya.png"); }         /* chakoteya.net: Star Trek transcripts */
+.reveal a[href*="springfieldspringfield.co.uk"]::before { background-image: url("../img/favicons/springfield.png"); }       /* Springfield! Springfield!: subtitle scripts */
+.reveal a[href*="knowyourmeme.com"]::before             { background-image: url("../img/favicons/knowyourmeme.png"); }      /* Know Your Meme */
+.reveal a[href*="wikiquote.org"]::before                { background-image: url("../img/favicons/wikiquote.png"); }         /* Wikiquote */
+.reveal a[href*="wikimedia.org"]::before                { background-image: url("../img/favicons/commons.png"); }           /* Wikimedia Commons */
+.reveal a[href*="wikipedia.org"]::before                { background-image: url("../img/favicons/wikipedia.png"); }         /* Wikipedia */
+.reveal a[href*="youtube.com"]::before,
+.reveal a[href*="youtu.be"]::before                     { background-image: url("../img/favicons/youtube.png"); }           /* YouTube */
+.reveal a[href*="imgflip.com"]::before                  { background-image: url("../img/favicons/imgflip.png"); }           /* imgflip */
+.reveal a[href*="irishstatutebook.ie"]::before          { background-image: url("../img/favicons/irishstatutebook.png"); }  /* Irish Statute Book */
+.reveal a[href*="incompetech.com"]::before              { background-image: url("../img/favicons/incompetech.png"); }       /* Incompetech: music */
+.reveal a[href*="tinyurl.com"]::before                  { background-image: url("../img/favicons/tinyurl.png"); }           /* TinyURL */

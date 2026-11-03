@@ -237,18 +237,37 @@
 
 /*********************************************************
  * Title slide, this deck's own layout on top of arj/css/arj.css: the
- * subtitle centred and bigger, the author line bigger. Footer, on the line:
- * the PDF button left, the copyright centred, the version right (arj.css
- * places the version). Under the line: the short address left, the deck's
- * full address right.
+ * subtitle centred and biggest, then the name, then the date, smaller each
+ * time, and a short quote under them. Footer, on the line: "Download as
+ * PDF" left (the PDF icon from arj/css/deck-controls.css), the copyright
+ * centred, the version right (arj.css places the version). Under the line:
+ * the short address left, the deck's full address right.
  *********************************************************/
 .reveal .slides .arj-title .title-text h3 {
-	font-size: 48px;
+	font-size: 52px;
 	text-align: center;
 }
 
 .reveal .arj-title .byline {
-	font-size: 34px;
+	margin-top: 0.9em;
+	font-size: 40px;
+}
+
+.reveal .arj-title .byline + .byline {
+	margin-top: 0.3em;
+	font-size: 30px;
+}
+
+.reveal .arj-title .title-quote {
+	margin: 1em 0 0;
+	font-size: 24px;
+	font-style: italic;
+	text-align: center;
+	color: var(--muted);
+}
+
+.reveal .arj-title .title-quote cite {
+	font-style: normal;
 }
 
 .reveal .arj-title .deck-pdf,
@@ -276,26 +295,6 @@
 	pointer-events: auto;
 }
 
-/* The PDF button: just the PDF icon arj/css/deck-controls.css puts on
- * links to a .pdf, bigger */
-.reveal .arj-title .deck-pdf a,
-.reveal .arj-title .deck-pdf a:hover,
-.reveal .arj-title .deck-pdf a:focus-visible {
-	display: block;
-	border: 0;
-}
-
-.reveal .arj-title .deck-pdf a::before {
-	display: block;
-	width: 40px;
-	height: 40px;
-	margin: 0;
-}
-
-.reveal .arj-title .deck-pdf a:hover::before,
-.reveal .arj-title .deck-pdf a:focus-visible::before {
-	filter: drop-shadow(0 0 3px var(--gold));
-}
 
 .reveal .arj-title .deck-short {
 	grid-row: 1;
