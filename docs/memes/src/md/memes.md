@@ -5,7 +5,7 @@
   <div class="title-text">
     <h3>Film and TV Quotes for Memes</h3>
     <p class="byline">
-      <a class="person ext" href="https://sdevtutors.github.io/mark-crowe/" data-tip="sdevtutors.github.io/mark-crowe"><img class="logo" src="src/img/mc-logo.png" alt="" />Mark Crowe</a>
+      <a class="person ext" href="https://sdevtutors.github.io/mark-crowe/" data-tip="sdevtutors.github.io/mark-crowe"><img class="logo" src="src/img/logo/mc-logo.png" alt="" />Mark Crowe</a>
     </p>
     <p class="byline">
       <span class="calendar" aria-hidden="true">📅</span><time class="deck-date" datetime="2026-11-03T13:59:24+00:00">November 2026</time>
@@ -20,7 +20,7 @@
   <figure class="deck-qr"><a href="https://tinyurl.com/4u26rwnh"><img src="src/img/qr/memes-deck-tinyurl.svg" alt="QR code: this deck online, tinyurl.com/4u26rwnh" /></a></figure>
 </div>
 <footer class="slide-footer no-link-icon">
-  <p class="deck-pdf"><a href="memes.pdf" download="meme-bank.pdf" title="Download the slides as a PDF" aria-label="Download the slides as a PDF">Download as PDF</a></p>
+  <p class="deck-pdf"><a href="src/pdf/memes.pdf" download="meme-bank.pdf" title="Download the slides as a PDF" aria-label="Download the slides as a PDF">Download as PDF</a></p>
   <p class="footer-rights"><a class="ext" href="https://sdevtutors.github.io/mark-crowe/" title="sdevtutors.github.io/mark-crowe">© 2026 Mark Crowe</a></p>
   <p class="deck-version-line"><a class="version-link ext" href="https://github.com/mcnest/reveal-js-html/commits/master">Version <span class="deck-version">1.8.5</span></a></p>
   <p class="deck-short"><a class="ext" href="https://tinyurl.com/4u26rwnh" data-tip="tinyurl.com/4u26rwnh" data-tip-size="72">tinyurl.com/<b>4u26rwnh</b></a></p>
@@ -46,9 +46,9 @@
 ## About the author
 <!-- no-number -->
 
-<p class="author-name"><a class="ext" href="https://sdevtutors.github.io/mark-crowe/" title="sdevtutors.github.io/mark-crowe"><img class="inline-logo" src="src/img/mc-logo.png" alt="" />Mark Crowe</a></p>
+<p class="author-name"><a class="ext" href="https://sdevtutors.github.io/mark-crowe/" title="sdevtutors.github.io/mark-crowe"><img class="inline-logo" src="src/img/logo/mc-logo.png" alt="" />Mark Crowe</a></p>
 
-- Education Officer at <a class="ext" href="https://github.com/SDevTutors" title="SDev Tutors on GitHub"><img class="inline-logo" src="src/img/sdevtutors-logo.png" alt="" />SDev Tutors</a>
+- Education Officer at <a class="ext" href="https://github.com/SDevTutors" title="SDev Tutors on GitHub"><img class="inline-logo" src="src/img/logo/sdevtutors-logo.png" alt="" />SDev Tutors</a>
   - A background in IT
   - Teaches programming: Python, C#, Java, JavaScript and AI
 - Email: <a class="mail-text" data-mail="ei.kooltuo@rotuTveDS" aria-label="Email Mark Crowe"></a>
