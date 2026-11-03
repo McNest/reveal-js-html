@@ -3,25 +3,27 @@
 
 <div class="title-body no-link-icon">
   <div class="title-text">
-    <h3>Film and TV Quotes for Intermediate Memes</h3>
+    <h3>Film and TV Quotes for Memes</h3>
     <p class="byline">
-      <a class="person ext" href="https://sdevtutors.github.io/mark-crowe/" data-tip="sdevtutors.github.io/mark-crowe">
-      <img class="logo" src="src/img/mc-logo.png" alt="" />Mark Crowe</a>
-      <span class="sep">–</span><time class="deck-date" datetime="2026-11-02T15:58:28+00:00">November 2026</time> <span class="calendar" aria-hidden="true">📅</span>
+      <a class="person ext" href="https://sdevtutors.github.io/mark-crowe/" data-tip="sdevtutors.github.io/mark-crowe"><img class="logo" src="src/img/mc-logo.png" alt="" />Mark Crowe</a>
+    </p>
+    <p class="byline">
+      <span class="calendar" aria-hidden="true">📅</span><time class="deck-date" datetime="2026-11-03T12:28:02+00:00">November 2026</time>
     </p>
     <p class="built-with">Built with <a class="ext" href="https://revealjs.com/">
-      <img src="arj/img/favicons/revealjs.svg" alt="" />Reveal.js</a> and <a class="ext" href="https://github.com/SDevTutors/apocalypse-reveal-js" title="ARJ, Apocalypse Reveal-js">
-      <img src="arj/img/arj-logo.svg" alt="" />ARJ</a><span class="sep">–</span>
-      <a class="ext" href="https://github.com/marcocrowe/reveal-js-html" title="This deck's source, on GitHub"><img src="arj/img/favicons/github.svg" alt="GitHub" />Source</a>
+      <img src="https://sdevtutors.github.io/apocalypse-reveal-js/arj/img/favicons/revealjs.svg" alt="" />Reveal.js</a> and <a class="ext" href="https://github.com/SDevTutors/apocalypse-reveal-js" title="ARJ, Apocalypse Reveal-js">
+      <img src="https://sdevtutors.github.io/apocalypse-reveal-js/arj/img/arj-logo.svg" alt="" />ARJ</a><span class="sep">–</span>
+      <a class="ext" href="https://github.com/mcnest/reveal-js-html" title="This deck's source, on GitHub"><img src="https://sdevtutors.github.io/apocalypse-reveal-js/arj/img/favicons/github.svg" alt="GitHub" />Source</a>
     </p>
   </div>
-  <figure class="deck-qr"><a href="https://tinyurl.com/42m5nncm"><img src="src/img/qr/memes-deck-tinyurl.svg" alt="QR code: this deck online, tinyurl.com/42m5nncm" /></a></figure>
+  <figure class="deck-qr"><a href="https://tinyurl.com/4u26rwnh"><img src="src/img/qr/memes-deck-tinyurl.svg" alt="QR code: this deck online, tinyurl.com/4u26rwnh" /></a></figure>
 </div>
 <footer class="slide-footer no-link-icon">
-  <p class="deck-version-line"><a class="version-link ext" href="https://github.com/marcocrowe/reveal-js-html/commits/master">Version <span class="deck-version">1.8.4</span></a></p>
-  <p class="deck-url"><a class="ext" href="https://marcocrowe.github.io/reveal-js-html/memes.html">marcocrowe.github.io/reveal-js-html/memes.html</a></p>
-  <p class="deck-short"><a class="ext" href="https://tinyurl.com/42m5nncm" data-tip="tinyurl.com/42m5nncm" data-tip-size="72">tinyurl.com/<b>42m5nncm</b></a></p>
-  <p class="footer-rights"><a class="ext" href="https://sdevtutors.github.io/mark-crowe/#email" title="Contact Mark Crowe">© 2026 Mark Crowe</a><span class="sep">–</span>Quotes, characters and pictures belong to their respective owners.</p>
+  <p class="deck-pdf"><a href="memes.pdf" download="meme-bank.pdf" title="Download the slides as a PDF" aria-label="Download the slides as a PDF">Download as PDF</a></p>
+  <p class="footer-rights"><a class="ext" href="https://sdevtutors.github.io/mark-crowe/" title="sdevtutors.github.io/mark-crowe">© 2026 Mark Crowe</a></p>
+  <p class="deck-version-line"><a class="version-link ext" href="https://github.com/mcnest/reveal-js-html/commits/master">Version <span class="deck-version">1.8.5</span></a></p>
+  <p class="deck-short"><a class="ext" href="https://tinyurl.com/42m5nncm" data-tip="tinyurl.com/4u26rwnh" data-tip-size="72">tinyurl.com/<b>4u26rwnh</b></a></p>
+  <p class="deck-url"><a class="ext" href="https://mcnest.github.io/reveal-js-html/docs/memes/">mcnest.github.io/reveal-js-html/docs/memes/</a></p>
 </footer>
 
 ---
@@ -32,11 +34,11 @@
 - Film and TV quotes, and internet memes, to drop into presentations and training. One entry per scene, in film order then scene order. The **bold** part is the bit to use
 - **Checked:** the transcript, script or subtitles the wording was checked against. **Check:** anything I could not confirm
 - **Time:** where the quote starts and ends in the film, from the subtitle file. It starts 2 seconds early, as subtitles are never quite in sync
-- Stills: grab your own, or search [imgflip](https://imgflip.com/memetemplates) and [Know Your Meme](https://knowyourmeme.com/)
+- Stills: grab your own, or search [imgflip](https://imgflip.com/memetemplates) and [Know Your Meme](https://knowyourmeme.com/). Stills and clips are copyrighted: keep them to teaching use, and credit each one on a Media used slide
 - Getting around: → for the next topic, ↓ for the entries in it. Next and back step over the contents; the contents button, bottom left, opens them. Type a number and press Enter to jump to that topic
 - Top right: the padlock and the pen. Locked, the mouse changes slides; unlocked, it selects and copies text, and the slides stay put. The pen (or D) draws on the slide; press it again, or Esc, to stop. Each slide keeps its drawings until the page is reloaded
-- Version <span class="deck-version">1.8.4</span> is year.tenth.day: the year (1 is 2026), which tenth of the year it is (0 to 9), and how many days in that tenth have had changes. [ARJ](https://github.com/SDevTutors/apocalypse-reveal-js) (Apocalypse Reveal-js), the scripts behind the slides, is numbered the same way. [tools/version.py](tools/version.py) works them out
-- [memes.html](memes.html) shows this file, [memes.md](memes.md), as slides
+- Version <span class="deck-version">1.8.5</span> is year.tenth.day: the year (1 is 2026), which tenth of the year it is (0 to 9), and how many days in that tenth have had changes. [ARJ](https://github.com/SDevTutors/apocalypse-reveal-js) (Apocalypse Reveal-js), the scripts behind the slides, is numbered the same way. [tools/version.py](../../tools/version.py) works them out
+- [index.html](index.html) shows this file, [memes.md](memes.md), as slides
 
 ---<!--L2-->
 
@@ -317,6 +319,24 @@ Plans, scope creep and the submission date
 - **Time:** 0:05:20 to 0:05:27 (7 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Field of Dreams [1989] -imdb-tt0097351.English.srt>)
 - **Use it for:** building a feature, or a course, nobody asked for. Why you do the TNA first
 
+---<!--L2-->
+
+## Treasure Planet (2002)
+<!-- 510 -->
+
+**Scene: Flint's planet blowing up, Silver has let go of the treasure to save Jim**
+
+> Jim: "Silver, you gave up?"
+>
+> Silver: "**Just a lifelong obsession, Jim. I'll get over it.**"
+
+- **Who:** Jim Hawkins (voiced by Joseph Gordon-Levitt) and Long John Silver (Brian Murray), in Disney's *Treasure Island* in space. Silver had a boat full of Flint's treasure and dropped it to pull Jim up. There's no "sorry" or "it's all right" in the scene
+- **IMDb:** [Treasure Planet](https://www.imdb.com/title/tt0133240/) · [quotes](https://www.imdb.com/title/tt0133240/quotes/)
+- **Time:** 1:19:27 to 1:19:35 (9 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Treasure Planet [2002] -imdb-tt0133240.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Treasure Planet [2002] -imdb-tt0133240.srt>) and [Wikiquote](https://en.wikiquote.org/wiki/Treasure_Planet) [🔗](<../my-fetches/wikiquote/Treasure_Planet.wiki>)
+- **Check:** "Jim" or "Jimbo": the subtitles have "Jim", Wikiquote "Jimbo"
+- **Use it for:** dropping the feature you loved to get the project in on time
+
 ---
 
 # Presentations and demos
@@ -538,6 +558,28 @@ Group work, thanks and banter
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s03e24)
 - **Use it for:** banter, when someone laughs at your bug. Pairs with Shakespeare's lawyers line (topic 15)
 
+---<!--L3-->
+
+## The Simpsons: "Brother, Can You Spare Two Dimes?" (1992)
+<!-- 509 -->
+
+**Scene: Mr Burns calls his lawyers, the coffee**
+
+> Burns: "Anybody want coffee?"
+>
+> Lawyer: "I'll have coffee."
+>
+> Burns: "Want it black, don't you? Black like your heart."
+>
+> Burns: "It's so hard to listen. I hate you all so much! **I'm sorry. It's my problem. I'll deal with it.** Please continue."
+
+- **Who:** Mr Burns (voiced by Harry Shearer) and his lawyers, straight after "vipers" (above). It's "my problem", not "my issue"
+- **Episode:** season 3, episode 24
+- **IMDb:** [episode](https://www.imdb.com/title/tt0701076/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s03e24) [🔗](<../my-fetches/springfield-scripts/simpsons/s03e24.html>)
+- **Check:** who says "I'll have coffee"; the subtitle script names no one
+- **Use it for:** the sharp email you then apologise for. Owning the mood without taking it back
+
 ---<!--L2-->
 
 ## The Simpsons: "A Star Is Burns" (1995)
@@ -690,6 +732,46 @@ Group work, thanks and banter
 - **Time:** 1:37:06 to 1:37:33 (27 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Aquaman [2018] -imdb-tt1477834.srt>)
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Aquaman [2018] -imdb-tt1477834.srt>)
 - **Use it for:** the reluctant team leader. Mera's reply for a mature student between two careers
+
+---<!--L2-->
+
+## The Godfather (1972)
+<!-- 514 -->
+
+**Scene: the wedding, Bonasera asks for justice**
+
+> Vito: "We've known each other many years, but this is the first time you ever came to me for counsel or for help. I can't remember the last time that you invited me to your house for a cup of coffee, even though my wife is godmother to your only child. But let's be frank here. **You never wanted my friendship. And, uh, you were afraid to be in my debt.**"
+>
+> Bonasera: "I didn't want to get into trouble."
+
+- **Who:** Don Vito Corleone (Marlon Brando) and Amerigo Bonasera (Salvatore Corsitto), the undertaker, on the day of the Don's daughter's wedding
+- **IMDb:** [The Godfather](https://www.imdb.com/title/tt0068646/) · [quotes](https://www.imdb.com/title/tt0068646/quotes/)
+- **Time:** 0:04:23 to 0:04:54 (31 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Godfather [1972] -imdb-tt0068646.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Godfather [1972] -imdb-tt0068646.srt>) and [Wikiquote](https://en.wikiquote.org/wiki/The_Godfather) [🔗](<../my-fetches/wikiquote/The_Godfather.wiki>)
+- **Check:** the wording is Wikiquote's; the subtitles shorten it ("I've known you many years, but this is the first time you've asked for help"). The bold line is the same in both, without the "uh"
+- **Use it for:** the colleague who only calls when they need something
+
+---<!--L3-->
+
+## The Godfather (1972)
+<!-- 515 -->
+
+**Scene: the wedding, Bonasera asks again, with respect**
+
+> Bonasera: "Be my friend, Godfather."
+>
+> Vito: "Good. **Someday, and that day may never come, I'll call upon you to do a service for me.** But until that day, accept this justice as a gift on my daughter's wedding day."
+>
+> Bonasera: "Grazie, Godfather."
+>
+> Vito: "Prego."
+
+- **Who:** Bonasera, who kisses the Don's hand, and Don Vito Corleone. The service comes later: the Don calls on him to make Sonny presentable for his mother
+- **IMDb:** [The Godfather](https://www.imdb.com/title/tt0068646/) · [quotes](https://www.imdb.com/title/tt0068646/quotes/)
+- **Time:** 0:06:35 to 0:07:10 (35 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Godfather [1972] -imdb-tt0068646.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Godfather [1972] -imdb-tt0068646.srt>) and [Wikiquote](https://en.wikiquote.org/wiki/The_Godfather) [🔗](<../my-fetches/wikiquote/The_Godfather.wiki>)
+- **Check:** the bold line: Wikiquote has "I'll call upon you to do a service for me", the subtitles "I'll ask a service of you"
+- **Use it for:** covering a colleague's class. You will be asked back
 
 ---
 
@@ -933,6 +1015,80 @@ Code, backups and things that break
 - **Time:** 1:09:00 to 1:09:28 (28 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Layer Cake [2004] -imdb-tt0375912.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=layer-cake). It doesn't name speakers, so check who says which line. It's "take your conversations away with you"
 - **Use it for:** recording lectures and meetings, consent, GDPR
+
+---<!--L2-->
+
+## Jurassic Park (1993)
+<!-- 511 -->
+
+**Scene: a café in San José, Nedry meets Dodgson**
+
+> Nedry: "Yo, Dodgson!"
+>
+> Dodgson: "You shouldn't use my name."
+>
+> Nedry: "Dodgson! Dodgson! We've got Dodgson here! **See? Nobody cares.** Nice hat. What are you trying to look like, a secret agent?"
+>
+> *[A minute later, the bill arrives]*
+>
+> Nedry: "**Don't get cheap on me, Dodgson.** That was Hammond's mistake."
+
+- **Who:** Dennis Nedry (Wayne Knight), the park's programmer, and Lewis Dodgson (Cameron Thor), from a rival company, paying him to steal the embryos. Dodgson pays the bill. About a minute is left out: the money and the shaving-cream can
+- **IMDb:** [Jurassic Park](https://www.imdb.com/title/tt0107290/) · [quotes](https://www.imdb.com/title/tt0107290/quotes/)
+- **Time:** 0:13:48 to 0:15:17 (89 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Jurassic Park [1993] -imdb-tt0107290.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Jurassic Park [1993] -imdb-tt0107290.srt>) and [Wikiquote](https://en.wikiquote.org/wiki/Jurassic_Park_(film)) [🔗](<../my-fetches/wikiquote/Jurassic_Park_(film).wiki>)
+- **Check:** the first line and the repeated "Dodgson!": the subtitles shorten them to "Dodgson!" and "Dodgson. We've got Dodgson here."; the wording is Wikiquote's
+- **Use it for:** the favour that has to be paid for. "Nobody cares" for the secret everyone already knows
+
+---<!--L3-->
+
+## Jurassic Park (1993)
+<!-- 512 -->
+
+**Scene: the control room, Nedry and his pay**
+
+> Hammond: "Dennis, our lives are in your hands, and you have Butterfingers?"
+>
+> Nedry: "I am totally unappreciated in my time. You could run this whole park from this room with minimal staff for up to three days. **You think that kind of automation is easy? Or cheap?** You know anybody who can network eight Connection Machines and debug two million lines of code for what I bid for this job? 'Cause if he can, I'd love to see him try."
+>
+> Hammond: "I'm sorry about your financial problems, Dennis, I really am, but they are your problems."
+>
+> Nedry: "Oh, you're right, John, you're absolutely right. You know, everything's my problem."
+>
+> Hammond: "I will not get drawn into another financial debate with you, Dennis, I really will not!"
+>
+> Nedry: "There's been hardly any debate at all."
+>
+> Hammond: "**I don't blame people for their mistakes. But I do ask that they pay for them.**"
+>
+> Nedry: "Thanks, Dad."
+
+- **Who:** John Hammond (Richard Attenborough) and Dennis Nedry (Wayne Knight). Nedry bid low for the job and wants more; the peanuts are his pay
+- **IMDb:** [Jurassic Park](https://www.imdb.com/title/tt0107290/) · [quotes](https://www.imdb.com/title/tt0107290/quotes/)
+- **Time:** 0:43:06 to 0:43:54 (48 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Jurassic Park [1993] -imdb-tt0107290.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Jurassic Park [1993] -imdb-tt0107290.srt>) and [Wikiquote](https://en.wikiquote.org/wiki/Jurassic_Park_(film)) [🔗](<../my-fetches/wikiquote/Jurassic_Park_(film).wiki>)
+- **Check:** Nedry's first speech and Hammond's lines before the bold: the wording is Wikiquote's; the subtitles shorten them ("on my salary", "I will not be drawn into"). The bold line is the same in both
+- **Use it for:** the budget meeting. Mistakes are forgiven, and still paid for
+
+---<!--L3-->
+
+## Jurassic Park (1993)
+<!-- 513 -->
+
+**Scene: the control room, Arnold tries to get into Nedry's system**
+
+> Arnold: "Access main program. Access main security. Access main program grid."
+>
+> Nedry, on the screen: "**Ah, ah, ah! You didn't say the magic word!**"
+>
+> Arnold: "Please! God damn it! **I hate this hacker crap!**"
+
+- **Who:** Ray Arnold (Samuel L. Jackson), and a little Nedry on the screen, wagging his finger, again and again. Nedry has locked everyone out and left
+- **IMDb:** [Jurassic Park](https://www.imdb.com/title/tt0107290/) · [quotes](https://www.imdb.com/title/tt0107290/quotes/)
+- **Time:** 0:59:46 to 1:00:11 (25 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Jurassic Park [1993] -imdb-tt0107290.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Jurassic Park [1993] -imdb-tt0107290.srt>) and [Wikiquote](https://en.wikiquote.org/wiki/Jurassic_Park_(film)) [🔗](<../my-fetches/wikiquote/Jurassic_Park_(film).wiki>)
+- **Check:** the subtitles leave out "Ah, ah, ah!"; Wikiquote has it
+- **Use it for:** the password reset, the locked account, the system only one person knows
 
 ---
 
@@ -3777,6 +3933,58 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 
 ---<!--L2-->
 
+## Voyager: "The Thaw" (1996)
+<!-- 506 -->
+
+**Scene: the circus in the stasis pods, Janeway gives herself up to Fear**
+
+> Clown: "You show remarkable trust, Captain. How could you be so sure I would keep my word?"
+>
+> Janeway: "I've known fear. It's a very healthy thing most of the time. You warn us of danger, remind us of our limits, protect us from carelessness. **I've learned to trust fear.**"
+>
+> Clown: "Finally, someone who appreciates me. Am I blushing?"
+
+- **Who:** Janeway (Kate Mulgrew) and the Clown (Michael McKean), Fear itself, made by the pods' program out of the sleepers' fears. She has come in so he will let the hostages go
+- **Episode:** season 2, episode 23
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708990/)
+- **Checked:** [transcript](http://www.chakoteya.net/Voyager/219.htm) [🔗](<../my-fetches/chakoteya-star-trek/Voyager/219.htm>)
+- **Use it for:** presentation nerves. Fear tells you where your limits are
+
+---<!--L3-->
+
+## Voyager: "The Thaw" (1996)
+<!-- 507 -->
+
+**Scene: the circus, a few minutes later, Fear is beaten**
+
+> Janeway: "You know as well as I do that **fear only exists for one purpose. To be conquered.**"
+>
+> Clown: "She tricked me."
+>
+> Janeway: "Did she? Or was a part of you actually hoping to be defeated? Isn't that why you allowed Captain Janeway to come here? Because you sensed she had the power to subdue you."
+>
+> Clown: "No. She lied. That was very un-Starfleet of her."
+>
+> Janeway: "**Starfleet captains don't easily succumb to fear.**"
+>
+> Clown: "What will become of us? Of me?"
+>
+> Janeway: "Like all fear, you eventually vanish."
+>
+> Clown: "I'm afraid."
+>
+> Janeway: "I know."
+>
+> Clown: "Drat."
+
+- **Who:** a hologram of Janeway, made to speak as she would, and the Clown. The real Janeway is safe in the cargo bay, linked to the program without going in. "Wanted to be conquered" is the hologram's point, in the third line
+- **Episode:** season 2, episode 23
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708990/)
+- **Checked:** [transcript](http://www.chakoteya.net/Voyager/219.htm) [🔗](<../my-fetches/chakoteya-star-trek/Voyager/219.htm>)
+- **Use it for:** the exam, the night before. The thing you fear is there to be beaten
+
+---<!--L2-->
+
 ## Voyager: "Scorpion, Part I" (1997)
 <!-- 371 -->
 
@@ -5319,6 +5527,33 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 ---<!--L3-->
 
 ## The Dark Knight Rises (2012)
+<!-- 508 -->
+
+**Scene: the pit, after Bruce falls again**
+
+> Blind prisoner: "You do not fear death. You think this makes you strong. It makes you weak."
+>
+> Bruce: "Why?"
+>
+> Blind prisoner: "How can you move faster than possible, fight longer than possible, without the most powerful impulse of the spirit? **The fear of death.**"
+>
+> Bruce: "I do fear death. I fear dying in here, while my city burns. There's no one there to save it."
+>
+> Blind prisoner: "**Then make the climb.**"
+>
+> Bruce: "How?"
+>
+> Blind prisoner: "**As the child did. Without the rope. Then fear will find you again.**"
+
+- **Who:** the blind prisoner (Uri Gavriel) and Bruce Wayne (Christian Bale). The child climbed out without the safety rope, so a fall would kill; that is how fear comes back. The next climb is the one Bruce makes
+- **IMDb:** [The Dark Knight Rises](https://www.imdb.com/title/tt1345836/) · [quotes](https://www.imdb.com/title/tt1345836/quotes/)
+- **Time:** 1:54:20 to 1:55:20 (60 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>), which name the blind prisoner on the first line
+- **Use it for:** the safety net. Taking away the backup to make people commit; or the resit, the year after
+
+---<!--L3-->
+
+## The Dark Knight Rises (2012)
 <!-- 481 -->
 
 **Scene: the street, Batman and Blake**
@@ -6090,6 +6325,24 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>)
 - **Check:** the subtitles have no speaker names; it's Charles from the scene, but confirm on screen
 - **Use it for:** when the room is too full of other voices. Short, and loud
+
+---<!--L3-->
+
+## X-Men: Apocalypse (2016)
+<!-- 516 -->
+
+**Scene: Cairo, after the X-Men escape with Charles**
+
+> Apocalypse: "**Useless.**"
+>
+> Apocalypse: "Charles. I know you can hear me. **We're still connected.** Charles! **Show yourself!** Charles! Show yourself!"
+
+- **Who:** Apocalypse (Oscar Isaac). Nightcrawler has taken the X-Men and Charles away, but the transference Jean broke left Charles's mind joined to his
+- **IMDb:** [X-Men: Apocalypse](https://www.imdb.com/title/tt3385516/) · [quotes](https://www.imdb.com/title/tt3385516/quotes/)
+- **Time:** 1:56:43 to 1:57:16 (33 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>)
+- **Check:** who or what "Useless" is said to; the subtitles name no one, and neither Wikiquote nor kinoafisha has the line
+- **Use it for:** the student with the camera off on Teams: "I know you can hear me. Show yourself!" "Useless" for the printer
 
 ---<!--L3-->
 
@@ -9497,26 +9750,43 @@ The original and prequel films, in story order
 
 ---
 
-# Sources and notes
+# Thanks for coming to my TED Talk
+<!-- no-number -->
+<!-- .slide: class="finish-slide" -->
+
+<p class="finish-questions"><span class="finish-emoji" aria-hidden="true">🎤</span>Questions?</p>
+
+- **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/thanks-for-coming-to-my-ted-talk) [🔗](<../my-fetches/knowyourmeme/thanks-for-coming-to-my-ted-talk.txt>)
+- **Who:** Tumblr, first in the Sherlock fandom (28 May 2015), and all over the site by late 2017. Said after a long, confident point that nobody asked for
+- **Use it for:** the last slide, before the questions. Sources, notes and the picture credits are below ↓
+
+---<!--L2-->
+
+## Sources
 <!-- no-number -->
 
 - IMDb IDs: taken from Wikidata (property P345) on 29 and 30 October 2026, not guessed. Episode links only where Wikidata had one
 - Meme pages: each Know Your Meme link was checked to exist on the same day
 - Scripts: [chakoteya.net](http://www.chakoteya.net/) for Star Trek, [Wikiquote](https://en.wikiquote.org/), and subtitle scripts on [springfieldspringfield.co.uk](https://www.springfieldspringfield.co.uk/), which don't name speakers. IMDb itself blocks automated reading
 - Quotes: entries with **Checked:** were compared word for word with a transcript, Wikiquote or a subtitle script on 30 October 2026. The rest are from memory, and lines marked **Check** could not be confirmed
-- Times: from the subtitle files (.srt) in C:\Library\Subtitles, by [tools/srt_times.py](../tools/srt_times.py). TV episodes have none yet, as there are no episode subtitle files
+- Times: from the subtitle files (.srt) in \Library\Subtitles, by `tools/srt_times.py`. TV episodes have none yet, as there are no episode subtitle files
 - Already used in the decks: Drakeposting, distracted boyfriend, galaxy brain, this is fine. Sources in [src/img/meme/readme.md](src/img/meme/readme.md)
-- Stills and clips are copyrighted. Keep them to teaching use, and credit each one on a Media used slide
-- Copyright: this deck © 2026 Mark Crowe. Film and TV quotes, characters, stills, logos and all other trademarks belong to their respective owners, and are quoted here for teaching and comment. reveal.js © Hakim El Hattab, MIT licence
 - Topic pictures: credits on Media used, below, and in [src/img/topics/readme.md](src/img/topics/readme.md)
+
+---<!--L2-->
+
+## Notes
+<!-- no-number -->
+
+- Copyright: this deck © 2026 Mark Crowe. Film and TV quotes, characters, stills, logos and all other trademarks belong to their respective owners, and are quoted here for teaching and comment. reveal.js © Hakim El Hattab, MIT licence
 - Link icons: each website's own icon (favicon), saved in [src/img/favicons/](src/img/favicons/). Four styles to compare, a different one on each topic in turn: icon before the link, icon after it, a plain link icon after it, and the icon in place of the label ("IMDb:"). Add `?links=favicon-before`, `favicon-after`, `link-icon` or `favicon-label` to the address to see one style everywhere
+- To print: [download the PDF](memes.pdf), every slide ready for paper; the PDF button on the first slide is the same file. To make your own from this version: open the [print version](?print-pdf), print it, and choose Save as PDF
 
 ---<!--L2-->
 
 ## Media used
-<!-- .slide: id="media-used" -->
-
-<p class="print-line"><a href="?print-pdf" target="_blank">Print version</a>, then Save as PDF: every slide, ready for paper</p>
+<!-- no-number -->
+<!-- .slide: id="media-used" class="split" -->
 
 <ol class="reflist media-list">
 <li data-m="1"><a href="https://commons.wikimedia.org/wiki/File:Hurling_Ball_and_Hurley.JPG">A hurley and sliotar. Photo: Peter Wöllauer, CC BY-SA 3.0, Wikimedia Commons</a></li>

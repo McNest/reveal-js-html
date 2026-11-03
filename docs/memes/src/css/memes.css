@@ -235,3 +235,94 @@
 	outline: 6px solid #fff6dd;
 }
 
+/*********************************************************
+ * Title slide, this deck's own layout on top of arj/css/arj.css: the
+ * subtitle centred and bigger, the author line bigger. Footer, on the line:
+ * the PDF button left, the copyright centred, the version right (arj.css
+ * places the version). Under the line: the short address left, the deck's
+ * full address right.
+ *********************************************************/
+.reveal .slides .arj-title .title-text h3 {
+	font-size: 48px;
+	text-align: center;
+}
+
+.reveal .arj-title .byline {
+	font-size: 34px;
+}
+
+.reveal .arj-title .deck-pdf,
+.reveal .arj-title .footer-rights {
+	position: absolute;
+	bottom: 100%;
+	padding-bottom: 6px;
+	line-height: 1;
+}
+
+.reveal .arj-title .deck-pdf {
+	left: 0;
+}
+
+/* Centred across the whole footer; the version stays clickable above it */
+.reveal .arj-title .footer-rights {
+	left: 0;
+	right: 0;
+	margin: 0 !important;
+	text-align: center;
+	pointer-events: none;
+}
+
+.reveal .arj-title .footer-rights a {
+	pointer-events: auto;
+}
+
+/* The PDF button: just the PDF icon arj/css/deck-controls.css puts on
+ * links to a .pdf, bigger */
+.reveal .arj-title .deck-pdf a,
+.reveal .arj-title .deck-pdf a:hover,
+.reveal .arj-title .deck-pdf a:focus-visible {
+	display: block;
+	border: 0;
+}
+
+.reveal .arj-title .deck-pdf a::before {
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin: 0;
+}
+
+.reveal .arj-title .deck-pdf a:hover::before,
+.reveal .arj-title .deck-pdf a:focus-visible::before {
+	filter: drop-shadow(0 0 3px var(--gold));
+}
+
+.reveal .arj-title .deck-short {
+	grid-row: 1;
+	grid-column: 1;
+	text-align: left;
+}
+
+.reveal .arj-title .deck-url {
+	grid-row: 1;
+	grid-column: 2;
+	text-align: right;
+}
+
+/*********************************************************
+ * The last slide, "Thanks for coming to my TED Talk": a microphone and
+ * "Questions?", big and centred, then the meme's own lines.
+ *********************************************************/
+.reveal .finish-slide p.finish-questions {
+	margin: 0.9em 0 0.8em;
+	font-size: 72px;
+	font-weight: bold;
+	text-align: center;
+	color: var(--navy);
+}
+
+.reveal .finish-slide .finish-emoji {
+	margin-right: 0.3em;
+	font-family: var(--emoji);
+}
+
