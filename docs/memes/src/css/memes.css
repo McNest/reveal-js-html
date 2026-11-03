@@ -325,3 +325,18 @@
 	font-family: var(--emoji);
 }
 
+
+/*********************************************************
+ * The exit slide, the last one: the big button (styled in
+ * arj/css/deck-controls.css) in the middle, a line under it.
+ *********************************************************/
+.reveal .exit-slide p.exit-now {
+	margin: 2.2em 0 0.8em;
+	text-align: center;
+}
+
+.reveal .exit-slide p.exit-note {
+	font-size: 26px;
+	text-align: center;
+	color: var(--muted);
+}

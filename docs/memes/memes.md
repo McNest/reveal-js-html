@@ -8,7 +8,7 @@
       <a class="person ext" href="https://sdevtutors.github.io/mark-crowe/" data-tip="sdevtutors.github.io/mark-crowe"><img class="logo" src="src/img/mc-logo.png" alt="" />Mark Crowe</a>
     </p>
     <p class="byline">
-      <span class="calendar" aria-hidden="true">📅</span><time class="deck-date" datetime="2026-11-03T13:07:27+00:00">November 2026</time>
+      <span class="calendar" aria-hidden="true">📅</span><time class="deck-date" datetime="2026-11-03T13:59:24+00:00">November 2026</time>
     </p>
     <p class="title-quote">"Wait, it's all film quotes?" "Always has been." <cite>– the astronauts</cite></p>
     <p class="built-with">Built with <a class="ext" href="https://revealjs.com/">
@@ -38,8 +38,8 @@
 - Stills: grab your own, or search [imgflip](https://imgflip.com/memetemplates) and [Know Your Meme](https://knowyourmeme.com/). Stills and clips are copyrighted: keep them to teaching use, and credit each one on a Media used slide
 - Getting around: → for the next topic, ↓ for the entries in it. Next and back step over the contents; the contents button, bottom left, opens them. Type a number and press Enter to jump to that topic
 - Top right: the padlock and the pen. Locked, the mouse changes slides; unlocked, it selects and copies text, and the slides stay put. The pen (or D) draws on the slide; press it again, or Esc, to stop. Each slide keeps its drawings until the page is reloaded
-- Version <span class="deck-version">1.8.5</span> is year.tenth.day: the year (1 is 2026), which tenth of the year it is (0 to 9), and how many days in that tenth have had changes. [ARJ](https://github.com/SDevTutors/apocalypse-reveal-js) (Apocalypse Reveal-js), the scripts behind the slides, is numbered the same way. [tools/version.py](../../tools/version.py) works them out
-- [index.html](index.html) shows this file, [memes.md](memes.md), as slides
+- Version <span class="deck-version">1.8.5</span> is year.tenth.day: the year (1 is 2026), which tenth of the year it is (0 to 9), and how many days in that tenth have had changes. [ARJ](https://github.com/SDevTutors/apocalypse-reveal-js) (Apocalypse Reveal-js), the scripts behind the slides, is numbered the same way. [tools/version.py](https://github.com/McNest/reveal-js-html/blob/master/tools/version.py) works them out
+- [index.html](https://github.com/McNest/reveal-js-html/blob/master/docs/memes/index.html) shows this file, [memes.md](https://github.com/McNest/reveal-js-html/blob/master/docs/memes/memes.md), as slides
 
 ---<!--L2-->
 
@@ -9902,6 +9902,102 @@ The original and prequel films, in story order
 
 ---
 
+# Video games
+
+The Portal games: GLaDOS, the testing computer, and Cave Johnson
+
+---<!--L2-->
+
+## Portal 2 (2011)
+<!-- 525 -->
+
+**Scene: co-op, Team Building, test chamber 2**
+
+> GLaDOS: "Very good. You've really come together as a team. **Thanks to the one of you who appears to be doing all of the work.**"
+
+- **Who:** GLaDOS (voiced by Ellen McLain), to the two robots, Atlas (Blue) and P-body (Orange), in the co-op campaign. It's "doing all of the work"; there's no "finally mastered the art of teamwork"
+- **IMDb:** [Portal 2](https://www.imdb.com/title/tt1648163/)
+- **Checked:** [Portal Wiki](https://theportalwiki.com/wiki/GLaDOS_voice_lines_(Cooperative_Testing_Initiative)) [🔗](<../my-fetches/portalwiki/GLaDOS_voice_lines_(Cooperative_Testing_Initiative).txt>)
+- **Use it for:** group projects and peer assessment. The group where one member does all the work
+
+---<!--L3-->
+
+## Portal 2 (2011)
+<!-- 526 -->
+
+**Scene: co-op, Team Building, test chamber 5**
+
+> GLaDOS: "**To reiterate: This is not a competition.**"
+>
+> GLaDOS: "**Still, if it were, Blue would be winning.**"
+
+- **Who:** GLaDOS, to Atlas (Blue) and P-body (Orange). She has a line for each colour: "Orange would be winning" too
+- **IMDb:** [Portal 2](https://www.imdb.com/title/tt1648163/)
+- **Checked:** [Portal Wiki](https://theportalwiki.com/wiki/GLaDOS_voice_lines_(Cooperative_Testing_Initiative)) [🔗](<../my-fetches/portalwiki/GLaDOS_voice_lines_(Cooperative_Testing_Initiative).txt>)
+- **Use it for:** a quiz or a leaderboard. "This is not a competition. Still, if it were, table two would be winning"
+
+---<!--L3-->
+
+## Portal 2 (2011)
+<!-- 527 -->
+
+**Scene: co-op, after the two players fail a test**
+
+> GLaDOS: "Perhaps I should have specified. **Teamwork is a concept in which two or more people work together, usually with a goal of not failing horribly.**"
+
+- **Who:** GLaDOS, to the two robots
+- **IMDb:** [Portal 2](https://www.imdb.com/title/tt1648163/)
+- **Checked:** [Portal Wiki](https://theportalwiki.com/wiki/GLaDOS_voice_lines_(Cooperative_Testing_Initiative)) [🔗](<../my-fetches/portalwiki/GLaDOS_voice_lines_(Cooperative_Testing_Initiative).txt>)
+- **Check:** when it's said: the Portal Wiki lists it under "generic responses", unsorted
+- **Use it for:** a definition of teamwork for a team charter, or after a group demo that went wrong
+
+---<!--L3-->
+
+## Portal 2 (2011)
+<!-- 528 -->
+
+**Scene: Old Aperture, Cave Johnson's recording on lemons**
+
+> Cave Johnson: "All right, I've been thinking. **When life gives you lemons? Don't make lemonade. Make life take the lemons back! Get mad!** I don't want your damn lemons! What am I supposed to do with these?! **Demand to see life's manager!** Make life rue the day it thought it could give Cave Johnson lemons! Do you know who I am?! I'm the man who's gonna burn your house down! With the lemons! I'm gonna get my engineers to invent a combustible lemon that burns your house down!"
+>
+> GLaDOS, as he goes: "Yeah!" "**Yeah, take the lemons!**" "Oh, I like this guy." "Burn his house down!"
+
+- **Who:** Cave Johnson (voiced by J. K. Simmons), the founder of Aperture Science, on a tape, with GLaDOS cheering him on. It's Cave who shouts about the lemons; GLaDOS shouts "Yeah!"
+- **IMDb:** [Portal 2](https://www.imdb.com/title/tt1648163/)
+- **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Portal_2) [🔗](<../my-fetches/wikiquote/Portal_2.wiki>)
+- **Use it for:** a complaint about a deadline or a brief. "Demand to see life's manager"
+
+---<!--L3-->
+
+## Portal 2 (2011)
+<!-- 529 -->
+
+**Scene: GLaDOS reads out the test results**
+
+> GLaDOS: "Well done. Here come the test results: **'You are a horrible person.'** I'm serious, that's what it says: a horrible person. **We weren't even testing for that.**"
+
+- **Who:** GLaDOS, to Chell, the player, early in the game
+- **IMDb:** [Portal 2](https://www.imdb.com/title/tt1648163/)
+- **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Portal_2) [🔗](<../my-fetches/wikiquote/Portal_2.wiki>)
+- **Check:** "I'm serious": Wikiquote has it in the subtitles; whether GLaDOS says it aloud
+- **Use it for:** feedback that isn't about what was assessed. Marking against the rubric, not the person
+
+---<!--L3-->
+
+## Portal 2 (2011)
+<!-- 530 -->
+
+**Scene: Cave Johnson on the testing track**
+
+> Cave Johnson: "**Science isn't about why, it's about why not.** Why is so much of our science dangerous? Why not marry safe science if you love it so much? In fact, why not invent a special safety door that won't hit you in the butt on the way out, because you are fired! **Not you, test subject, you're doing fine.**"
+
+- **Who:** Cave Johnson, firing one of his own staff on a recording the player hears
+- **IMDb:** [Portal 2](https://www.imdb.com/title/tt1648163/)
+- **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Portal_2) [🔗](<../my-fetches/wikiquote/Portal_2.wiki>)
+- **Use it for:** research questions and prototypes: why not try it? Or reassuring the one student who isn't in trouble
+
+---
+
 # Interesting opinions
 
 Views worth a discussion, from real people and fictional ones
@@ -9927,7 +10023,7 @@ Views worth a discussion, from real people and fictional ones
 
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/thanks-for-coming-to-my-ted-talk) [🔗](<../my-fetches/knowyourmeme/thanks-for-coming-to-my-ted-talk.txt>)
 - **Who:** Tumblr, first in the Sherlock fandom (28 May 2015), and all over the site by late 2017. Said after a long, confident point that nobody asked for
-- **Use it for:** the last slide, before the questions. Sources, notes and the picture credits are below ↓
+- **Use it for:** the last slide, before the questions. Sources, notes and the picture credits are below ↓, and → to exit
 
 ---<!--L2-->
 
@@ -9938,9 +10034,9 @@ Views worth a discussion, from real people and fictional ones
 - Meme pages: each Know Your Meme link was checked to exist on the same day
 - Scripts: [chakoteya.net](http://www.chakoteya.net/) for Star Trek, [Wikiquote](https://en.wikiquote.org/), and subtitle scripts on [springfieldspringfield.co.uk](https://www.springfieldspringfield.co.uk/), which don't name speakers. IMDb itself blocks automated reading
 - Quotes: entries with **Checked:** were compared word for word with a transcript, Wikiquote or a subtitle script on 30 October 2026. The rest are from memory, and lines marked **Check** could not be confirmed
-- Times: from the subtitle files (.srt) in \Library\Subtitles, by `tools/srt_times.py`. TV episodes have none yet, as there are no episode subtitle files
-- Already used in the decks: Drakeposting, distracted boyfriend, galaxy brain, this is fine. Sources in [src/img/meme/readme.md](src/img/meme/readme.md)
-- Topic pictures: credits on Media used, below, and in [src/img/topics/readme.md](src/img/topics/readme.md)
+- Times: from the subtitle files (.srt) in \Library\Subtitles, by [tools/srt_times.py](https://github.com/McNest/reveal-js-html-sources/blob/master/tools/srt_times.py) (in a private repository). TV episodes have none yet, as there are no episode subtitle files
+- Already used in the decks: Drakeposting, distracted boyfriend, galaxy brain, this is fine. Sources in [src/img/meme/readme.md](https://github.com/McNest/reveal-js-html/blob/master/docs/memes/src/img/meme/readme.md)
+- Topic pictures: credits on Media used, below, and in [src/img/topics/readme.md](https://github.com/McNest/reveal-js-html/blob/master/docs/memes/src/img/topics/readme.md)
 
 ---<!--L2-->
 
@@ -9948,7 +10044,7 @@ Views worth a discussion, from real people and fictional ones
 <!-- no-number -->
 
 - Copyright: this deck © 2026 Mark Crowe. Film and TV quotes, characters, stills, logos and all other trademarks belong to their respective owners, and are quoted here for teaching and comment. reveal.js © Hakim El Hattab, MIT licence
-- Link icons: each website's own icon (favicon) before the link, and an arrow out of a box after links that open a new tab. The icons are in <a class="folder" href="https://github.com/McNest/reveal-js-html/tree/master/docs/memes/src/img/favicons">src/img/favicons/</a>, with where each came from, and which icon goes with which website is in `src/css/icons.css`
+- Link icons: each website's own icon (favicon) before the link, and an arrow out of a box after links that open a new tab. The icons are in <a class="folder" href="https://github.com/McNest/reveal-js-html/tree/master/docs/memes/src/img/favicons">src/img/favicons/</a>, with where each came from, and which icon goes with which website is in [src/css/icons.css](https://github.com/McNest/reveal-js-html/blob/master/docs/memes/src/css/icons.css)
 - To print: [download the PDF](memes.pdf), every slide ready for paper; "Download as PDF" on the first slide is the same file. To make your own from this version: open the [print version](?print-pdf), print it, and choose Save as PDF
 
 ---<!--L2-->
@@ -9979,3 +10075,13 @@ Views worth a discussion, from real people and fictional ones
 <li data-m="19"><a href="https://commons.wikimedia.org/wiki/File:Retro_TV_on_suburban_road_(Unsplash).jpg">An old television set. Photo: Frank Okay, CC0, Wikimedia Commons</a></li>
 <li data-m="20"><a href="https://commons.wikimedia.org/wiki/File:Admiral_Ackbar_Cosplayer_at_Dragon_Con_2012.jpg">Admiral Ackbar, at Dragon Con. Photo: Terry Robinson, CC BY-SA 2.0, Wikimedia Commons</a></li>
 </ol>
+
+---
+
+# That's all, folks!
+<!-- no-number -->
+<!-- .slide: id="exit" class="exit-slide" -->
+
+<p class="exit-now"><button type="button" data-deck-exit>Click here to exit</button></p>
+
+<p class="exit-note">Closes this tab, or goes back to the page before the slides</p>

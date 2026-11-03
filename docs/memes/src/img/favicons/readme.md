@@ -18,3 +18,4 @@ Each website's own icon, shown beside links to it in the meme bank ([../../../me
 | [incompetech.png](incompetech.png)             | [Incompetech](https://incompetech.com/)                     |
 | [github.svg](github.svg)                       | [GitHub](https://github.com/). The GitHub mark, drawn from the Simple Icons path (CC0), 31 October 2026 |
 | [tinyurl.png](tinyurl.png)                     | [TinyURL](https://tinyurl.com/), its 64 px icon, 2 November 2026 |
+| [portalwiki.png](portalwiki.png)               | [Portal Wiki](https://theportalwiki.com/), its 256 px icon made 64 px, 3 November 2026 |

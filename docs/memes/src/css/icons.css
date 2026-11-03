@@ -19,3 +19,4 @@
 .reveal a[href*="irishstatutebook.ie"]::before          { background-image: url("../img/favicons/irishstatutebook.png"); }  /* Irish Statute Book */
 .reveal a[href*="incompetech.com"]::before              { background-image: url("../img/favicons/incompetech.png"); }       /* Incompetech: music */
 .reveal a[href*="tinyurl.com"]::before                  { background-image: url("../img/favicons/tinyurl.png"); }           /* TinyURL */
+.reveal a[href*="theportalwiki.com"]::before            { background-image: url("../img/favicons/portalwiki.png"); }        /* Portal Wiki: Portal voice lines */
