@@ -34,6 +34,6 @@ Run them from this folder (the repository's); each one's own notes say more.
 | Command                          | What it does                                                                                       |
 |----------------------------------|----------------------------------------------------------------------------------------------------|
 | `python tools/serve.py`          | Serves the decks at <http://localhost:8008/>, for trying a change                                  |
-| `python tools/version.py --write`| One more change: the new version and date on the decks' title slides                               |
+| `python tools/version.py`        | Each deck's version (and "site", everything else): each deck counts its own changes. `--write memes` is one more change to that deck: its new version and date on its title slide |
 | `python tools/build_pdf.py`      | Rebuilds each deck's PDF (`docs/*/src/pdf/`) from its print version, with the ARJ clone beside this one if there is one. Needs Node 22+ and Edge or Chrome |
-| `python tools/commit.py`         | `version.py --write`, then a commit on this computer named by the version alone ("1.8.9"); `--pdf` rebuilds the PDFs first. Never pushes: amend or undo it first if you like (`git reset --soft HEAD~1`), then push |
+| `python tools/commit.py`         | One commit for each deck that changed, and one for everything else: each gets one more version, and its commit is named by the deck and that version, nothing else ("memes 1.8.9"). `--pdf` rebuilds a changed deck's PDF first. Never pushes: amend or undo first if you like (`git reset --soft HEAD~1`), then push |

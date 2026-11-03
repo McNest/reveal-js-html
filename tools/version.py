@@ -1,43 +1,46 @@
-"""Version number for the decks: the meme bank (docs/memes/), and the
-other decks in the new layout (docs/asg2/), all one number.
+"""Version numbers for this repository: each deck has its own, and so does
+everything else (the list of decks, the readme, the tools), "site".
 
-  python tools/version.py           show the next version
-  python tools/version.py --write   write it into docs/memes/memes.md and
-                                    docs/memes/index.html, with the version of
-                                    ARJ the deck is built with, and into
-                                    docs/asg2/index.html
-  python tools/version.py --link    link "Version 1.8.3" on the title slide to
-                                    this repository on GitHub as it was at the
-                                    commit that first published it
+  python tools/version.py                   each one's version now, and next
+  python tools/version.py --write memes     one more change to the meme bank:
+                                            its new version and date on its
+                                            title slide and in its page
+  python tools/version.py --write asg2 site the same for each one named
+  python tools/version.py --link [memes]    link "Version 1.8.3" on a deck's
+                                            title slide to this repository on
+                                            GitHub as it was at the commit
+                                            that first published it
+
+Which files belong to which: a deck is everything in its folder (BUCKETS);
+"site" is everything else. tools/commit.py works this out from what has
+changed, and gives each one its own commit.
 
 A version is year.tenth.change:
   year    1 for 2026, 2 for 2027 ...
   tenth   which tenth of the year today falls in, 0 to 9 (days 1-36 are 0,
           20 October to 25 November is 8, and so on): about every 36 days
-  change  one more for every change to the slides, back to 1 when a new
+  change  one more for every change to that deck, back to 1 when a new
           tenth starts
-So 1.8.12 is the twelfth change between 20 October and 25 November 2026, and
-the next tenth starts at 1.9.1. Each --write is one change: run it once for
-each change, before you commit (running it twice counts two). The number is
-worked out from the version already on the title slide, so it never goes
-down. Commit messages start with the version ("1.8.12 Star Trek films as one
-topic"), so the commits on GitHub can be matched to the versions; it prints
-the number to use.
+So 1.8.12 is the meme bank's twelfth change between 20 October and 25
+November 2026, and its next tenth starts at 1.9.1. Each --write is one
+change: run it once for each change, before you commit (running it twice
+counts two). The number is worked out from the version already written, so
+it never goes down.
 
 The title slide shows the month ("October 2026"); the page's metadata gets
 the full date and time.
 
 ARJ has its own version, worked out the same way by tools/version.py in the
-ARJ repository (SDevTutors/apocalypse-reveal-js). --write copies it into the
-page's generator line from that repository's arj/js/deck-start.js, when the
-repository is cloned where ARJ_REPO says.
+ARJ repository (SDevTutors/apocalypse-reveal-js). --write memes copies it
+into the page's generator line from that repository's arj/js/deck-start.js,
+when the repository is cloned where ARJ_REPO says.
 
---link: looks for the first commit whose memes.md has this version, checks
-that commit has been pushed, and only then links the version to the
-repository as it was then (github.com/.../tree/SHA: browse the files at that
-point, not the changes). Until then the version links to the list of
-commits, so the slide never points at a commit that doesn't exist. Run it
-after you push.
+--link: looks for the first commit whose file has this version, checks that
+commit has been pushed, and only then links the version to the repository
+as it was then (github.com/.../tree/SHA: browse the files at that point,
+not the changes). Until then the version links to the list of commits, so
+the slide never points at a commit that doesn't exist. Run it after you
+push.
 """
 
 import datetime
@@ -48,10 +51,6 @@ import sys
 from urllib.parse import quote
 
 ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
-MEMES = "docs/memes/memes.md"
-PAGE = "docs/memes/index.html"
-# The other decks show the same version and date (the repository's)
-ASG2 = "docs/asg2/index.html"
 # The ARJ repository: C:/Users/user/GitHub/SDevTutors/apocalypse-reveal-js
 ARJ_REPO = os.path.normpath(
     os.path.join(ROOT, "..", "..", "SDevTutors", "apocalypse-reveal-js")
@@ -59,42 +58,50 @@ ARJ_REPO = os.path.normpath(
 GITHUB = "https://github.com/McNest/reveal-js-html/"
 FIRST_YEAR = 2026
 
-SWAPS = {
-    # file to write: [(pattern, template)]
-    MEMES: [
-        (r'(<span class="deck-version">)[^<]*(</span>)', r"\g<1>{v}\g<2>"),
-        (
-            r'<time class="deck-date" datetime="[^"]*">[^<]*</time>',
-            '<time class="deck-date" datetime="{stamp}">{month}</time>',
-        ),
-    ],
-    PAGE: [
-        (
-            r'<meta name="version" content="[^"]*" />',
-            '<meta name="version" content="{v}" />',
-        ),
-        # dcterms, dc-terms, DCTERMS ...: whatever prefix the page declares
-        (
-            r'(<meta name="[A-Za-z-]+\.modified" content=")[^"]*(" />)',
-            r"\g<1>{stamp}\g<2>",
-        ),
-        (
-            r'<meta property="article:modified_time" content="[^"]*" />',
-            '<meta property="article:modified_time" content="{stamp}" />',
-        ),
-    ],
-    ASG2: [
-        (r'(<span class="deck-version">)[^<]*(</span>)', r"\g<1>{v}\g<2>"),
-        (
-            r'<time class="deck-date" datetime="[^"]*">[^<]*</time>',
-            '<time class="deck-date" datetime="{stamp}">{month}</time>',
-        ),
-        (
-            r'<meta name="version" content="[^"]*" />',
-            '<meta name="version" content="{v}" />',
-        ),
-    ],
+TITLE_SLIDE = [
+    (r'(<span class="deck-version">)[^<]*(</span>)', r"\g<1>{v}\g<2>"),
+    (
+        r'<time class="deck-date" datetime="[^"]*">[^<]*</time>',
+        '<time class="deck-date" datetime="{stamp}">{month}</time>',
+    ),
+]
+META_VERSION = [
+    (r'<meta name="version" content="[^"]*" />', '<meta name="version" content="{v}" />')
+]
+META_DATES = [
+    # dcterms, dc-terms, DCTERMS ...: whatever prefix the page declares
+    (r'(<meta name="[A-Za-z-]+\.modified" content=")[^"]*(" />)', r"\g<1>{stamp}\g<2>"),
+    (
+        r'<meta property="article:modified_time" content="[^"]*" />',
+        '<meta property="article:modified_time" content="{stamp}" />',
+    ),
+]
+
+# name: its folder (None: everything that isn't a deck), the file whose
+# version is read (the title slide), and the files to write
+BUCKETS = {
+    "memes": {
+        "folder": "docs/memes/",
+        "source": "docs/memes/memes.md",
+        "old": ["memes.md"],  # where it was before, for --link
+        "swaps": {
+            "docs/memes/memes.md": TITLE_SLIDE,
+            "docs/memes/index.html": META_VERSION + META_DATES,
+        },
+    },
+    "asg2": {
+        "folder": "docs/asg2/",
+        "source": "docs/asg2/index.html",
+        "swaps": {"docs/asg2/index.html": TITLE_SLIDE + META_VERSION},
+    },
+    "site": {
+        "folder": None,
+        "source": "index.html",
+        "swaps": {"index.html": META_VERSION},
+    },
 }
+# The page that names the ARJ version it is built with
+GENERATOR = "docs/memes/index.html"
 
 
 def tenth(day):
@@ -111,10 +118,22 @@ def version(today, last=None):
     return "%d.%d.1" % (year, part)
 
 
-def written():
-    """The version on the title slide now."""
-    text = open(os.path.join(ROOT, MEMES), encoding="utf-8").read()
-    return re.search(r'<span class="deck-version">([^<]*)</span>', text).group(1)
+def written(name="memes"):
+    """The version written for that deck (or "site") now."""
+    text = open(os.path.join(ROOT, BUCKETS[name]["source"]), encoding="utf-8").read()
+    found = re.search(r'<span class="deck-version">([^<]*)</span>', text) or re.search(
+        r'<meta name="version" content="([^"]*)" />', text
+    )
+    return found.group(1) if found else None
+
+
+def bucket_of(path):
+    """Which deck a file belongs to, by its path from ROOT; "site" for the rest."""
+    path = path.replace("\\", "/")
+    for name, bucket in BUCKETS.items():
+        if bucket["folder"] and path.startswith(bucket["folder"]):
+            return name
+    return "site"
 
 
 def arj_version():
@@ -126,40 +145,56 @@ def arj_version():
     return found and found.group(1)
 
 
-def main(write):
-    """Main method"""
+def write(name):
+    """One more change to that deck (or "site"): write its new version and
+    date. Returns the new version."""
     now = datetime.datetime.now().astimezone().replace(microsecond=0)
     today = now.date()
-    v = version(today, written())
+    v = version(today, written(name))
+    swaps = dict(BUCKETS[name]["swaps"])
     arj = arj_version()
-    print("deck %s" % v)
-    print("ARJ  %s" % (arj or "not found: " + ARJ_REPO))
-    if write:
-        swaps = dict(SWAPS)
-        if arj:
-            swaps[PAGE] = swaps[PAGE] + [
-                (
-                    r"and (?:TAP|ARJ) [0-9.]+, (?:The Apocalypse Plugin|Apocalypse Reveal-js)",
-                    "and ARJ %s, Apocalypse Reveal-js" % arj,
-                )
-            ]
-        for target, pairs in swaps.items():
-            path = os.path.join(ROOT, target)
-            text = open(path, encoding="utf-8", newline="").read()
-            for pattern, template in pairs:
-                new = template.format(
-                    v=v, stamp=now.isoformat(), month=today.strftime("%B %Y")
-                )
-                text, n = re.subn(pattern, new, text)
-                if not n:
-                    print("  not found in", target, ":", pattern)
-            open(path, "w", encoding="utf-8", newline="").write(text)
-    print('Commit messages start with the version: "%s <what changed>"' % v)
+    if arj and GENERATOR in swaps:
+        swaps[GENERATOR] = swaps[GENERATOR] + [
+            (
+                r"and (?:TAP|ARJ) [0-9.]+, (?:The Apocalypse Plugin|Apocalypse Reveal-js)",
+                "and ARJ %s, Apocalypse Reveal-js" % arj,
+            )
+        ]
+    for target, pairs in swaps.items():
+        path = os.path.join(ROOT, target)
+        text = open(path, encoding="utf-8", newline="").read()
+        for pattern, template in pairs:
+            new = template.format(v=v, stamp=now.isoformat(), month=today.strftime("%B %Y"))
+            text, n = re.subn(pattern, new, text)
+            if not n:
+                print("  not found in", target, ":", pattern)
+        open(path, "w", encoding="utf-8", newline="").write(text)
+    return v
 
 
-def link():
+def main(args):
+    """Main method"""
+    names = [a for a in args if not a.startswith("--")]
+    unknown = [n for n in names if n not in BUCKETS]
+    if unknown:
+        sys.exit("No deck called %s: one of %s" % (", ".join(unknown), ", ".join(BUCKETS)))
+    if "--write" in args:
+        if not names:
+            sys.exit("Which one? python tools/version.py --write " + " | ".join(BUCKETS))
+        for name in names:
+            print("%-6s %s" % (name, write(name)))
+        return
+    today = datetime.date.today()
+    for name in names or BUCKETS:
+        now = written(name)
+        print("%-6s %s, next %s" % (name, now, version(today, now)))
+    print("ARJ    %s" % (arj_version() or "not found: " + ARJ_REPO))
+
+
+def link(name="memes"):
     """Link the title slide's version to the pushed commit that first has it."""
-    path = os.path.join(ROOT, MEMES)
+    source = BUCKETS[name]["source"]
+    path = os.path.join(ROOT, source)
     text = open(path, encoding="utf-8", newline="").read()
     v = re.search(r'<span class="deck-version">([^<]*)</span>', text).group(1)
     git = lambda *args: subprocess.run(
@@ -172,8 +207,8 @@ def link():
         "-S",
         '<span class="deck-version">%s</span>' % v,
         "--",
-        MEMES,
-        "memes.md",
+        source,
+        *BUCKETS[name].get("old", []),
     ).split()
     pushed = [c for c in commits if git("branch", "-r", "--contains", c).strip()]
     if pushed:
@@ -200,6 +235,7 @@ def link():
 
 if __name__ == "__main__":
     if "--link" in sys.argv:
-        link()
+        named = [a for a in sys.argv[1:] if not a.startswith("--")]
+        link(named[0] if named else "memes")
     else:
-        main("--write" in sys.argv)
+        main(sys.argv[1:])
