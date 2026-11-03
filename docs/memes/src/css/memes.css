@@ -1,6 +1,7 @@
 /*********************************************************
- * Meme bank (memes.html), loaded after arj/css/arj.css. The title slide
- * and the link icons are styled there.
+ * Meme bank (index.html), loaded after arj/css/arj.css. The title slide,
+ * topic pictures, the last slide and the exit slide are styled there, and
+ * the link icons; this is the entries' own look, and its picture markers.
  * Each entry slide: a heading, the quote, then field lines.
  *********************************************************/
 .reveal {
@@ -39,39 +40,6 @@
 .reveal .topic p {
 	font-size: 34px;
 	color: var(--muted);
-}
-
-/* Topic slides: one picture, with a numbered caption underneath. The credit
- * is on Media used (the picture marker jumps there) and in src/img/topics/readme.md */
-/* 16:9, cropped to fit, with rounded corners, a little softer than the
- * original so it doesn't outshine the text. The caption is centred under it. */
-.reveal figure.topic-photo {
-	width: fit-content;
-	max-width: 100%;
-	margin: 0.6em auto 0;
-}
-
-.reveal figure.topic-photo img {
-	display: block;
-	max-width: 100%;
-	height: calc(400px * var(--fit, 1));
-	aspect-ratio: 16 / 9;
-	margin: 0;
-	object-fit: cover;
-	border-radius: 22px;
-	filter: contrast(0.9) saturate(0.95);
-	opacity: 0.93;
-}
-
-.reveal figure.topic-photo figcaption {
-	margin-top: 8px;
-	font-size: 22px;
-	text-align: center;
-	color: var(--muted);
-}
-
-.reveal figure.topic-photo figcaption a {
-	color: inherit;
 }
 
 /* The quote. --fit is lowered by memes.html on a slide whose text runs over. */
@@ -233,110 +201,4 @@
 .reveal li.entry-target {
 	background: #fff6dd;
 	outline: 6px solid #fff6dd;
-}
-
-/*********************************************************
- * Title slide, this deck's own layout on top of arj/css/arj.css: the
- * subtitle centred and biggest, then the name, then the date, smaller each
- * time, and a short quote under them. Footer, on the line: "Download as
- * PDF" left (the PDF icon from arj/css/deck-controls.css), the copyright
- * centred, the version right (arj.css places the version). Under the line:
- * the short address left, the deck's full address right.
- *********************************************************/
-.reveal .slides .arj-title .title-text h3 {
-	font-size: 52px;
-	text-align: center;
-}
-
-.reveal .arj-title .byline {
-	margin-top: 0.9em;
-	font-size: 40px;
-}
-
-.reveal .arj-title .byline + .byline {
-	margin-top: 0.3em;
-	font-size: 30px;
-}
-
-.reveal .arj-title .title-quote {
-	margin: 1em 0 0;
-	font-size: 24px;
-	font-style: italic;
-	text-align: center;
-	color: var(--muted);
-}
-
-.reveal .arj-title .title-quote cite {
-	font-style: normal;
-}
-
-.reveal .arj-title .deck-pdf,
-.reveal .arj-title .footer-rights {
-	position: absolute;
-	bottom: 100%;
-	padding-bottom: 6px;
-	line-height: 1;
-}
-
-.reveal .arj-title .deck-pdf {
-	left: 0;
-}
-
-/* Centred across the whole footer; the version stays clickable above it */
-.reveal .arj-title .footer-rights {
-	left: 0;
-	right: 0;
-	margin: 0 !important;
-	text-align: center;
-	pointer-events: none;
-}
-
-.reveal .arj-title .footer-rights a {
-	pointer-events: auto;
-}
-
-
-.reveal .arj-title .deck-short {
-	grid-row: 1;
-	grid-column: 1;
-	text-align: left;
-}
-
-.reveal .arj-title .deck-url {
-	grid-row: 1;
-	grid-column: 2;
-	text-align: right;
-}
-
-/*********************************************************
- * The last slide, "Thanks for coming to my TED Talk": a microphone and
- * "Questions?", big and centred, then the meme's own lines.
- *********************************************************/
-.reveal .finish-slide p.finish-questions {
-	margin: 0.9em 0 0.8em;
-	font-size: 72px;
-	font-weight: bold;
-	text-align: center;
-	color: var(--navy);
-}
-
-.reveal .finish-slide .finish-emoji {
-	margin-right: 0.3em;
-	font-family: var(--emoji);
-}
-
-
-/*********************************************************
- * The exit slide, the last one: the big button (styled in
- * arj/css/deck-controls.css) in the middle, a line under it.
- *********************************************************/
-.reveal .exit-slide p.exit-now {
-	margin: 2.2em 0 0.8em;
-	text-align: center;
-}
-
-.reveal .exit-slide p.exit-note {
-	font-size: 26px;
-	text-align: center;
-	color: var(--muted);
 }

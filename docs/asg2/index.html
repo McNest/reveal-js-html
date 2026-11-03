@@ -5,6 +5,7 @@
 	<meta charset="utf-8" />
 	<meta name="author" content="Mark Crowe" />
 	<meta name="description" content="Assignment 2: Training Needs Analysis presentation, module 6N3325." />
+	<meta name="version" content="1.8.7" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<title>Training Needs Analysis</title>
 	<link rel="icon" href="favicon.ico" />
@@ -12,6 +13,7 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css" />
 	<link rel="stylesheet" href="https://sdevtutors.github.io/apocalypse-reveal-js/arj/css/arj.css" />
 	<link rel="stylesheet" href="src/css/asg2.css" />
+	<link rel="stylesheet" href="src/css/icons.css" />
 	<link rel="stylesheet" href="https://sdevtutors.github.io/apocalypse-reveal-js/arj/css/deck-controls.css" />
 </head>
 
@@ -29,6 +31,11 @@
 	The print version adds the short citation after each reference marker, e.g. (Noe, 2023).
 	The entries (data-n, data-m, data-cite) on the last two slides are the one place to edit.
 
+	Title slide and footer: arj/css/arj.css (class="title-slide arj-title"). The version and date are
+	written by tools/version.py --write; the PDF (src/pdf/asg2.pdf) by tools/build_pdf.py.
+	The QR code (src/img/qr/asg2-deck-logo.svg) opens these slides online.
+	Search every slide: the magnifying glass or Ctrl+F (arj/js/deck-search.js).
+
 	Contact: the name links to sdevtutors.github.io/mark-crowe, hover shows the address (data-tip).
 	Mouse only: wheel or left click next, right click back, middle click next section (arj/js/deck.js).
 	Slide list, contents, home, blackout, all slides and full screen buttons, and the numbering:
@@ -40,15 +47,24 @@
 		<div class="slides">
 
 			<!-- 1. Title (0 min) -->
-			<section id="TitleSlide" class="title-slide">
+			<section id="TitleSlide" class="title-slide arj-title">
 				<h1>Training Needs Analysis</h1>
-				<h3>Purpose - Benefits - Methods - Process</h3>
-				<p class="kicker">Assignment 2 - 6N3325</p>
-				<p class="byline"><a class="person" href="https://sdevtutors.github.io/mark-crowe/" target="_blank" rel="noopener" data-tip="Mark Crowe, sdevtutors.github.io/mark-crowe">Mark Crowe</a><a class="mail-link" href="mailto:SDevTutor@outlook.ie" data-tip="SDevTutor@outlook.ie" aria-label="Email SDevTutor@outlook.ie"></a> - Training Needs Identification and Design - November 2026</p>
-				<p class="built-with">
-					Built with
-					<a href="https://revealjs.com/" target="_blank" rel="noopener">reveal.js <img src="https://revealjs.com/images/logo/reveal-symbol.svg" alt="reveal.js logo" /></a>
-				</p>
+				<div class="title-body no-link-icon">
+					<div class="title-text">
+						<h3>Purpose - Benefits - Methods - Process</h3>
+						<p class="kicker">Assignment 2 - 6N3325 - Training Needs Identification and Design</p>
+						<p class="byline"><a class="person ext" href="https://sdevtutors.github.io/mark-crowe/" target="_blank" rel="noopener" data-tip="sdevtutors.github.io/mark-crowe"><img class="logo" src="src/img/logo/mc-logo.png" alt="" />Mark Crowe</a><a class="mail-link" href="mailto:SDevTutor@outlook.ie" data-tip="SDevTutor@outlook.ie" aria-label="Email SDevTutor@outlook.ie"></a></p>
+						<p class="byline"><span class="calendar" aria-hidden="true">📅</span><time class="deck-date" datetime="2026-11-03T14:39:48+00:00">November 2026</time></p>
+						<p class="built-with">Built with <a class="ext" href="https://revealjs.com/"><span class="arj-icon arj-icon-revealjs"></span>Reveal.js</a> and <a class="ext" href="https://github.com/SDevTutors/apocalypse-reveal-js" title="ARJ, Apocalypse Reveal-js"><span class="arj-icon arj-icon-arj"></span>ARJ</a><span class="sep">–</span><a class="ext" href="https://github.com/mcnest/reveal-js-html" title="These slides' source, on GitHub"><span class="arj-icon arj-icon-github"></span>Source</a></p>
+					</div>
+					<figure class="deck-qr"><a href="https://mcnest.github.io/reveal-js-html/docs/asg2/"><img src="src/img/qr/asg2-deck-logo.svg" alt="QR code: these slides online, mcnest.github.io/reveal-js-html/docs/asg2/" /></a></figure>
+				</div>
+				<footer class="slide-footer no-link-icon">
+					<p class="deck-pdf"><a href="src/pdf/asg2.pdf" download="training-needs-analysis.pdf" title="Download the slides as a PDF" aria-label="Download the slides as a PDF">Download as PDF</a></p>
+					<p class="footer-rights"><a class="ext" href="https://sdevtutors.github.io/mark-crowe/" title="sdevtutors.github.io/mark-crowe">© 2026 Mark Crowe</a></p>
+					<p class="deck-version-line"><a class="version-link ext" href="https://github.com/mcnest/reveal-js-html/commits/master">Version <span class="deck-version">1.8.7</span></a></p>
+					<p class="deck-url"><a class="ext" href="https://mcnest.github.io/reveal-js-html/docs/asg2/">mcnest.github.io/reveal-js-html/docs/asg2/</a></p>
+				</footer>
 				<aside class="notes">0 minutes. Name, module, then straight into the introduction.</aside>
 			</section>
 
@@ -269,7 +285,7 @@ Thanks, Mark</code></pre>
 					<div class="big-emoji">🙋</div>
 					<p class="contact card"><a class="person" href="https://sdevtutors.github.io/mark-crowe/" target="_blank" rel="noopener" data-tip="Mark Crowe, sdevtutors.github.io/mark-crowe">Mark Crowe</a></p>
 					<p class="contact mail"><a href="mailto:SDevTutor@outlook.ie">SDevTutor@outlook.ie</a></p>
-					<p class="cite"><a href="?print-pdf" target="_blank">Print version</a>, then Save as PDF. References are below this slide.</p>
+					<p class="cite"><a href="src/pdf/asg2.pdf" download="training-needs-analysis.pdf">Download the slides as a PDF</a>. References are below this slide.</p>
 					<aside class="notes">Leave this up during the 2 minutes of questions. Rehearse: why more than one method? When is training not the answer?</aside>
 				</section>
 
@@ -297,12 +313,17 @@ Thanks, Mark</code></pre>
 						<li data-m="3"><a href="https://knowyourmeme.com/memes/galaxy-brain" target="_blank" rel="noopener">Galaxy brain (expanding brain). Anonymous (2017). Template from imgflip.</a></li>
 						<li data-m="4"><a href="https://knowyourmeme.com/memes/this-is-fine" target="_blank" rel="noopener">This is fine. KC Green, <em>Gunshow</em>, "On Fire" (2013). Template from imgflip.</a></li>
 					</ol>
-					<p class="built-with">
-						Built with
-						<a href="https://revealjs.com/" target="_blank" rel="noopener">reveal.js <img src="https://revealjs.com/images/logo/reveal-symbol.svg" alt="reveal.js logo" /></a>
-					</p>
+					<p class="built-with no-link-icon">Built with <a class="ext" href="https://revealjs.com/"><span class="arj-icon arj-icon-revealjs"></span>Reveal.js</a> and <a class="ext" href="https://github.com/SDevTutors/apocalypse-reveal-js" title="ARJ, Apocalypse Reveal-js"><span class="arj-icon arj-icon-arj"></span>ARJ</a></p>
 					<aside class="notes">Each line opens the meme's Know Your Meme page.</aside>
 				</section>
+			</section>
+
+			<!-- Exit: the exit button (top right) comes here when the slides have a tab of their own -->
+			<section id="exit" class="exit-slide">
+				<!-- no-number -->
+				<h2>That's all, folks!</h2>
+				<p class="exit-now"><button type="button" data-deck-exit>Click here to exit</button></p>
+				<p class="exit-note">Closes this tab, or goes back to the page before the slides</p>
 			</section>
 
 		</div>
@@ -328,7 +349,8 @@ Thanks, Mark</code></pre>
 
 			stackBarLinks: true, // arj/js/deck.js: click a grey bar to go to that slide
 			tapZones: true, // arj/js/deck.js: on a touch screen, tap left to go back, right to go on
-			draw: false, // arj/js/deck-start.js: no drawing in this deck yet
+			drawToolbar: 'top', // arj/js/deck-draw.js: the pen, or D, draws on a slide
+			linkIcons: { style: 'favicon-before' }, // arj/js/link-icons.js; the icons: src/css/icons.css
 			deckControls: { // arj/js/deck-controls.js
 				contentsColumns: 4, contentsRows: 3,
 				contentsColumnsPortrait: 2, contentsRowsPortrait: 2,
@@ -338,11 +360,15 @@ Thanks, Mark</code></pre>
 				numberHeadings: 'bullet', // "(5)" on the slide, left of the centred title
 				numberHeadingLevels: ['h2'], // which headings show it
 				sidebarSide: 'left',
+				home: '../../', // arj/js/deck-controls.js: where Exit goes if the tab can't close
 			},
 
-			deckScripts: [
-				'arj/js/deck-controls.js',
-				'arj/js/deck.js',
+			deckScripts: [ // from the folder deck-start.js is in
+				'link-icons.js',
+				'deck-controls.js',
+				'deck.js',
+				'deck-draw.js',
+				'deck-search.js',
 			],
 		});
 	</script>

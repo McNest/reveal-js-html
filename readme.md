@@ -26,3 +26,14 @@ The meme bank has a TinyURL, <https://tinyurl.com/4u26rwnh>, on its title slide,
 |--------------------------------|-------------------------------------------------------------|
 | <https://tinyurl.com/4u26rwnh> | <https://mcnest.github.io/reveal-js-html/docs/memes/>       |
 | <https://tinyurl.com/42m5nncm> | Old: the meme bank's first address (`memes.html`), now gone |
+
+## Tools
+
+Run them from this folder (the repository's); each one's own notes say more.
+
+| Command                          | What it does                                                                                       |
+|----------------------------------|----------------------------------------------------------------------------------------------------|
+| `python tools/serve.py`          | Serves the decks at <http://localhost:8008/>, for trying a change                                  |
+| `python tools/version.py --write`| One more change: the new version and date on the decks' title slides                               |
+| `python tools/build_pdf.py`      | Rebuilds each deck's PDF (`docs/*/src/pdf/`) from its print version, with the ARJ clone beside this one if there is one. Needs Node 22+ and Edge or Chrome |
+| `python tools/commit.py`         | `version.py --write`, then a commit on this computer named by the version alone ("1.8.9"); `--pdf` rebuilds the PDFs first. Never pushes: amend or undo it first if you like (`git reset --soft HEAD~1`), then push |

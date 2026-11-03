@@ -1,0 +1,9 @@
+/*********************************************************
+ * Assignment 2: each website's icon (favicon), before links to it. The
+ * icons are in ../img/favicons/ (where each came from: its readme.md); the
+ * addresses here are relative to this file. ARJ draws them (arj/css/arj.css,
+ * "Icons"): icon, then the link, then the new-tab mark. ARJ has reveal.js,
+ * GitHub, a folder (a.folder), and a plain link icon for any other site.
+ * A new site: one line here, and its icon in ../img/favicons/.
+ *********************************************************/
+.reveal a[href*="knowyourmeme.com"]::before { background-image: url("../img/favicons/knowyourmeme.png"); } /* Know Your Meme */

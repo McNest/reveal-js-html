@@ -179,17 +179,18 @@
 	padding: 0;
 }
 
-/* Title slide: the title sits where every other heading sits, with the
- * same gold bar, and the kicker moves below it. */
-.reveal .title-slide h1 {
-	padding-bottom: 0.25em;
-	background: linear-gradient(var(--gold), var(--gold)) no-repeat bottom left / 90px 8px;
-}
-
+/* Title slide: ARJ's layout (arj/css/arj.css, .arj-title), the module
+ * line centred under the subtitle, and the footer at the 27px minimum */
 .reveal .title-slide .kicker {
+	display: block;
 	margin-top: 0.8em;
 	padding-top: 0;
 	border-top: 0;
+	text-align: center;
+}
+
+.reveal .arj-title .slide-footer {
+	font-size: 27px;
 }
 
 /* "Built with reveal.js": same line on the first and last slide */

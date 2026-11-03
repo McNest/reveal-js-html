@@ -1,9 +1,11 @@
-"""Version number for the meme bank deck (docs/memes/).
+"""Version number for the decks: the meme bank (docs/memes/), and the
+other decks in the new layout (docs/asg2/), all one number.
 
   python tools/version.py           show the next version
   python tools/version.py --write   write it into docs/memes/memes.md and
                                     docs/memes/index.html, with the version of
-                                    ARJ the deck is built with
+                                    ARJ the deck is built with, and into
+                                    docs/asg2/index.html
   python tools/version.py --link    link "Version 1.8.3" on the title slide to
                                     this repository on GitHub as it was at the
                                     commit that first published it
@@ -48,6 +50,8 @@ from urllib.parse import quote
 ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 MEMES = "docs/memes/memes.md"
 PAGE = "docs/memes/index.html"
+# The other decks show the same version and date (the repository's)
+ASG2 = "docs/asg2/index.html"
 # The ARJ repository: C:/Users/user/GitHub/SDevTutors/apocalypse-reveal-js
 ARJ_REPO = os.path.normpath(
     os.path.join(ROOT, "..", "..", "SDevTutors", "apocalypse-reveal-js")
@@ -77,6 +81,17 @@ SWAPS = {
         (
             r'<meta property="article:modified_time" content="[^"]*" />',
             '<meta property="article:modified_time" content="{stamp}" />',
+        ),
+    ],
+    ASG2: [
+        (r'(<span class="deck-version">)[^<]*(</span>)', r"\g<1>{v}\g<2>"),
+        (
+            r'<time class="deck-date" datetime="[^"]*">[^<]*</time>',
+            '<time class="deck-date" datetime="{stamp}">{month}</time>',
+        ),
+        (
+            r'<meta name="version" content="[^"]*" />',
+            '<meta name="version" content="{v}" />',
         ),
     ],
 }
