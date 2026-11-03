@@ -1,6 +1,6 @@
 """Version number for the meme bank deck (docs/memes/).
 
-  python tools/version.py           show the version for today
+  python tools/version.py           show the next version
   python tools/version.py --write   write it into docs/memes/memes.md and
                                     docs/memes/index.html, with the version of
                                     ARJ the deck is built with
@@ -8,19 +8,19 @@
                                     this repository on GitHub as it was at the
                                     commit that first published it
 
-A version is year.tenth.day, for content rather than software:
-  year   1 for 2026, 2 for 2027 ...
-  tenth  which tenth of the year today falls in, 0 to 9 (days 1-36 are 0,
-         20 October to 25 November is 8, and so on)
-  day    how many days in that tenth have had changes, counting today
-So 1.8.3 is the third day of changes between 20 October and 25 November 2026.
-Changes are the git commits that touch the deck's files. Run it before you
-commit; running it twice on the same day gives the same number. It never
-goes down: if the version already on the title slide is higher (the deck had
-versions before this repository's history starts), it carries on from that.
-Commit messages start with the version ("1.8.4 Star Trek films as one topic"),
-so the commits on GitHub can be matched to the versions; it prints the number
-to use.
+A version is year.tenth.change:
+  year    1 for 2026, 2 for 2027 ...
+  tenth   which tenth of the year today falls in, 0 to 9 (days 1-36 are 0,
+          20 October to 25 November is 8, and so on): about every 36 days
+  change  one more for every change to the slides, back to 1 when a new
+          tenth starts
+So 1.8.12 is the twelfth change between 20 October and 25 November 2026, and
+the next tenth starts at 1.9.1. Each --write is one change: run it once for
+each change, before you commit (running it twice counts two). The number is
+worked out from the version already on the title slide, so it never goes
+down. Commit messages start with the version ("1.8.12 Star Trek films as one
+topic"), so the commits on GitHub can be matched to the versions; it prints
+the number to use.
 
 The title slide shows the month ("October 2026"); the page's metadata gets
 the full date and time.
@@ -55,16 +55,6 @@ ARJ_REPO = os.path.normpath(
 GITHUB = "https://github.com/McNest/reveal-js-html/"
 FIRST_YEAR = 2026
 
-# The deck's files, and where they were before docs/memes/, so the days with
-# changes before the move still count
-DECK_FILES = [
-    "docs/memes",
-    "memes.md",
-    "memes.html",
-    "src/css/memes.css",
-    "src/img/topics",
-]
-
 SWAPS = {
     # file to write: [(pattern, template)]
     MEMES: [
@@ -97,35 +87,19 @@ def tenth(day):
     return (day.timetuple().tm_yday - 1) * 10 // days
 
 
-def version(paths, today, last=None, last_date=None):
-    """Today's version from the commits; at least one on from last (written
-    on last_date), if that is in the same tenth."""
-    log = subprocess.run(
-        ["git", "log", "--format=%ad", "--date=short", "--"] + paths,
-        cwd=ROOT,
-        capture_output=True,
-        text=True,
-    ).stdout.split()
-    days = {datetime.date.fromisoformat(d) for d in log}
-    days = {
-        d
-        for d in days
-        if d.year == today.year and tenth(d) == tenth(today) and d <= today
-    }
-    days.add(today)
+def version(today, last=None):
+    """The next version after last: one more change in this tenth, or the
+    first change of a new one."""
     year, part = today.year - FIRST_YEAR + 1, tenth(today)
-    day = len(days)
     if last and last.startswith("%d.%d." % (year, part)):
-        day = max(day, int(last.split(".")[2]) + (last_date < today))
-    return "%d.%d.%d" % (year, part, day)
+        return "%d.%d.%d" % (year, part, int(last.split(".")[2]) + 1)
+    return "%d.%d.1" % (year, part)
 
 
 def written():
-    """The version on the title slide now, and the day it was written."""
+    """The version on the title slide now."""
     text = open(os.path.join(ROOT, MEMES), encoding="utf-8").read()
-    v = re.search(r'<span class="deck-version">([^<]*)</span>', text).group(1)
-    stamp = re.search(r'<time class="deck-date" datetime="([^"]*)"', text).group(1)
-    return v, datetime.date.fromisoformat(stamp[:10])
+    return re.search(r'<span class="deck-version">([^<]*)</span>', text).group(1)
 
 
 def arj_version():
@@ -138,9 +112,10 @@ def arj_version():
 
 
 def main(write):
+    """Main method"""
     now = datetime.datetime.now().astimezone().replace(microsecond=0)
     today = now.date()
-    v = version(DECK_FILES, today, *written())
+    v = version(today, written())
     arj = arj_version()
     print("deck %s" % v)
     print("ARJ  %s" % (arj or "not found: " + ARJ_REPO))
