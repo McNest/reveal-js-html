@@ -4,10 +4,12 @@
 <div class="title-body no-link-icon">
   <div class="title-text">
     <h3>Film and TV Quotes for Intermediate Memes</h3>
-    <p class="byline"><a class="person ext" href="https://sdevtutors.github.io/mark-crowe/" data-tip="sdevtutors.github.io/mark-crowe">
-      <img class="logo" src="src/img/mc-logo.png" alt="" />
-      Mark Crowe</a><span class="sep">–</span><time class="deck-date" datetime="2026-11-02T10:45:19+00:00">November 2026</time> <span class="calendar" aria-hidden="true">📅</span></p>
-      <p class="built-with">Built with <a class="ext" href="https://revealjs.com/">
+    <p class="byline">
+      <a class="person ext" href="https://sdevtutors.github.io/mark-crowe/" data-tip="sdevtutors.github.io/mark-crowe">
+      <img class="logo" src="src/img/mc-logo.png" alt="" />Mark Crowe</a>
+      <span class="sep">–</span><time class="deck-date" datetime="2026-11-02T15:58:28+00:00">November 2026</time> <span class="calendar" aria-hidden="true">📅</span>
+    </p>
+    <p class="built-with">Built with <a class="ext" href="https://revealjs.com/">
       <img src="arj/img/favicons/revealjs.svg" alt="" />Reveal.js</a> and <a class="ext" href="https://github.com/SDevTutors/apocalypse-reveal-js" title="ARJ, Apocalypse Reveal-js">
       <img src="arj/img/arj-logo.svg" alt="" />ARJ</a><span class="sep">–</span>
       <a class="ext" href="https://github.com/marcocrowe/reveal-js-html" title="This deck's source, on GitHub"><img src="arj/img/favicons/github.svg" alt="GitHub" />Source</a>
@@ -5293,7 +5295,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 ## The Dark Knight Rises (2012)
 <!-- 503 -->
 
-**Scene: the pit, Bruce gets ready to climb again**
+**Scene: the pit, Bruce gets ready to climb again**  
 
 > Prisoner: "He says the leap to freedom is not about strength."
 >
@@ -5928,6 +5930,27 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 ---<!--L3-->
 
 ## X-Men: Apocalypse (2016)
+<!-- 504 -->
+
+**Scene: the steelworks, Erik's workmates and Apocalypse**
+
+> Worker: "Henryk, please. Don't do this."
+>
+> Erik: "**My name isn't Henryk. My name is Magneto.**"
+>
+> Erik: "Stay back. Whoever you are, don't try to stop me from killing these men."
+>
+> Apocalypse: "**I'm not here for them. I'm here for you.**"
+
+- **Who:** Erik Lehnsherr (Michael Fassbender), who had been living in Poland as Henryk Gurzsky; one of his workmates, speaking Polish; and Apocalypse (Oscar Isaac). About twenty seconds between "Magneto" and "Stay back" are left out, including a sworn line
+- **IMDb:** [X-Men: Apocalypse](https://www.imdb.com/title/tt3385516/) · [quotes](https://www.imdb.com/title/tt3385516/quotes/)
+- **Time:** 0:57:53 to 0:59:06 (73 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>), speakers from [kinoafisha quotes](https://www.kinoafisha.info/en/movies/8165177/quotes/) [🔗](<../my-fetches/kinoafisha/x-men-apocalypse-quotes.html>)
+- **Use it for:** the new framework, the new language, the new name on the module. Same person underneath
+
+---<!--L3-->
+
+## X-Men: Apocalypse (2016)
 <!-- 195 -->
 
 **Scene: Auschwitz, part 1**
@@ -6031,6 +6054,24 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Time:** 1:24:51 to 1:24:56 (6 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>)
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>), speaker from [kinoafisha quotes](https://www.kinoafisha.info/en/movies/8165177/quotes/) [🔗](<../my-fetches/kinoafisha/x-men-apocalypse-quotes.html>)
 - **Use it for:** a better way of programming: the refactor, the loop that becomes a list comprehension, the library that replaces fifty lines
+
+---<!--L3-->
+
+## X-Men: Apocalypse (2016)
+<!-- 505 -->
+
+**Scene: Cairo, Apocalypse gives out the roles**
+
+> Charles: "And me? **Am I to play a role in this madness?**"
+>
+> Apocalypse: "**You have the most important role of all.**"
+
+- **Who:** Charles Xavier (James McAvoy), Apocalypse's prisoner, and Apocalypse (Oscar Isaac), who has just told Erik to "wipe clean this world". Charles's "most important role" is to be Apocalypse's next body
+- **IMDb:** [X-Men: Apocalypse](https://www.imdb.com/title/tt3385516/) · [quotes](https://www.imdb.com/title/tt3385516/quotes/)
+- **Time:** 1:40:23 to 1:40:37 (14 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>)
+- **Check:** the subtitles have no speaker names, and kinoafisha and Wikiquote don't have this line. It's Charles from the scene, but confirm on screen
+- **Use it for:** the group project, when someone asks what their part is
 
 ---<!--L3-->
 
