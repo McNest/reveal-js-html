@@ -3,12 +3,31 @@
 
 <head>
 	<meta charset="utf-8" />
-	<meta name="author" content="Mark Crowe" />
-	<meta name="description" content="Assignment 2: Training Needs Analysis presentation, module 6N3325." />
-	<meta name="version" content="1.8.9" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<title>Training Needs Analysis</title>
+	<!-- About this page. tools/version.py keeps the version, ARJ version and modified date up to date -->
+	<meta name="author" content="Mark Crowe" />
+	<meta name="description" content="Assignment 2: Training Needs Analysis presentation, module 6N3325." />
+	<meta name="keywords" content="training needs analysis, TNA, train the trainer, presentations, reveal.js" />
+	<meta name="version" content="1.8.10" />
+	<meta name="generator" content="reveal.js 5.1.0 and ARJ 1.8.12, Apocalypse Reveal-js" />
+	<link rel="schema.dc-terms" href="http://purl.org/dc/terms/" />
+	<meta name="dc-terms.creator" content="Mark Crowe" />
+	<meta name="dc-terms.created" content="2026-10-30" />
+	<meta name="dc-terms.modified" content="2026-11-05T18:45:42+00:00" />
+	<meta name="dc-terms.rights" content="© 2026 Mark Crowe. Meme templates belong to their owners." />
 	<link rel="icon" href="favicon.ico" />
+	<link rel="canonical" href="https://mcnest.github.io/reveal-js-html/docs/asg2/" />
+	<link rel="author" href="https://sdevtutors.github.io/mark-crowe/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Training Needs Analysis" />
+	<meta property="og:description" content="Why, how and when to run a Training Needs Analysis." />
+	<meta property="og:url" content="https://mcnest.github.io/reveal-js-html/docs/asg2/" />
+	<meta property="og:site_name" content="SDev Tutors" />
+	<meta property="article:author" content="https://sdevtutors.github.io/mark-crowe/" />
+	<meta property="article:published_time" content="2026-10-30" />
+	<meta property="article:modified_time" content="2026-11-05T18:45:42+00:00" />
+	<meta name="twitter:card" content="summary" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css" />
 	<link rel="stylesheet" href="https://sdevtutors.github.io/apocalypse-reveal-js/arj/css/arj.css" />
@@ -21,7 +40,7 @@
 	Assignment 2: TNA presentation (20 marks). Brief: md/030.
 	10 minutes maximum, then 2 minutes of questions. Arial, 20pt (27px) minimum.
 	Case: final year project (FYP) students, anonymised. No institution, staff or student names.
-	Timings in the notes add up to 9.5 minutes. The email slide under Stages is optional.
+	Timings in the notes add up to about 9.7 minutes. The email slide under Stages is optional.
 
 	Citations work like Wikipedia footnotes (icons in src/css/asg2.css):
 	  link icon + n      a reference, placed on the text it supports. Hover for the entry,
@@ -37,6 +56,7 @@
 	Search every slide: the magnifying glass or Ctrl+F (arj/js/deck-search.js).
 
 	Contact: the name links to sdevtutors.github.io/mark-crowe, hover shows the address (data-tip).
+	The email address is written backwards in data-mail, so it isn't in the page for scrapers (arj/js/deck.js).
 	Mouse only: wheel or left click next, right click back, middle click next section (arj/js/deck.js).
 	Slide list, contents, home, blackout, all slides and full screen buttons, and the numbering:
 	arj/js/deck-controls.js. Type a number and press Enter to go to that slide.
@@ -53,8 +73,8 @@
 					<div class="title-text">
 						<h3>Purpose - Benefits - Methods - Process</h3>
 						<p class="kicker">Assignment 2 - 6N3325 - Training Needs Identification and Design</p>
-						<p class="byline"><a class="person ext" href="https://sdevtutors.github.io/mark-crowe/" target="_blank" rel="noopener" data-tip="sdevtutors.github.io/mark-crowe"><img class="logo" src="src/img/logo/mc-logo.png" alt="" />Mark Crowe</a><a class="mail-link" href="mailto:SDevTutor@outlook.ie" data-tip="SDevTutor@outlook.ie" aria-label="Email SDevTutor@outlook.ie"></a></p>
-						<p class="byline"><span class="calendar" aria-hidden="true">📅</span><time class="deck-date" datetime="2026-11-03T15:15:02+00:00">November 2026</time></p>
+						<p class="byline"><a class="person ext" href="https://sdevtutors.github.io/mark-crowe/" target="_blank" rel="noopener" data-tip="sdevtutors.github.io/mark-crowe"><img class="logo" src="src/img/logo/mc-logo.png" alt="" />Mark Crowe</a></p>
+						<p class="byline"><span class="calendar" aria-hidden="true">📅</span><time class="deck-date" datetime="2026-11-05T18:45:42+00:00">November 2026</time></p>
 						<p class="built-with">Built with <a class="ext" href="https://revealjs.com/"><span class="arj-icon arj-icon-revealjs"></span>Reveal.js</a> and <a class="ext" href="https://github.com/SDevTutors/apocalypse-reveal-js" title="ARJ, Apocalypse Reveal-js"><span class="arj-icon arj-icon-arj"></span>ARJ</a><span class="sep">–</span><a class="ext" href="https://github.com/mcnest/reveal-js-html" title="These slides' source, on GitHub"><span class="arj-icon arj-icon-github"></span>Source</a></p>
 					</div>
 					<figure class="deck-qr"><img src="src/img/qr/asg2-deck-logo.svg" alt="QR code: these slides online, mcnest.github.io/reveal-js-html/docs/asg2/" /></figure>
@@ -62,10 +82,33 @@
 				<footer class="slide-footer no-link-icon">
 					<p class="deck-pdf"><a class="ext" href="src/pdf/asg2.pdf" download="training-needs-analysis.pdf" title="Download the slides as a PDF" aria-label="Download the slides as a PDF">Download as PDF</a></p>
 					<p class="footer-rights"><a class="ext" href="https://sdevtutors.github.io/mark-crowe/" title="sdevtutors.github.io/mark-crowe">© 2026 Mark Crowe</a></p>
-					<p class="deck-version-line"><a class="version-link ext" href="https://github.com/mcnest/reveal-js-html/commits/master">Version <span class="deck-version">1.8.9</span></a></p>
+					<p class="deck-version-line"><a class="version-link ext" href="https://github.com/mcnest/reveal-js-html/commits/master">Version <span class="deck-version">1.8.10</span></a></p>
 					<p class="deck-url"><a class="ext" href="https://mcnest.github.io/reveal-js-html/docs/asg2/">mcnest.github.io/reveal-js-html/docs/asg2/</a></p>
 				</footer>
-				<aside class="notes">0 minutes. Name, module, then straight into the introduction.</aside>
+				<aside class="notes">0 minutes. Name and module, then the next slide.</aside>
+			</section>
+
+			<!-- About the author (a few seconds): not numbered, as in the other decks -->
+			<section id="AboutAuthor">
+				<!-- no-number -->
+				<h2>About the author</h2>
+				<p class="author-name"><a class="ext" href="https://sdevtutors.github.io/mark-crowe/" title="sdevtutors.github.io/mark-crowe"><img class="inline-logo" src="src/img/logo/mc-logo.png" alt="" />Mark Crowe</a></p>
+				<ul>
+					<li>Education Officer at <a class="ext" href="https://github.com/SDevTutors" title="SDev Tutors on GitHub"><img class="inline-logo" src="src/img/logo/sdevtutors-logo.png" alt="" />SDev Tutors</a>
+						<ul>
+							<li>A background in IT</li>
+							<li>Teaches programming: Python, C#, Java, JavaScript and AI</li>
+						</ul>
+					</li>
+					<li>Email: <a class="mail-text" data-mail="ei.kooltuo@rotuTveDS" aria-label="Email Mark Crowe"></a></li>
+					<li>Education:
+						<ul>
+							<li>BSc in Computer Systems</li>
+							<li>MSc in Software Development</li>
+						</ul>
+					</li>
+				</ul>
+				<aside class="notes">About 10 seconds. One sentence: who I am, then straight into the introduction.</aside>
 			</section>
 
 			<!-- 2. Introduction (0.5 min) -->
@@ -284,7 +327,7 @@ Thanks, Mark</code></pre>
 					<h2>Questions?</h2>
 					<div class="big-emoji">🙋</div>
 					<p class="contact card"><a class="person" href="https://sdevtutors.github.io/mark-crowe/" target="_blank" rel="noopener" data-tip="Mark Crowe, sdevtutors.github.io/mark-crowe">Mark Crowe</a></p>
-					<p class="contact mail"><a href="mailto:SDevTutor@outlook.ie">SDevTutor@outlook.ie</a></p>
+					<p class="contact mail"><a class="mail-text" data-mail="ei.kooltuo@rotuTveDS" aria-label="Email Mark Crowe"></a></p>
 					<p class="cite"><a href="src/pdf/asg2.pdf" download="training-needs-analysis.pdf">Download the slides as a PDF</a>. References are below this slide.</p>
 					<aside class="notes">Leave this up during the 2 minutes of questions. Rehearse: why more than one method? When is training not the answer?</aside>
 				</section>
@@ -349,13 +392,17 @@ Thanks, Mark</code></pre>
 
 			stackBarLinks: true, // arj/js/deck.js: click a grey bar to go to that slide
 			tapZones: true, // arj/js/deck.js: on a touch screen, tap left to go back, right to go on
-			drawToolbar: 'top', // arj/js/deck-draw.js: the pen, or D, draws on a slide
+			lock: true, // arj/js/deck.js: the padlock; locked, the mouse changes slides; unlocked, it selects text
+			pinTop: true, // arj/js/deck.js: in a tall window the slide sits at the top, not in the middle
+			draw: true, // arj/js/deck-start.js and deck-draw.js: the pen, or D, draws on a slide
+			drawToolbar: 'top', // tldraw's tools at the top
 			linkIcons: { style: 'favicon-before' }, // arj/js/link-icons.js; the icons: src/css/icons.css
 			deckControls: { // arj/js/deck-controls.js
 				contentsColumns: 4, contentsRows: 3,
 				contentsColumnsPortrait: 2, contentsRowsPortrait: 2,
 				contentsCaptions: false,
 				contentsPageCount: false,
+				contentsInFlow: false, // next and back step over the contents; the button still opens them
 				numberFormat: 'multilevel', // 8, 8.1 ... or 'flat': 1, 2, 3 ...
 				numberHeadings: 'bullet', // "(5)" on the slide, left of the centred title
 				numberHeadingLevels: ['h2'], // which headings show it
