@@ -8,7 +8,7 @@
       <a class="person ext" href="https://sdevtutors.github.io/mark-crowe/" data-tip="sdevtutors.github.io/mark-crowe"><img class="logo" src="src/img/logo/mc-logo.png" alt="" />Mark Crowe</a>
     </p>
     <p class="byline">
-      <span class="calendar" aria-hidden="true">📅</span><time class="deck-date" datetime="2026-11-05T13:21:04+00:00">November 2026</time>
+      <span class="calendar" aria-hidden="true">📅</span><time class="deck-date" datetime="2026-11-05T15:31:12+00:00">November 2026</time>
     </p>
     <p class="title-quote">"Wait, it's all film quotes?" "Always has been." <cite>– the astronauts</cite></p>
     <p class="built-with">Built with <a class="ext" href="https://revealjs.com/">
@@ -22,7 +22,7 @@
 <footer class="slide-footer no-link-icon">
   <p class="deck-pdf"><a class="ext" href="src/pdf/memes.pdf" download="meme-bank.pdf" title="Download the slides as a PDF" aria-label="Download the slides as a PDF">Download as PDF</a></p>
   <p class="footer-rights"><a class="ext" href="https://sdevtutors.github.io/mark-crowe/" title="sdevtutors.github.io/mark-crowe">© 2026 Mark Crowe</a></p>
-  <p class="deck-version-line"><a class="version-link ext" href="https://github.com/mcnest/reveal-js-html/commits/master">Version <span class="deck-version">1.8.10</span></a></p>
+  <p class="deck-version-line"><a class="version-link ext" href="https://github.com/mcnest/reveal-js-html/commits/master">Version <span class="deck-version">1.8.11</span></a></p>
   <p class="deck-short"><a class="ext" href="https://tinyurl.com/4u26rwnh" data-tip="tinyurl.com/4u26rwnh" data-tip-size="72">tinyurl.com/<b>4u26rwnh</b></a></p>
   <p class="deck-url"><a class="ext" href="https://mcnest.github.io/reveal-js-html/docs/memes/">mcnest.github.io/reveal-js-html/docs/memes/</a></p>
 </footer>
@@ -38,7 +38,7 @@
 - Stills: grab your own, or search [imgflip](https://imgflip.com/memetemplates) and [Know Your Meme](https://knowyourmeme.com/). Stills and clips are copyrighted: keep them to teaching use, and credit each one on a Media used slide
 - Getting around: → for the next topic, ↓ for the entries in it. Next and back step over the contents; the contents button, bottom left, opens them. Type a number and press Enter to jump to that topic
 - Top right: the padlock and the pen. Locked, the mouse changes slides; unlocked, it selects and copies text, and the slides stay put. The pen (or D) draws on the slide; press it again, or Esc, to stop. Each slide keeps its drawings until the page is reloaded
-- Version <span class="deck-version">1.8.10</span> is year.tenth.change: the year (1 is 2026), which tenth of the year it is (0 to 9, about 36 days each), and one more for every change in that tenth, from 1. [ARJ](https://github.com/SDevTutors/apocalypse-reveal-js) (Apocalypse Reveal-js), the scripts behind the slides, is numbered the same way. [tools/version.py](https://github.com/McNest/reveal-js-html/blob/master/tools/version.py) works them out
+- Version <span class="deck-version">1.8.11</span> is year.tenth.change: the year (1 is 2026), which tenth of the year it is (0 to 9, about 36 days each), and one more for every change in that tenth, from 1. [ARJ](https://github.com/SDevTutors/apocalypse-reveal-js) (Apocalypse Reveal-js), the scripts behind the slides, is numbered the same way. [tools/version.py](https://github.com/McNest/reveal-js-html/blob/master/tools/version.py) works them out
 - [index.html](https://github.com/McNest/reveal-js-html/blob/master/docs/memes/index.html) shows this file, [memes.md](https://github.com/McNest/reveal-js-html/blob/master/docs/memes/memes.md), as slides
 
 ---<!--L2-->
@@ -6169,6 +6169,28 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Time:** 0:44:03 to 0:44:23 (20 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men-apocalypse)
 - **Use it for:** a returning student after a break; a lecturer back from leave
+
+---<!--L3-->
+
+## X-Men: Apocalypse (2016)
+<!-- 532 -->
+
+**Scene: Cairo, Storm's room, recruiting her**
+
+> Storm: "You can't save the world just going around killing people. There's laws, systems in place for that kind of thing."
+>
+> Apocalypse: "**My child... why do you enslave yourself?**"
+>
+> Storm: "**What are you doing?**"
+>
+> Apocalypse: "**Making you stronger.**"
+
+- **Who:** Storm (Alexandra Shipp) and Apocalypse (Oscar Isaac)
+- **IMDb:** [X-Men: Apocalypse](https://www.imdb.com/title/tt3385516/) · [quotes](https://www.imdb.com/title/tt3385516/quotes/)
+- **Time:** 0:45:06 to 0:45:31 (25 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>)
+- **Check:** the subtitles don't name the speakers
+- **Use it for:** the student who asks why the assignment is so hard. Answering a question with the next exercise
 
 ---<!--L3-->
 
