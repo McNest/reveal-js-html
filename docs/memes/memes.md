@@ -8,7 +8,7 @@
       <a class="person ext" href="https://sdevtutors.github.io/mark-crowe/" data-tip="sdevtutors.github.io/mark-crowe"><img class="logo" src="src/img/logo/mc-logo.png" alt="" />Mark Crowe</a>
     </p>
     <p class="byline">
-      <span class="calendar" aria-hidden="true">📅</span><time class="deck-date" datetime="2026-11-05T15:31:12+00:00">November 2026</time>
+      <span class="calendar" aria-hidden="true">📅</span><time class="deck-date" datetime="2026-11-05T17:21:30+00:00">November 2026</time>
     </p>
     <p class="title-quote">"Wait, it's all film quotes?" "Always has been." <cite>– the astronauts</cite></p>
     <p class="built-with">Built with <a class="ext" href="https://revealjs.com/">
@@ -22,7 +22,7 @@
 <footer class="slide-footer no-link-icon">
   <p class="deck-pdf"><a class="ext" href="src/pdf/memes.pdf" download="meme-bank.pdf" title="Download the slides as a PDF" aria-label="Download the slides as a PDF">Download as PDF</a></p>
   <p class="footer-rights"><a class="ext" href="https://sdevtutors.github.io/mark-crowe/" title="sdevtutors.github.io/mark-crowe">© 2026 Mark Crowe</a></p>
-  <p class="deck-version-line"><a class="version-link ext" href="https://github.com/mcnest/reveal-js-html/commits/master">Version <span class="deck-version">1.8.11</span></a></p>
+  <p class="deck-version-line"><a class="version-link ext" href="https://github.com/mcnest/reveal-js-html/commits/master">Version <span class="deck-version">1.8.12</span></a></p>
   <p class="deck-short"><a class="ext" href="https://tinyurl.com/4u26rwnh" data-tip="tinyurl.com/4u26rwnh" data-tip-size="72">tinyurl.com/<b>4u26rwnh</b></a></p>
   <p class="deck-url"><a class="ext" href="https://mcnest.github.io/reveal-js-html/docs/memes/">mcnest.github.io/reveal-js-html/docs/memes/</a></p>
 </footer>
@@ -38,7 +38,7 @@
 - Stills: grab your own, or search [imgflip](https://imgflip.com/memetemplates) and [Know Your Meme](https://knowyourmeme.com/). Stills and clips are copyrighted: keep them to teaching use, and credit each one on a Media used slide
 - Getting around: → for the next topic, ↓ for the entries in it. Next and back step over the contents; the contents button, bottom left, opens them. Type a number and press Enter to jump to that topic
 - Top right: the padlock and the pen. Locked, the mouse changes slides; unlocked, it selects and copies text, and the slides stay put. The pen (or D) draws on the slide; press it again, or Esc, to stop. Each slide keeps its drawings until the page is reloaded
-- Version <span class="deck-version">1.8.11</span> is year.tenth.change: the year (1 is 2026), which tenth of the year it is (0 to 9, about 36 days each), and one more for every change in that tenth, from 1. [ARJ](https://github.com/SDevTutors/apocalypse-reveal-js) (Apocalypse Reveal-js), the scripts behind the slides, is numbered the same way. [tools/version.py](https://github.com/McNest/reveal-js-html/blob/master/tools/version.py) works them out
+- Version <span class="deck-version">1.8.12</span> is year.tenth.change: the year (1 is 2026), which tenth of the year it is (0 to 9, about 36 days each), and one more for every change in that tenth, from 1. [ARJ](https://github.com/SDevTutors/apocalypse-reveal-js) (Apocalypse Reveal-js), the scripts behind the slides, is numbered the same way. [tools/version.py](https://github.com/McNest/reveal-js-html/blob/master/tools/version.py) works them out
 - [index.html](https://github.com/McNest/reveal-js-html/blob/master/docs/memes/index.html) shows this file, [memes.md](https://github.com/McNest/reveal-js-html/blob/master/docs/memes/memes.md), as slides
 
 ---<!--L2-->
@@ -2927,6 +2927,29 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 
 ---<!--L2-->
 
+## Deep Space Nine: "The Nagus" (1993)
+<!-- 536 -->
+
+**Scene: Quark's, Zek hears about Nog's school**
+
+> Nog: "Can I go now? I have homework."
+>
+> Zek: "Did he say homework?"
+>
+> Krax: "There's a Federation school here. Run by a human. A female."
+>
+> Zek: "And you allow your son to attend such a place."
+>
+> Rom: "Nog, I never want you to step foot in there again. Now go to your room. And no studying. My apologies, Nagus. It's those Federation do-gooders, **always sticking their ugly noses in other people's business.**"
+
+- **Who:** Nog (Aron Eisenberg), Grand Nagus Zek (Wallace Shawn), his son Krax and Rom (Max Grodénchik), Nog's father
+- **Episode:** season 1, episode 11
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708632/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/411.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/411.htm>)
+- **Use it for:** how teachers and trainers look to anyone who didn't ask for them. "And no studying" works on its own
+
+---<!--L2-->
+
 ## Deep Space Nine: "The Homecoming" (1993)
 <!-- 247 -->
 
@@ -3919,6 +3942,23 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 
 ---<!--L2-->
 
+## Voyager: "Ex Post Facto" (1995)
+<!-- 534 -->
+
+**Scene: sickbay, Tuvok on the case against Tom Paris**
+
+> Kes: "Do you really think Tom would lie to us?"
+>
+> Tuvok: "**As an investigator, I do not have the freedom to ignore any possibility.** Mister Paris maintains his innocence, yet the victim has identified him from the grave, and the victim's wife has testified against him at the trial. Someone is obviously lying."
+
+- **Who:** Kes (Jennifer Lien) and Tuvok (Tim Russ)
+- **Episode:** season 1, episode 8
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708889/)
+- **Checked:** [transcript](http://www.chakoteya.net/Voyager/107.htm) [🔗](<../my-fetches/chakoteya-star-trek/Voyager/107.htm>)
+- **Use it for:** debugging, and a suspected plagiarism case. Rule nothing out, even for a friend
+
+---<!--L2-->
+
 ## Voyager: "Alliances" (1996)
 <!-- 94 -->
 
@@ -3987,6 +4027,23 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 ---<!--L2-->
 
 ## Voyager: "Scorpion, Part I" (1997)
+<!-- 533 -->
+
+**Scene: the briefing room, the offer to the Borg**
+
+> Torres: "That's right. The Borg gain knowledge through assimilation. What they can't assimilate, they can't understand."
+>
+> Janeway: "**But we don't assimilate. We investigate.** And in this case, that's given us an edge. We've discovered something they need."
+
+- **Who:** B'Elanna Torres (Roxann Dawson) and Janeway (Kate Mulgrew)
+- **Episode:** season 3, episode 26
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708968/)
+- **Checked:** [transcript](http://www.chakoteya.net/Voyager/321.htm) [🔗](<../my-fetches/chakoteya-star-trek/Voyager/321.htm>)
+- **Use it for:** research against copying. Finding out for yourself, not pasting it in
+
+---<!--L3-->
+
+## Voyager: "Scorpion, Part I" (1997)
 <!-- 371 -->
 
 **Scene: Chakotay's parable**
@@ -4017,6 +4074,29 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **IMDb:** [episode](https://www.imdb.com/title/tt0708910/)
 - **Checked:** [transcript](http://www.chakoteya.net/Voyager/413.htm) [🔗](<../my-fetches/chakoteya-star-trek/Voyager/413.htm>)
 - **Use it for:** exam week, marking week, the night before submission
+
+---<!--L2-->
+
+## Voyager: "Relativity" (1999)
+<!-- 535 -->
+
+**Scene: the Relativity's holodeck, Braxton briefs Seven**
+
+> Braxton: "One more thing. Watch out for the Janeway Factor."
+>
+> Seven: "I am not familiar with that protocol."
+>
+> Braxton: "**Your Captain has a knack for sticking her nose where it doesn't belong**, especially when it comes to time travel."
+>
+> Seven: "Captain Janeway is quite resourceful. Has it occurred to you that she may be helpful?"
+>
+> Braxton: "Helpful? That woman has been responsible for three major temporal incursions."
+
+- **Who:** Captain Braxton (Bruce McGill) and Seven of Nine (Jeri Ryan)
+- **Episode:** season 5, episode 24
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708955/)
+- **Checked:** [transcript](http://www.chakoteya.net/Voyager/523.htm) [🔗](<../my-fetches/chakoteya-star-trek/Voyager/523.htm>)
+- **Use it for:** the colleague, manager or auditor who turns up in your project. Warning a new starter about someone
 
 ---<!--L2-->
 
@@ -5608,6 +5688,30 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Time:** 2:22:32 to 2:22:57 (26 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-dark-knight-rises)
 - **Use it for:** a rule a colleague doesn't share. *"About the whole no-AI thing..."*
+
+---<!--L2-->
+
+## Batman v Superman: Dawn of Justice (2016)
+<!-- 537 -->
+
+**Scene: over the radio, after Batman's promise to save Martha**
+
+> Alfred: "Master Wayne."
+>
+> Batman: "Alfred."
+>
+> Alfred: "Uh, I'm sorry for listening in, but I've tracked the Russian's phone to a warehouse near the port. You're locked onto it."
+>
+> Batman: "**I don't deserve you, Alfred.**"
+>
+> Alfred: "**No, sir. You don't.**"
+
+- **Who:** Alfred (Jeremy Irons) and Batman (Ben Affleck). It's "You don't", not "you do not"
+- **IMDb:** [Batman v Superman: Dawn of Justice](https://www.imdb.com/title/tt2975590/) · [quotes](https://www.imdb.com/title/tt2975590/quotes/)
+- **Time:** 2:14:18 to 2:14:34 (16 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Batman v Superman; Dawn of Justice [2016] -imdb-tt2975590.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman v Superman; Dawn of Justice [2016] -imdb-tt2975590.srt>)
+- **Check:** the subtitles don't name the speakers
+- **Use it for:** thanking the technician, administrator or classmate who fixed it before you asked
 
 ---<!--L2-->
 
