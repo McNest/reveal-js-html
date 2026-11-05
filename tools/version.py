@@ -31,8 +31,8 @@ The title slide shows the month ("October 2026"); the page's metadata gets
 the full date and time.
 
 ARJ has its own version, worked out the same way by tools/version.py in the
-ARJ repository (SDevTutors/apocalypse-reveal-js). --write memes copies it
-into the page's generator line from that repository's arj/js/deck-start.js,
+ARJ repository (SDevTutors/apocalypse-reveal-js). --write memes or asg2 copies
+it into the page's generator line from that repository's arj/js/deck-start.js,
 when the repository is cloned where ARJ_REPO says.
 
 --link: looks for the first commit whose file has this version, checks that
@@ -92,7 +92,7 @@ BUCKETS = {
     "asg2": {
         "folder": "docs/asg2/",
         "source": "docs/asg2/index.html",
-        "swaps": {"docs/asg2/index.html": TITLE_SLIDE + META_VERSION},
+        "swaps": {"docs/asg2/index.html": TITLE_SLIDE + META_VERSION + META_DATES},
     },
     "site": {
         "folder": None,
@@ -100,8 +100,8 @@ BUCKETS = {
         "swaps": {"index.html": META_VERSION},
     },
 }
-# The page that names the ARJ version it is built with
-GENERATOR = "docs/memes/index.html"
+# The pages that name the ARJ version they are built with
+GENERATORS = ["docs/memes/index.html", "docs/asg2/index.html"]
 
 
 def tenth(day):
@@ -153,13 +153,14 @@ def write(name):
     v = version(today, written(name))
     swaps = dict(BUCKETS[name]["swaps"])
     arj = arj_version()
-    if arj and GENERATOR in swaps:
-        swaps[GENERATOR] = swaps[GENERATOR] + [
-            (
-                r"and (?:TAP|ARJ) [0-9.]+, (?:The Apocalypse Plugin|Apocalypse Reveal-js)",
-                "and ARJ %s, Apocalypse Reveal-js" % arj,
-            )
-        ]
+    for page in GENERATORS:
+        if arj and page in swaps:
+            swaps[page] = swaps[page] + [
+                (
+                    r"and (?:TAP|ARJ) [0-9.]+, (?:The Apocalypse Plugin|Apocalypse Reveal-js)",
+                    "and ARJ %s, Apocalypse Reveal-js" % arj,
+                )
+            ]
     for target, pairs in swaps.items():
         path = os.path.join(ROOT, target)
         text = open(path, encoding="utf-8", newline="").read()
