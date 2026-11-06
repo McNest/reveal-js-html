@@ -8,7 +8,7 @@
       <a class="person ext" href="https://sdevtutors.github.io/mark-crowe/" data-tip="sdevtutors.github.io/mark-crowe"><img class="logo" src="src/img/logo/mc-logo.png" alt="" />Mark Crowe</a>
     </p>
     <p class="byline">
-      <span class="calendar" aria-hidden="true">📅</span><time class="deck-date" datetime="2026-11-05T17:21:30+00:00">November 2026</time>
+      <span class="calendar" aria-hidden="true">📅</span><time class="deck-date" datetime="2026-11-06T11:46:26+00:00">November 2026</time>
     </p>
     <p class="title-quote">"Wait, it's all film quotes?" "Always has been." <cite>– the astronauts</cite></p>
     <p class="built-with">Built with <a class="ext" href="https://revealjs.com/">
@@ -22,7 +22,7 @@
 <footer class="slide-footer no-link-icon">
   <p class="deck-pdf"><a class="ext" href="src/pdf/memes.pdf" download="meme-bank.pdf" title="Download the slides as a PDF" aria-label="Download the slides as a PDF">Download as PDF</a></p>
   <p class="footer-rights"><a class="ext" href="https://sdevtutors.github.io/mark-crowe/" title="sdevtutors.github.io/mark-crowe">© 2026 Mark Crowe</a></p>
-  <p class="deck-version-line"><a class="version-link ext" href="https://github.com/mcnest/reveal-js-html/commits/master">Version <span class="deck-version">1.8.12</span></a></p>
+  <p class="deck-version-line"><a class="version-link ext" href="https://github.com/mcnest/reveal-js-html/commits/master">Version <span class="deck-version">1.8.13</span></a></p>
   <p class="deck-short"><a class="ext" href="https://tinyurl.com/4u26rwnh" data-tip="tinyurl.com/4u26rwnh" data-tip-size="72">tinyurl.com/<b>4u26rwnh</b></a></p>
   <p class="deck-url"><a class="ext" href="https://mcnest.github.io/reveal-js-html/docs/memes/">mcnest.github.io/reveal-js-html/docs/memes/</a></p>
 </footer>
@@ -38,7 +38,7 @@
 - Stills: grab your own, or search [imgflip](https://imgflip.com/memetemplates) and [Know Your Meme](https://knowyourmeme.com/). Stills and clips are copyrighted: keep them to teaching use, and credit each one on a Media used slide
 - Getting around: → for the next topic, ↓ for the entries in it. Next and back step over the contents; the contents button, bottom left, opens them. Type a number and press Enter to jump to that topic
 - Top right: the padlock and the pen. Locked, the mouse changes slides; unlocked, it selects and copies text, and the slides stay put. The pen (or D) draws on the slide; press it again, or Esc, to stop. Each slide keeps its drawings until the page is reloaded
-- Version <span class="deck-version">1.8.12</span> is year.tenth.change: the year (1 is 2026), which tenth of the year it is (0 to 9, about 36 days each), and one more for every change in that tenth, from 1. [ARJ](https://github.com/SDevTutors/apocalypse-reveal-js) (Apocalypse Reveal-js), the scripts behind the slides, is numbered the same way. [tools/version.py](https://github.com/McNest/reveal-js-html/blob/master/tools/version.py) works them out
+- Version <span class="deck-version">1.8.13</span> is year.tenth.change: the year (1 is 2026), which tenth of the year it is (0 to 9, about 36 days each), and one more for every change in that tenth, from 1. [ARJ](https://github.com/SDevTutors/apocalypse-reveal-js) (Apocalypse Reveal-js), the scripts behind the slides, is numbered the same way. [tools/version.py](https://github.com/McNest/reveal-js-html/blob/master/tools/version.py) works them out
 - [index.html](https://github.com/McNest/reveal-js-html/blob/master/docs/memes/index.html) shows this file, [memes.md](https://github.com/McNest/reveal-js-html/blob/master/docs/memes/memes.md), as slides
 
 ---<!--L2-->
@@ -2447,6 +2447,131 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/161.htm)
 - **Use it for:** "It works on my machine", "final-FINAL-v2.docx". The friend line for the student who only emails you when something breaks
 - **Check:** which line Picard's facepalm follows. The transcript doesn't mark it
+
+---<!--L2-->
+
+## The Next Generation: "Sins of the Father" (1990)
+<!-- 538 -->
+
+**Scene: the Great Hall, Picard speaks up for Worf**
+
+> Duras: "Yet you come to us wearing a child's uniform, and you bring outsiders to our Great Hall."
+>
+> Picard: "**I am here at my own request. I am Captain Jean-Luc Picard of the Enterprise.**"
+>
+> Duras: "Your words mean nothing here."
+>
+> K'mpec: "Duras, let him speak."
+>
+> Picard: "**Lieutenant Worf has served under my command with distinction.** He has earned my admiration and my respect. It is my greatest wish that this Council, in its wisdom, will clear his family name and return him to duty."
+>
+> K'mpec: "**The trust of a commanding officer is admirable. The council has noted it.** Speak the accusation."
+
+- **Who:** Duras (Patrick Massett), Picard and K'mpec (Charles Cooper), the leader of the Klingon Council
+- **Episode:** season 3, episode 17
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708775/)
+- **Checked:** [transcript](http://www.chakoteya.net/NextGen/165.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/165.htm>)
+- **Use it for:** a reference, or a manager speaking up for a member of the team in a room that doesn't want to hear it
+
+---<!--L3-->
+
+## The Next Generation: "Sins of the Father" (1990)
+<!-- 539 -->
+
+**Scene: Worf asks Picard to be his cha'DIch, after Kurn is attacked**
+
+> Worf: "Captain, I must choose another cha'DIch. I would like your permission to ask one of the crew."
+>
+> Picard: "Well of course, Lieutenant. Choose whomever you wish."
+>
+> Worf: "Then I would ask you to stand with me. You may refuse with no dishonour."
+>
+> Picard: "Thank you, Lieutenant. **I appreciate the gesture, but I know that there are stronger and younger men from whom to choose.**"
+>
+> Worf: "**I can think of no one I would rather have at my side.**"
+>
+> Picard: "**jIlajneS. ghIj qet jaghmeyjaj. I accept.**"
+
+- **Who:** Worf (Michael Dorn) and Picard. The cha'DIch is the second who stands with the challenger. Picard answers in Klingon with the words Kurn used when Worf asked him earlier in the episode
+- **Episode:** season 3, episode 17
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708775/)
+- **Checked:** [transcript](http://www.chakoteya.net/NextGen/165.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/165.htm>)
+- **Use it for:** choosing a mentor, a project partner or a supervisor. Being asked when you think someone else would do it better
+
+---<!--L3-->
+
+## The Next Generation: "Sins of the Father" (1990)
+<!-- 540 -->
+
+**Scene: the Great Hall, Picard takes his place beside Worf**
+
+> Duras: "Keep your place, Picard!"
+>
+> Picard: "This is my place."
+>
+> Worf: "He is now my cha'DIch."
+>
+> Duras: "This is not your world, human. You do not command here."
+>
+> Picard: "I'm not here to command."
+>
+> Duras: "**Then you must be ready to fight. Something that Starfleet doesn't teach you.**"
+>
+> Picard: "**You may test that assumption at your convenience.**"
+
+- **Who:** Duras, Picard and Worf. It's Duras, and he says "Starfleet", not the uniform
+- **Episode:** season 3, episode 17
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708775/)
+- **Checked:** [transcript](http://www.chakoteya.net/NextGen/165.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/165.htm>)
+- **Use it for:** being underestimated. The one who says trainers can't do the job themselves
+
+---<!--L3-->
+
+## The Next Generation: "Sins of the Father" (1990)
+<!-- 541 -->
+
+**Scene: the Great Hall, Picard brings in Kahlest**
+
+> Picard: "**The Mek'ba is not complete. I bring an eyewitness to the Khitomer massacre, one who has new evidence, K'mpec.**"
+>
+> Kahlest: "Mogh was innocent."
+>
+> K'mpec: "Len'mat."
+
+- **Who:** Picard, Kahlest (Thelma Lee) and K'mpec. The Mek'ba is the stage of the challenge where the evidence is presented. After K'mpec's "Len'mat", the next scene is in his chamber
+- **Episode:** season 3, episode 17
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708775/)
+- **Checked:** [transcript](http://www.chakoteya.net/NextGen/165.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/165.htm>)
+- **Use it for:** new evidence at the last minute. Walking into a meeting that thinks it has already decided
+
+---<!--L3-->
+
+## The Next Generation: "Sins of the Father" (1990)
+<!-- 542 -->
+
+**Scene: K'mpec's chamber, the Council won't clear Worf**
+
+> K'mpec: "You do not understand. His challenge was defeated before he ever made it. You will not be allowed to present this evidence. The judgment stands. You will be condemned. So will your brother. There is no other way now."
+>
+> Picard: "You admit the truth and yet expect him to accept punishment? What does this say of an Empire who holds honour so dear?"
+>
+> K'mpec: "The Empire will not be destroyed for one family's honour."
+>
+> Picard: "Unacceptable, K'mpec."
+>
+> Duras: "**You have no say in this, cha'DIch!**"
+>
+> Picard: "**I speak now as the Captain of the USS Enterprise and Lieutenant Worf's commanding officer. You will not execute a member of my crew**, nor will I turn his brother over to you."
+>
+> K'mpec: "This is not the Federation, Picard. If you defy an order of the High Council, the alliance with the Federation could fall to dust."
+>
+> Picard: "The alliance with the Federation is not based on lies, K'mpec! Protect your secrets if you must, but **you will not sacrifice these men.**"
+
+- **Who:** K'mpec, Picard and Duras. It's Duras who says Picard has no say. Worf then ends it by accepting discommendation: see "Redemption"
+- **Episode:** season 3, episode 17
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708775/)
+- **Checked:** [transcript](http://www.chakoteya.net/NextGen/165.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/165.htm>)
+- **Use it for:** standing up for one of your team. Changing which hat you're wearing mid-meeting
 
 ---<!--L2-->
 
