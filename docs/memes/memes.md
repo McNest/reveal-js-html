@@ -8,7 +8,7 @@
       <a class="person ext" href="https://sdevtutors.github.io/mark-crowe/" data-tip="sdevtutors.github.io/mark-crowe"><img class="logo" src="src/img/logo/mc-logo.png" alt="" />Mark Crowe</a>
     </p>
     <p class="byline">
-      <span class="calendar" aria-hidden="true">📅</span><time class="deck-date" datetime="2026-11-08T12:11:00+00:00">November 2026</time>
+      <span class="calendar" aria-hidden="true">📅</span><time class="deck-date" datetime="2026-11-08T17:59:49+00:00">November 2026</time>
     </p>
     <p class="title-quote">"Wait, it's all film quotes?" "Always has been." <cite>– the astronauts</cite></p>
     <p class="built-with">Built with <a class="ext" href="https://revealjs.com/">
@@ -22,7 +22,7 @@
 <footer class="slide-footer no-link-icon">
   <p class="deck-pdf"><a class="ext" href="src/pdf/memes.pdf" download="meme-bank.pdf" title="Download the slides as a PDF" aria-label="Download the slides as a PDF">Download as PDF</a></p>
   <p class="footer-rights"><a class="ext" href="https://sdevtutors.github.io/mark-crowe/" title="sdevtutors.github.io/mark-crowe">© 2026 Mark Crowe</a></p>
-  <p class="deck-version-line"><a class="version-link ext" href="https://github.com/mcnest/reveal-js-html/commits/master">Version <span class="deck-version">1.8.14</span></a></p>
+  <p class="deck-version-line"><a class="version-link ext" href="https://github.com/mcnest/reveal-js-html/commits/master">Version <span class="deck-version">1.8.15</span></a></p>
   <p class="deck-short"><a class="ext" href="https://tinyurl.com/4u26rwnh" data-tip="tinyurl.com/4u26rwnh" data-tip-size="72">tinyurl.com/<b>4u26rwnh</b></a></p>
   <p class="deck-url"><a class="ext" href="https://mcnest.github.io/reveal-js-html/docs/memes/">mcnest.github.io/reveal-js-html/docs/memes/</a></p>
 </footer>
@@ -38,7 +38,7 @@
 - Stills: grab your own, or search [imgflip](https://imgflip.com/memetemplates) and [Know Your Meme](https://knowyourmeme.com/). Stills and clips are copyrighted: keep them to teaching use, and credit each one on a Media used slide
 - Getting around: → for the next topic, ↓ for the entries in it. Next and back step over the contents; the contents button, bottom left, opens them. Type a number and press Enter to jump to that topic
 - Top right: the padlock and the pen. Locked, the mouse changes slides; unlocked, it selects and copies text, and the slides stay put. The pen (or D) draws on the slide; press it again, or Esc, to stop. Each slide keeps its drawings until the page is reloaded
-- Version <span class="deck-version">1.8.14</span> is year.tenth.change: the year (1 is 2026), which tenth of the year it is (0 to 9, about 36 days each), and one more for every change in that tenth, from 1. [ARJ](https://github.com/SDevTutors/apocalypse-reveal-js) (Apocalypse Reveal-js), the scripts behind the slides, is numbered the same way. [tools/version.py](https://github.com/McNest/reveal-js-html/blob/master/tools/version.py) works them out
+- Version <span class="deck-version">1.8.15</span> is year.tenth.change: the year (1 is 2026), which tenth of the year it is (0 to 9, about 36 days each), and one more for every change in that tenth, from 1. [ARJ](https://github.com/SDevTutors/apocalypse-reveal-js) (Apocalypse Reveal-js), the scripts behind the slides, is numbered the same way. [tools/version.py](https://github.com/McNest/reveal-js-html/blob/master/tools/version.py) works them out
 - [index.html](https://github.com/McNest/reveal-js-html/blob/master/docs/memes/index.html) shows this file, [memes.md](https://github.com/McNest/reveal-js-html/blob/master/docs/memes/memes.md), as slides
 
 ---<!--L2-->
@@ -7381,6 +7381,89 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **IMDb:** [episode](https://www.imdb.com/title/tt0778454/)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s06e21)
 - **Use it for:** low expectations, and why they matter. Or a class in the last week before submission
+
+---<!--L2-->
+
+## The Simpsons: "Bart on the Road" (1996)
+<!-- 555 -->
+
+**Scene: the power plant, Lisa tells Homer Bart's secret**
+
+> Homer: "What's wrong, honey?"
+>
+> Lisa: "There's something troubling me, but I don't think I can tell you because it's a secret."
+>
+> Homer: "**You don't have to tell me, but I thought we trusted each other with our secrets now.** I mean, I haven't told a soul about your new boyfriend."
+>
+> Lisa: "Langdon Alger? Oh, I don't like him anymore. Okay, but you gotta promise you won't get mad or tell anyone, especially Bart."
+>
+> Homer: "I promise."
+>
+> Lisa: "Bart rented a car with a phony driver's license and drove Milhouse, Nelson and Martin to a wig outlet in Knoxville and the car got crushed, and they're out of money and they can't get home and Bart's working as a courier and just came back from Hong Kong."
+>
+> Homer: "Yes. **That's a real pickle.** Would you excuse me for a moment?"
+>
+> Lisa: "All right."
+
+- **Who:** Homer and Lisa, at the end of her spring break at the plant with him. Bart has flown to Hong Kong and back as a courier, which is the flying round the globe
+- **Episode:** season 7, episode 20
+- **IMDb:** [episode](https://www.imdb.com/title/tt0701057/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s07e20) [🔗](<../my-fetches/springfield-scripts/the-simpsons/s07e20.txt>) and [The Simpsons Archive capsule](https://www.simpsonsarchive.com/episodes/3F17.html) [🔗](<../my-fetches/quotes/snpp-3F17-bart-on-the-road.html>)
+- **Use it for:** the student who finally tells you what has gone wrong with the group project. Keeping calm until you're out of the room
+
+---<!--L3-->
+
+## The Simpsons: "Bart on the Road" (1996)
+<!-- 556 -->
+
+**Scene: the power plant, Homer and Lisa make a plan**
+
+> Homer: "**I have thought this through. I will send Bart the money to fly home, then I will murder him.**"
+>
+> Lisa: "No! No! Then he'll know I told! Dad, you said I could trust you."
+>
+> Homer: "Okay. **We'll work this out together.** First things first. Where is Knoxville?"
+>
+> Lisa: "It's in Tennessee, right next to the Oak Ridge nuclear facility, birthplace of the atomic bomb."
+>
+> Homer: "Well, maybe we could order something from Oak Ridge."
+>
+> Lisa: "**And Bart could be the courier.**"
+
+- **Who:** Homer and Lisa. He has been out of the room to scream
+- **Episode:** season 7, episode 20
+- **IMDb:** [episode](https://www.imdb.com/title/tt0701057/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s07e20) [🔗](<../my-fetches/springfield-scripts/the-simpsons/s07e20.txt>) and [The Simpsons Archive capsule](https://www.simpsonsarchive.com/episodes/3F17.html) [🔗](<../my-fetches/quotes/snpp-3F17-bart-on-the-road.html>)
+- **Check:** who says which of the last four lines. The script has no speaker names; the Archive capsule says only that Homer and Lisa "deduce" the plan together
+- **Use it for:** solving a problem with what you already have. Working it out together rather than handing out blame
+
+---<!--L3-->
+
+## The Simpsons: "Bart on the Road" (1996)
+<!-- 557 -->
+
+**Scene: the power plant, Homer orders a new T-437**
+
+> Technician: "Y'ello."
+>
+> Homer: "Oak Ridge? This is Springfield Nuclear. We need to order a, uh... T-437 safety command console."
+>
+> Technician: "Uh, Springfield, my computer shows your T-437 is fully operational. Uh, I suggest you..."
+>
+> Technician: "**Oh, my God! Oh, God, no! Oh, this can't be happening! You're operating without a T-437, Springfield! Oh, sweet mother of mercy!** I mean... I mean, my God!"
+>
+> Homer: "And have it sent to the Springfield Nuclear Power Plant, care of Homer J."
+>
+> Lisa: "No! Don't use your real name, or Bart will know!"
+>
+> Homer: "Forget the name Homer Simpson. **Have it sent care of Langdon Alger.**"
+
+- **Who:** Homer, Lisa and the Oak Ridge technician (Harry Shearer). Between his two lines Homer pours his Buzz Cola over the console. It's a T-437 (not a T-800), and it's Buzz Cola, not water. Bart then couriers the console home, with Milhouse, Nelson and Martin in the crate
+- **Episode:** season 7, episode 20
+- **IMDb:** [episode](https://www.imdb.com/title/tt0701057/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s07e20) [🔗](<../my-fetches/springfield-scripts/the-simpsons/s07e20.txt>) and [The Simpsons Archive capsule](https://www.simpsonsarchive.com/episodes/3F17.html) [🔗](<../my-fetches/quotes/snpp-3F17-bart-on-the-road.html>)
+- **Check:** that the technician answers with "Y'ello" (Homer's own greeting). The script has no speaker names; the Archive capsule names the Oak Ridge tech and the Buzz Cola
+- **Use it for:** a false alarm, or a crisis you made yourself. Over-the-top reactions to a small problem. Raising a ticket by breaking the thing first
 
 ---<!--L2-->
 
