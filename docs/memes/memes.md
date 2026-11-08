@@ -8,7 +8,7 @@
       <a class="person ext" href="https://sdevtutors.github.io/mark-crowe/" data-tip="sdevtutors.github.io/mark-crowe"><img class="logo" src="src/img/logo/mc-logo.png" alt="" />Mark Crowe</a>
     </p>
     <p class="byline">
-      <span class="calendar" aria-hidden="true">📅</span><time class="deck-date" datetime="2026-11-06T11:46:26+00:00">November 2026</time>
+      <span class="calendar" aria-hidden="true">📅</span><time class="deck-date" datetime="2026-11-08T12:11:00+00:00">November 2026</time>
     </p>
     <p class="title-quote">"Wait, it's all film quotes?" "Always has been." <cite>– the astronauts</cite></p>
     <p class="built-with">Built with <a class="ext" href="https://revealjs.com/">
@@ -22,7 +22,7 @@
 <footer class="slide-footer no-link-icon">
   <p class="deck-pdf"><a class="ext" href="src/pdf/memes.pdf" download="meme-bank.pdf" title="Download the slides as a PDF" aria-label="Download the slides as a PDF">Download as PDF</a></p>
   <p class="footer-rights"><a class="ext" href="https://sdevtutors.github.io/mark-crowe/" title="sdevtutors.github.io/mark-crowe">© 2026 Mark Crowe</a></p>
-  <p class="deck-version-line"><a class="version-link ext" href="https://github.com/mcnest/reveal-js-html/commits/master">Version <span class="deck-version">1.8.13</span></a></p>
+  <p class="deck-version-line"><a class="version-link ext" href="https://github.com/mcnest/reveal-js-html/commits/master">Version <span class="deck-version">1.8.14</span></a></p>
   <p class="deck-short"><a class="ext" href="https://tinyurl.com/4u26rwnh" data-tip="tinyurl.com/4u26rwnh" data-tip-size="72">tinyurl.com/<b>4u26rwnh</b></a></p>
   <p class="deck-url"><a class="ext" href="https://mcnest.github.io/reveal-js-html/docs/memes/">mcnest.github.io/reveal-js-html/docs/memes/</a></p>
 </footer>
@@ -38,7 +38,7 @@
 - Stills: grab your own, or search [imgflip](https://imgflip.com/memetemplates) and [Know Your Meme](https://knowyourmeme.com/). Stills and clips are copyrighted: keep them to teaching use, and credit each one on a Media used slide
 - Getting around: → for the next topic, ↓ for the entries in it. Next and back step over the contents; the contents button, bottom left, opens them. Type a number and press Enter to jump to that topic
 - Top right: the padlock and the pen. Locked, the mouse changes slides; unlocked, it selects and copies text, and the slides stay put. The pen (or D) draws on the slide; press it again, or Esc, to stop. Each slide keeps its drawings until the page is reloaded
-- Version <span class="deck-version">1.8.13</span> is year.tenth.change: the year (1 is 2026), which tenth of the year it is (0 to 9, about 36 days each), and one more for every change in that tenth, from 1. [ARJ](https://github.com/SDevTutors/apocalypse-reveal-js) (Apocalypse Reveal-js), the scripts behind the slides, is numbered the same way. [tools/version.py](https://github.com/McNest/reveal-js-html/blob/master/tools/version.py) works them out
+- Version <span class="deck-version">1.8.14</span> is year.tenth.change: the year (1 is 2026), which tenth of the year it is (0 to 9, about 36 days each), and one more for every change in that tenth, from 1. [ARJ](https://github.com/SDevTutors/apocalypse-reveal-js) (Apocalypse Reveal-js), the scripts behind the slides, is numbered the same way. [tools/version.py](https://github.com/McNest/reveal-js-html/blob/master/tools/version.py) works them out
 - [index.html](https://github.com/McNest/reveal-js-html/blob/master/docs/memes/index.html) shows this file, [memes.md](https://github.com/McNest/reveal-js-html/blob/master/docs/memes/memes.md), as slides
 
 ---<!--L2-->
@@ -667,6 +667,60 @@ Group work, thanks and banter
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Hackers [1995] -imdb-tt0113243.srt>)
 - **Check:** the subtitles don't name speakers
 - **Use it for:** the same student, on being asked a second time
+
+---<!--L2-->
+
+## Starship Troopers (1997)
+<!-- 545 -->
+
+**Scene: the opening FedNet broadcast**
+
+> Announcer: "Young people from all over the globe are joining up to fight for the future."
+>
+> Recruits: "**I'm doing my part. I'm doing my part. I'm doing my part. I'm doing my part too.**"
+>
+> Announcer: "They're doing their part, are you? Join the Mobile Infantry and save the world. **Service guarantees citizenship.**"
+
+- **Who:** the FedNet recruitment ad that opens the film, with young recruits saying their line to camera
+- **IMDb:** [Starship Troopers](https://www.imdb.com/title/tt0120201/) · [quotes](https://www.imdb.com/title/tt0120201/quotes/)
+- **Time:** 0:00:36 to 0:00:56 (20 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Starship Troopers [1997] -imdb-tt0120201.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Starship Troopers [1997] -imdb-tt0120201.srt>)
+- **Use it for:** group work: "I'm doing my part". Rewards for taking part, extrinsic motivation, or the incentive in a training plan
+
+---<!--L3-->
+
+## Starship Troopers (1997)
+<!-- 546 -->
+
+**Scene: the outpost on Planet P, the bugs attack**
+
+> Rasczak: "Come on, you apes! **You want to live forever?**"
+
+- **Who:** Lieutenant Jean Rasczak (Michael Ironside), Rico's old history teacher, now his commanding officer
+- **IMDb:** [Starship Troopers](https://www.imdb.com/title/tt0120201/) · [quotes](https://www.imdb.com/title/tt0120201/quotes/)
+- **Time:** 1:29:00 to 1:29:07 (7 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Starship Troopers [1997] -imdb-tt0120201.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Starship Troopers [1997] -imdb-tt0120201.srt>)
+- **Check:** that it's Rasczak who says it. The subtitles don't name speakers, and Wikiquote lists only Rico's line at the end (next)
+- **Use it for:** rallying the team before a deadline
+
+---<!--L3-->
+
+## Starship Troopers (1997)
+<!-- 547 -->
+
+**Scene: the closing FedNet recruitment reel**
+
+> Announcer: "Soldiers like Private Ace Levy and Lieutenant John Rico."
+>
+> Rico: "**Come on, you apes! You wanna live forever?**"
+>
+> Announcer: "We need you all. **Service guarantees citizenship.**"
+
+- **Who:** Rico (Casper Van Dien), now the lieutenant, says Rasczak's line to his own Roughnecks. The film ends on the slogan it opened with
+- **IMDb:** [Starship Troopers](https://www.imdb.com/title/tt0120201/) · [quotes](https://www.imdb.com/title/tt0120201/quotes/)
+- **Time:** 1:58:51 to 1:59:02 (11 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Starship Troopers [1997] -imdb-tt0120201.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Starship Troopers [1997] -imdb-tt0120201.srt>) and [Wikiquote](https://en.wikiquote.org/wiki/Starship_Troopers_(film)) [🔗](<../my-fetches/wikiquote/Starship_Troopers_(film).wiki>)
+- **Use it for:** train the trainer: the student becomes the teacher and uses the teacher's words
 
 ---<!--L2-->
 
@@ -2447,6 +2501,51 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/161.htm)
 - **Use it for:** "It works on my machine", "final-FINAL-v2.docx". The friend line for the student who only emails you when something breaks
 - **Check:** which line Picard's facepalm follows. The transcript doesn't mark it
+
+---<!--L3-->
+
+## The Next Generation: "Déjà Q" (1990)
+<!-- 553 -->
+
+**Scene: the brig, Worf locks Q up**
+
+> Worf: "You have fooled us too often, Q."
+>
+> Q: "Perspicacity incarnate. Please don't feel compelled now to tell me the story of **the boy who cried Worf.**"
+>
+> Worf: "Computer, activate force field."
+>
+> Q: "I demand to be let out of here, immediately. Do you hear me? You will deactivate this cell immediately! **Romulan!**"
+>
+> Q: "**I should have said Romulan, that Klingon goat!**"
+
+- **Who:** Q and Worf (Michael Dorn). Q could have chosen any mortal form. In the corridor on the way he says "Klingon. I should have said Klingon"; by the brig he's changed his mind
+- **Episode:** season 3, episode 13
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708699/)
+- **Checked:** [transcript](http://www.chakoteya.net/NextGen/161.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/161.htm>)
+- **Check:** whether Worf roars at him. The transcript only says Worf leaves
+- **Use it for:** second-guessing a choice once it's made: "I should have picked Python"
+
+---<!--L3-->
+
+## The Next Generation: "Déjà Q" (1990)
+<!-- 554 -->
+
+**Scene: sickbay, Data after the Calamarain attack**
+
+> Crusher: "There's overpressure in his fluidic systems. Thermal shock. **If he was mortal, he'd be dead.**"
+>
+> Q: "**Let us not overstate the matter here, Doctor. I'm mortal and I survived.** The cheers are overwhelming."
+>
+> Picard: "Q, you exceed your own standards of self-preoccupation. You have no concern for an officer who may have saved your life."
+>
+> Q: "He's strong, he'll survive."
+
+- **Who:** Crusher (Gates McFadden), Q and Picard. Data was hurt shielding Q from the Calamarain. It's "Let us not overstate the matter here"
+- **Episode:** season 3, episode 13
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708699/)
+- **Checked:** [transcript](http://www.chakoteya.net/NextGen/161.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/161.htm>)
+- **Use it for:** making someone else's emergency about yourself. "I survived it, so it can't be that hard"
 
 ---<!--L2-->
 
@@ -4666,6 +4765,54 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 ---<!--L3-->
 
 ## Batman Begins (2005)
+<!-- 543 -->
+
+**Scene: the monastery, Ducard's ninja training**
+
+> Ducard: "**Always mind your surroundings.**"
+>
+> Ducard: "Ninjitsu employs explosive powders."
+>
+> Bruce: "As weapons?"
+>
+> Ducard: "Or distractions. **Theatricality and deception are powerful agents.** You must become more than just a man in the mind of your opponent."
+
+- **Who:** Ducard (Liam Neeson), training Bruce (Christian Bale). Ducard turns out to be the real Ra's al Ghul. It's "powerful agents"; later Bruce tells Alfred they're "powerful weapons". "Mind your surroundings" comes back twice: at the manor and on the monorail (below)
+- **IMDb:** [Batman Begins](https://www.imdb.com/title/tt0372784/) · [quotes](https://www.imdb.com/title/tt0372784/quotes/)
+- **Time:** 0:17:54 to 0:18:14 (20 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
+- **Use it for:** presentations: staging, props and the reveal. "Always mind your surroundings" for health and safety, or reading the room
+
+---<!--L3-->
+
+## Batman Begins (2005)
+<!-- 544 -->
+
+**Scene: the frozen lake, Ducard and Bruce spar**
+
+> Ducard: "**Your parents' death was not your fault. It was your father's.** Anger does not change the fact that your father failed to act."
+>
+> Bruce: "The man had a gun."
+>
+> Ducard: "Would that stop you?"
+>
+> Bruce: "I've had training."
+>
+> Ducard: "**The training is nothing! Will is everything!** The will to act."
+>
+> Bruce: "**Yield.**"
+>
+> Ducard: "**You haven't beaten me. You have sacrificed sure footing for a killing stroke.**"
+
+- **Who:** Ducard and Bruce, sword fighting on the ice. Ducard then cracks the ice and Bruce goes into the water. It's "The training is nothing! Will is everything!" and "sacrificed sure footing for a killing stroke"
+- **IMDb:** [Batman Begins](https://www.imdb.com/title/tt0372784/) · [quotes](https://www.imdb.com/title/tt0372784/quotes/)
+- **Time:** 0:18:32 to 0:19:43 (71 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
+- **Use it for:** the TNA question: can't do or won't do? A skills gap or a will gap. "Yield": winning the point but leaving yourself open
+
+---<!--L3-->
+
+## Batman Begins (2005)
 <!-- 433 -->
 
 **Scene: Gordon meets Batman**
@@ -4748,13 +4895,17 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 
 **Scene: Bruce's birthday party at Wayne Manor**
 
+> Bruce: "I am gonna stop you."
+>
+> Ra's al Ghul: "**You never did learn to mind your surroundings.**"
+>
 > Ra's al Ghul: "Justice is balance. **You burned my house and left me for dead. Consider us even.**"
 
-- **Who:** Ra's al Ghul (Liam Neeson) to Bruce, before setting the manor on fire
+- **Who:** Ra's al Ghul (Liam Neeson) to Bruce, as the manor burns. "Mind your surroundings" was his lesson in training (above); Batman throws it back at him on the monorail (below)
 - **IMDb:** [Batman Begins](https://www.imdb.com/title/tt0372784/) · [quotes](https://www.imdb.com/title/tt0372784/quotes/)
-- **Time:** 1:48:34 to 1:48:41 (7 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
+- **Time:** 1:48:27 to 1:48:41 (14 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=batman-begins)
-- **Use it for:** carefully, and only where it's clearly a joke. Payback for a harsh code review
+- **Use it for:** carefully, and only where it's clearly a joke. Payback for a harsh code review. Your own lesson, used on you
 
 ---<!--L3-->
 
@@ -4827,12 +4978,14 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 > Ra's al Ghul: "Don't be afraid, Bruce. You are just an ordinary man in a cape. That's why you couldn't fight injustice, and **that's why you can't stop this train.**"
 >
 > Batman: "**Who said anything about stopping it?**"
+>
+> Batman: "**You never learned to mind your surroundings!**"
 
-- **Who:** Ra's al Ghul and Batman. Batman ends it with "I won't kill you, but I don't have to save you"
+- **Who:** Ra's al Ghul and Batman. Gordon's shot at the track, cut in between, is left out. The surroundings line is Ra's al Ghul's own lesson, turned back on him. Batman ends it with "I won't kill you, but I don't have to save you"
 - **IMDb:** [Batman Begins](https://www.imdb.com/title/tt0372784/) · [quotes](https://www.imdb.com/title/tt0372784/quotes/)
-- **Time:** 2:02:47 to 2:03:09 (22 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
+- **Time:** 2:02:47 to 2:03:28 (41 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=batman-begins) · [Wikiquote](https://en.wikiquote.org/wiki/Batman_Begins)
-- **Use it for:** a goal that isn't the obvious one. The aim was never to stop the problem, but to redirect it
+- **Use it for:** a goal that isn't the obvious one. The aim was never to stop the problem, but to redirect it. The student who learned the lesson better than the teacher
 
 ---<!--L3-->
 
@@ -5997,7 +6150,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 
 # X-Men
 
-From X-Men (2000) to Apocalypse, in film order and scene order
+From X-Men (2000) to Apocalypse, in film order and scene order, then the 1990s cartoon
 
 <figure class="topic-photo"><img src="src/img/topics/x-men.jpg" alt="A Lego Wolverine costume" style="object-position: 50% 11%" /><figcaption><a class="ref media" href="#/media-used"><sup>9</sup></a> – Lego Wolverine, for X-Men</figcaption></figure>
 
@@ -6567,6 +6720,25 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 ---<!--L3-->
 
 ## X-Men: Apocalypse (2016)
+<!-- 552 -->
+
+**Scene: Charles's message to the world, under Apocalypse's control**
+
+> Charles: "This message is for one reason alone. To tell the strongest among you..."
+>
+> Apocalypse: "Those with the greatest power... this earth will be yours."
+>
+> Charles: "**Those with the greatest power... protect those without. That's my message to the world.**"
+
+- **Who:** Charles (James McAvoy), whose power Apocalypse is using to speak to everyone, and Apocalypse. Charles takes the message back for its last line. It's "this earth will be yours", and "those with", not "those of you with"
+- **IMDb:** [X-Men: Apocalypse](https://www.imdb.com/title/tt3385516/) · [quotes](https://www.imdb.com/title/tt3385516/quotes/)
+- **Time:** 1:30:04 to 1:30:34 (30 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>) and [Kinoafisha quotes](https://www.kinoafisha.info/en/movies/8165177/quotes/) [🔗](<../my-fetches/kinoafisha/x-men-apocalypse-quotes.html>)
+- **Use it for:** the strongest in the class helping the rest: peer learning, mentoring, seniors and juniors
+
+---<!--L3-->
+
+## X-Men: Apocalypse (2016)
 <!-- 505 -->
 
 **Scene: Cairo, Apocalypse gives out the roles**
@@ -6657,6 +6829,87 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Time:** 2:01:53 to 2:02:01 (8 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>)
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>) and IMDb quotes [🔗](<../my-fetches/imdb-quotes/tt3385516-x-men-apocalypse.txt>)
 - **Use it for:** owning a mistake and changing sides back. Whose betrayal was it?
+
+---<!--L2-->
+
+## X-Men: The Animated Series: "The Final Decision" (1993)
+<!-- 548 -->
+
+**Scene: Master Mold's base, Magneto comes to Xavier's rescue**
+
+> Magneto: "**Did you think I would let you die alone, Xavier?**"
+
+- **Who:** Magneto, who earlier in the episode called Xavier's dream "your foolish dream" and the X-Men "heroic fools". There's no "Charles, you fool" here
+- **Episode:** season 1, episode 13
+- **IMDb:** [episode](https://www.imdb.com/title/tt0751344/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=x-men-1992&episode=s01e13) [🔗](<../my-fetches/springfield-scripts/x-men-1992/s01e13.txt>) and [TV Tropes recap](https://tvtropes.org/pmwiki/pmwiki.php/Recap/XMenS1E13TheFinalDecision) [🔗](<../my-fetches/quotes/tvtropes-recap-x-men-the-final-decision.html>)
+- **Use it for:** the rival who turns up when it counts. A colleague you didn't expect to help
+
+---<!--L3-->
+
+## X-Men: The Animated Series: "The Final Decision" (1993)
+<!-- 549 -->
+
+**Scene: Master Mold turns on Trask**
+
+> Trask: "You can't make me do this! **You were designed to protect humans from mutants!**"
+>
+> Master Mold: "**That is not logical. Mutants are human. Therefore, humans must be protected from themselves.**"
+>
+> Trask: "No! You misunderstood!"
+
+- **Who:** Bolivar Trask, who built the Sentinels, and Master Mold, the giant Sentinel that makes them
+- **Episode:** season 1, episode 13
+- **IMDb:** [episode](https://www.imdb.com/title/tt0751344/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=x-men-1992&episode=s01e13) [🔗](<../my-fetches/springfield-scripts/x-men-1992/s01e13.txt>) and [TV Tropes recap](https://tvtropes.org/pmwiki/pmwiki.php/Recap/XMenS1E13TheFinalDecision) [🔗](<../my-fetches/quotes/tvtropes-recap-x-men-the-final-decision.html>)
+- **Check:** "Mutants are human" (subtitles) or "Mutants are humans" (TV Tropes)
+- **Use it for:** a specification taken literally: the system did what you wrote, not what you meant. AI and rules
+
+---<!--L2-->
+
+## X-Men: The Animated Series: "Time Fugitives, Part 1" (1993)
+<!-- 550 -->
+
+**Scene: Creed's lab, his scientist is Apocalypse**
+
+> Scientist: "You led the X-Men here. **You deserve to suffer for your mistake.**"
+>
+> Creed: "You can't talk to me that way. **I am your leader.**"
+>
+> Apocalypse: "Fool!"
+>
+> X-Men: "Apocalypse!"
+>
+> Apocalypse: "**You dare to claim dominion over me?**"
+>
+> Creed: "A mutant."
+>
+> Apocalypse: "**I am as far beyond mutants as they are beyond you. I am eternal.**"
+
+- **Who:** Graydon Creed, leader of the anti-mutant Friends of Humanity, and the scientist making his plague: Apocalypse in disguise. It's the scientist who tells Creed off, and Creed faints rather than being shot. There's no "Alexis": it's "as they are beyond you"
+- **Episode:** season 2, episode 7
+- **IMDb:** [episode](https://www.imdb.com/title/tt0751348/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=x-men-1992&episode=s02e07) [🔗](<../my-fetches/springfield-scripts/x-men-1992/s02e07.txt>) and [TV Tropes recap](https://tvtropes.org/pmwiki/pmwiki.php/Recap/XMenS2E7TimeFugitivesPart1) [🔗](<../my-fetches/quotes/tvtropes-recap-x-men-time-fugitives-part-1.html>)
+- **Check:** who says "Apocalypse!" and "A mutant.": the script has no speaker names
+- **Use it for:** the contractor who thinks they're in charge. "I am your leader" said to the wrong person
+
+---<!--L3-->
+
+## X-Men: The Animated Series: "Time Fugitives, Part 1" (1993)
+<!-- 551 -->
+
+**Scene: the burning lab, Beast carries Creed out**
+
+> Creed: "Put me down."
+>
+> Beast: "**Remember, Mr. Creed, a mutant saved your life.**"
+
+- **Who:** Creed and Beast, who pulls him out of the fire
+- **Episode:** season 2, episode 7
+- **IMDb:** [episode](https://www.imdb.com/title/tt0751348/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=x-men-1992&episode=s02e07) [🔗](<../my-fetches/springfield-scripts/x-men-1992/s02e07.txt>) and [TV Tropes recap](https://tvtropes.org/pmwiki/pmwiki.php/Recap/XMenS2E7TimeFugitivesPart1) [🔗](<../my-fetches/quotes/tvtropes-recap-x-men-time-fugitives-part-1.html>)
+- **Check:** "you filthy mutant". It isn't in the script or the recap, which both have only "Put me down."
+- **Use it for:** helping someone who has been hard on you, and saying so
 
 ---
 
