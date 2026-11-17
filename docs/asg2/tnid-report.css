@@ -1,0 +1,169 @@
+:root {
+  color-scheme: light;
+  --ink: #182535;
+  --navy: #1a3854;
+  --teal: #145e58;
+  --line: #cbd7df;
+  --wash: #f0f5f7;
+  --paper: #fff;
+}
+
+html {
+  background: #eaf0f3;
+  color: var(--ink);
+}
+
+body {
+  box-sizing: border-box;
+  max-width: 61rem;
+  margin: 2rem auto;
+  padding: clamp(1rem, 5vw, 4rem);
+  background: var(--paper);
+  font: 1rem/1.62 system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  overflow-wrap: anywhere;
+}
+
+h1, h2, h3, h4 {
+  color: var(--navy);
+  line-height: 1.2;
+  margin: 1.65em 0 .45em;
+}
+
+h1 { font-size: clamp(1.75rem, 5vw, 2.75rem); }
+h2 { font-size: 1.65rem; border-bottom: 1px solid var(--line); padding-bottom: .25em; }
+h3 { font-size: 1.25rem; color: var(--teal); }
+h4 { font-size: 1.08rem; }
+p, ul, ol, blockquote { margin: .65em 0 1em; }
+p { text-align: justify; }
+.title-page p, li p, th p, td p, figcaption p { text-align: left; }
+li + li { margin-top: .2em; }
+a { color: #075e86; text-underline-offset: .14em; }
+
+.title-page { border-top: .35rem solid var(--teal); padding-top: 1.25rem; }
+.title-page h1 { margin-top: 0; max-width: 22ch; }
+.title-page p { color: var(--navy); }
+
+blockquote {
+  border-left: .25rem solid var(--teal);
+  padding: .55em 1em;
+  background: var(--wash);
+}
+
+blockquote > :last-child { margin-bottom: 0; }
+
+.chapter-quote blockquote {
+  border: 0;
+  background: transparent;
+  color: #405366;
+  font-style: italic;
+}
+.chapter-quote p, .apocalypse-image, .apocalypse-caption { text-align: center; }
+.reference-icon, .site-icon { vertical-align: text-bottom; }
+a[href]:not([href^="#"]):not(:has(.reference-icon))::after {
+  content: " \2197";
+  white-space: nowrap;
+}
+a[id] { scroll-margin-top: 1.5rem; }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0;
+  font-size: .9em;
+  line-height: 1.4;
+}
+
+th, td { border: 1px solid var(--line); padding: .45em .6em; vertical-align: top; }
+thead th { background: var(--navy); color: var(--paper); text-align: left; }
+tbody tr:nth-child(even) { background: var(--wash); }
+
+figure { margin: 1.5em 0; text-align: center; }
+img, figure svg { max-width: 100%; height: auto; }
+figcaption { font-size: .9em; color: #405366; }
+code { font-family: Consolas, "Liberation Mono", monospace; }
+pre {
+  padding: .9em;
+  overflow: auto;
+  background: var(--wash);
+  border: 1px solid var(--line);
+  line-height: 1.4;
+  text-align: left;
+}
+
+@media screen and (max-width: 45rem) {
+  body { margin: 0; }
+  table { display: block; overflow-x: auto; }
+  th, td { min-width: 6rem; }
+}
+
+@page {
+  size: A4;
+  margin: 18mm 17mm 19mm;
+
+  @bottom-right {
+    content: counter(page) " / " counter(pages);
+    color: #405366;
+    font: 9pt Arial, sans-serif;
+  }
+}
+
+@page :first {
+  @bottom-right { content: none; }
+}
+
+@media print {
+  html, body { background: white; }
+  body { max-width: none; margin: 0; padding: 0; font-size: 10.5pt; line-height: 1.45; }
+  .title-page { padding-top: 18mm; break-after: page; }
+  .title-page h1 { font-size: 28pt; }
+  h2 { font-size: 16pt; }
+  h3 { font-size: 12.5pt; }
+  h4 { font-size: 11pt; }
+  h1, h2, h3, h4 { break-after: avoid-page; }
+  p { orphans: 3; widows: 3; }
+  thead { display: table-header-group; }
+  tr, figure, pre { break-inside: avoid-page; }
+  figure img, figure svg { max-height: 145mm; object-fit: contain; }
+  pre { white-space: pre-wrap; overflow-wrap: anywhere; }
+  th, td, pre, blockquote { print-color-adjust: exact; }
+}
+
+/* Set --private-reference-display to none to hide private copies in print. */
+:root { --private-reference-display: inline; }
+sup { font-size: .72em; line-height: 0; }
+.reference-back, .reference-source, .reference-archive, .private-source { margin-left: .35em; text-decoration: none; }
+.report-online a::after, .reference-back::after, .reference-source::after, .reference-archive::after, .private-source::after { content: none !important; }
+@media print { .private-source { display: var(--private-reference-display); } }
+
+
+/* Compact, centred quotations in both Markdown previews and exports. */
+blockquote, .chapter-quote blockquote { border: 0; background: transparent; text-align: center; padding: .3em 0; }
+blockquote p, .chapter-quote p { text-align: center; margin: .2em 0; }
+thead th { background: #eef1f3; color: #182535; }
+tbody tr:nth-child(even) { background: transparent; }
+.reference-legend { width: auto; margin: 1em auto; }
+.reference-legend td { text-align: center; border: 0; }
+
+.chapter-quote, p.chapter-quote { text-align: center; font-style: italic; background: none; border: 0; margin: .5em 0; padding: 0; }
+.figure-caption, .figure-detail { text-align: center; }
+.apocalypse-image img { border: 2px solid #444; border-radius: 14px; }
+td:first-child { font-variant-numeric: tabular-nums; }
+.reference-legend img, .reference-source img { vertical-align: middle; }
+
+/* Matches the Word template (2026-11-18--template-nimrod--v-1). */
+h2 { border-bottom: 0; }
+blockquote, blockquote p { color: #595959; font-style: italic; line-height: 1.25; }
+figure img { margin: 0 2rem; max-width: calc(100% - 4rem); }
+figcaption { font-style: italic; color: #000; }
+figure.repeated figcaption, figure.repeated figcaption a { color: #8c8c8c; }
+thead th { background: #2f5496; color: #fff; }
+tbody tr:nth-child(odd) { background: #deeaf6; }
+td:first-child { white-space: nowrap; }
+.cover-logo, .cover-link { text-align: center; }
+.cover-link img { vertical-align: middle; }
+pre { background: #f2f2f2; border: 1px solid #bfbfbf; padding: .6em .8em; }
+
+/* Worksheets carry a grey caption underneath; the dedication line is centred. */
+.worksheet-caption { text-align: center; color: #8c8c8c; font-size: .9em; margin-top: .3em; }
+.dedication { text-align: center; }
+.reference-back img, .reference-legend img { vertical-align: middle; }

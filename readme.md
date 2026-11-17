@@ -14,6 +14,10 @@ Slide decks by [Mark Crowe](https://sdevtutors.github.io/mark-crowe/), made with
 | [fyp/index.html](docs/fyp/index.html)     | Final Year Projects: the habits nobody teaches you (was `index.html`)               |
 | [asg2/index.html](docs/asg2/index.html)   | Training Needs Analysis: purpose, benefits, methods and process                     |
 
+How a deck is laid out (title slide, captions, references, the end slides): [slide-rules.md](slide-rules.md).
+
+Current ASG2 presentation context and next steps: [presentation handoff](docs/asg2/PRESENTATION-HANDOFF.md).
+
 Each deck has an exit button at its top right that goes back to the page before it, or closes the tab if it opened in a tab of its own.
 
 The decks load [ARJ](https://github.com/SDevTutors/apocalypse-reveal-js) from its GitHub Pages site, so a change to ARJ shows in the decks once it is pushed.

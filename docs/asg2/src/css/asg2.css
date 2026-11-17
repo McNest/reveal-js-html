@@ -327,3 +327,140 @@
 .reveal .contact.mail a {
 	color: var(--ink);
 }
+
+/* About slide adapted from the author's local AWS deck: portrait and qualifications left,
+   labelled language chips with their icons right. Keep the TNA yellow theme. */
+.reveal #AboutAuthor .about-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 0 40px;
+	align-items: start;
+}
+
+.reveal #AboutAuthor .author-name {
+	margin: 4px 0 10px;
+	font-size: 44px;
+	font-weight: 700;
+}
+
+.reveal #AboutAuthor .author-name a {
+	display: inline-flex;
+	align-items: center;
+	gap: 14px;
+	color: var(--navy);
+	text-decoration: none;
+}
+
+.reveal #AboutAuthor .author-name img.inline-logo {
+	width: 66px;
+	height: 66px;
+	border-radius: 50%;
+}
+
+.reveal #AboutAuthor .author-role {
+	margin: 0 0 16px;
+	color: var(--gold);
+	font-weight: 700;
+}
+
+.reveal #AboutAuthor h3.about-head {
+	margin: 12px 0 8px;
+	color: var(--gold);
+	font-size: 30px;
+	text-transform: none;
+}
+
+.reveal #AboutAuthor ul.quals {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.reveal #AboutAuthor ul.quals li {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin: 8px 0;
+	font-size: 27px;
+}
+
+.reveal #AboutAuthor ul.quals li::before {
+	content: "";
+	width: 30px;
+	height: 30px;
+	flex: none;
+	background: var(--icon) center / contain no-repeat;
+}
+
+.reveal #AboutAuthor .qual-msc { --icon: url("../img/icons/school.svg"); }
+.reveal #AboutAuthor .qual-bsc { --icon: url("../img/icons/certificate-outline.svg"); }
+
+.reveal #AboutAuthor ul.stack {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.reveal #AboutAuthor ul.stack li {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	margin: 0;
+	padding: 6px 12px 6px 9px;
+	border: 1px solid var(--line);
+	border-radius: 6px;
+	background: #fff;
+	color: var(--ink);
+	font-size: 24px;
+	line-height: 1.2;
+}
+
+.reveal #AboutAuthor ul.stack li::before { display: none; }
+
+.reveal #AboutAuthor .stack-icon {
+	width: 26px;
+	height: 26px;
+	flex: none;
+	object-fit: contain;
+}
+
+/* Page number: small, in the bottom right corner (the heading number is off) */
+.reveal .slide-number {
+	left: auto;
+	right: 130px;
+	bottom: 18px;
+	background: none;
+	font-size: 20px;
+	color: var(--muted);
+}
+
+/* More room between the top of the slide and the heading */
+.reveal .slides section {
+	padding-top: 52px;
+}
+
+.reveal .slides > section.stack {
+	padding: 0;
+}
+
+/* References and Media used: leave the same room, not pixel zero */
+.reveal section#References,
+.reveal section#MediaUsed {
+	padding-top: 52px;
+}
+
+/* References: two columns so all 13 fit on the slide */
+.reveal section#References ol.reflist {
+	columns: 2;
+	column-gap: 36px;
+	font-size: 21px;
+	line-height: 1.25;
+}
+
+.reveal section#References ol.reflist li {
+	break-inside: avoid;
+	margin-bottom: 0.45em;
+}
