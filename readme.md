@@ -1,7 +1,7 @@
 # Reveal.js
 
 <!-- repository-qr:start -->
-<a href="https://tinyurl.com/k93twfyf" target="_blank" rel="noopener noreferrer"><img src="docs/images/readme/repository-qr.png" alt="QR code for this repository" width="256" height="256" /></a>
+<a href="https://github.com/McNest/reveal-js-html" target="_blank" rel="noopener noreferrer"><img src="docs/images/readme/repository-qr.png" alt="QR code for https://github.com/McNest/reveal-js-html" width="256" height="256" /></a>
 <br />
 <a href="https://tinyurl.com/k93twfyf" target="_blank" rel="noopener noreferrer">https://tinyurl.com/k93twfyf</a>
 <!-- repository-qr:end -->
