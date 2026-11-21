@@ -1,5 +1,11 @@
 # Reveal.js
 
+<!-- repository-qr:start -->
+<a href="https://tinyurl.com/k93twfyf" target="_blank" rel="noopener noreferrer"><img src="docs/images/readme/repository-qr.png" alt="QR code for this repository" width="256" height="256" /></a>
+<br />
+<a href="https://tinyurl.com/k93twfyf" target="_blank" rel="noopener noreferrer">https://tinyurl.com/k93twfyf</a>
+<!-- repository-qr:end -->
+
 Slide decks by [Mark Crowe](https://sdevtutors.github.io/mark-crowe/), made with [reveal.js](https://revealjs.com/) and [ARJ](https://github.com/SDevTutors/apocalypse-reveal-js) (Apocalypse Reveal-js).
 
 - Online: <https://mcnest.github.io/reveal-js-html/>, a page with a link to each deck
